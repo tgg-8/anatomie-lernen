@@ -1,14 +1,14 @@
 {
-  "_hinweis": "Ebenen von außen nach innen. 'datei' = GLB in public/modelle. 'verfuegbar: false' = folgt in einer späteren Etappe.",
+  "_hinweis": "Ebenen von außen nach innen. 'datei' = GLB in public/modelle. Farben = Farbpunkt im Ebenen-Panel.",
   "ebenen": [
-    {"id": "haut", "name": "Haut", "datei": "haut.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 0.35, "farbe": "#e8b89a", "etappe": 1},
-    {"id": "unterhaut", "name": "Unterhaut / Fettgewebe", "verfuegbar": false, "etappe": 4, "hinweis": "Nicht in Z-Anatomy enthalten – folgt als schematische Darstellung."},
-    {"id": "faszien", "name": "Faszien", "verfuegbar": false, "etappe": 4},
-    {"id": "muskeln_oberflaechlich", "name": "Oberflächliche Muskeln", "verfuegbar": false, "etappe": 3},
-    {"id": "muskeln_tief", "name": "Tiefe Muskeln", "verfuegbar": false, "etappe": 3},
-    {"id": "baender_gelenke", "name": "Sehnen, Bänder, Kapseln", "datei": "baender_gelenke.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#c9d6e3", "etappe": 1},
-    {"id": "knochen", "name": "Knochen und Gelenke", "datei": "knochen.glb", "verfuegbar": true, "start_sichtbar": true, "start_deckkraft": 1, "farbe": "#efe6d2", "etappe": 1},
-    {"id": "nerven_gefaesse", "name": "Nerven und Gefäße", "verfuegbar": false, "etappe": 5},
-    {"id": "organe", "name": "Organe", "verfuegbar": false, "etappe": 6}
+    {"id": "haut", "name": "Haut", "datei": "haut.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 0.35, "farbe": "#e6b597"},
+    {"id": "unterhaut", "name": "Unterhaut / Fettgewebe (schematisch)", "datei": "unterhaut.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 0.45, "farbe": "#f1dc95", "hinweis": "Schematisch: im Modell nicht enthalten, als Schicht 7 mm unter der Haut angedeutet."},
+    {"id": "faszien", "name": "Faszien", "datei": "faszien.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 0.8, "farbe": "#e4ded3"},
+    {"id": "muskeln_oberflaechlich", "name": "Oberflächliche Muskeln", "datei": "muskeln_oberflaechlich.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#c4524a", "hinweis": "Einteilung oberflächlich/tief automatisch berechnet (sichtbarer Anteil von außen) – noch zu prüfen."},
+    {"id": "muskeln_tief", "name": "Tiefe Muskeln", "datei": "muskeln_tief.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#a8433d"},
+    {"id": "baender_gelenke", "name": "Sehnen, Bänder, Kapseln", "datei": "baender_gelenke.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#c9d6e3"},
+    {"id": "knochen", "name": "Knochen und Gelenke", "datei": "knochen.glb", "verfuegbar": true, "start_sichtbar": true, "start_deckkraft": 1, "farbe": "#efe6d2"},
+    {"id": "nerven_gefaesse", "name": "Nerven und Gefäße", "datei": "nerven_gefaesse.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#f2d14b"},
+    {"id": "organe", "name": "Organe", "datei": "organe.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#d99a8b", "hinweis": "Niere nicht enthalten (Lizenz erlaubt keine Weitergabe)."}
   ]
 }

@@ -4,12 +4,169 @@
     "titel": "Aufbau eines Röhrenknochens",
     "bild": "schemata/roehrenknochen.svg",
     "abschnitte": [
-      {"name": "Abschnitte", "text": "Diaphyse = Schaft. Epiphysen = verdickte Enden mit Gelenkflächen. Metaphyse = Übergangszone; beim Wachsenden liegt hier die Epiphysenfuge (Wachstumsfuge aus Knorpel)."},
-      {"name": "Knochenhaut", "text": "Periost: außen am Knochen, gut durchblutet und mit Nerven versorgt (schmerzempfindlich), wichtig für Ernährung und Heilung. Endost: kleidet die Markhöhle innen aus. An den Gelenkflächen fehlt das Periost; dort liegt hyaliner Gelenkknorpel."},
-      {"name": "Kompakta und Spongiosa", "text": "Kompakta (Substantia compacta): dichte Außenschicht, im Schaft besonders dick. Spongiosa (Substantia spongiosa): schwammartiges Bälkchenwerk in den Enden; die Bälkchen richten sich nach den Belastungslinien aus."},
-      {"name": "Knochenmark", "text": "Rotes Knochenmark bildet Blutzellen (beim Erwachsenen v. a. in platten Knochen und Wirbelkörpern). Gelbes Knochenmark ist überwiegend Fettgewebe (in der Markhöhle der Röhrenknochen)."},
-      {"name": "Knochengewebe", "text": "Lamellenknochen ist aus Osteonen aufgebaut: konzentrische Lamellen um einen zentralen Havers-Kanal mit Blutgefäßen; Volkmann-Kanäle verbinden quer. Osteoblasten bauen Knochen auf, Osteozyten sind eingemauerte, erhaltende Zellen, Osteoklasten bauen Knochen ab. Durch diesen ständigen Umbau passt sich der Knochen an Belastung an."},
-      {"name": "Knochenformen", "text": "Röhrenknochen (z. B. Femur), kurze Knochen (z. B. Handwurzel), platte Knochen (z. B. Schulterblatt, Schädeldach), unregelmäßige Knochen (z. B. Wirbel), lufthaltige Knochen (z. B. Oberkiefer), Sesambeine (z. B. Patella)."}
+      {
+        "name": "Abschnitte",
+        "text": "Diaphyse = Schaft. Epiphysen = verdickte Enden mit Gelenkflächen. Metaphyse = Übergangszone; beim Wachsenden liegt hier die Epiphysenfuge (Wachstumsfuge aus Knorpel)."
+      },
+      {
+        "name": "Knochenhaut",
+        "text": "Periost: außen am Knochen, gut durchblutet und mit Nerven versorgt (schmerzempfindlich), wichtig für Ernährung und Heilung. Endost: kleidet die Markhöhle innen aus. An den Gelenkflächen fehlt das Periost; dort liegt hyaliner Gelenkknorpel."
+      },
+      {
+        "name": "Kompakta und Spongiosa",
+        "text": "Kompakta (Substantia compacta): dichte Außenschicht, im Schaft besonders dick. Spongiosa (Substantia spongiosa): schwammartiges Bälkchenwerk in den Enden; die Bälkchen richten sich nach den Belastungslinien aus."
+      },
+      {
+        "name": "Knochenmark",
+        "text": "Rotes Knochenmark bildet Blutzellen (beim Erwachsenen v. a. in platten Knochen und Wirbelkörpern). Gelbes Knochenmark ist überwiegend Fettgewebe (in der Markhöhle der Röhrenknochen)."
+      },
+      {
+        "name": "Knochengewebe",
+        "text": "Lamellenknochen ist aus Osteonen aufgebaut: konzentrische Lamellen um einen zentralen Havers-Kanal mit Blutgefäßen; Volkmann-Kanäle verbinden quer. Osteoblasten bauen Knochen auf, Osteozyten sind eingemauerte, erhaltende Zellen, Osteoklasten bauen Knochen ab. Durch diesen ständigen Umbau passt sich der Knochen an Belastung an."
+      },
+      {
+        "name": "Knochenformen",
+        "text": "Röhrenknochen (z. B. Femur), kurze Knochen (z. B. Handwurzel), platte Knochen (z. B. Schulterblatt, Schädeldach), unregelmäßige Knochen (z. B. Wirbel), lufthaltige Knochen (z. B. Oberkiefer), Sesambeine (z. B. Patella)."
+      }
+    ]
+  },
+  "_zuordnung": {
+    "knochen": "knochen",
+    "knorpel": "knochen",
+    "haut": "haut",
+    "hautregion": "haut",
+    "unterhaut": "haut",
+    "nagel": "haut",
+    "muskel": "muskel",
+    "band": "sehne_band",
+    "kapsel": "gelenk",
+    "meniskus": "gelenk",
+    "gelenklippe": "gelenk",
+    "gelenkscheibe": "gelenk",
+    "schleimbeutel": "gelenk",
+    "sehnenscheide": "sehne_band",
+    "bandscheibe": "gelenk",
+    "membran": "sehne_band",
+    "faszie": "faszie",
+    "aponeurose": "faszie",
+    "retinaculum": "faszie",
+    "septum": "faszie",
+    "nerv": "nerv",
+    "zns": "nerv"
+  },
+  "haut": {
+    "titel": "Aufbau der Haut",
+    "bild": "schemata/haut.svg",
+    "abschnitte": [
+      {
+        "name": "Oberhaut (Epidermis)",
+        "text": "Mehrschichtiges verhorntes Plattenepithel ohne Blutgefäße. Von unten nach oben: Basalschicht (Stratum basale, hier teilen sich die Zellen), Stachelzellschicht, Körnerschicht, (Glanzschicht an Hand- und Fußsohle), Hornschicht. Aufgaben: Schutz vor Austrocknung, Keimen und UV-Licht (Melanozyten)."
+      },
+      {
+        "name": "Lederhaut (Dermis, Corium)",
+        "text": "Kräftiges Bindegewebe mit Kollagen- und elastischen Fasern. Papillarschicht (verzahnt mit der Epidermis, Kapillaren, Tastkörperchen) und Geflechtschicht (Festigkeit, Dehnbarkeit). Enthält Haarwurzeln, Schweiß- und Talgdrüsen, Gefäße und Nervenendigungen."
+      },
+      {
+        "name": "Unterhaut (Subcutis, Tela subcutanea)",
+        "text": "Lockeres Bindegewebe mit Fettgewebe; Wärmeisolierung, Polster, Energiespeicher und Verschiebeschicht zur Körperfaszie. Größere Hautgefäße und -nerven verlaufen hier."
+      },
+      {
+        "name": "Aufgaben der Haut",
+        "text": "Schutz (mechanisch, chemisch, Keime, UV), Temperaturregelung (Durchblutung, Schweiß), Sinnesorgan (Druck, Berührung, Vibration, Temperatur, Schmerz), Vitamin-D-Bildung."
+      }
+    ]
+  },
+  "muskel": {
+    "titel": "Aufbau eines Skelettmuskels",
+    "abschnitte": [
+      {
+        "name": "Von außen nach innen",
+        "text": "Muskelfaszie → Epimysium (Hülle des ganzen Muskels) → Perimysium (umhüllt Faserbündel = Faszikel) → Endomysium (umhüllt jede einzelne Muskelfaser)."
+      },
+      {
+        "name": "Muskelfaser",
+        "text": "Eine Muskelfaser ist eine einzelne, sehr lange Zelle mit vielen Zellkernen. Sie enthält Myofibrillen."
+      },
+      {
+        "name": "Myofibrille und Sarkomer",
+        "text": "Myofibrillen bestehen aus hintereinandergeschalteten Sarkomeren, der kleinsten kontraktilen Einheit (von Z-Scheibe zu Z-Scheibe). Bei der Kontraktion gleiten Aktin- und Myosinfilamente ineinander (Gleitfilamenttheorie) – daher die Querstreifung."
+      },
+      {
+        "name": "Sehne",
+        "text": "Am Muskelende gehen die Bindegewebshüllen in die Sehne über (Muskel-Sehnen-Übergang); die Sehne strahlt am Knochen über Sharpey-Fasern ein."
+      }
+    ]
+  },
+  "sehne_band": {
+    "titel": "Aufbau von Sehnen und Bändern",
+    "abschnitte": [
+      {
+        "name": "Gewebe",
+        "text": "Straffes, parallelfaseriges kollagenes Bindegewebe (vor allem Kollagen Typ I). Zwischen den Faserbündeln liegen wenige Fibrozyten (Tendinozyten)."
+      },
+      {
+        "name": "Eigenschaften",
+        "text": "Sehr zugfest, kaum dehnbar. Wenig Blutgefäße – deshalb heilen Sehnen und Bänder langsam (Wochen bis Monate)."
+      },
+      {
+        "name": "Unterschied",
+        "text": "Sehnen verbinden Muskel und Knochen und übertragen Muskelkraft; Bänder verbinden Knochen mit Knochen und sichern Gelenke."
+      }
+    ]
+  },
+  "gelenk": {
+    "titel": "Aufbau eines echten Gelenks (Diarthrose)",
+    "abschnitte": [
+      {
+        "name": "Bestandteile",
+        "text": "Gelenkflächen mit hyalinem Gelenkknorpel, Gelenkspalt, Gelenkkapsel, Gelenkflüssigkeit (Synovia); oft Verstärkungsbänder und je nach Gelenk Menisken, Disci oder Labren."
+      },
+      {
+        "name": "Gelenkkapsel",
+        "text": "Außen Membrana fibrosa (straff, Festigkeit), innen Membrana synovialis (bildet die Synovia, gut durchblutet und innerviert)."
+      },
+      {
+        "name": "Gelenkknorpel",
+        "text": "Hyaliner Knorpel ohne Gefäße und Nerven; er wird über die Synovia ernährt – Bewegung (Be- und Entlastung) ist deshalb wichtig für seine Ernährung."
+      },
+      {
+        "name": "Unechte Gelenke (Synarthrosen)",
+        "text": "Knochen sind durch Bindegewebe (Syndesmose), Knorpel (Synchondrose, z. B. Symphyse) oder Knochen (Synostose) verbunden – ohne Gelenkspalt."
+      }
+    ]
+  },
+  "faszie": {
+    "titel": "Aufbau und Bedeutung von Faszien",
+    "abschnitte": [
+      {
+        "name": "Aufbau",
+        "text": "Faszien sind Hüllen aus kollagenem Bindegewebe. Oberflächliche Körperfaszie (unter der Unterhaut), tiefe Faszien (um Muskelgruppen, bilden Logen) und Muskelhüllen (Epi-, Peri-, Endomysium). Zwischen den Schichten liegt lockeres Gleitgewebe mit Hyaluronsäure."
+      },
+      {
+        "name": "Aufgaben",
+        "text": "Formgebung, Bildung von Muskellogen, Kraftübertragung zwischen Muskeln, Gleitfähigkeit, Führung von Gefäßen und Nerven; Faszien enthalten viele Nervenendigungen (Wahrnehmung von Spannung und Schmerz)."
+      },
+      {
+        "name": "Wichtiger Hinweis zu Faszienketten",
+        "text": "Modelle wie „Faszienketten“, „myofasziale Leitbahnen“ (z. B. Anatomy Trains) oder Faszien-Fitness sind Konzepte mit sehr unterschiedlicher Evidenz. Für einige Verbindungen gibt es anatomische Nachweise (z. B. Kraftübertragung über die Fascia thoracolumbalis); viele Annahmen zu Wirkweise und Behandlung sind wissenschaftlich noch nicht ausreichend belegt. Bitte als Erklärungsmodell verstehen, nicht als gesichertes Wissen."
+      }
+    ]
+  },
+  "nerv": {
+    "titel": "Aufbau eines peripheren Nervs",
+    "abschnitte": [
+      {
+        "name": "Hüllen",
+        "text": "Epineurium (umhüllt den ganzen Nerv) → Perineurium (umhüllt Nervenfaserbündel) → Endoneurium (um jede Nervenfaser)."
+      },
+      {
+        "name": "Nervenfaser",
+        "text": "Axon (Fortsatz einer Nervenzelle), meist von einer Myelinscheide aus Schwann-Zellen umgeben. Unterbrechungen der Myelinscheide (Ranvier-Schnürringe) ermöglichen schnelle, „springende“ Erregungsleitung."
+      },
+      {
+        "name": "Faserqualitäten",
+        "text": "Motorische (efferente) Fasern zu den Muskeln, sensible (afferente) Fasern von Haut, Muskeln und Gelenken, vegetative Fasern zu Gefäßen und Drüsen."
+      }
     ]
   }
 }

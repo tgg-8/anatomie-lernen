@@ -1,0 +1,134 @@
+{
+  "_hinweis": "Gelenke als Gruppe von 3D-Strukturen. 'gruppen' = Z-Anatomy-Sammlung (alle Bänder/Kapseln darin gehören dazu), 'strukturen' = zusätzliche Teile (englische Namen). Bewegungsumfänge (rom) nur mit Quelle; Werte nach der Neutral-Null-Methode in der Reihenfolge der Bewegungsangabe. Ruhestellung/Verriegelung nach dem Konzept der Manuellen Therapie (Kaltenborn) – die Angaben unterscheiden sich je nach Schule leicht.",
+  "eintraege": {
+    "hueftgelenk": {
+      "name": "Hüftgelenk", "la": "Articulatio coxae", "jahr": 1,
+      "gruppen": ["Hip joint"], "strukturen": ["Hip bone", "Femur"],
+      "typ": "Kugelgelenk (Nussgelenk, Articulatio spheroidea): Der Hüftkopf wird von der Pfanne mehr als zur Hälfte umfasst.",
+      "knochen": ["Caput femoris", "Acetabulum des Hüftbeins"],
+      "achsen": ["Transversale Achse: Flexion/Extension (Sagittalebene)", "Sagittale Achse: Abduktion/Adduktion (Frontalebene)", "Longitudinale Achse: Außen-/Innenrotation (Transversalebene)"],
+      "rom": [
+        {"bewegung": "Extension/Flexion", "wert": "10/0/120", "quelle": "doccheck-nnm"},
+        {"bewegung": "Abduktion/Adduktion", "wert": "45/0/30", "quelle": "doccheck-nnm"},
+        {"bewegung": "Außenrotation/Innenrotation", "wert": "50/0/40", "quelle": "doccheck-nnm"}
+      ],
+      "kapsel_baender": ["Lig. iliofemorale (stärkstes Band des Körpers, hemmt die Extension)", "Lig. pubofemorale", "Lig. ischiofemorale", "Zona orbicularis (ringförmige Kapselfasern um den Schenkelhals)", "Labrum acetabuli (Pfannenlippe)", "Lig. capitis femoris (führt ein kleines Gefäß zum Hüftkopf)", "Lig. transversum acetabuli"],
+      "ruhestellung": "ca. 30° Flexion, 30° Abduktion, leichte Außenrotation",
+      "verriegelung": "Extension + Innenrotation + Abduktion",
+      "praxis": "Die Bänder sind spiralig um den Schenkelhals gewunden und spannen sich in Extension an – deshalb kann man im Stand passiv „in den Bändern hängen“."
+    },
+    "kniegelenk": {
+      "name": "Kniegelenk", "la": "Articulatio genus", "jahr": 1,
+      "gruppen": ["Knee joint"], "strukturen": ["Femur", "Tibia", "Patella"],
+      "typ": "Drehscharniergelenk (Bikondylargelenk). Besteht aus Femorotibialgelenk und Femoropatellargelenk.",
+      "knochen": ["Condylus medialis und lateralis femoris", "Tibiaplateau", "Patella"],
+      "achsen": ["Transversale Achse: Flexion/Extension (wandert bei der Bewegung)", "Longitudinale Achse: Außen-/Innenrotation – nur bei gebeugtem Knie möglich"],
+      "rom": [
+        {"bewegung": "Extension/Flexion", "wert": "5–10/0/130", "quelle": "doccheck-nnm"},
+        {"bewegung": "Außenrotation/Innenrotation (bei gebeugtem Knie)", "wert": "30–40/0/10", "quelle": "doccheck-nnm"}
+      ],
+      "kapsel_baender": ["Lig. cruciatum anterius und posterius (Kreuzbänder)", "Lig. collaterale tibiale (Innenband, mit dem Innenmeniskus verwachsen)", "Lig. collaterale fibulare (Außenband)", "Meniscus medialis und lateralis", "Lig. patellae, Retinacula patellae", "Lig. popliteum obliquum und arcuatum (Kapselrückseite)"],
+      "ruhestellung": "ca. 25° Flexion",
+      "verriegelung": "volle Extension + Außenrotation (Schlussrotation)",
+      "praxis": "Seitenbänder sind in Extension gespannt (Stabilität im Stand), in Beugung locker – deshalb ist Rotation nur im gebeugten Knie möglich."
+    },
+    "osg": {
+      "name": "Oberes Sprunggelenk (OSG)", "la": "Articulatio talocruralis", "jahr": 1,
+      "strukturen": ["Talus", "Tibia", "Fibula"],
+      "typ": "Scharniergelenk (Ginglymus): Malleolengabel aus Tibia und Fibula umgreift die Trochlea tali.",
+      "knochen": ["Tibia (Facies articularis inferior, Malleolus medialis)", "Fibula (Malleolus lateralis)", "Trochlea tali"],
+      "achsen": ["Transversale Achse etwa durch beide Knöchelspitzen: Dorsalextension/Plantarflexion"],
+      "rom": [{"bewegung": "Dorsalextension/Plantarflexion", "wert": "20–30/0/40–50", "quelle": "doccheck-nnm"}],
+      "kapsel_baender": ["Außenbänder: Lig. talofibulare anterius, Lig. calcaneofibulare, Lig. talofibulare posterius", "Innenband: Lig. deltoideum", "Syndesmose: Ligg. tibiofibularia anterius und posterius"],
+      "ruhestellung": "ca. 10° Plantarflexion (Mittelstellung)",
+      "verriegelung": "maximale Dorsalextension",
+      "praxis": "Häufigste Bandverletzung beim Umknicken (Supinationstrauma): Lig. talofibulare anterius. Hinweis: Die Außen- und Innenbänder des OSG sind im 3D-Modell (Z-Anatomy) nicht enthalten."
+    },
+    "usg": {
+      "name": "Unteres Sprunggelenk (USG)", "la": "Articulatio subtalaris + Articulatio talocalcaneonavicularis", "jahr": 1,
+      "gruppen": ["Subtalar joint", "Talocalcaneonavicular joint"], "strukturen": ["Talus", "Calcaneus", "Navicular bone"],
+      "typ": "Zusammengesetztes Gelenk aus hinterer Kammer (Talus–Calcaneus) und vorderer Kammer (Talus–Calcaneus–Os naviculare); funktionell ein Zapfengelenk mit schräger Achse.",
+      "knochen": ["Talus", "Calcaneus", "Os naviculare"],
+      "achsen": ["Schräge Achse (von hinten-unten-außen nach vorn-oben-innen): Inversion/Eversion bzw. Supination/Pronation des Rückfußes"],
+      "kapsel_baender": ["Lig. talocalcaneum interosseum (im Sinus tarsi)", "Lig. calcaneonaviculare plantare (Pfannenband)", "Lig. bifurcatum"],
+      "offen": ["Bewegungsumfang Supination/Pronation (Inversion/Eversion): Werte unterscheiden sich je nach Quelle und Messart deutlich – bitte mit dem Schulbuch abgleichen."]
+    },
+    "schultergelenk": {
+      "name": "Schultergelenk", "la": "Articulatio humeri (glenohumeralis)", "jahr": 1,
+      "gruppen": ["Glenohumeral joint"], "strukturen": ["Humerus", "Scapula"],
+      "typ": "Kugelgelenk (Articulatio spheroidea) mit großem Kopf und kleiner Pfanne – sehr beweglich, aber vor allem muskulär gesichert.",
+      "knochen": ["Caput humeri", "Cavitas glenoidalis der Scapula"],
+      "achsen": ["Transversale Achse: Anteversion/Retroversion", "Sagittale Achse: Abduktion/Adduktion", "Longitudinale Achse: Außen-/Innenrotation"],
+      "rom": [{"bewegung": "Abduktion/Adduktion", "wert": "180/0/20–40", "quelle": "doccheck-nnm"}],
+      "kapsel_baender": ["Ligg. glenohumeralia superius, medium, inferius", "Lig. coracohumerale", "Labrum glenoidale (vergrößert die Pfanne)", "Rotatorenmanschette (M. supraspinatus, infraspinatus, teres minor, subscapularis) als aktive Sicherung", "Schulterdach: Acromion, Lig. coracoacromiale, Processus coracoideus"],
+      "ruhestellung": "ca. 55° Abduktion, 30° horizontale Adduktion",
+      "verriegelung": "maximale Abduktion + Außenrotation",
+      "praxis": "Abduktion über ca. 90° gelingt nur mit Drehung des Schulterblatts (skapulohumeraler Rhythmus); 180° sind eine Gesamtbewegung des Schultergürtels.",
+      "offen": ["Anteversion/Retroversion und Außen-/Innenrotation: Richtwerte je nach Quelle unterschiedlich – mit Schulbuch abgleichen."]
+    },
+    "ellenbogengelenk": {
+      "name": "Ellenbogengelenk", "la": "Articulatio cubiti", "jahr": 1,
+      "gruppen": ["Elbow joint"], "strukturen": ["Humerus", "Radius", "Ulna"],
+      "typ": "Zusammengesetztes Gelenk in einer Kapsel: Articulatio humeroulnaris (Scharniergelenk), Articulatio humeroradialis (Kugelgelenk, funktionell eingeschränkt), Articulatio radioulnaris proximalis (Zapfengelenk).",
+      "knochen": ["Trochlea und Capitulum humeri", "Incisura trochlearis der Ulna", "Caput radii"],
+      "achsen": ["Transversale Achse: Flexion/Extension", "Längsachse des Unterarms (Caput radii – Caput ulnae): Pronation/Supination"],
+      "rom": [
+        {"bewegung": "Flexion/Extension", "wert": "150/0/0–10", "quelle": "ukaachen-skript"},
+        {"bewegung": "Pronation/Supination", "wert": "80–90/0/80–90", "quelle": "ukaachen-skript"}
+      ],
+      "kapsel_baender": ["Lig. collaterale ulnare", "Lig. collaterale radiale", "Lig. anulare radii (Ringband um den Speichenkopf)"],
+      "ruhestellung": "Articulatio humeroulnaris: ca. 70° Flexion, 10° Supination",
+      "verriegelung": "Articulatio humeroulnaris: Extension + Supination",
+      "praxis": "Pronation und Supination werden bei 90° gebeugtem Ellenbogen gemessen, damit die Schulter nicht mitdreht."
+    },
+    "handgelenk": {
+      "name": "Proximales Handgelenk", "la": "Articulatio radiocarpalis", "jahr": 1,
+      "gruppen": ["Radiocarpal joint"], "strukturen": ["Radius", "Scaphoid bone", "Lunate bone", "Triquetrum bone"],
+      "typ": "Eigelenk (Ellipsoidgelenk) zwischen Radius (+ Discus articularis) und proximaler Handwurzelreihe.",
+      "knochen": ["Radius", "Discus articularis", "Os scaphoideum, Os lunatum, Os triquetrum"],
+      "achsen": ["Transversale Achse: Dorsalextension/Palmarflexion", "Dorsopalmare Achse: Radial-/Ulnarabduktion"],
+      "kapsel_baender": ["Lig. collaterale carpi radiale und ulnare", "Lig. radiocarpale dorsale und palmare", "Lig. ulnocarpale palmare"],
+      "offen": ["Bewegungsumfänge (Dorsalextension/Palmarflexion, Radial-/Ulnarabduktion) noch nicht mit Quelle belegt.", "Ruhe- und Verriegelungsstellung noch zu prüfen."]
+    },
+    "isg": {
+      "name": "Iliosakralgelenk (ISG)", "la": "Articulatio sacroiliaca", "jahr": 1,
+      "gruppen": ["Sacro-iliac joint"], "strukturen": ["Sacrum", "Hip bone"],
+      "typ": "Straffes Gelenk (Amphiarthrose): echte Gelenkflächen, aber durch sehr kräftige Bänder kaum beweglich.",
+      "knochen": ["Facies auricularis des Kreuzbeins", "Facies auricularis des Darmbeins"],
+      "achsen": ["Kleine Kippbewegungen des Kreuzbeins: Nutation (Promontorium nach vorn-unten) und Gegennutation"],
+      "kapsel_baender": ["Ligg. sacroiliaca anteriora, interossea, posteriora", "Lig. sacrotuberale, Lig. sacrospinale", "Lig. iliolumbale"],
+      "offen": ["Bewegungsausmaß: nur wenige Grad bzw. Millimeter, Angaben in der Literatur uneinheitlich."]
+    },
+    "ac-gelenk": {
+      "name": "Akromioklavikulargelenk (AC-Gelenk, Schultereckgelenk)", "la": "Articulatio acromioclavicularis", "jahr": 1,
+      "gruppen": ["Acromioclavicular joint"], "strukturen": ["Clavicle", "Scapula"],
+      "typ": "Planes Gelenk, funktionell Kugelgelenk mit kleinem Bewegungsumfang; oft mit Discus articularis.",
+      "knochen": ["Extremitas acromialis claviculae", "Acromion"],
+      "kapsel_baender": ["Lig. acromioclaviculare", "Lig. coracoclaviculare (Lig. trapezoideum und Lig. conoideum)"],
+      "praxis": "Bei Verletzung (Schultereckgelenksprengung) reißen je nach Schwere zuerst das Lig. acromioclaviculare, dann das Lig. coracoclaviculare."
+    },
+    "sc-gelenk": {
+      "name": "Sternoklavikulargelenk (SC-Gelenk)", "la": "Articulatio sternoclavicularis", "jahr": 1,
+      "gruppen": ["Sternoclavicular joint"], "strukturen": ["Clavicle", "Manubrium of sternum"],
+      "typ": "Sattelgelenk mit Discus articularis, funktionell Kugelgelenk. Einzige gelenkige Verbindung zwischen Arm und Rumpf.",
+      "knochen": ["Extremitas sternalis claviculae", "Incisura clavicularis des Manubrium sterni", "1. Rippenknorpel"],
+      "kapsel_baender": ["Lig. sternoclaviculare anterius und posterius", "Lig. interclaviculare", "Lig. costoclaviculare"]
+    },
+    "kiefergelenk": {
+      "name": "Kiefergelenk", "la": "Articulatio temporomandibularis", "jahr": 2,
+      "gruppen": ["Temporomandibular joint"], "strukturen": ["Mandible", "Temporal bone"],
+      "typ": "Kombiniertes Dreh-Gleit-Gelenk mit Discus articularis; beide Seiten arbeiten immer zusammen.",
+      "knochen": ["Caput mandibulae (Processus condylaris)", "Fossa mandibularis und Tuberculum articulare des Schläfenbeins"],
+      "kapsel_baender": ["Discus articularis", "Lig. laterale"],
+      "praxis": "Beim weiten Öffnen gleiten Kieferköpfchen und Diskus nach vorn auf das Tuberculum articulare – vor dem Ohr tastbar."
+    },
+    "prox-tibiofibulargelenk": {
+      "name": "Proximales Tibiofibulargelenk", "la": "Articulatio tibiofibularis", "jahr": 1,
+      "gruppen": ["Superior tibiofibular joint"], "strukturen": ["Tibia", "Fibula"],
+      "typ": "Planes, straffes Gelenk zwischen Caput fibulae und Condylus lateralis tibiae.",
+      "knochen": ["Caput fibulae", "Condylus lateralis tibiae"],
+      "kapsel_baender": ["Lig. capitis fibulae anterius und posterius"],
+      "praxis": "Bewegt sich bei Dorsalextension im OSG mit, weil die Malleolengabel sich dabei etwas weitet."
+    }
+  }
+}

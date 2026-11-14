@@ -1,0 +1,412 @@
+{
+  "_hinweis": "Texte zu Muskeln. Schlüssel = englischer Z-Anatomy-Name ohne .l/.r. Mehrteilige Muskeln (z. B. M. deltoideus mit drei Anteilen) stehen unter 'vorlagen'. Segmentangaben der Innervation weichen zwischen Lehrbüchern teils um ein Segment ab – deshalb immer mit dem Schulbuch abgleichen. Muskeln ohne eigenen Text zeigen den versorgenden Nerv aus der Z-Anatomy-Zuordnung (falls vorhanden).",
+  "standard_quellen": ["openstax-ap2e", "ta2"],
+  "eintraege": {
+    "Gluteus maximus muscle": {
+      "jahr": 1, "kurz": "Kräftigster Hüftstrecker. Wichtig beim Aufstehen, Treppensteigen und Springen.",
+      "ursprung": "Hintere Fläche der Darmbeinschaufel (hinter der Linea glutea posterior), Rückseite von Kreuz- und Steißbein, Lig. sacrotuberale, Fascia thoracolumbalis",
+      "ansatz": "Obere Anteile: Tractus iliotibialis; untere Anteile: Tuberositas glutea des Femurs",
+      "aktion": ["Hüfte: Extension (stärkster Strecker), Außenrotation", "Obere Anteile: Abduktion; untere Anteile: Adduktion", "Über den Tractus iliotibialis: Stabilisierung des gestreckten Knies"],
+      "innervation": "N. gluteus inferior (L5–S2)", "versorgung": "A. glutea inferior und A. glutea superior",
+      "tastbar": ["Gesamter Muskelbauch am Gesäß, deutlich bei Anspannung (z. B. Hüftstreckung in Bauchlage)"],
+      "synergisten": ["Ischiocrurale Muskeln (M. biceps femoris, M. semitendinosus, M. semimembranosus)", "M. adductor magnus (dorsaler Anteil)"],
+      "antagonisten": ["M. iliopsoas", "M. rectus femoris", "M. tensor fasciae latae"]
+    },
+    "Gluteus medius muscle": {
+      "jahr": 1, "kurz": "Wichtigster Hüftabduktor. Hält im Einbeinstand das Becken waagerecht.",
+      "ursprung": "Außenfläche der Darmbeinschaufel zwischen Linea glutea anterior und posterior",
+      "ansatz": "Trochanter major (Außenfläche)",
+      "aktion": ["Hüfte: Abduktion", "Vordere Anteile: Flexion und Innenrotation", "Hintere Anteile: Extension und Außenrotation", "Stabilisiert das Becken im Einbeinstand (Standbeinphase)"],
+      "innervation": "N. gluteus superior (L4–S1)", "versorgung": "A. glutea superior",
+      "tastbar": ["Zwischen Darmbeinkamm und Trochanter major, deutlich bei Abduktion in Seitlage"],
+      "synergisten": ["M. gluteus minimus", "M. tensor fasciae latae"],
+      "antagonisten": ["Adduktoren (M. adductor longus, brevis, magnus, M. gracilis, M. pectineus)"],
+      "praxis": "Schwäche zeigt sich im Trendelenburg-Zeichen: Im Einbeinstand sinkt das Becken zur Spielbeinseite ab."
+    },
+    "Gluteus minimus muscle": {
+      "jahr": 1, "kurz": "Kleiner Hüftabduktor unter dem M. gluteus medius; stabilisiert das Becken.",
+      "ursprung": "Außenfläche der Darmbeinschaufel zwischen Linea glutea anterior und inferior",
+      "ansatz": "Trochanter major (Vorderfläche)",
+      "aktion": ["Hüfte: Abduktion", "Vordere Anteile: Innenrotation, Flexion", "Stabilisiert das Becken im Einbeinstand"],
+      "innervation": "N. gluteus superior (L4–S1)", "versorgung": "A. glutea superior",
+      "synergisten": ["M. gluteus medius", "M. tensor fasciae latae"],
+      "antagonisten": ["Adduktoren"],
+      "tastbar": ["Nicht direkt tastbar (liegt unter dem M. gluteus medius)"]
+    },
+    "Tensor fasciae latae": {
+      "jahr": 1, "kurz": "Spannt die Fascia lata und den Tractus iliotibialis; Hüftbeuger und -abduktor.",
+      "ursprung": "Spina iliaca anterior superior (SIAS)",
+      "ansatz": "Über den Tractus iliotibialis am Tuberculum tractus iliotibialis (Gerdy-Höcker) der Tibia",
+      "aktion": ["Hüfte: Flexion, Abduktion, Innenrotation", "Spannt den Tractus iliotibialis und stabilisiert so das Knie seitlich"],
+      "innervation": "N. gluteus superior (L4–S1)", "versorgung": "A. circumflexa femoris lateralis",
+      "tastbar": ["Unterhalb und etwas hinter der SIAS, bei Flexion mit Innenrotation"],
+      "synergisten": ["M. gluteus medius und minimus (Abduktion)", "M. iliopsoas, M. rectus femoris (Flexion)"],
+      "antagonisten": ["Adduktoren", "M. gluteus maximus"]
+    },
+    "Iliacus muscle": {
+      "jahr": 1, "kurz": "Teil des M. iliopsoas, des stärksten Hüftbeugers.",
+      "ursprung": "Fossa iliaca (Innenfläche der Darmbeinschaufel)",
+      "ansatz": "Trochanter minor (gemeinsam mit dem M. psoas major als M. iliopsoas)",
+      "aktion": ["Hüfte: Flexion", "Bei fixiertem Bein: Kippt das Becken nach vorn"],
+      "innervation": "N. femoralis (L2–L4)", "versorgung": "A. iliolumbalis, A. circumflexa ilium profunda",
+      "synergisten": ["M. psoas major", "M. rectus femoris", "M. sartorius", "M. tensor fasciae latae"],
+      "antagonisten": ["M. gluteus maximus", "Ischiocrurale Muskeln"]
+    },
+    "Psoas major": {
+      "jahr": 1, "kurz": "Teil des M. iliopsoas. Verbindet Lendenwirbelsäule und Oberschenkel; stärkster Hüftbeuger zusammen mit dem M. iliacus.",
+      "ursprung": "Oberflächliche Schicht: Seitenflächen der Wirbelkörper Th12–L4 und Bandscheiben; tiefe Schicht: Processus costales L1–L5",
+      "ansatz": "Trochanter minor (als M. iliopsoas)",
+      "aktion": ["Hüfte: Flexion", "Bei fixiertem Bein: Rumpfbeugung aus der Rückenlage, einseitig Seitneigung der LWS"],
+      "innervation": "Direkte Äste aus dem Plexus lumbalis (L1–L4)", "versorgung": "Aa. lumbales",
+      "tastbar": ["Nur indirekt und vorsichtig durch die Bauchdecke bzw. in der Leiste unterhalb des Leistenbands"],
+      "synergisten": ["M. iliacus", "M. rectus femoris"],
+      "antagonisten": ["M. gluteus maximus", "Ischiocrurale Muskeln"],
+      "offen": ["Segmentangabe je nach Lehrbuch L1–L3 oder L1–L4"]
+    },
+    "Rectus femoris muscle": {
+      "jahr": 1, "kurz": "Einziger zweigelenkiger Anteil des M. quadriceps femoris: streckt das Knie und beugt die Hüfte.",
+      "ursprung": "Caput rectum: Spina iliaca anterior inferior (SIAI); Caput reflexum: Oberrand des Acetabulums",
+      "ansatz": "Über Quadrizepssehne, Patella und Lig. patellae an der Tuberositas tibiae",
+      "aktion": ["Knie: Extension", "Hüfte: Flexion"],
+      "innervation": "N. femoralis (L2–L4)", "versorgung": "A. circumflexa femoris lateralis",
+      "tastbar": ["Vorderseite Oberschenkel, Ursprungssehne unterhalb der SIAS zwischen M. sartorius und M. tensor fasciae latae"],
+      "synergisten": ["M. vastus medialis, lateralis, intermedius (Knie)", "M. iliopsoas (Hüfte)"],
+      "antagonisten": ["Ischiocrurale Muskeln (Knie)", "M. gluteus maximus (Hüfte)"],
+      "praxis": "Weil er zwei Gelenke überzieht, wird er gedehnt, wenn man gleichzeitig die Hüfte streckt und das Knie beugt."
+    },
+    "Vastus lateralis muscle": {
+      "jahr": 1, "kurz": "Größter Kopf des M. quadriceps femoris; Kniestrecker an der Außenseite des Oberschenkels.",
+      "ursprung": "Trochanter major (Außenseite), Labium laterale der Linea aspera",
+      "ansatz": "Über Quadrizepssehne, Patella und Lig. patellae an der Tuberositas tibiae; Retinaculum patellae laterale",
+      "aktion": ["Knie: Extension"],
+      "innervation": "N. femoralis (L2–L4)", "versorgung": "A. circumflexa femoris lateralis, A. profunda femoris",
+      "tastbar": ["Außenseite des Oberschenkels"],
+      "synergisten": ["Übrige Quadrizepsköpfe"], "antagonisten": ["Ischiocrurale Muskeln"]
+    },
+    "Vastus medialis muscle": {
+      "jahr": 1, "kurz": "Innerer Kopf des M. quadriceps femoris; zieht die Patella beim Strecken nach innen und stabilisiert sie.",
+      "ursprung": "Labium mediale der Linea aspera, unterer Teil der Linea intertrochanterica",
+      "ansatz": "Über Quadrizepssehne, Patella und Lig. patellae an der Tuberositas tibiae; Retinaculum patellae mediale",
+      "aktion": ["Knie: Extension", "Führt die Patella nach medial"],
+      "innervation": "N. femoralis (L2–L4)", "versorgung": "A. femoralis, A. profunda femoris",
+      "tastbar": ["Wulst oberhalb und innen der Patella, deutlich bei voller Kniestreckung"],
+      "synergisten": ["Übrige Quadrizepsköpfe"], "antagonisten": ["Ischiocrurale Muskeln"]
+    },
+    "Vastus intermedius muscle": {
+      "jahr": 1, "kurz": "Tiefer Kopf des M. quadriceps femoris, liegt direkt auf dem Femurschaft unter dem M. rectus femoris.",
+      "ursprung": "Vorder- und Außenfläche des Femurschafts",
+      "ansatz": "Über Quadrizepssehne, Patella und Lig. patellae an der Tuberositas tibiae",
+      "aktion": ["Knie: Extension"],
+      "innervation": "N. femoralis (L2–L4)", "versorgung": "A. circumflexa femoris lateralis, A. profunda femoris",
+      "tastbar": ["Nicht direkt tastbar (vom M. rectus femoris bedeckt)"],
+      "synergisten": ["Übrige Quadrizepsköpfe"], "antagonisten": ["Ischiocrurale Muskeln"]
+    },
+    "Sartorius muscle": {
+      "jahr": 1, "kurz": "Längster Muskel des Körpers („Schneidermuskel“); zieht schräg über den Oberschenkel.",
+      "ursprung": "Spina iliaca anterior superior (SIAS)",
+      "ansatz": "Pes anserinus superficialis (medial unterhalb der Tuberositas tibiae)",
+      "aktion": ["Hüfte: Flexion, Abduktion, Außenrotation", "Knie: Flexion, Innenrotation"],
+      "innervation": "N. femoralis (L2–L3)", "versorgung": "A. femoralis",
+      "tastbar": ["Unterhalb der SIAS, bei Schneidersitz-Bewegung (Hüftbeugung mit Außenrotation)"],
+      "synergisten": ["M. gracilis, M. semitendinosus (Knieflexion, Pes anserinus)"],
+      "antagonisten": ["M. quadriceps femoris (Knie)", "Adduktoren (Hüfte)"]
+    },
+    "Gracilis muscle": {
+      "jahr": 1, "kurz": "Schlanker, oberflächlicher Adduktor an der Innenseite des Oberschenkels; überzieht Hüfte und Knie.",
+      "ursprung": "Ramus inferior ossis pubis (nahe der Symphyse)",
+      "ansatz": "Pes anserinus superficialis (medial unterhalb der Tuberositas tibiae)",
+      "aktion": ["Hüfte: Adduktion, Flexion", "Knie: Flexion, Innenrotation"],
+      "innervation": "N. obturatorius (L2–L3)", "versorgung": "A. profunda femoris, A. obturatoria",
+      "tastbar": ["Innenseite des Oberschenkels, Sehne in der Kniekehle innen"],
+      "synergisten": ["Übrige Adduktoren", "M. sartorius, M. semitendinosus (Knie)"],
+      "antagonisten": ["M. gluteus medius und minimus (Abduktion)"]
+    },
+    "Adductor longus": {
+      "jahr": 1, "kurz": "Oberflächlicher Adduktor; seine Ursprungssehne ist in der Leiste gut tastbar.",
+      "ursprung": "Os pubis unterhalb des Tuberculum pubicum",
+      "ansatz": "Labium mediale der Linea aspera (mittleres Drittel)",
+      "aktion": ["Hüfte: Adduktion, Flexion"],
+      "innervation": "N. obturatorius (L2–L4)", "versorgung": "A. profunda femoris, A. obturatoria",
+      "tastbar": ["Ursprungssehne als kräftiger Strang in der Leiste bei Adduktion gegen Widerstand"],
+      "synergisten": ["M. adductor brevis und magnus", "M. pectineus", "M. gracilis"],
+      "antagonisten": ["M. gluteus medius und minimus", "M. tensor fasciae latae"],
+      "praxis": "Typische Stelle für Zerrungen bei Sportlern („Leistenzerrung“)."
+    },
+    "Adductor magnus": {
+      "jahr": 1, "kurz": "Größter Adduktor; sein hinterer Anteil wirkt wie ein ischiocruraler Muskel.",
+      "ursprung": "Ramus inferior ossis pubis, Ramus ossis ischii, Tuber ischiadicum",
+      "ansatz": "Labium mediale der Linea aspera (fleischiger Teil), Tuberculum adductorium (sehniger Teil)",
+      "aktion": ["Hüfte: Adduktion", "Hinterer (sehniger) Anteil: Extension"],
+      "innervation": "N. obturatorius; sehniger hinterer Anteil zusätzlich N. tibialis", "versorgung": "A. profunda femoris (Aa. perforantes), A. obturatoria",
+      "tastbar": ["Innenseite des Oberschenkels; Ansatzsehne oberhalb des Epicondylus medialis femoris"],
+      "synergisten": ["Übrige Adduktoren", "M. gluteus maximus, ischiocrurale Muskeln (Extension)"],
+      "antagonisten": ["M. gluteus medius und minimus"],
+      "offen": ["Segmente: N. obturatorius meist L2–L4; Anteil des N. tibialis je nach Lehrbuch L4–L5 bzw. L4–S1"]
+    },
+    "Semitendinosus muscle": {
+      "jahr": 1, "kurz": "Ischiocruraler Muskel an der Innenseite der Oberschenkelrückseite; lange Ansatzsehne.",
+      "ursprung": "Tuber ischiadicum",
+      "ansatz": "Pes anserinus superficialis (medial unterhalb der Tuberositas tibiae)",
+      "aktion": ["Hüfte: Extension", "Knie: Flexion, Innenrotation"],
+      "innervation": "N. tibialis (Anteil des N. ischiadicus; L5–S2)", "versorgung": "Aa. perforantes (aus der A. profunda femoris)",
+      "tastbar": ["Sehne innen in der Kniekehle als oberflächlicher, dünner Strang bei Kniebeugung gegen Widerstand"],
+      "synergisten": ["M. semimembranosus", "M. biceps femoris (Caput longum)", "M. gluteus maximus (Hüftextension)"],
+      "antagonisten": ["M. quadriceps femoris (Knie)", "M. iliopsoas (Hüfte)"]
+    },
+    "Semimembranosus muscle": {
+      "jahr": 1, "kurz": "Ischiocruraler Muskel mit flacher, sehniger Ursprungsplatte; liegt unter dem M. semitendinosus.",
+      "ursprung": "Tuber ischiadicum",
+      "ansatz": "Hinterer Teil des Condylus medialis tibiae (Pes anserinus profundus), Ausstrahlung ins Lig. popliteum obliquum",
+      "aktion": ["Hüfte: Extension", "Knie: Flexion, Innenrotation"],
+      "innervation": "N. tibialis (Anteil des N. ischiadicus; L5–S2)", "versorgung": "Aa. perforantes",
+      "tastbar": ["Neben der Semitendinosussehne innen in der Kniekehle, breiter und tiefer"],
+      "synergisten": ["M. semitendinosus", "M. biceps femoris (Caput longum)"],
+      "antagonisten": ["M. quadriceps femoris", "M. iliopsoas"]
+    },
+    "Long head of biceps femoris": {
+      "jahr": 1, "kurz": "Langer Kopf des M. biceps femoris: ischiocruraler Muskel an der Außenseite der Oberschenkelrückseite.",
+      "ursprung": "Tuber ischiadicum",
+      "ansatz": "Caput fibulae",
+      "aktion": ["Hüfte: Extension", "Knie: Flexion, Außenrotation (einziger kräftiger Außenrotator des Knies)"],
+      "innervation": "N. tibialis (Anteil des N. ischiadicus; L5–S2)", "versorgung": "Aa. perforantes",
+      "tastbar": ["Sehne außen in der Kniekehle bis zum Fibulaköpfchen"],
+      "synergisten": ["M. semitendinosus, M. semimembranosus"], "antagonisten": ["M. quadriceps femoris", "M. iliopsoas"]
+    },
+    "Short head of biceps femoris": {
+      "jahr": 1, "kurz": "Kurzer Kopf des M. biceps femoris; überzieht nur das Kniegelenk.",
+      "ursprung": "Labium laterale der Linea aspera",
+      "ansatz": "Caput fibulae (gemeinsam mit dem langen Kopf)",
+      "aktion": ["Knie: Flexion, Außenrotation"],
+      "innervation": "N. fibularis communis (Anteil des N. ischiadicus; L5–S2)", "versorgung": "Aa. perforantes",
+      "synergisten": ["Übrige ischiocrurale Muskeln (Knieflexion)"], "antagonisten": ["M. quadriceps femoris"]
+    },
+    "Soleus muscle": {
+      "jahr": 1, "kurz": "Breiter Wadenmuskel unter dem M. gastrocnemius; bildet mit ihm den M. triceps surae.",
+      "ursprung": "Caput und hintere Fläche der Fibula, Linea musculi solei der Tibia, Arcus tendineus musculi solei",
+      "ansatz": "Tuber calcanei über die Achillessehne (Tendo calcaneus)",
+      "aktion": ["OSG: Plantarflexion", "USG: Supination", "Wichtig für das ruhige Stehen (verhindert das Kippen nach vorn)"],
+      "innervation": "N. tibialis (S1–S2)", "versorgung": "A. tibialis posterior, A. fibularis, Aa. surales",
+      "tastbar": ["Seitlich unter dem M. gastrocnemius in der unteren Wadenhälfte, besonders bei gebeugtem Knie"],
+      "synergisten": ["M. gastrocnemius", "M. tibialis posterior, M. fibularis longus und brevis (Plantarflexion)"],
+      "antagonisten": ["M. tibialis anterior", "M. extensor digitorum longus, M. extensor hallucis longus"]
+    },
+    "Tibialis anterior muscle": {
+      "jahr": 1, "kurz": "Wichtigster Fußheber vorn am Unterschenkel.",
+      "ursprung": "Außenfläche der Tibia (obere zwei Drittel), Membrana interossea cruris, Fascia cruris",
+      "ansatz": "Os cuneiforme mediale und Basis des Os metatarsi I (von der Fußsohlenseite)",
+      "aktion": ["OSG: Dorsalextension", "USG: Supination (Inversion)", "Verspannt das Längsgewölbe"],
+      "innervation": "N. fibularis profundus (L4–L5)", "versorgung": "A. tibialis anterior",
+      "tastbar": ["Direkt außen neben der Schienbeinkante; Sehne vor dem OSG bei Dorsalextension mit Supination"],
+      "synergisten": ["M. extensor digitorum longus, M. extensor hallucis longus (Dorsalextension)", "M. tibialis posterior (Supination)"],
+      "antagonisten": ["M. triceps surae", "M. fibularis longus und brevis (Pronation)"],
+      "praxis": "Ausfall (z. B. Läsion des N. fibularis) führt zum Fallfuß mit Steppergang.",
+      "offen": ["Segmente teils mit L4–S1 angegeben"]
+    },
+    "Fibularis longus muscle": {
+      "jahr": 1, "kurz": "Langer Wadenbeinmuskel; seine Sehne zieht unter der Fußsohle zur Innenseite und verspannt das Quergewölbe.",
+      "ursprung": "Caput fibulae, obere zwei Drittel der Außenfläche der Fibula",
+      "ansatz": "Os cuneiforme mediale und Basis des Os metatarsi I (von der Fußsohlenseite)",
+      "aktion": ["USG: Pronation (Eversion)", "OSG: Plantarflexion", "Verspannt Quer- und Längsgewölbe"],
+      "innervation": "N. fibularis superficialis (L5–S1)", "versorgung": "A. fibularis, A. tibialis anterior",
+      "tastbar": ["Außenseite des Unterschenkels; Sehne hinter dem Außenknöchel"],
+      "synergisten": ["M. fibularis brevis"], "antagonisten": ["M. tibialis anterior, M. tibialis posterior (Supination)"]
+    },
+    "Fibularis brevis muscle": {
+      "jahr": 1, "kurz": "Kurzer Wadenbeinmuskel; Pronator des Fußes.",
+      "ursprung": "Untere zwei Drittel der Außenfläche der Fibula",
+      "ansatz": "Tuberositas ossis metatarsi V",
+      "aktion": ["USG: Pronation (Eversion)", "OSG: Plantarflexion"],
+      "innervation": "N. fibularis superficialis (L5–S1)", "versorgung": "A. fibularis",
+      "tastbar": ["Sehne hinter dem Außenknöchel bis zur Basis des 5. Mittelfußknochens"],
+      "synergisten": ["M. fibularis longus"], "antagonisten": ["M. tibialis anterior, M. tibialis posterior"],
+      "praxis": "Beim Umknicken kann die Sehne ein Knochenstück an der Basis des 5. Mittelfußknochens abreißen."
+    },
+    "Piriformis muscle": {
+      "jahr": 1, "kurz": "Birnenförmiger tiefer Hüftmuskel. Teilt das Foramen ischiadicum majus in einen oberen und unteren Durchgang.",
+      "ursprung": "Facies pelvica des Kreuzbeins",
+      "ansatz": "Spitze des Trochanter major",
+      "aktion": ["Hüfte: Außenrotation", "Abduktion"],
+      "innervation": "Plexus sacralis (S1–S2)", "versorgung": "A. glutea superior und inferior",
+      "tastbar": ["Nur indirekt durch den M. gluteus maximus, auf der Linie Kreuzbein – Trochanter major"],
+      "synergisten": ["Mm. gemelli, M. obturatorius internus, M. quadratus femoris"], "antagonisten": ["M. gluteus minimus (vordere Anteile, Innenrotation)"],
+      "praxis": "Der N. ischiadicus tritt meist unterhalb des Muskels (Foramen infrapiriforme) aus dem Becken."
+    },
+    "Supraspinatus muscle": {
+      "jahr": 1, "kurz": "Teil der Rotatorenmanschette; startet die Abduktion und zentriert den Oberarmkopf in der Pfanne.",
+      "ursprung": "Fossa supraspinata der Scapula",
+      "ansatz": "Tuberculum majus (obere Facette)",
+      "aktion": ["Schulter: Abduktion (Starter)", "Geringe Außenrotation", "Zentriert den Humeruskopf"],
+      "innervation": "N. suprascapularis (C4–C6)", "versorgung": "A. suprascapularis",
+      "tastbar": ["In der Fossa supraspinata durch den M. trapezius; Sehne vorn unter dem Acromion bei Innenrotation und Retroversion"],
+      "synergisten": ["M. deltoideus (Pars acromialis)"], "antagonisten": ["M. latissimus dorsi, M. pectoralis major, M. teres major (Adduktion)"],
+      "praxis": "Seine Sehne läuft unter dem Schulterdach und ist bei Impingement und Rotatorenmanschettenrissen am häufigsten betroffen."
+    },
+    "Infraspinatus muscle": {
+      "jahr": 1, "kurz": "Teil der Rotatorenmanschette; wichtigster Außenrotator der Schulter.",
+      "ursprung": "Fossa infraspinata der Scapula",
+      "ansatz": "Tuberculum majus (mittlere Facette)",
+      "aktion": ["Schulter: Außenrotation", "Zentriert den Humeruskopf"],
+      "innervation": "N. suprascapularis (C4–C6)", "versorgung": "A. suprascapularis, A. circumflexa scapulae",
+      "tastbar": ["Unterhalb der Spina scapulae bei Außenrotation gegen Widerstand"],
+      "synergisten": ["M. teres minor", "M. deltoideus (Pars spinalis)"], "antagonisten": ["M. subscapularis", "M. pectoralis major, M. latissimus dorsi, M. teres major"]
+    },
+    "Teres minor muscle": {
+      "jahr": 1, "kurz": "Kleiner Rundmuskel; Teil der Rotatorenmanschette.",
+      "ursprung": "Margo lateralis der Scapula (mittlerer Teil)",
+      "ansatz": "Tuberculum majus (untere Facette)",
+      "aktion": ["Schulter: Außenrotation", "Schwache Adduktion"],
+      "innervation": "N. axillaris (C5–C6)", "versorgung": "A. circumflexa scapulae",
+      "tastbar": ["Am Außenrand der Scapula oberhalb des M. teres major"],
+      "synergisten": ["M. infraspinatus"], "antagonisten": ["M. subscapularis"]
+    },
+    "Subscapularis muscle": {
+      "jahr": 1, "kurz": "Teil der Rotatorenmanschette auf der Rippenseite des Schulterblatts; stärkster Innenrotator.",
+      "ursprung": "Fossa subscapularis",
+      "ansatz": "Tuberculum minus",
+      "aktion": ["Schulter: Innenrotation", "Zentriert den Humeruskopf, sichert die Gelenkvorderseite"],
+      "innervation": "Nn. subscapulares (C5–C6)", "versorgung": "A. subscapularis",
+      "tastbar": ["Nur teilweise in der Achselhöhle zwischen Scapula und Brustkorb"],
+      "synergisten": ["M. pectoralis major", "M. latissimus dorsi", "M. teres major"], "antagonisten": ["M. infraspinatus", "M. teres minor"]
+    },
+    "Latissimus dorsi muscle": {
+      "jahr": 1, "kurz": "Flächengrößter Muskel des Körpers. Zieht den erhobenen Arm kraftvoll nach unten und hinten (z. B. beim Klimmzug, Abstützen).",
+      "ursprung": "Dornfortsätze Th7–L5 über die Fascia thoracolumbalis, Kreuzbein, hinterer Darmbeinkamm, 10.–12. Rippe, häufig Angulus inferior scapulae",
+      "ansatz": "Crista tuberculi minoris des Humerus",
+      "aktion": ["Schulter: Innenrotation, Adduktion, Retroversion", "Senkt den erhobenen Arm", "Hilfsmuskel bei der Ausatmung (z. B. Husten)"],
+      "innervation": "N. thoracodorsalis (C6–C8)", "versorgung": "A. thoracodorsalis",
+      "tastbar": ["Hintere Achselfalte, besonders bei Adduktion gegen Widerstand"],
+      "synergisten": ["M. teres major", "M. pectoralis major (Adduktion, Innenrotation)"], "antagonisten": ["M. deltoideus (Pars acromialis), M. supraspinatus"]
+    },
+    "Serratus anterior muscle": {
+      "jahr": 1, "kurz": "Sägezahnmuskel seitlich am Brustkorb; hält das Schulterblatt am Thorax und dreht es für die Armhebung über 90°.",
+      "ursprung": "1.–9. Rippe (seitlich)",
+      "ansatz": "Margo medialis der Scapula (Rippenseite), einschließlich Angulus superior und inferior",
+      "aktion": ["Scapula: Protraktion (nach vorn), Lateralrotation (Pfanne nach oben)", "Fixiert die Scapula am Brustkorb"],
+      "innervation": "N. thoracicus longus (C5–C7)", "versorgung": "A. thoracica lateralis, A. thoracodorsalis",
+      "tastbar": ["Zacken seitlich am Brustkorb unterhalb der Achsel, bei Liegestütz deutlich"],
+      "synergisten": ["M. trapezius (Lateralrotation)", "M. pectoralis minor (Protraktion)"], "antagonisten": ["Mm. rhomboidei", "M. trapezius (Pars transversa)"],
+      "praxis": "Bei Ausfall steht der Innenrand des Schulterblatts flügelartig ab (Scapula alata)."
+    },
+    "Rhomboid major muscle": {
+      "jahr": 1, "kurz": "Rautenmuskel zwischen Wirbelsäule und Schulterblatt; zieht das Schulterblatt zur Wirbelsäule.",
+      "ursprung": "Dornfortsätze Th1–Th4",
+      "ansatz": "Margo medialis der Scapula unterhalb der Spina",
+      "aktion": ["Scapula: Retraktion (zur Wirbelsäule), Elevation, Medialrotation", "Fixiert die Scapula am Brustkorb"],
+      "innervation": "N. dorsalis scapulae (C4–C5)", "versorgung": "A. dorsalis scapulae",
+      "tastbar": ["Zwischen Wirbelsäule und Margo medialis durch den M. trapezius, bei Retraktion"],
+      "synergisten": ["M. rhomboideus minor", "M. trapezius (Pars transversa)", "M. levator scapulae"], "antagonisten": ["M. serratus anterior", "M. pectoralis minor"]
+    },
+    "Levator scapulae": {
+      "jahr": 1, "kurz": "Schulterblattheber; verbindet Halswirbelsäule und oberen Schulterblattwinkel.",
+      "ursprung": "Querfortsätze (Tubercula posteriora) C1–C4",
+      "ansatz": "Angulus superior der Scapula",
+      "aktion": ["Scapula: Elevation, Medialrotation", "HWS: Seitneigung zur gleichen Seite"],
+      "innervation": "N. dorsalis scapulae (C4–C5) und Äste des Plexus cervicalis", "versorgung": "A. dorsalis scapulae, A. transversa colli",
+      "tastbar": ["Seitlicher Nacken, Ansatz am oberen Schulterblattwinkel"],
+      "synergisten": ["M. trapezius (Pars descendens)", "Mm. rhomboidei"], "antagonisten": ["M. trapezius (Pars ascendens)", "M. serratus anterior (untere Zacken)"]
+    },
+    "Rectus abdominis muscle": {
+      "jahr": 1, "kurz": "Gerader Bauchmuskel mit Zwischensehnen („Sixpack“); liegt in der Rektusscheide.",
+      "ursprung": "Rippenknorpel der 5.–7. Rippe, Processus xiphoideus",
+      "ansatz": "Crista pubica und Symphyse",
+      "aktion": ["Rumpf: Flexion", "Richtet das Becken auf (Beckenaufrichtung)", "Bauchpresse, unterstützt die Ausatmung"],
+      "innervation": "Nn. intercostales (Th5–Th12)", "versorgung": "A. epigastrica superior und inferior",
+      "tastbar": ["Neben der Mittellinie des Bauchs, deutlich beim Anheben des Kopfes aus der Rückenlage"],
+      "synergisten": ["M. obliquus externus und internus abdominis (Rumpfbeugung)"], "antagonisten": ["M. erector spinae"],
+      "offen": ["Segmente je nach Lehrbuch Th5–Th12 oder Th7–Th12"]
+    },
+    "Brachialis muscle": {
+      "jahr": 1, "kurz": "Reiner Ellenbogenbeuger unter dem M. biceps brachii – beugt in jeder Unterarmstellung.",
+      "ursprung": "Vorderfläche der unteren Hälfte des Humerus",
+      "ansatz": "Tuberositas ulnae",
+      "aktion": ["Ellenbogen: Flexion"],
+      "innervation": "N. musculocutaneus (C5–C6), lateraler Anteil oft zusätzlich N. radialis", "versorgung": "A. brachialis, A. collateralis radialis",
+      "tastbar": ["Seitlich neben dem M. biceps brachii am distalen Oberarm"],
+      "synergisten": ["M. biceps brachii", "M. brachioradialis"], "antagonisten": ["M. triceps brachii", "M. anconeus"]
+    },
+    "Brachioradialis muscle": {
+      "jahr": 1, "kurz": "Oberarm-Speichen-Muskel; beugt den Ellenbogen vor allem in Mittelstellung des Unterarms.",
+      "ursprung": "Crista supraepicondylaris lateralis des Humerus",
+      "ansatz": "Processus styloideus radii",
+      "aktion": ["Ellenbogen: Flexion (am stärksten in Mittelstellung)", "Bringt den Unterarm in die Mittelstellung zwischen Pronation und Supination"],
+      "innervation": "N. radialis (C5–C6)", "versorgung": "A. recurrens radialis",
+      "tastbar": ["Außenseite des proximalen Unterarms bei Beugung gegen Widerstand in Mittelstellung („Bierglas-Haltung“)"],
+      "synergisten": ["M. biceps brachii", "M. brachialis"], "antagonisten": ["M. triceps brachii"],
+      "praxis": "Obwohl er vom N. radialis (sonst Strecker-Nerv) versorgt wird, ist er ein Beuger."
+    },
+    "Sternocleidomastoid muscle": {
+      "jahr": 1, "kurz": "Kopfwender; gut sichtbarer Muskel seitlich am Hals.",
+      "ursprung": "Caput sternale: Manubrium sterni; Caput claviculare: mediales Drittel der Clavicula",
+      "ansatz": "Processus mastoideus, seitlicher Teil der Linea nuchalis superior",
+      "aktion": ["Einseitig: Seitneigung des Kopfes zur gleichen Seite, Drehung zur Gegenseite", "Beidseitig: Kopf heben aus Rückenlage bzw. Extension in den Kopfgelenken", "Atemhilfsmuskel bei fixiertem Kopf"],
+      "innervation": "N. accessorius (XI) und Äste des Plexus cervicalis (C1–C2)", "versorgung": "A. thyroidea superior, A. occipitalis",
+      "tastbar": ["Beide Köpfe deutlich bei Kopfdrehung gegen Widerstand"],
+      "synergisten": ["M. trapezius (Pars descendens)", "Mm. scaleni"], "antagonisten": ["Gegenseitiger M. sternocleidomastoideus (Rotation)"],
+      "offen": ["Segmente des Plexus-cervicalis-Anteils je nach Lehrbuch C1–C2 oder C2–C3"]
+    }
+  },
+  "vorlagen": [
+    {"muster": "part of deltoid muscle$", "eintrag": {
+      "jahr": 1, "kurz": "Anteil des M. deltoideus (Deltamuskel), der der Schulter ihre runde Form gibt. Er hat drei Anteile: Pars clavicularis (vorn), Pars acromialis (seitlich), Pars spinalis (hinten).",
+      "ursprung": "Pars clavicularis: laterales Drittel der Clavicula; Pars acromialis: Acromion; Pars spinalis: Spina scapulae",
+      "ansatz": "Tuberositas deltoidea des Humerus",
+      "aktion": ["Pars acromialis: Abduktion", "Pars clavicularis: Anteversion, Innenrotation", "Pars spinalis: Retroversion, Außenrotation"],
+      "innervation": "N. axillaris (C5–C6)", "versorgung": "A. circumflexa humeri posterior, A. thoracoacromialis",
+      "tastbar": ["Alle drei Anteile direkt unter der Haut über dem Schultergelenk"],
+      "synergisten": ["M. supraspinatus (Abduktion)", "M. pectoralis major (Pars clavicularis)", "M. infraspinatus (Pars spinalis)"],
+      "antagonisten": ["M. latissimus dorsi, M. teres major, M. pectoralis major (Adduktion)"],
+      "praxis": "Bei einer Fraktur am Collum chirurgicum humeri kann der N. axillaris geschädigt werden – dann fällt die Abduktion aus."
+    }},
+    {"muster": "part of trapezius muscle$", "eintrag": {
+      "jahr": 1, "kurz": "Anteil des M. trapezius (Kapuzenmuskel). Er hat drei Anteile: Pars descendens (oben), Pars transversa (Mitte), Pars ascendens (unten).",
+      "ursprung": "Pars descendens: Linea nuchalis superior, Protuberantia occipitalis externa, Lig. nuchae; Pars transversa: Dornfortsätze C7–Th3; Pars ascendens: Dornfortsätze Th3–Th12",
+      "ansatz": "Pars descendens: laterales Drittel der Clavicula; Pars transversa: Acromion; Pars ascendens: Spina scapulae",
+      "aktion": ["Pars descendens: Elevation der Scapula, Kopf: Extension und Seitneigung zur gleichen Seite, Drehung zur Gegenseite", "Pars transversa: Retraktion der Scapula", "Pars ascendens: Depression der Scapula", "Pars descendens + ascendens: Lateralrotation der Scapula (Armhebung über 90°)"],
+      "innervation": "N. accessorius (XI) und Äste des Plexus cervicalis (C2–C4)", "versorgung": "A. transversa colli",
+      "tastbar": ["Oberer Rand zwischen Hals und Schulter; Ränder der Anteile bei Retraktion der Schulterblätter"],
+      "synergisten": ["M. levator scapulae (Elevation)", "Mm. rhomboidei (Retraktion)", "M. serratus anterior (Lateralrotation)"],
+      "antagonisten": ["M. serratus anterior, M. pectoralis minor (Protraktion)"],
+      "offen": ["Segmente des Plexus-cervicalis-Anteils je nach Lehrbuch C2–C4 oder C3–C4"]
+    }},
+    {"muster": "(head|part) of pectoralis major muscle", "eintrag": {
+      "jahr": 1, "kurz": "Anteil des M. pectoralis major (großer Brustmuskel): Pars clavicularis, Pars sternocostalis und Pars abdominalis.",
+      "ursprung": "Pars clavicularis: mediale Hälfte der Clavicula; Pars sternocostalis: Sternum und Rippenknorpel 2–6; Pars abdominalis: vorderes Blatt der Rektusscheide",
+      "ansatz": "Crista tuberculi majoris des Humerus",
+      "aktion": ["Schulter: Adduktion, Innenrotation", "Pars clavicularis: Anteversion", "Atemhilfsmuskel bei aufgestützten Armen"],
+      "innervation": "Nn. pectorales medialis und lateralis (C5–Th1)", "versorgung": "A. thoracoacromialis, A. thoracica lateralis",
+      "tastbar": ["Vordere Achselfalte; Muskelbauch auf der Brust bei Adduktion gegen Widerstand"],
+      "synergisten": ["M. latissimus dorsi, M. teres major", "M. subscapularis (Innenrotation)"],
+      "antagonisten": ["M. deltoideus (Pars acromialis und spinalis)", "M. infraspinatus"]
+    }},
+    {"muster": "head of biceps brachii$", "eintrag": {
+      "jahr": 1, "kurz": "Kopf des M. biceps brachii (zweiköpfiger Oberarmmuskel): Beuger des Ellenbogens und stärkster Supinator.",
+      "ursprung": "Caput longum: Tuberculum supraglenoidale der Scapula (Sehne läuft durch das Schultergelenk und den Sulcus intertubercularis); Caput breve: Processus coracoideus",
+      "ansatz": "Tuberositas radii und über die Aponeurosis musculi bicipitis brachii in die Unterarmfaszie",
+      "aktion": ["Ellenbogen: Flexion", "Unterarm: Supination (am stärksten bei gebeugtem Ellenbogen)", "Schulter: Anteversion; Caput longum zusätzlich Abduktion, Caput breve Adduktion"],
+      "innervation": "N. musculocutaneus (C5–C6)", "versorgung": "A. brachialis",
+      "tastbar": ["Muskelbauch auf der Oberarmvorderseite, Ansatzsehne in der Ellenbeuge"],
+      "synergisten": ["M. brachialis, M. brachioradialis (Flexion)", "M. supinator (Supination)"],
+      "antagonisten": ["M. triceps brachii (Extension)", "M. pronator teres, M. pronator quadratus (Pronation)"]
+    }},
+    {"muster": "head of triceps brachii$", "eintrag": {
+      "jahr": 1, "kurz": "Kopf des M. triceps brachii (dreiköpfiger Oberarmmuskel): einziger kräftiger Ellenbogenstrecker.",
+      "ursprung": "Caput longum: Tuberculum infraglenoidale der Scapula; Caput laterale: Rückseite des Humerus oberhalb/seitlich des Sulcus nervi radialis; Caput mediale: Rückseite des Humerus unterhalb/medial des Sulcus nervi radialis",
+      "ansatz": "Olecranon",
+      "aktion": ["Ellenbogen: Extension", "Caput longum: Schulter Retroversion und Adduktion"],
+      "innervation": "N. radialis (C6–C8)", "versorgung": "A. profunda brachii",
+      "tastbar": ["Oberarmrückseite, Ansatzsehne oberhalb des Olecranons"],
+      "synergisten": ["M. anconeus"], "antagonisten": ["M. biceps brachii, M. brachialis, M. brachioradialis"]
+    }},
+    {"muster": "head of gastrocnemius$", "eintrag": {
+      "jahr": 1, "kurz": "Kopf des M. gastrocnemius (Zwillingswadenmuskel); bildet mit dem M. soleus den M. triceps surae.",
+      "ursprung": "Caput mediale: oberhalb des Condylus medialis femoris; Caput laterale: oberhalb des Condylus lateralis femoris",
+      "ansatz": "Tuber calcanei über die Achillessehne (Tendo calcaneus)",
+      "aktion": ["OSG: Plantarflexion", "USG: Supination", "Knie: Flexion"],
+      "innervation": "N. tibialis (S1–S2)", "versorgung": "Aa. surales (aus der A. poplitea)",
+      "tastbar": ["Wadenwölbung, besonders im Zehenstand"],
+      "synergisten": ["M. soleus", "M. tibialis posterior, Mm. fibulares (Plantarflexion)"],
+      "antagonisten": ["M. tibialis anterior, M. extensor digitorum longus, M. extensor hallucis longus"],
+      "praxis": "Weil er auch das Knie überzieht, wird er bei gestrecktem Knie gedehnt (Wadendehnung mit gestrecktem Bein)."
+    }}
+  ]
+}
