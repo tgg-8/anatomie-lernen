@@ -1,0 +1,15 @@
+{
+  "_hinweis": "Feinbau-Inhalte (Detailstufe 3). 'bild' verweist auf ein schematisches SVG in public/schemata. Schemata sind vereinfacht und nicht maßstabsgetreu.",
+  "knochen": {
+    "titel": "Aufbau eines Röhrenknochens",
+    "bild": "schemata/roehrenknochen.svg",
+    "abschnitte": [
+      {"name": "Abschnitte", "text": "Diaphyse = Schaft. Epiphysen = verdickte Enden mit Gelenkflächen. Metaphyse = Übergangszone; beim Wachsenden liegt hier die Epiphysenfuge (Wachstumsfuge aus Knorpel)."},
+      {"name": "Knochenhaut", "text": "Periost: außen am Knochen, gut durchblutet und mit Nerven versorgt (schmerzempfindlich), wichtig für Ernährung und Heilung. Endost: kleidet die Markhöhle innen aus. An den Gelenkflächen fehlt das Periost; dort liegt hyaliner Gelenkknorpel."},
+      {"name": "Kompakta und Spongiosa", "text": "Kompakta (Substantia compacta): dichte Außenschicht, im Schaft besonders dick. Spongiosa (Substantia spongiosa): schwammartiges Bälkchenwerk in den Enden; die Bälkchen richten sich nach den Belastungslinien aus."},
+      {"name": "Knochenmark", "text": "Rotes Knochenmark bildet Blutzellen (beim Erwachsenen v. a. in platten Knochen und Wirbelkörpern). Gelbes Knochenmark ist überwiegend Fettgewebe (in der Markhöhle der Röhrenknochen)."},
+      {"name": "Knochengewebe", "text": "Lamellenknochen ist aus Osteonen aufgebaut: konzentrische Lamellen um einen zentralen Havers-Kanal mit Blutgefäßen; Volkmann-Kanäle verbinden quer. Osteoblasten bauen Knochen auf, Osteozyten sind eingemauerte, erhaltende Zellen, Osteoklasten bauen Knochen ab. Durch diesen ständigen Umbau passt sich der Knochen an Belastung an."},
+      {"name": "Knochenformen", "text": "Röhrenknochen (z. B. Femur), kurze Knochen (z. B. Handwurzel), platte Knochen (z. B. Schulterblatt, Schädeldach), unregelmäßige Knochen (z. B. Wirbel), lufthaltige Knochen (z. B. Oberkiefer), Sesambeine (z. B. Patella)."}
+    ]
+  }
+}

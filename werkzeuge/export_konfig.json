@@ -1,0 +1,21 @@
+{
+  "_hinweis": "Welche Z-Anatomy-Sammlungen in welche App-Ebene exportiert werden. Wird von blender_export.py gelesen.",
+  "ebenen": {
+    "knochen": {
+      "sammlungen": ["1: Skeletal system"],
+      "subsurf_max": 1,
+      "markierungen": true
+    },
+    "baender_gelenke": {
+      "sammlungen": ["3: Joints"],
+      "subsurf_max": 1
+    },
+    "haut": {
+      "sammlungen": ["9: Regions of human body"],
+      "ausschliessen": "^(Hairs|Eyelashes|Pubic hairs|Eyebrow)",
+      "subsurf_max": 0
+    }
+  },
+  "_lizenz_ausschluss": "Teile mit NC-Lizenz (Innenohr: CC BY-NC-SA, Niere: CC BY-NC) werden nie exportiert.",
+  "lizenz_ausschluss": "(?i)(cochlea|semicircular|vestibul(e|ar labyrinth)|labyrinth|utricle|saccule|kidney|renal (cortex|medulla|pyramid|papilla|column|pelvis|calyx|calices))"
+}

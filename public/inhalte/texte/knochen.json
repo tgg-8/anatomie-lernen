@@ -1,0 +1,467 @@
+{
+  "_hinweis": "Texte zu Knochen, Knorpeln und Zähnen. Schlüssel = englischer Z-Anatomy-Name ohne .l/.r. 'vorlagen' gelten für alle Namen, die zum regulären Ausdruck 'muster' passen (z. B. alle Rippen). Felder, die fehlen oder in 'offen' stehen, zeigt die App als 'noch zu prüfen'. status: 'entwurf' = von Claude aus Standard-Lehrbuchwissen geschrieben, noch nicht von einer Fachperson gegengeprüft; 'geprueft' = mit Schulbuch/Lehrkraft abgeglichen.",
+  "standard_quellen": ["openstax-ap2e", "ta2"],
+  "eintraege": {
+    "Femur": {
+      "jahr": 1,
+      "kurz": "Längster und kräftigster Knochen des Körpers. Er überträgt das Körpergewicht vom Becken auf das Schienbein und ist Hebel für die großen Hüft- und Kniemuskeln.",
+      "lage": "Oberschenkel, zwischen Hüftgelenk (oben) und Kniegelenk (unten).",
+      "form": "Röhrenknochen (Os longum).",
+      "markierungen": [
+        "Caput femoris (Oberschenkelkopf) mit Fovea capitis femoris",
+        "Collum femoris (Schenkelhals); Winkel zwischen Hals und Schaft (CCD-Winkel) beim Erwachsenen etwa 125–130°",
+        "Trochanter major und Trochanter minor",
+        "Linea intertrochanterica (vorn) und Crista intertrochanterica (hinten)",
+        "Linea aspera mit Labium mediale und laterale (Rückseite des Schafts)",
+        "Tuberositas glutea",
+        "Condylus medialis und lateralis, Epicondylus medialis und lateralis",
+        "Tuberculum adductorium, Fossa intercondylaris, Facies patellaris"
+      ],
+      "gelenke": ["Hüftgelenk (Articulatio coxae)", "Kniegelenk (Articulatio genus): Femorotibialgelenk und Femoropatellargelenk"],
+      "muskeln": [
+        "Trochanter major: M. gluteus medius, M. gluteus minimus, M. piriformis",
+        "Fossa trochanterica / Innenseite des Trochanter major: M. obturatorius internus und externus, Mm. gemelli",
+        "Trochanter minor: M. iliopsoas",
+        "Tuberositas glutea: Teil des M. gluteus maximus",
+        "Linea aspera: Adduktoren (M. adductor longus, brevis, magnus), Ursprung von M. vastus medialis und lateralis, Caput breve des M. biceps femoris",
+        "Tuberculum adductorium: Sehne des M. adductor magnus",
+        "Oberhalb der Kondylen (hinten): Ursprünge des M. gastrocnemius"
+      ],
+      "baender": [
+        "Lig. capitis femoris (Fovea capitis)",
+        "Kapselbänder des Hüftgelenks: Lig. iliofemorale, Lig. pubofemorale, Lig. ischiofemorale",
+        "Kreuzbänder (Fossa intercondylaris) und Seitenbänder (Epikondylen) des Kniegelenks"
+      ],
+      "tastbar": [
+        "Trochanter major: seitlich an der Hüfte, bewegt sich bei Rotation des Beins unter den Fingern",
+        "Epicondylus medialis und lateralis am Knie",
+        "Tuberculum adductorium: oberhalb des Epicondylus medialis",
+        "Kondylenränder neben der Patella bei gebeugtem Knie"
+      ],
+      "praxis": "Der Schenkelhals ist eine typische Bruchstelle im höheren Alter (Schenkelhalsfraktur).",
+      "offen": ["Antetorsionswinkel (Zahlenwert je nach Lehrbuch unterschiedlich angegeben)"]
+    },
+    "Hip bone": {
+      "jahr": 1,
+      "kurz": "Bildet zusammen mit dem Kreuzbein den Beckenring. Trägt die Hüftpfanne und überträgt das Gewicht des Rumpfes auf die Beine.",
+      "lage": "Paarig, seitlicher und vorderer Teil des Beckens.",
+      "form": "Platter, unregelmäßiger Knochen; entsteht aus drei Knochen, die in der Hüftpfanne verschmelzen: Darmbein (Os ilium), Sitzbein (Os ischii), Schambein (Os pubis).",
+      "markierungen": [
+        "Crista iliaca (Darmbeinkamm)",
+        "Spina iliaca anterior superior (SIAS) und anterior inferior (SIAI)",
+        "Spina iliaca posterior superior (SIPS) und posterior inferior (SIPI)",
+        "Acetabulum (Hüftpfanne) mit Facies lunata",
+        "Tuber ischiadicum (Sitzbeinhöcker), Spina ischiadica",
+        "Incisura ischiadica major und minor",
+        "Foramen obturatum",
+        "Facies auricularis (Gelenkfläche zum Kreuzbein)",
+        "Facies symphysialis, Tuberculum pubicum, Pecten ossis pubis"
+      ],
+      "gelenke": ["Hüftgelenk (Articulatio coxae)", "Iliosakralgelenk (Articulatio sacroiliaca, ISG)", "Schambeinfuge (Symphysis pubica)"],
+      "muskeln": [
+        "SIAS: M. sartorius, M. tensor fasciae latae",
+        "SIAI: M. rectus femoris (Caput rectum)",
+        "Crista iliaca: schräge und quere Bauchmuskeln, M. quadratus lumborum, Teile des M. latissimus dorsi",
+        "Außenfläche der Darmbeinschaufel: M. gluteus medius und minimus; hinterer Bereich: Teil des M. gluteus maximus",
+        "Fossa iliaca (Innenfläche): M. iliacus",
+        "Tuber ischiadicum: ischiocrurale Muskeln (M. semitendinosus, M. semimembranosus, Caput longum des M. biceps femoris), Teil des M. adductor magnus",
+        "Schambein: M. pectineus (Pecten), M. adductor longus und brevis, M. gracilis"
+      ],
+      "baender": [
+        "Lig. inguinale (Leistenband): von der SIAS zum Tuberculum pubicum",
+        "Lig. sacrotuberale (zum Tuber ischiadicum) und Lig. sacrospinale (zur Spina ischiadica)",
+        "Ligg. sacroiliaca (ISG)",
+        "Kapselbänder des Hüftgelenks"
+      ],
+      "tastbar": [
+        "Crista iliaca in ganzer Länge",
+        "SIAS: vorderes Ende des Darmbeinkamms",
+        "SIPS: unter den Grübchen über dem Gesäß",
+        "Tuber ischiadicum: am besten bei gebeugter Hüfte oder im Sitzen",
+        "Tuberculum pubicum und Symphyse"
+      ]
+    },
+    "Patella": {
+      "jahr": 1,
+      "kurz": "Größtes Sesambein des Körpers. Liegt in der Sehne des M. quadriceps femoris, schützt die Sehne und vergrößert den Hebelarm des Quadrizeps.",
+      "lage": "Vor dem Kniegelenk, gleitet auf der Facies patellaris des Femurs.",
+      "form": "Sesambein (Os sesamoideum), dreieckig: Basis oben, Spitze (Apex) unten.",
+      "markierungen": ["Basis patellae (oben)", "Apex patellae (unten)", "Facies articularis (Rückseite, Gelenkfläche zum Femur)", "Facies anterior"],
+      "gelenke": ["Femoropatellargelenk (Teil des Kniegelenks)"],
+      "muskeln": ["M. quadriceps femoris (über die Quadrizepssehne an der Basis)"],
+      "baender": ["Lig. patellae (Kniescheibenband): von der Apex zur Tuberositas tibiae", "Retinaculum patellae mediale und laterale"],
+      "tastbar": ["Komplett tastbar; bei entspanntem Quadrizeps seitlich verschieblich"]
+    },
+    "Tibia": {
+      "jahr": 1,
+      "kurz": "Kräftiger, innen liegender Unterschenkelknochen. Trägt fast die gesamte Last vom Oberschenkel zum Fuß.",
+      "lage": "Innenseite (medial) des Unterschenkels.",
+      "form": "Röhrenknochen (Os longum).",
+      "markierungen": [
+        "Condylus medialis und lateralis mit Gelenkflächen (Tibiaplateau)",
+        "Eminentia intercondylaris mit Area intercondylaris anterior und posterior",
+        "Tuberositas tibiae",
+        "Margo anterior (Schienbeinkante), Facies medialis",
+        "Linea musculi solei (Rückseite)",
+        "Malleolus medialis (Innenknöchel)",
+        "Incisura fibularis, Facies articularis inferior"
+      ],
+      "gelenke": ["Kniegelenk (Articulatio genus)", "Proximales Tibiofibulargelenk (Articulatio tibiofibularis)", "Distale Syndesmose (Syndesmosis tibiofibularis)", "Oberes Sprunggelenk (Articulatio talocruralis)"],
+      "muskeln": [
+        "Tuberositas tibiae: M. quadriceps femoris über das Lig. patellae",
+        "Medial unterhalb des Condylus medialis (Pes anserinus superficialis): M. sartorius, M. gracilis, M. semitendinosus",
+        "Hinten am Condylus medialis: M. semimembranosus",
+        "Seitenfläche: Ursprung des M. tibialis anterior",
+        "Linea musculi solei: M. soleus; darüber: M. popliteus",
+        "Rückseite: Ursprünge von M. tibialis posterior und M. flexor digitorum longus",
+        "Tuberculum tractus iliotibialis (Gerdy-Höcker): Tractus iliotibialis"
+      ],
+      "baender": ["Kreuzbänder und Menisken (Area intercondylaris)", "Lig. collaterale tibiale", "Lig. patellae", "Membrana interossea cruris", "Lig. deltoideum (vom Malleolus medialis)"],
+      "tastbar": ["Tuberositas tibiae", "Schienbeinkante und Innenfläche (direkt unter der Haut)", "Malleolus medialis", "Ränder des Tibiaplateaus am Gelenkspalt"]
+    },
+    "Fibula": {
+      "jahr": 1,
+      "kurz": "Dünner, außen liegender Unterschenkelknochen. Trägt wenig Last, dient vor allem als Ursprung für Muskeln und bildet mit dem Außenknöchel die seitliche Wand der Sprunggelenksgabel.",
+      "lage": "Außenseite (lateral) des Unterschenkels.",
+      "form": "Röhrenknochen (Os longum), schlank.",
+      "markierungen": ["Caput fibulae (Wadenbeinkopf) mit Apex", "Collum fibulae", "Malleolus lateralis (Außenknöchel); reicht weiter nach unten als der Innenknöchel", "Fossa malleoli lateralis"],
+      "gelenke": ["Proximales Tibiofibulargelenk", "Distale Syndesmose", "Oberes Sprunggelenk (Malleolengabel)"],
+      "muskeln": [
+        "Caput fibulae: M. biceps femoris",
+        "Seitenfläche: M. fibularis longus und brevis",
+        "Vorderfläche: M. extensor digitorum longus, M. extensor hallucis longus",
+        "Rückseite: Teile von M. soleus, M. flexor hallucis longus, M. tibialis posterior"
+      ],
+      "baender": ["Lig. collaterale fibulare (am Caput fibulae)", "Außenbänder des Sprunggelenks: Lig. talofibulare anterius und posterius, Lig. calcaneofibulare", "Ligg. tibiofibularia", "Membrana interossea cruris"],
+      "tastbar": ["Caput fibulae: seitlich unterhalb des Kniegelenks", "Malleolus lateralis"],
+      "praxis": "Der N. fibularis communis zieht um das Collum fibulae herum und kann dort durch Druck (z. B. Gips, Lagerung) geschädigt werden."
+    },
+    "Talus": {
+      "jahr": 1,
+      "kurz": "Verbindet Unterschenkel und Fuß. Überträgt das Körpergewicht auf Fersenbein und Fußgewölbe. Am Talus setzen keine Muskeln an.",
+      "lage": "Oberster Fußwurzelknochen, in der Malleolengabel.",
+      "form": "Kurzer Knochen (Os breve).",
+      "markierungen": ["Trochlea tali (Sprungbeinrolle): vorn breiter als hinten", "Caput, Collum und Corpus tali", "Processus posterior und lateralis tali", "Sulcus tali"],
+      "gelenke": ["Oberes Sprunggelenk (Articulatio talocruralis)", "Unteres Sprunggelenk (Articulatio subtalaris und Articulatio talocalcaneonavicularis)"],
+      "muskeln": ["Keine Muskelansätze. Die Sehne des M. flexor hallucis longus läuft in einer Rinne an der Rückseite."],
+      "baender": ["Außenbänder (Lig. talofibulare anterius und posterius)", "Lig. deltoideum", "Lig. talocalcaneum interosseum"],
+      "praxis": "Weil die Trochlea vorn breiter ist, sitzt sie in Dorsalextension fest in der Malleolengabel; in Plantarflexion ist das obere Sprunggelenk weniger stabil."
+    },
+    "Calcaneus": {
+      "jahr": 1,
+      "kurz": "Größter Fußwurzelknochen. Bildet die Ferse und ist hinterer Stützpunkt des Fußgewölbes.",
+      "lage": "Fußwurzel, unter dem Talus.",
+      "form": "Kurzer Knochen (Os breve).",
+      "markierungen": ["Tuber calcanei (Fersenbeinhöcker)", "Sustentaculum tali (Stütze für den Talus, innen)", "Trochlea fibularis (außen)", "Sulcus calcanei, Sinus tarsi"],
+      "gelenke": ["Unteres Sprunggelenk", "Articulatio calcaneocuboidea"],
+      "muskeln": [
+        "Tuber calcanei: M. triceps surae über die Achillessehne (Tendo calcaneus)",
+        "Unterseite des Tuber: Ursprung von M. abductor hallucis, M. flexor digitorum brevis, M. abductor digiti minimi"
+      ],
+      "baender": ["Plantaraponeurose (Ursprung am Tuber)", "Lig. calcaneonaviculare plantare (Pfannenband) vom Sustentaculum tali", "Lig. calcaneofibulare", "Lig. plantare longum"],
+      "tastbar": ["Tuber calcanei", "Sustentaculum tali: etwa eine Fingerbreite unter dem Innenknöchel", "Trochlea fibularis: unter dem Außenknöchel"]
+    },
+    "Navicular bone": {
+      "jahr": 1,
+      "kurz": "Kahnförmiger Fußwurzelknochen auf der Innenseite; Schlussstein des inneren Längsgewölbes.",
+      "lage": "Innere Fußwurzel, zwischen Taluskopf und den drei Keilbeinen.",
+      "form": "Kurzer Knochen (Os breve).",
+      "markierungen": ["Tuberositas ossis navicularis (innen)"],
+      "gelenke": ["Articulatio talocalcaneonavicularis (Teil des unteren Sprunggelenks)", "Articulatio cuneonavicularis"],
+      "muskeln": ["Tuberositas ossis navicularis: Hauptansatz des M. tibialis posterior"],
+      "baender": ["Lig. calcaneonaviculare plantare (Pfannenband)", "Lig. bifurcatum (Pars calcaneonavicularis)"],
+      "tastbar": ["Tuberositas ossis navicularis: vor und unter dem Innenknöchel"]
+    },
+    "Cuboid bone": {
+      "jahr": 1,
+      "kurz": "Würfelförmiger Fußwurzelknochen auf der Außenseite des Fußes.",
+      "lage": "Äußere Fußwurzel, zwischen Calcaneus und 4./5. Mittelfußknochen.",
+      "form": "Kurzer Knochen (Os breve).",
+      "markierungen": ["Sulcus tendinis musculi fibularis longi (Unterseite)", "Tuberositas ossis cuboidei"],
+      "gelenke": ["Articulatio calcaneocuboidea", "Tarsometatarsalgelenke IV und V"],
+      "muskeln": ["Die Sehne des M. fibularis longus läuft in der Rinne an der Unterseite zur Fußinnenseite."]
+    },
+    "Medial cuneiform bone": {
+      "jahr": 1,
+      "kurz": "Größtes der drei Keilbeine; verbindet Kahnbein und 1. Mittelfußknochen.",
+      "lage": "Innere Fußwurzel.",
+      "form": "Kurzer Knochen (Os breve).",
+      "gelenke": ["Articulatio cuneonavicularis", "Tarsometatarsalgelenk I"],
+      "muskeln": ["M. tibialis anterior und M. fibularis longus (beide zusammen mit der Basis des 1. Mittelfußknochens)"]
+    },
+    "Intermediate cuneiform bone": {
+      "jahr": 1,
+      "kurz": "Kleinstes der drei Keilbeine.",
+      "lage": "Fußwurzel, zwischen innerem und äußerem Keilbein.",
+      "form": "Kurzer Knochen (Os breve).",
+      "gelenke": ["Articulatio cuneonavicularis", "Tarsometatarsalgelenk II"]
+    },
+    "Lateral cuneiform bone": {
+      "jahr": 1,
+      "kurz": "Äußeres der drei Keilbeine.",
+      "lage": "Fußwurzel, zwischen mittlerem Keilbein und Würfelbein.",
+      "form": "Kurzer Knochen (Os breve).",
+      "gelenke": ["Articulatio cuneonavicularis", "Tarsometatarsalgelenk III"]
+    },
+    "Clavicle": {
+      "jahr": 1,
+      "kurz": "S-förmiger Knochen, der den Arm wie eine Strebe auf Abstand zum Rumpf hält. Einzige knöcherne Verbindung zwischen Arm und Rumpf.",
+      "lage": "Vorn am Schultergürtel, zwischen Brustbein und Schulterhöhe (Akromion).",
+      "form": "Röhrenknochen (Os longum), S-förmig.",
+      "markierungen": ["Extremitas sternalis (zum Brustbein)", "Extremitas acromialis (zum Akromion)", "Tuberculum conoideum und Linea trapezoidea (Unterseite)", "Sulcus musculi subclavii"],
+      "gelenke": ["Sternoklavikulargelenk (Articulatio sternoclavicularis)", "Akromioklavikulargelenk (Articulatio acromioclavicularis)"],
+      "muskeln": [
+        "M. sternocleidomastoideus (Caput claviculare)",
+        "M. pectoralis major (Pars clavicularis, innere Hälfte)",
+        "M. deltoideus (Pars clavicularis, äußeres Drittel)",
+        "M. trapezius (Pars descendens, äußeres Drittel)",
+        "M. subclavius (Unterseite)"
+      ],
+      "baender": ["Lig. coracoclaviculare (Lig. conoideum und Lig. trapezoideum)", "Lig. costoclaviculare", "Lig. acromioclaviculare", "Ligg. sternoclavicularia"],
+      "tastbar": ["In ganzer Länge direkt unter der Haut"]
+    },
+    "Scapula": {
+      "jahr": 1,
+      "kurz": "Platter, dreieckiger Knochen auf der Rückseite des Brustkorbs. Trägt die Schulterpfanne und ist Ursprung und Ansatz vieler Schultermuskeln. Gleitet auf dem Brustkorb und vergrößert so den Bewegungsumfang des Arms.",
+      "lage": "Hinten am Brustkorb, etwa auf Höhe der 2. bis 7. Rippe.",
+      "form": "Platter Knochen (Os planum).",
+      "markierungen": [
+        "Spina scapulae (Schulterblattgräte) mit Acromion",
+        "Processus coracoideus (Rabenschnabelfortsatz)",
+        "Cavitas glenoidalis (Schulterpfanne)",
+        "Fossa supraspinata, Fossa infraspinata, Fossa subscapularis",
+        "Margo medialis, lateralis und superior; Angulus superior, inferior und lateralis",
+        "Tuberculum supraglenoidale und infraglenoidale",
+        "Incisura scapulae"
+      ],
+      "gelenke": ["Schultergelenk (Articulatio humeri, glenohumeral)", "Akromioklavikulargelenk", "Skapulothorakale Gleitschicht (kein echtes Gelenk)"],
+      "muskeln": [
+        "Rotatorenmanschette: M. supraspinatus (Fossa supraspinata), M. infraspinatus (Fossa infraspinata), M. teres minor (Margo lateralis), M. subscapularis (Fossa subscapularis)",
+        "M. teres major: nahe dem Angulus inferior",
+        "M. deltoideus: Ursprung an Spina scapulae und Acromion",
+        "M. trapezius: Ansatz an Spina scapulae und Acromion",
+        "Mm. rhomboidei und M. serratus anterior: Margo medialis",
+        "M. levator scapulae: Angulus superior",
+        "Processus coracoideus: M. pectoralis minor, M. coracobrachialis, Caput breve des M. biceps brachii",
+        "Tuberculum supraglenoidale: Caput longum des M. biceps brachii",
+        "Tuberculum infraglenoidale: Caput longum des M. triceps brachii"
+      ],
+      "baender": ["Lig. coracoacromiale (Schulterdach)", "Lig. coracohumerale", "Ligg. glenohumeralia", "Labrum glenoidale", "Lig. coracoclaviculare"],
+      "tastbar": ["Spina scapulae und Acromion", "Margo medialis und Angulus inferior", "Processus coracoideus: unterhalb des äußeren Schlüsselbeindrittels in der Mohrenheim-Grube"]
+    },
+    "Humerus": {
+      "jahr": 1,
+      "kurz": "Röhrenknochen des Oberarms. Verbindet Schulter- und Ellenbogengelenk und ist Hebel für Schulter- und Armmuskeln.",
+      "lage": "Oberarm.",
+      "form": "Röhrenknochen (Os longum).",
+      "markierungen": [
+        "Caput humeri, Collum anatomicum, Collum chirurgicum",
+        "Tuberculum majus und minus mit Crista tuberculi majoris und minoris",
+        "Sulcus intertubercularis (Rinne für die lange Bizepssehne)",
+        "Tuberositas deltoidea",
+        "Sulcus nervi radialis",
+        "Epicondylus medialis und lateralis; Sulcus nervi ulnaris hinter dem Epicondylus medialis",
+        "Trochlea humeri und Capitulum humeri",
+        "Fossa olecrani (hinten), Fossa coronoidea und Fossa radialis (vorn)"
+      ],
+      "gelenke": ["Schultergelenk (Articulatio humeri)", "Ellenbogengelenk (Articulatio cubiti): Articulatio humeroulnaris und humeroradialis"],
+      "muskeln": [
+        "Tuberculum majus: M. supraspinatus, M. infraspinatus, M. teres minor",
+        "Tuberculum minus: M. subscapularis",
+        "Crista tuberculi majoris: M. pectoralis major",
+        "Crista tuberculi minoris: M. latissimus dorsi und M. teres major",
+        "Tuberositas deltoidea: M. deltoideus",
+        "Schaftmitte innen: M. coracobrachialis",
+        "Vorderseite distal: Ursprung des M. brachialis",
+        "Rückseite: Ursprung von Caput laterale und mediale des M. triceps brachii",
+        "Epicondylus lateralis und Leiste darüber: Hand- und Fingerstrecker, M. brachioradialis, M. extensor carpi radialis longus",
+        "Epicondylus medialis: Hand- und Fingerbeuger, M. pronator teres"
+      ],
+      "baender": ["Lig. coracohumerale und Ligg. glenohumeralia (Schulter)", "Lig. collaterale ulnare und radiale (Ellenbogen)"],
+      "tastbar": ["Tuberculum majus und minus, Sulcus intertubercularis (unter dem Deltamuskel, am besten bei Rotation)", "Epicondylus medialis und lateralis", "N. ulnaris im Sulcus nervi ulnaris („Musikantenknochen“)"],
+      "praxis": "Am Collum chirurgicum brechen Oberarme häufig; dort verläuft der N. axillaris. Der N. radialis liegt im Sulcus nervi radialis direkt am Schaft."
+    },
+    "Radius": {
+      "jahr": 1,
+      "kurz": "Unterarmknochen auf der Daumenseite. Dreht sich bei Pronation und Supination um die Elle und trägt den Hauptteil des Handgelenks.",
+      "lage": "Unterarm, außen (lateral, Daumenseite).",
+      "form": "Röhrenknochen (Os longum).",
+      "markierungen": ["Caput radii mit Circumferentia articularis", "Collum radii", "Tuberositas radii", "Processus styloideus radii", "Tuberculum dorsale (Lister-Höcker)", "Incisura ulnaris"],
+      "gelenke": ["Articulatio humeroradialis (Ellenbogen)", "Proximales und distales Radioulnargelenk", "Proximales Handgelenk (Articulatio radiocarpalis)"],
+      "muskeln": [
+        "Tuberositas radii: M. biceps brachii",
+        "Oberer Schaft: M. supinator",
+        "Schaftmitte außen: M. pronator teres",
+        "Distal vorn: M. pronator quadratus",
+        "Processus styloideus: M. brachioradialis",
+        "Vorderseite: Ursprung des M. flexor pollicis longus; Rückseite: Ursprünge von M. abductor pollicis longus und M. extensor pollicis brevis"
+      ],
+      "baender": ["Lig. anulare radii (Ringband um den Speichenkopf)", "Membrana interossea antebrachii", "Bänder des Handgelenks"],
+      "tastbar": ["Caput radii: unterhalb des Epicondylus lateralis, dreht sich bei Umwendbewegungen", "Processus styloideus radii", "Tuberculum dorsale"]
+    },
+    "Ulna": {
+      "jahr": 1,
+      "kurz": "Unterarmknochen auf der Kleinfingerseite. Bildet mit dem Olecranon den Hauptteil des Ellenbogengelenks.",
+      "lage": "Unterarm, innen (medial, Kleinfingerseite).",
+      "form": "Röhrenknochen (Os longum).",
+      "markierungen": ["Olecranon (Ellenhaken)", "Processus coronoideus", "Incisura trochlearis und Incisura radialis", "Tuberositas ulnae", "Margo posterior", "Caput ulnae, Processus styloideus ulnae"],
+      "gelenke": ["Articulatio humeroulnaris (Ellenbogen)", "Proximales und distales Radioulnargelenk"],
+      "muskeln": [
+        "Olecranon: M. triceps brachii",
+        "Tuberositas ulnae: M. brachialis",
+        "M. anconeus (Außenseite des Olecranon)",
+        "Ursprünge: M. flexor carpi ulnaris (Caput ulnare), M. flexor digitorum profundus, M. supinator (Crista musculi supinatoris), M. pronator quadratus"
+      ],
+      "baender": ["Lig. collaterale ulnare", "Lig. anulare radii (an der Ulna befestigt)", "Discus articularis des distalen Radioulnargelenks", "Membrana interossea antebrachii"],
+      "tastbar": ["Olecranon", "Margo posterior in ganzer Länge", "Caput ulnae und Processus styloideus ulnae am Handgelenk"]
+    },
+    "Scaphoid bone": {
+      "jahr": 1,
+      "kurz": "Größter Knochen der proximalen Handwurzelreihe auf der Daumenseite.",
+      "lage": "Proximale Handwurzelreihe, ganz radial.",
+      "form": "Kurzer Knochen (Os breve).",
+      "markierungen": ["Tuberculum ossis scaphoidei"],
+      "gelenke": ["Proximales Handgelenk (Articulatio radiocarpalis)", "Mediokarpalgelenk"],
+      "baender": ["Retinaculum musculorum flexorum (über das Tuberculum)"],
+      "tastbar": ["In der „Tabatière“ (Grube zwischen den Daumensehnen) bei Ulnarabduktion"],
+      "praxis": "Häufigster Handwurzelknochenbruch, typischerweise nach Sturz auf die ausgestreckte Hand."
+    },
+    "Lunate bone": {"jahr": 1, "kurz": "Mondförmiger Knochen der proximalen Handwurzelreihe.", "lage": "Proximale Reihe, zwischen Kahnbein und Dreiecksbein.", "form": "Kurzer Knochen (Os breve).", "gelenke": ["Proximales Handgelenk", "Mediokarpalgelenk"]},
+    "Triquetrum bone": {"jahr": 1, "kurz": "Dreieckiger Knochen der proximalen Handwurzelreihe.", "lage": "Proximale Reihe, ulnar.", "form": "Kurzer Knochen (Os breve).", "gelenke": ["Mediokarpalgelenk", "Gelenk mit dem Erbsenbein"]},
+    "Pisiform bone": {"jahr": 1, "kurz": "Kleines Sesambein in der Sehne des M. flexor carpi ulnaris.", "lage": "Auf der Hohlhandseite des Dreiecksbeins.", "form": "Sesambein (Os sesamoideum).", "muskeln": ["M. flexor carpi ulnaris"], "baender": ["Retinaculum musculorum flexorum"], "tastbar": ["Am ulnaren Rand der Handwurzel auf der Beugeseite"]},
+    "Trapezium bone": {"jahr": 1, "kurz": "Bildet mit dem 1. Mittelhandknochen das Sattelgelenk des Daumens.", "lage": "Distale Handwurzelreihe, radial.", "form": "Kurzer Knochen (Os breve).", "gelenke": ["Daumensattelgelenk (Articulatio carpometacarpalis pollicis)"], "baender": ["Retinaculum musculorum flexorum"]},
+    "Trapezoid bone": {"jahr": 1, "kurz": "Kleiner Knochen der distalen Handwurzelreihe.", "lage": "Distale Reihe, zwischen großem Vieleckbein und Kopfbein.", "form": "Kurzer Knochen (Os breve).", "gelenke": ["Karpometakarpalgelenk II"]},
+    "Capitate bone": {"jahr": 1, "kurz": "Größter Handwurzelknochen, liegt in der Mitte der Handwurzel.", "lage": "Distale Reihe, Mitte.", "form": "Kurzer Knochen (Os breve).", "gelenke": ["Mediokarpalgelenk", "Karpometakarpalgelenk III"]},
+    "Hamate bone": {"jahr": 1, "kurz": "Handwurzelknochen mit einem Haken (Hamulus) auf der Hohlhandseite.", "lage": "Distale Reihe, ulnar.", "form": "Kurzer Knochen (Os breve).", "markierungen": ["Hamulus ossis hamati"], "gelenke": ["Karpometakarpalgelenke IV und V"], "baender": ["Retinaculum musculorum flexorum"]},
+    "Sacrum": {
+      "jahr": 1,
+      "kurz": "Aus fünf verschmolzenen Kreuzbeinwirbeln. Verbindet die Wirbelsäule mit dem Becken und überträgt die Rumpflast über die Iliosakralgelenke auf die Hüftbeine.",
+      "lage": "Hinterer Teil des Beckenrings, zwischen den beiden Hüftbeinen.",
+      "form": "Unregelmäßiger Knochen (Os irregulare), keilförmig.",
+      "markierungen": ["Basis ossis sacri mit Promontorium", "Apex ossis sacri", "Facies auricularis (Gelenkfläche zum Darmbein)", "Foramina sacralia anteriora und posteriora", "Crista sacralis mediana", "Hiatus sacralis", "Canalis sacralis"],
+      "gelenke": ["Iliosakralgelenk (ISG)", "Lumbosakralübergang (L5/S1)", "Verbindung zum Steißbein"],
+      "muskeln": ["Vorderseite: M. piriformis", "Rückseite: M. erector spinae, M. multifidus, Teil des M. gluteus maximus"],
+      "baender": ["Ligg. sacroiliaca anteriora, interossea und posteriora", "Lig. sacrotuberale und Lig. sacrospinale"],
+      "tastbar": ["Crista sacralis mediana", "Hiatus sacralis am unteren Ende"]
+    },
+    "Coccyx": {
+      "jahr": 1,
+      "kurz": "Rest einer Schwanzwirbelsäule aus mehreren kleinen, verschmolzenen Wirbeln. Ansatzpunkt für Beckenbodenmuskeln und Bänder.",
+      "lage": "Unteres Ende der Wirbelsäule, unter dem Kreuzbein.",
+      "form": "Unregelmäßiger Knochen (Os irregulare).",
+      "muskeln": ["M. coccygeus", "M. levator ani (über das Lig. anococcygeum)", "Teil des M. gluteus maximus"],
+      "tastbar": ["Spitze in der Gesäßfalte"],
+      "offen": ["Anzahl der Steißwirbel (je nach Quelle 3–5 bzw. 4)"]
+    },
+    "Atlas (C1)": {
+      "jahr": 1,
+      "kurz": "Erster Halswirbel. Trägt den Kopf. Hat keinen Wirbelkörper, sondern einen vorderen und hinteren Bogen mit zwei Seitenmassen.",
+      "lage": "Oberster Wirbel, direkt unter dem Hinterhauptsbein.",
+      "form": "Unregelmäßiger Knochen (Os irregulare), ringförmig.",
+      "markierungen": ["Arcus anterior mit Tuberculum anterius und Gelenkfläche für den Dens", "Arcus posterior mit Tuberculum posterius", "Massae laterales mit oberen und unteren Gelenkflächen", "Foramen transversarium (für die A. vertebralis)"],
+      "gelenke": ["Oberes Kopfgelenk (Articulatio atlantooccipitalis): vor allem Nicken", "Unteres Kopfgelenk (Articulationes atlantoaxiales): vor allem Drehen"],
+      "baender": ["Lig. transversum atlantis (hält den Dens)", "Membrana atlantooccipitalis anterior und posterior"],
+      "tastbar": ["Querfortsatz zwischen Warzenfortsatz und Unterkieferwinkel (vorsichtig)"]
+    },
+    "Axis (C2)": {
+      "jahr": 1,
+      "kurz": "Zweiter Halswirbel mit dem Dens axis, um den sich der Atlas mit dem Kopf dreht.",
+      "lage": "Unter dem Atlas.",
+      "form": "Unregelmäßiger Knochen (Os irregulare).",
+      "markierungen": ["Dens axis", "Kräftiger Dornfortsatz"],
+      "gelenke": ["Unteres Kopfgelenk (Articulationes atlantoaxiales)", "Wirbelbogengelenke zu C3"],
+      "baender": ["Lig. transversum atlantis", "Ligg. alaria", "Lig. apicis dentis"],
+      "tastbar": ["Dornfortsatz: erster deutlich tastbarer Dornfortsatz unter dem Hinterhaupt"]
+    },
+    "Manubrium of sternum": {
+      "jahr": 1,
+      "kurz": "Oberer Teil des Brustbeins. Gelenkt mit beiden Schlüsselbeinen und der 1. Rippe.",
+      "lage": "Vorn oben am Brustkorb.",
+      "form": "Platter Knochen (Os planum).",
+      "markierungen": ["Incisura jugularis (Drosselgrube)", "Incisura clavicularis", "Angulus sterni (Übergang zum Brustbeinkörper)"],
+      "gelenke": ["Sternoklavikulargelenk", "Verbindung mit der 1. und Teil der 2. Rippe"],
+      "muskeln": ["M. sternocleidomastoideus (Caput sternale)", "M. pectoralis major (Pars sternocostalis)", "Rückseite: M. sternohyoideus, M. sternothyroideus"],
+      "tastbar": ["Incisura jugularis", "Angulus sterni: dort setzt die 2. Rippe an, Ausgangspunkt zum Abzählen der Rippen"]
+    },
+    "Body of sternum": {
+      "jahr": 1,
+      "kurz": "Mittlerer, längster Teil des Brustbeins; Ansatz der Rippenknorpel.",
+      "lage": "Vorn in der Mitte des Brustkorbs.",
+      "form": "Platter Knochen (Os planum).",
+      "markierungen": ["Incisurae costales (Einkerbungen für die Rippenknorpel)", "Angulus sterni"],
+      "gelenke": ["Articulationes sternocostales (Brustbein-Rippen-Gelenke)"],
+      "muskeln": ["M. pectoralis major (Pars sternocostalis)", "Rückseite: M. transversus thoracis"],
+      "tastbar": ["Ganze Vorderfläche"]
+    },
+    "Xiphoid process": {
+      "jahr": 1,
+      "kurz": "Unterster, kleiner Teil des Brustbeins; lange knorpelig.",
+      "lage": "Unteres Ende des Brustbeins, im Winkel zwischen den Rippenbögen.",
+      "form": "Platter Knochen, teils knorpelig.",
+      "muskeln": ["Zwerchfell (Pars sternalis)", "M. rectus abdominis (zusammen mit den Rippenknorpeln 5–7)"],
+      "tastbar": ["Spitze im Winkel der Rippenbögen (Angulus infrasternalis)"]
+    },
+    "Mandible": {
+      "jahr": 2,
+      "kurz": "Einziger beweglicher Schädelknochen. Trägt die unteren Zähne und bildet mit dem Schläfenbein das Kiefergelenk.",
+      "lage": "Unterer Gesichtsschädel.",
+      "form": "Unregelmäßiger Knochen (Os irregulare).",
+      "markierungen": ["Corpus und Ramus mandibulae", "Angulus mandibulae", "Processus condylaris (Gelenkfortsatz) und Processus coronoideus", "Protuberantia mentalis, Foramen mentale"],
+      "gelenke": ["Kiefergelenk (Articulatio temporomandibularis)"],
+      "muskeln": ["M. masseter (Außenseite von Ramus und Angulus)", "M. temporalis (Processus coronoideus)", "M. pterygoideus medialis (Innenseite des Angulus)", "M. pterygoideus lateralis (Processus condylaris und Diskus)"],
+      "tastbar": ["Unterkieferrand und -winkel", "Kieferköpfchen vor dem Ohr beim Öffnen und Schließen des Mundes"]
+    },
+    "Temporal bone": {
+      "jahr": 2,
+      "kurz": "Seitlicher Schädelknochen. Enthält Mittel- und Innenohr und trägt die Gelenkgrube des Kiefergelenks.",
+      "lage": "Seitliche Schädelwand und Schädelbasis.",
+      "form": "Unregelmäßiger, teils lufthaltiger Knochen.",
+      "markierungen": ["Processus mastoideus (Warzenfortsatz)", "Processus styloideus", "Fossa mandibularis", "Meatus acusticus externus", "Pars petrosa (Felsenbein)"],
+      "gelenke": ["Kiefergelenk", "Schädelnähte"],
+      "muskeln": ["Processus mastoideus: M. sternocleidomastoideus", "Schläfengrube: Ursprung des M. temporalis"],
+      "tastbar": ["Processus mastoideus hinter dem Ohr"]
+    },
+    "Occipital bone": {
+      "jahr": 2,
+      "kurz": "Hinterer Schädelknochen mit dem Hinterhauptsloch, durch das das Rückenmark in den Schädel zieht.",
+      "lage": "Hinterkopf und hintere Schädelbasis.",
+      "form": "Platter Knochen (Os planum).",
+      "markierungen": ["Foramen magnum", "Condyli occipitales", "Protuberantia occipitalis externa", "Linea nuchalis superior und inferior"],
+      "gelenke": ["Oberes Kopfgelenk (Articulatio atlantooccipitalis)", "Schädelnähte"],
+      "muskeln": ["Linea nuchalis superior und Protuberantia: M. trapezius (Pars descendens)", "Nackenmuskeln, z. B. M. semispinalis capitis"],
+      "baender": ["Lig. nuchae"],
+      "tastbar": ["Protuberantia occipitalis externa", "Linea nuchalis superior"]
+    },
+    "Hyoid bone": {
+      "jahr": 2,
+      "kurz": "U-förmiger Knochen am Hals, der mit keinem anderen Knochen gelenkig verbunden ist. Ansatzpunkt für Zungen-, Mundboden- und Halsmuskeln.",
+      "lage": "Vorderer Hals, über dem Kehlkopf.",
+      "form": "Unregelmäßiger Knochen.",
+      "muskeln": ["Obere Zungenbeinmuskeln (suprahyoidale Muskulatur)", "Untere Zungenbeinmuskeln (infrahyoidale Muskulatur)"],
+      "tastbar": ["Über dem Schildknorpel, bewegt sich beim Schlucken"]
+    },
+    "Malleus": {"jahr": 2, "kurz": "Gehörknöchelchen; nimmt die Schwingungen des Trommelfells auf.", "lage": "Mittelohr (Paukenhöhle).", "form": "Kleiner, unregelmäßiger Knochen.", "muskeln": ["M. tensor tympani"]},
+    "Incus": {"jahr": 2, "kurz": "Gehörknöchelchen zwischen Hammer und Steigbügel.", "lage": "Mittelohr (Paukenhöhle).", "form": "Kleiner, unregelmäßiger Knochen."},
+    "Stapes": {"jahr": 2, "kurz": "Kleinstes Gehörknöchelchen und kleinster Knochen des Körpers; überträgt den Schall auf das ovale Fenster des Innenohrs.", "lage": "Mittelohr (Paukenhöhle).", "form": "Kleiner, unregelmäßiger Knochen.", "muskeln": ["M. stapedius"]}
+  },
+  "vorlagen": [
+    {"muster": "^Vertebra C[3-6]$", "eintrag": {"jahr": 1, "kurz": "Halswirbel: kleiner Wirbelkörper, großes dreieckiges Wirbelloch und ein Loch im Querfortsatz für die A. vertebralis.", "lage": "Halswirbelsäule (HWS).", "form": "Unregelmäßiger Knochen (Os irregulare).", "markierungen": ["Corpus vertebrae mit Processus uncinati", "Foramen transversarium", "Processus spinosus, oft gespalten", "Processus articulares (Wirbelbogengelenke)"], "gelenke": ["Wirbelbogengelenke (Articulationes zygapophysiales)", "Bandscheiben (Disci intervertebrales)", "Unkovertebralgelenke"]}},
+    {"muster": "^Vertebra C7$", "eintrag": {"jahr": 1, "kurz": "7. Halswirbel (Vertebra prominens) mit langem, nicht gespaltenem Dornfortsatz. Wichtiger Orientierungspunkt am Rücken.", "lage": "Übergang Hals- zu Brustwirbelsäule.", "form": "Unregelmäßiger Knochen (Os irregulare).", "gelenke": ["Wirbelbogengelenke", "Bandscheiben"], "tastbar": ["Dornfortsatz am Übergang Nacken–Rücken; bei Kopfbeugung meist der am weitesten vorstehende"]}},
+    {"muster": "^Vertebra T\\d+$", "eintrag": {"jahr": 1, "kurz": "Brustwirbel: trägt Gelenkflächen für die Rippen; lange, dachziegelartig nach unten geneigte Dornfortsätze.", "lage": "Brustwirbelsäule (BWS).", "form": "Unregelmäßiger Knochen (Os irregulare).", "markierungen": ["Foveae costales am Wirbelkörper (für den Rippenkopf)", "Fovea costalis processus transversi (für das Rippenhöckerchen)", "Processus spinosus"], "gelenke": ["Rippenwirbelgelenke (Articulatio capitis costae, Articulatio costotransversaria)", "Wirbelbogengelenke", "Bandscheiben"]}},
+    {"muster": "^Vertebra L\\d$", "eintrag": {"jahr": 1, "kurz": "Lendenwirbel: größte und kräftigste Wirbel, da sie die meiste Last tragen. Kräftige, waagerechte Dornfortsätze.", "lage": "Lendenwirbelsäule (LWS).", "form": "Unregelmäßiger Knochen (Os irregulare).", "markierungen": ["Großer, nierenförmiger Wirbelkörper", "Processus costalis (Rippenrudiment, „Querfortsatz“)", "Processus mammillaris und accessorius", "Processus spinosus"], "gelenke": ["Wirbelbogengelenke", "Bandscheiben"], "muskeln": ["M. psoas major (Wirbelkörper und Rippenfortsätze)", "M. quadratus lumborum (Rippenfortsätze)", "Autochthone Rückenmuskulatur"]}},
+    {"muster": "^(First|Second|Third|Fourth|Fifth|Sixth|Seventh) rib$", "eintrag": {"jahr": 1, "kurz": "Echte Rippe (Costa vera): über einen eigenen Rippenknorpel direkt mit dem Brustbein verbunden. Bildet mit den anderen Rippen den Brustkorb und bewegt sich bei der Atmung.", "lage": "Brustkorb.", "form": "Platter Knochen (Os planum), gebogen.", "markierungen": ["Caput, Collum und Tuberculum costae", "Corpus costae mit Angulus costae", "Sulcus costae (Rinne für Interkostalgefäße und -nerv)"], "gelenke": ["Rippenwirbelgelenke", "Sternokostalgelenke"], "muskeln": ["Zwischenrippenmuskeln (Mm. intercostales)"]}},
+    {"muster": "^(Eighth|Ninth|Tenth) rib$", "eintrag": {"jahr": 1, "kurz": "Falsche Rippe (Costa spuria): erreicht das Brustbein nur indirekt über den Rippenbogen (Arcus costalis).", "lage": "Unterer Brustkorb.", "form": "Platter Knochen (Os planum), gebogen.", "markierungen": ["Caput, Collum und Tuberculum costae", "Angulus costae", "Sulcus costae"], "gelenke": ["Rippenwirbelgelenke", "Knorpelige Verbindung im Rippenbogen"], "muskeln": ["Zwischenrippenmuskeln", "Bauchmuskeln und Zwerchfell am Rippenbogen"], "tastbar": ["Rippenbogen"]}},
+    {"muster": "^(Eleventh|Twelfth) rib$", "eintrag": {"jahr": 1, "kurz": "Freie Rippe (Costa fluctuans): endet frei in der Bauchwand ohne Verbindung zum Brustbein.", "lage": "Unterster Brustkorb, Flanke.", "form": "Platter Knochen (Os planum), kurz.", "gelenke": ["Rippenwirbelgelenke"], "muskeln": ["Zwerchfell", "M. quadratus lumborum (12. Rippe)"], "tastbar": ["Spitzen seitlich in der Flanke"]}},
+    {"muster": "^Costal cartilage of ", "eintrag": {"jahr": 1, "kurz": "Rippenknorpel aus hyalinem Knorpel. Verbindet die Rippe mit dem Brustbein oder dem Rippenbogen und macht den Brustkorb elastisch.", "lage": "Vorderer Brustkorb.", "form": "Hyaliner Knorpel (kein Knochen)."}},
+    {"muster": "metacarpal bone$", "eintrag": {"jahr": 1, "kurz": "Mittelhandknochen: bildet das Gerüst der Mittelhand zwischen Handwurzel und Fingern.", "lage": "Mittelhand.", "form": "Röhrenknochen (Os longum), klein.", "markierungen": ["Basis (zur Handwurzel)", "Corpus (Schaft)", "Caput (Köpfchen, zu den Fingern)"], "gelenke": ["Karpometakarpalgelenk", "Fingergrundgelenk (Articulatio metacarpophalangea)"], "tastbar": ["Auf dem Handrücken in ganzer Länge; Köpfchen als Knöchel bei Faustschluss"]}},
+    {"muster": "metatarsal bone$", "eintrag": {"jahr": 1, "kurz": "Mittelfußknochen: verbindet Fußwurzel und Zehen und ist Teil der Fußgewölbe.", "lage": "Mittelfuß.", "form": "Röhrenknochen (Os longum), klein.", "markierungen": ["Basis (zur Fußwurzel)", "Corpus (Schaft)", "Caput (Köpfchen, zu den Zehen)"], "gelenke": ["Tarsometatarsalgelenk (Lisfranc-Gelenklinie)", "Zehengrundgelenk (Articulatio metatarsophalangea)"], "tastbar": ["Auf dem Fußrücken"]}},
+    {"muster": "phalanx of .* of hand$", "eintrag": {"jahr": 1, "kurz": "Fingerglied. Daumen: Grund- und Endglied; Finger 2–5: Grund-, Mittel- und Endglied.", "lage": "Finger.", "form": "Röhrenknochen (Os longum), klein.", "gelenke": ["Fingergelenke (Grund-, Mittel- und Endgelenke)"], "tastbar": ["Rundum tastbar"]}},
+    {"muster": "phalanx of .* of foot$", "eintrag": {"jahr": 1, "kurz": "Zehenglied. Großzehe: Grund- und Endglied; Zehen 2–5: Grund-, Mittel- und Endglied.", "lage": "Zehen.", "form": "Röhrenknochen (Os longum), klein.", "gelenke": ["Zehengelenke"], "tastbar": ["Rundum tastbar"]}},
+    {"muster": "^(Upper|Lower) .*(incisor|canine|premolar|molar tooth)$", "eintrag": {"jahr": 3, "kurz": "Zahn. Zähne gehören nicht zum Skelett, sie bestehen aus Zahnschmelz, Dentin und Zement.", "lage": "Ober- bzw. Unterkiefer.", "form": "Zahn (kein Knochen)."}},
+    {"muster": "(Thyroid|Cricoid|Arytenoid|Corniculate) cartilage$", "eintrag": {"jahr": 2, "kurz": "Kehlkopfknorpel; bildet das Gerüst des Kehlkopfs.", "lage": "Vorderer Hals, Kehlkopf.", "form": "Knorpel (kein Knochen)."}},
+    {"muster": "(nasal septal|alar) cartilage", "eintrag": {"jahr": 3, "kurz": "Nasenknorpel; formt die äußere Nase.", "lage": "Nase.", "form": "Knorpel (kein Knochen)."}},
+    {"muster": "^(Frontal|Parietal|Sphenoid|Ethmoid|Nasal|Lacrimal|Palatine|Zygomatic) bone$|^Vomer$|^Maxilla$|^Inferior nasal concha bone$", "eintrag": {"jahr": 2, "kurz": "Schädelknochen. Bildet zusammen mit den anderen Schädelknochen Hirn- und Gesichtsschädel.", "lage": "Schädel.", "form": "Platter oder unregelmäßiger Knochen.", "gelenke": ["Schädelnähte (Suturae)"]}},
+    {"muster": "(cells of ethmoid bone|Sinus of)", "eintrag": {"jahr": 3, "kurz": "Lufthaltiger Raum im Schädelknochen (Nasennebenhöhle).", "lage": "Schädel.", "form": "Hohlraum, mit Schleimhaut ausgekleidet."}},
+    {"muster": "^Sesamoid bones of foot$", "eintrag": {"jahr": 1, "kurz": "Kleine Sesambeine unter dem Großzehengrundgelenk, eingelagert in Sehnen des M. flexor hallucis brevis.", "lage": "Fußsohle unter dem 1. Mittelfußköpfchen.", "form": "Sesambeine (Ossa sesamoidea)."}}
+  ]
+}

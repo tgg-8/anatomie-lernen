@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" font-family="system-ui, sans-serif" font-size="15">
+  <title>Schema: Aufbau eines Röhrenknochens</title>
+  <rect width="520" height="640" fill="#fbfaf7"/>
+  <text x="16" y="28" font-size="17" font-weight="600" fill="#333">Röhrenknochen – Längsschnitt (Schema, nicht maßstabsgetreu)</text>
+  <!-- Gelenkknorpel oben -->
+  <path d="M120 70 Q190 40 260 70 L260 92 Q190 66 120 92 Z" fill="#bfe3f2" stroke="#5aa6c7"/>
+  <!-- obere Epiphyse (Spongiosa) -->
+  <path d="M120 92 Q190 66 260 92 L262 170 L238 205 L144 205 L118 170 Z" fill="#f3dcb8" stroke="#a3845a"/>
+  <g stroke="#c8a676" stroke-width="1.2">
+    <path d="M140 110 L170 190 M160 100 L200 195 M190 95 L215 190 M220 100 L240 180 M135 150 L245 130 M140 175 L240 160"/>
+  </g>
+  <!-- Epiphysenfuge -->
+  <path d="M144 205 L238 205 L236 214 L146 214 Z" fill="#9fd0e6" stroke="#5aa6c7"/>
+  <!-- Diaphyse: Kompakta -->
+  <path d="M146 214 L236 214 L232 470 L150 470 Z" fill="#e7c48f" stroke="#a3845a"/>
+  <!-- Markhöhle -->
+  <path d="M166 222 L216 222 L213 462 L169 462 Z" fill="#f6e27a" stroke="#c9b13b"/>
+  <!-- untere Epiphyse -->
+  <path d="M150 470 L232 470 L262 520 L262 560 Q190 590 118 560 L118 520 Z" fill="#f3dcb8" stroke="#a3845a"/>
+  <g stroke="#c8a676" stroke-width="1.2"><path d="M140 530 L240 510 M135 550 L245 545 M160 480 L150 560 M200 478 L210 570"/></g>
+  <path d="M118 560 Q190 590 262 560 L262 580 Q190 610 118 580 Z" fill="#bfe3f2" stroke="#5aa6c7"/>
+  <!-- Periost -->
+  <path d="M142 214 L138 470 M240 214 L244 470" stroke="#d0574f" stroke-width="3" fill="none"/>
+  <!-- Beschriftungen -->
+  <g fill="#222">
+    <line x1="262" y1="80" x2="320" y2="70" stroke="#666"/><text x="324" y="74">Gelenkknorpel (hyalin)</text>
+    <line x1="245" y1="140" x2="320" y2="130" stroke="#666"/><text x="324" y="134">Spongiosa (Epiphyse)</text>
+    <line x1="238" y1="210" x2="320" y2="200" stroke="#666"/><text x="324" y="204">Epiphysenfuge</text>
+    <line x1="234" y1="300" x2="320" y2="290" stroke="#666"/><text x="324" y="294">Kompakta</text>
+    <line x1="205" y1="340" x2="320" y2="340" stroke="#666"/><text x="324" y="344">Markhöhle</text><text x="324" y="362" font-size="13" fill="#555">(gelbes Knochenmark)</text>
+    <line x1="244" y1="400" x2="320" y2="400" stroke="#d0574f"/><text x="324" y="404" fill="#b0423b">Periost (Knochenhaut)</text>
+    <line x1="262" y1="540" x2="320" y2="540" stroke="#666"/><text x="324" y="544">Epiphyse</text>
+  </g>
+  <g fill="#222" font-size="14">
+    <text x="20" y="160" >Epiphyse</text>
+    <text x="20" y="215">Metaphyse</text>
+    <text x="20" y="345">Diaphyse</text><text x="20" y="363" font-size="12" fill="#555">(Schaft)</text>
+  </g>
+  <text x="16" y="625" font-size="12" fill="#666">Eigenes Schema für „Anatomie lernen“ – CC BY-SA 4.0</text>
+</svg>

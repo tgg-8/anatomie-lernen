@@ -1,0 +1,26 @@
+{
+  "openstax-ap2e": {
+    "titel": "OpenStax: Anatomy and Physiology 2e (2022), Kap. 6–9 (Knochen, Skelett, Gelenke)",
+    "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+    "lizenz": "CC BY 4.0",
+    "art": "Offenes Lehrbuch (englisch) – Referenz für Grundlagenwissen"
+  },
+  "ta2": {
+    "titel": "FIPAT: Terminologia Anatomica, 2. Auflage (TA2, 2019) – lateinische Fachbegriffe, übernommen über die TA2-Tabelle von Z-Anatomy",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "lizenz": "CC BY-SA 4.0 (Tabelle von Z-Anatomy)",
+    "art": "Offizielle anatomische Nomenklatur"
+  },
+  "z-anatomy": {
+    "titel": "Z-Anatomy – The libre 3D atlas of anatomy (Modelle, Namen, Markierungspunkte)",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "lizenz": "CC BY-SA 4.0",
+    "art": "3D-Modell"
+  },
+  "bodyparts3d": {
+    "titel": "BodyParts3D, © The Database Center for Life Science (Grundlage der Z-Anatomy-Modelle)",
+    "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "lizenz": "CC BY 4.0 (früher CC BY-SA 2.1 JP)",
+    "art": "3D-Modell"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+werkzeuge/export/
+tests/bilder/
+.venv/
+Z-Anatomy/
+*.blend
+*.zip
+.DS_Store

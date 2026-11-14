@@ -1,0 +1,184 @@
+/* Gestaltung der App. Farben stehen als Variablen oben, damit Hell/Dunkel
+   nur an einer Stelle definiert wird. */
+:root {
+  --hg: #f4f2ee;          /* Hintergrund der 3D-Szene */
+  --flaeche: #ffffffee;   /* Panels */
+  --flaeche-fest: #ffffff;
+  --text: #1d1f23;
+  --text-leise: #5d6470;
+  --rand: #d9d6cf;
+  --akzent: #e0661b;      /* Hervorhebung der Auswahl */
+  --akzent-text: #a8460a;
+  --knopf: #ffffffdd;
+  --knopf-aktiv: #fbe3d3;
+  --warn-hg: #fff4d6;
+  --warn-text: #7a5600;
+  --schatten: 0 4px 20px rgba(0, 0, 0, 0.12);
+  --sicher-oben: env(safe-area-inset-top, 0px);
+  --sicher-unten: env(safe-area-inset-bottom, 0px);
+  --sicher-links: env(safe-area-inset-left, 0px);
+  --sicher-rechts: env(safe-area-inset-right, 0px);
+  --panel-breite: min(380px, 88vw);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --hg: #16181c; --flaeche: #202329ee; --flaeche-fest: #202329; --text: #eceef1; --text-leise: #a3aab5;
+    --rand: #3a3f47; --akzent: #ff8a3d; --akzent-text: #ffb27f; --knopf: #2a2e35dd; --knopf-aktiv: #4a3426;
+    --warn-hg: #3d3216; --warn-text: #f3d48a; --schatten: 0 4px 20px rgba(0, 0, 0, 0.5); color-scheme: dark;
+  }
+}
+:root[data-theme='dark'] {
+  --hg: #16181c; --flaeche: #202329ee; --flaeche-fest: #202329; --text: #eceef1; --text-leise: #a3aab5;
+  --rand: #3a3f47; --akzent: #ff8a3d; --akzent-text: #ffb27f; --knopf: #2a2e35dd; --knopf-aktiv: #4a3426;
+  --warn-hg: #3d3216; --warn-text: #f3d48a; --schatten: 0 4px 20px rgba(0, 0, 0, 0.5); color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; height: 100%; overflow: hidden; background: var(--hg); color: var(--text);
+  font: 16px/1.45 -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  /* verhindert Safari-Gesten wie Doppeltipp-Zoom und Gummiband-Scrollen */
+  overscroll-behavior: none; touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+#app { position: fixed; inset: 0; }
+#leinwand { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+button, input { font: inherit; color: inherit; }
+
+/* ---------- Knöpfe ---------- */
+.knopf {
+  min-width: 44px; min-height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid var(--rand);
+  background: var(--knopf); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--schatten); cursor: pointer; font-size: 17px; font-weight: 600;
+}
+.knopf.klein { font-size: 15px; font-weight: 500; padding: 0 12px; }
+.knopf[aria-pressed='true'], .knopf.aktiv { background: var(--knopf-aktiv); border-color: var(--akzent); }
+.knopf:active { transform: scale(0.97); }
+
+/* ---------- Kopfleiste ---------- */
+.kopfleiste {
+  position: absolute; z-index: 5; display: flex; gap: 8px; align-items: flex-start;
+  top: calc(10px + var(--sicher-oben)); left: calc(10px + var(--sicher-links)); right: calc(10px + var(--sicher-rechts));
+}
+.suche { position: relative; flex: 1; max-width: 520px; margin: 0 auto; }
+#suchfeld {
+  width: 100%; height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid var(--rand);
+  background: var(--knopf); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: var(--schatten);
+  font-size: 16px; /* >= 16px verhindert Auto-Zoom in Safari */
+}
+.suchergebnisse {
+  position: absolute; left: 0; right: 0; top: 50px; margin: 0; padding: 6px; list-style: none; max-height: 60vh; overflow: auto;
+  background: var(--flaeche-fest); border: 1px solid var(--rand); border-radius: 12px; box-shadow: var(--schatten);
+}
+.suchergebnisse li button {
+  display: block; width: 100%; text-align: left; min-height: 48px; padding: 6px 10px; border: 0; border-radius: 8px; background: none; cursor: pointer;
+}
+.suchergebnisse li button:hover, .suchergebnisse li button:focus { background: var(--knopf-aktiv); outline: none; }
+.klein-leise { font-size: 13px; color: var(--text-leise); }
+.la { font-style: italic; }
+
+/* ---------- Panels ---------- */
+.panel {
+  position: absolute; z-index: 4; width: var(--panel-breite);
+  top: calc(64px + var(--sicher-oben)); bottom: calc(10px + var(--sicher-unten));
+  background: var(--flaeche); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--rand); border-radius: 16px; box-shadow: var(--schatten); display: flex; flex-direction: column; overflow: hidden;
+}
+.panel[hidden] { display: none; }
+.panel-links { left: calc(10px + var(--sicher-links)); }
+.panel-rechts { right: calc(10px + var(--sicher-rechts)); }
+.panel-inhalt { overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 12px 14px 20px; flex: 1; }
+.panel-inhalt[hidden] { display: none; }
+.reiter { display: flex; gap: 4px; padding: 8px; border-bottom: 1px solid var(--rand); }
+.reiter-knopf { flex: 1; min-height: 44px; border: 0; border-radius: 10px; background: none; cursor: pointer; font-weight: 600; }
+.reiter-knopf.aktiv { background: var(--knopf-aktiv); color: var(--akzent-text); }
+.panel-kopf { display: flex; align-items: flex-start; gap: 8px; padding: 12px 12px 8px 14px; border-bottom: 1px solid var(--rand); }
+.panel-kopf h2 { margin: 0; font-size: 21px; line-height: 1.2; }
+.panel-kopf .titelblock { flex: 1; min-width: 0; }
+.schliessen { min-width: 44px; min-height: 44px; border: 0; background: none; font-size: 24px; cursor: pointer; color: var(--text-leise); }
+
+/* Ebenen */
+.ebene { padding: 10px 0; border-bottom: 1px solid var(--rand); }
+.ebene-zeile { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.ebene-zeile .name { flex: 1; font-weight: 600; }
+.ebene.nicht-verfuegbar .name { color: var(--text-leise); font-weight: 500; }
+.ebene input[type='range'] { width: 100%; height: 36px; accent-color: var(--akzent); }
+.schalter { position: relative; width: 52px; height: 32px; flex: none; }
+.schalter input { opacity: 0; width: 100%; height: 100%; position: absolute; margin: 0; cursor: pointer; z-index: 1; }
+.schalter span { position: absolute; inset: 0; border-radius: 16px; background: var(--rand); transition: background 0.15s; }
+.schalter span::after { content: ''; position: absolute; top: 3px; left: 3px; width: 26px; height: 26px; border-radius: 50%; background: #fff; transition: transform 0.15s; box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+.schalter input:checked + span { background: var(--akzent); }
+.schalter input:checked + span::after { transform: translateX(20px); }
+.schalter input:disabled + span { opacity: 0.4; }
+.farbpunkt { width: 14px; height: 14px; border-radius: 50%; flex: none; border: 1px solid rgba(0,0,0,.2); }
+
+/* Baum */
+details { margin: 2px 0; }
+summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 600; list-style: none; }
+summary::before { content: '▸'; width: 20px; color: var(--text-leise); transition: transform 0.15s; }
+details[open] > summary::before { transform: rotate(90deg); }
+details details { margin-left: 14px; }
+details details summary { font-weight: 500; }
+.baum-eintrag { display: flex; align-items: center; gap: 6px; margin-left: 20px; min-height: 44px; border-bottom: 1px solid var(--rand); }
+.baum-eintrag .name { flex: 1; min-width: 0; }
+.baum-eintrag button { min-height: 38px; min-width: 44px; border-radius: 8px; border: 1px solid var(--rand); background: var(--knopf); cursor: pointer; font-size: 14px; }
+
+/* Info-Panel */
+.abzeichen { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 99px; background: var(--knopf-aktiv); margin: 4px 4px 0 0; }
+.abzeichen.warn { background: var(--warn-hg); color: var(--warn-text); }
+.stufen { display: flex; gap: 4px; padding: 8px 12px; border-bottom: 1px solid var(--rand); }
+.stufen button { flex: 1; min-height: 40px; border-radius: 10px; border: 1px solid var(--rand); background: none; cursor: pointer; font-size: 14px; }
+.stufen button.aktiv { background: var(--knopf-aktiv); border-color: var(--akzent); font-weight: 600; }
+.aktionen { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px; border-bottom: 1px solid var(--rand); }
+.aktionen .knopf { box-shadow: none; font-size: 14px; font-weight: 500; min-height: 40px; }
+.feld { margin: 14px 0; }
+.feld h3 { margin: 0 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-leise); }
+.feld p { margin: 0; }
+.feld ul { margin: 0; padding-left: 20px; }
+.feld li { margin: 3px 0; }
+.offen { color: var(--warn-text); background: var(--warn-hg); border-radius: 8px; padding: 6px 10px; font-size: 14px; }
+.markierungsliste { list-style: none; padding: 0 !important; }
+.markierungsliste button { width: 100%; text-align: left; min-height: 44px; border: 0; border-bottom: 1px solid var(--rand); background: none; cursor: pointer; padding: 4px 2px; }
+.markierungsliste button.aktiv { color: var(--akzent-text); font-weight: 600; }
+.schema { width: 100%; border-radius: 10px; border: 1px solid var(--rand); background: #fbfaf7; }
+.hinweis-schema { font-size: 13px; color: var(--text-leise); }
+
+/* ---------- Ansichten ---------- */
+.ansichten {
+  position: absolute; z-index: 3; display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;
+  left: 50%; transform: translateX(-50%); bottom: calc(12px + var(--sicher-unten)); max-width: calc(100vw - 20px);
+}
+
+/* ---------- Beschriftung am Modell ---------- */
+#beschriftungen { position: absolute; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
+.beschriftung { position: absolute; left: 0; top: 0; will-change: transform; }
+.beschriftung .punkt { position: absolute; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: var(--akzent); border: 2px solid #fff; }
+.beschriftung .linie { position: absolute; width: 2px; height: 34px; left: -1px; top: -38px; background: var(--akzent); }
+.beschriftung .kasten {
+  position: absolute; bottom: 38px; transform: translateX(-50%); white-space: nowrap; padding: 6px 10px; border-radius: 10px;
+  background: var(--flaeche-fest); border: 2px solid var(--akzent); box-shadow: var(--schatten); font-size: 15px; font-weight: 600;
+}
+.beschriftung .kasten small { display: block; font-weight: 400; font-style: italic; color: var(--text-leise); font-size: 13px; }
+.beschriftung.markierung .linie, .beschriftung.markierung .punkt { background: #2a7de1; }
+.beschriftung.markierung .kasten { border-color: #2a7de1; font-size: 14px; }
+
+/* ---------- Laden, Dialog ---------- */
+.ladeanzeige {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 14px 20px; border-radius: 12px;
+  background: var(--flaeche-fest); box-shadow: var(--schatten); z-index: 6;
+}
+.ladeanzeige[hidden] { display: none; }
+.dialog { max-width: min(620px, 92vw); max-height: 86vh; border: 1px solid var(--rand); border-radius: 16px; padding: 0; background: var(--flaeche-fest); color: var(--text); box-shadow: var(--schatten); }
+.dialog::backdrop { background: rgba(0, 0, 0, 0.4); }
+.dialog .dialog-inhalt { padding: 18px 22px; overflow: auto; max-height: calc(86vh - 70px); }
+.dialog h2 { margin-top: 0; }
+.dialog .dialog-fuss { padding: 10px 16px; border-top: 1px solid var(--rand); display: flex; justify-content: flex-end; }
+.hinweisbox { background: var(--warn-hg); color: var(--warn-text); padding: 10px 14px; border-radius: 10px; }
+
+/* Hochformat / schmale Bildschirme: Panels als Schubladen von unten */
+@media (max-width: 760px) and (orientation: portrait) {
+  .panel { width: auto; left: calc(8px + var(--sicher-links)); right: calc(8px + var(--sicher-rechts)); top: auto; height: 52vh; }
+  #app.panel-offen .ansichten { bottom: calc(52vh + 20px + var(--sicher-unten)); }
+}

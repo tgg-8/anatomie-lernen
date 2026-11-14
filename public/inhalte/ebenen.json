@@ -1,0 +1,14 @@
+{
+  "_hinweis": "Ebenen von außen nach innen. 'datei' = GLB in public/modelle. 'verfuegbar: false' = folgt in einer späteren Etappe.",
+  "ebenen": [
+    {"id": "haut", "name": "Haut", "datei": "haut.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 0.35, "farbe": "#e8b89a", "etappe": 1},
+    {"id": "unterhaut", "name": "Unterhaut / Fettgewebe", "verfuegbar": false, "etappe": 4, "hinweis": "Nicht in Z-Anatomy enthalten – folgt als schematische Darstellung."},
+    {"id": "faszien", "name": "Faszien", "verfuegbar": false, "etappe": 4},
+    {"id": "muskeln_oberflaechlich", "name": "Oberflächliche Muskeln", "verfuegbar": false, "etappe": 3},
+    {"id": "muskeln_tief", "name": "Tiefe Muskeln", "verfuegbar": false, "etappe": 3},
+    {"id": "baender_gelenke", "name": "Sehnen, Bänder, Kapseln", "datei": "baender_gelenke.glb", "verfuegbar": true, "start_sichtbar": false, "start_deckkraft": 1, "farbe": "#c9d6e3", "etappe": 1},
+    {"id": "knochen", "name": "Knochen und Gelenke", "datei": "knochen.glb", "verfuegbar": true, "start_sichtbar": true, "start_deckkraft": 1, "farbe": "#efe6d2", "etappe": 1},
+    {"id": "nerven_gefaesse", "name": "Nerven und Gefäße", "verfuegbar": false, "etappe": 5},
+    {"id": "organe", "name": "Organe", "verfuegbar": false, "etappe": 6}
+  ]
+}

@@ -1,0 +1,4998 @@
+{
+"ebene": "haut",
+"meshes": [
+{
+"name": "Frontal region.r",
+"ecken": 278,
+"dreiecke": 552,
+"mitte": [
+-0.03457,
+1.64569,
+0.05879
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Frontal region",
+"Head"
+]
+},
+{
+"name": "Frontal region.l",
+"ecken": 278,
+"dreiecke": 552,
+"mitte": [
+0.03457,
+1.64569,
+0.05879
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Frontal region",
+"Head"
+]
+},
+{
+"name": "Mastoid region.r",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.06488,
+1.58587,
+-0.03735
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Occipital region.r",
+"ecken": 174,
+"dreiecke": 344,
+"mitte": [
+-0.03519,
+1.6026,
+-0.07083
+],
+"materialien": [
+"Skin-3",
+"Skin-8",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Parietal region.r",
+"ecken": 254,
+"dreiecke": 504,
+"mitte": [
+-0.03893,
+1.65655,
+-0.03601
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Temporal region.r",
+"ecken": 220,
+"dreiecke": 436,
+"mitte": [
+-0.0706,
+1.62183,
+0.00073
+],
+"materialien": [
+"Skin-2",
+"Skin-5'",
+"Skin-5''",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Mastoid region.l",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.06488,
+1.58587,
+-0.03735
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Occipital region.l",
+"ecken": 174,
+"dreiecke": 344,
+"mitte": [
+0.03519,
+1.6026,
+-0.07083
+],
+"materialien": [
+"Skin-3",
+"Skin-8",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Parietal region.l",
+"ecken": 254,
+"dreiecke": 504,
+"mitte": [
+0.03893,
+1.65655,
+-0.03601
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Temporal region.l",
+"ecken": 220,
+"dreiecke": 436,
+"mitte": [
+0.0706,
+1.62183,
+0.00073
+],
+"materialien": [
+"Skin-2",
+"Skin-5'",
+"Skin-5''",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of epicranium"
+]
+},
+{
+"name": "Cavity of concha.l",
+"ecken": 122,
+"dreiecke": 215,
+"mitte": [
+0.071,
+1.57322,
+-0.00621
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Concha of auricle",
+"Head"
+]
+},
+{
+"name": "Cavity of concha.r",
+"ecken": 122,
+"dreiecke": 215,
+"mitte": [
+-0.071,
+1.57322,
+-0.00621
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Concha of auricle",
+"Head"
+]
+},
+{
+"name": "Concha of auricle.l",
+"ecken": 51,
+"dreiecke": 64,
+"mitte": [
+0.07345,
+1.57813,
+-0.0083
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Concha of auricle",
+"Head"
+]
+},
+{
+"name": "Concha of auricle.r",
+"ecken": 51,
+"dreiecke": 64,
+"mitte": [
+-0.07345,
+1.57813,
+-0.0083
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Concha of auricle",
+"Head"
+]
+},
+{
+"name": "Cymba conchae.l",
+"ecken": 59,
+"dreiecke": 89,
+"mitte": [
+0.07456,
+1.58294,
+-0.00843
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Concha of auricle",
+"Head"
+]
+},
+{
+"name": "Cymba conchae.r",
+"ecken": 59,
+"dreiecke": 89,
+"mitte": [
+-0.07456,
+1.58294,
+-0.00843
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Concha of auricle",
+"Head"
+]
+},
+{
+"name": "Anterior notch of auricle.r",
+"ecken": 38,
+"dreiecke": 49,
+"mitte": [
+-0.07062,
+1.58393,
+0.00051
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Antihelix.r",
+"ecken": 64,
+"dreiecke": 88,
+"mitte": [
+-0.08109,
+1.57876,
+-0.00914
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Antitragus.r",
+"ecken": 29,
+"dreiecke": 39,
+"mitte": [
+-0.07348,
+1.56526,
+-0.00334
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Apex of auricle.r",
+"ecken": 27,
+"dreiecke": 36,
+"mitte": [
+-0.08777,
+1.60474,
+-0.00736
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Auricular region.r",
+"ecken": 148,
+"dreiecke": 296,
+"mitte": [
+-0.06649,
+1.57981,
+-0.00548
+],
+"materialien": [
+"Skin-2",
+"Skin-in",
+"Skin-5'"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Auricular tubercle.r",
+"ecken": 20,
+"dreiecke": 26,
+"mitte": [
+-0.09211,
+1.59003,
+-0.01724
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Crura of antihelix.r",
+"ecken": 69,
+"dreiecke": 92,
+"mitte": [
+-0.0788,
+1.59422,
+-0.00603
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Eminentia conchae.r",
+"ecken": 45,
+"dreiecke": 61,
+"mitte": [
+-0.07005,
+1.57599,
+-0.01145
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Eminentia fossae triangularis.r",
+"ecken": 39,
+"dreiecke": 51,
+"mitte": [
+-0.07797,
+1.59934,
+-0.00362
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Eminentia scaphae.r",
+"ecken": 72,
+"dreiecke": 103,
+"mitte": [
+-0.08045,
+1.58757,
+-0.01433
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Fossa antihelica.r",
+"ecken": 42,
+"dreiecke": 61,
+"mitte": [
+-0.07816,
+1.57926,
+-0.01688
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Helix.r",
+"ecken": 289,
+"dreiecke": 473,
+"mitte": [
+-0.08253,
+1.58248,
+-0.0082
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Intertragic incisure.r",
+"ecken": 46,
+"dreiecke": 71,
+"mitte": [
+-0.068,
+1.56659,
+0.00345
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Lobule of auricle.r",
+"ecken": 128,
+"dreiecke": 219,
+"mitte": [
+-0.0714,
+1.55889,
+-0.00083
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Scapha.r",
+"ecken": 47,
+"dreiecke": 69,
+"mitte": [
+-0.08695,
+1.58838,
+-0.01346
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Tragus.r",
+"ecken": 50,
+"dreiecke": 76,
+"mitte": [
+-0.06913,
+1.57728,
+0.00428
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Triangular fossa.r",
+"ecken": 41,
+"dreiecke": 58,
+"mitte": [
+-0.07765,
+1.59577,
+-0.00373
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Posterior auricular groove.r",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+-0.06614,
+1.58313,
+-0.00962
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Anterior notch of auricle.l",
+"ecken": 38,
+"dreiecke": 49,
+"mitte": [
+0.07062,
+1.58393,
+0.00051
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Antihelix.l",
+"ecken": 64,
+"dreiecke": 88,
+"mitte": [
+0.08109,
+1.57876,
+-0.00914
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Antitragus.l",
+"ecken": 29,
+"dreiecke": 39,
+"mitte": [
+0.07348,
+1.56526,
+-0.00334
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Apex of auricle.l",
+"ecken": 27,
+"dreiecke": 36,
+"mitte": [
+0.08777,
+1.60474,
+-0.00736
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Auricular region.l",
+"ecken": 148,
+"dreiecke": 296,
+"mitte": [
+0.06649,
+1.57981,
+-0.00548
+],
+"materialien": [
+"Skin-2",
+"Skin-in",
+"Skin-5'"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Auricular tubercle.l",
+"ecken": 20,
+"dreiecke": 26,
+"mitte": [
+0.0921,
+1.59003,
+-0.01724
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Crura of antihelix.l",
+"ecken": 69,
+"dreiecke": 92,
+"mitte": [
+0.0788,
+1.59422,
+-0.00603
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Eminentia conchae.l",
+"ecken": 45,
+"dreiecke": 61,
+"mitte": [
+0.07005,
+1.57599,
+-0.01145
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Eminentia fossae triangularis.l",
+"ecken": 39,
+"dreiecke": 51,
+"mitte": [
+0.07797,
+1.59934,
+-0.00362
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Eminentia scaphae.l",
+"ecken": 72,
+"dreiecke": 103,
+"mitte": [
+0.08045,
+1.58757,
+-0.01433
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Fossa antihelica.l",
+"ecken": 42,
+"dreiecke": 61,
+"mitte": [
+0.07816,
+1.57926,
+-0.01688
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Helix.l",
+"ecken": 289,
+"dreiecke": 473,
+"mitte": [
+0.08253,
+1.58248,
+-0.0082
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Intertragic incisure.l",
+"ecken": 46,
+"dreiecke": 71,
+"mitte": [
+0.068,
+1.56659,
+0.00345
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Lobule of auricle.l",
+"ecken": 128,
+"dreiecke": 219,
+"mitte": [
+0.0714,
+1.55889,
+-0.00083
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Scapha.l",
+"ecken": 47,
+"dreiecke": 69,
+"mitte": [
+0.08695,
+1.58838,
+-0.01346
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Tragus.l",
+"ecken": 50,
+"dreiecke": 76,
+"mitte": [
+0.06913,
+1.57728,
+0.00428
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Triangular fossa.l",
+"ecken": 41,
+"dreiecke": 58,
+"mitte": [
+0.07765,
+1.59577,
+-0.00373
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Posterior auricular groove.l",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+0.06614,
+1.58313,
+-0.00962
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Auricular region",
+"Head"
+]
+},
+{
+"name": "Orbital region.r",
+"ecken": 292,
+"dreiecke": 584,
+"mitte": [
+-0.02995,
+1.59443,
+0.07724
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Orbital region"
+]
+},
+{
+"name": "Orbital region.l",
+"ecken": 292,
+"dreiecke": 584,
+"mitte": [
+0.02995,
+1.59443,
+0.07724
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Orbital region"
+]
+},
+{
+"name": "Nasal region.r",
+"ecken": 304,
+"dreiecke": 608,
+"mitte": [
+-0.00848,
+1.57864,
+0.09951
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Nasal region"
+]
+},
+{
+"name": "Nasal region.l",
+"ecken": 304,
+"dreiecke": 608,
+"mitte": [
+0.00848,
+1.57864,
+0.09951
+],
+"materialien": [
+"Skin-5",
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Nasal region"
+]
+},
+{
+"name": "Angle of mouth.r",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.02737,
+1.53099,
+0.08091
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Labial commissure.r",
+"ecken": 72,
+"dreiecke": 140,
+"mitte": [
+-0.01203,
+1.53056,
+0.08741
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Oral region.r",
+"ecken": 338,
+"dreiecke": 672,
+"mitte": [
+-0.01668,
+1.53036,
+0.08867
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Philtrum.r",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.00263,
+1.54273,
+0.0979
+],
+"materialien": [
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Tubercle of upper lip.r",
+"ecken": 12,
+"dreiecke": 20,
+"mitte": [
+-0.00074,
+1.53484,
+0.09783
+],
+"materialien": [
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Angle of mouth.l",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.02737,
+1.53099,
+0.08091
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Labial commissure.l",
+"ecken": 72,
+"dreiecke": 140,
+"mitte": [
+0.01203,
+1.53056,
+0.08741
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Oral region.l",
+"ecken": 338,
+"dreiecke": 672,
+"mitte": [
+0.01668,
+1.53036,
+0.08867
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Philtrum.l",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.00263,
+1.54273,
+0.0979
+],
+"materialien": [
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Tubercle of upper lip.l",
+"ecken": 12,
+"dreiecke": 20,
+"mitte": [
+0.00074,
+1.53484,
+0.09783
+],
+"materialien": [
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Oral region"
+]
+},
+{
+"name": "Buccal region.r",
+"ecken": 216,
+"dreiecke": 428,
+"mitte": [
+-0.0403,
+1.52877,
+0.06363
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Infra-orbital region.r",
+"ecken": 74,
+"dreiecke": 136,
+"mitte": [
+-0.04332,
+1.60369,
+0.02698
+],
+"materialien": [
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Mental region.r",
+"ecken": 106,
+"dreiecke": 208,
+"mitte": [
+-0.01243,
+1.50215,
+0.08031
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Mentolabial sulcus.r",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.00624,
+1.51601,
+0.08864
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Parotideomasseteric region.r",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+-0.05663,
+1.5435,
+0.02516
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Zygomatic region.r",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+-0.0577,
+1.5731,
+0.04366
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Nasolabial sulcus.r",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.02552,
+1.54143,
+0.08407
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Buccal region.l",
+"ecken": 216,
+"dreiecke": 428,
+"mitte": [
+0.0403,
+1.52877,
+0.06363
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Infra-orbital region.l",
+"ecken": 74,
+"dreiecke": 136,
+"mitte": [
+0.04332,
+1.60369,
+0.02698
+],
+"materialien": [
+"Skin-5'",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Mental region.l",
+"ecken": 106,
+"dreiecke": 208,
+"mitte": [
+0.01243,
+1.50215,
+0.08031
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Mentolabial sulcus.l",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.00624,
+1.51601,
+0.08864
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Parotideomasseteric region.l",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+0.05663,
+1.5435,
+0.02516
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Zygomatic region.l",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+0.0577,
+1.5731,
+0.04366
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Nasolabial sulcus.l",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.02552,
+1.54143,
+0.08407
+],
+"materialien": [
+"Skin-5'",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Head",
+"Regions of face"
+]
+},
+{
+"name": "Submandibular triangle.r",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+-0.03624,
+1.50891,
+0.04172
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Suprahyoid region",
+"Trunk"
+]
+},
+{
+"name": "Submental triangle.r",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.0136,
+1.49035,
+0.06491
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Suprahyoid region",
+"Trunk"
+]
+},
+{
+"name": "Submandibular triangle.l",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+0.03624,
+1.50891,
+0.04172
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Suprahyoid region",
+"Trunk"
+]
+},
+{
+"name": "Submental triangle.l",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.0136,
+1.49035,
+0.06491
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Suprahyoid region",
+"Trunk"
+]
+},
+{
+"name": "Carotid triangle.r",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.03237,
+1.49282,
+0.03328
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Infrahyoid region",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Muscular triangle.r",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+-0.01233,
+1.44666,
+0.04505
+],
+"materialien": [
+"Skin-2",
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Infrahyoid region",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Carotid triangle.l",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.03237,
+1.49282,
+0.03328
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Infrahyoid region",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Muscular triangle.l",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+0.01233,
+1.44666,
+0.04505
+],
+"materialien": [
+"Skin-2",
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Infrahyoid region",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Sternocleidomastoid region.r",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+-0.03907,
+1.48248,
+0.01116
+],
+"materialien": [
+"Skin-2",
+"Skin-4",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Sternocleidomastoid region",
+"Trunk"
+]
+},
+{
+"name": "Lesser supraclavicular fossa.r",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+-0.0498,
+1.42919,
+0.0358
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Sternocleidomastoid region",
+"Trunk"
+]
+},
+{
+"name": "Sternocleidomastoid region.l",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+0.03907,
+1.48248,
+0.01116
+],
+"materialien": [
+"Skin-2",
+"Skin-4",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Sternocleidomastoid region",
+"Trunk"
+]
+},
+{
+"name": "Lesser supraclavicular fossa.l",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+0.0498,
+1.42919,
+0.0358
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Sternocleidomastoid region",
+"Trunk"
+]
+},
+{
+"name": "Lateral region of neck.r",
+"ecken": 232,
+"dreiecke": 460,
+"mitte": [
+-0.07567,
+1.48548,
+-0.01081
+],
+"materialien": [
+"Skin-4",
+"Skin-3",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Lateral region of neck",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Greater supraclavicular fossa.r",
+"ecken": 102,
+"dreiecke": 200,
+"mitte": [
+-0.07837,
+1.44954,
+0.00613
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Lateral region of neck",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Lateral region of neck.l",
+"ecken": 232,
+"dreiecke": 460,
+"mitte": [
+0.07567,
+1.48548,
+-0.01081
+],
+"materialien": [
+"Skin-4",
+"Skin-3",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Lateral region of neck",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Greater supraclavicular fossa.l",
+"ecken": 102,
+"dreiecke": 200,
+"mitte": [
+0.07837,
+1.44954,
+0.00613
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Lateral region of neck",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Posterior region of neck.r",
+"ecken": 344,
+"dreiecke": 684,
+"mitte": [
+-0.07259,
+1.49449,
+-0.05566
+],
+"materialien": [
+"Skin-3",
+"Skin-4",
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Regions of neck",
+"Trunk"
+]
+},
+{
+"name": "Posterior region of neck.l",
+"ecken": 344,
+"dreiecke": 684,
+"mitte": [
+0.07259,
+1.49449,
+-0.05566
+],
+"materialien": [
+"Skin-3",
+"Skin-4",
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Neck",
+"Regions of neck",
+"Trunk"
+]
+},
+{
+"name": "Epigastric region.r",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+-0.04063,
+1.15925,
+0.11848
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Epigastric region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Epigastric region.l",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+0.04063,
+1.15925,
+0.11848
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Epigastric region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Umbilical region.r",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+-0.03749,
+1.02706,
+0.11153
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk",
+"Umbilical region"
+]
+},
+{
+"name": "Umbilicus.r",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.00801,
+1.0169,
+0.11419
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk",
+"Umbilical region"
+]
+},
+{
+"name": "Umbilical region.l",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+0.03749,
+1.02706,
+0.11153
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk",
+"Umbilical region"
+]
+},
+{
+"name": "Umbilicus.l",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.00801,
+1.0169,
+0.11419
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk",
+"Umbilical region"
+]
+},
+{
+"name": "Hypochondriac region.r",
+"ecken": 128,
+"dreiecke": 252,
+"mitte": [
+-0.11348,
+1.13384,
+0.03437
+],
+"materialien": [
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Hypogastric region.r",
+"ecken": 150,
+"dreiecke": 296,
+"mitte": [
+-0.035,
+0.89606,
+0.08797
+],
+"materialien": [
+"Skin-2",
+"Skin-1",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Inguinal region.r",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+-0.07545,
+0.89915,
+0.07755
+],
+"materialien": [
+"Skin-2",
+"Skin-7",
+"Skin-1",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Lateral region of abdomen.r",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+-0.11079,
+1.02853,
+0.03053
+],
+"materialien": [
+"Skin-8",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Hypochondriac region.l",
+"ecken": 128,
+"dreiecke": 252,
+"mitte": [
+0.11348,
+1.13384,
+0.03437
+],
+"materialien": [
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Hypogastric region.l",
+"ecken": 150,
+"dreiecke": 296,
+"mitte": [
+0.035,
+0.89606,
+0.08797
+],
+"materialien": [
+"Skin-2",
+"Skin-1",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Inguinal region.l",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+0.07545,
+0.89915,
+0.07755
+],
+"materialien": [
+"Skin-2",
+"Skin-7",
+"Skin-1",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Lateral region of abdomen.l",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+0.11079,
+1.02853,
+0.03053
+],
+"materialien": [
+"Skin-8",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of abdomen",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Lumbar region.r",
+"ecken": 194,
+"dreiecke": 384,
+"mitte": [
+-0.08412,
+1.05038,
+-0.07341
+],
+"materialien": [
+"Skin-7",
+"Skin-1",
+"Skin-8",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Lumbar region.l",
+"ecken": 194,
+"dreiecke": 384,
+"mitte": [
+0.08412,
+1.05038,
+-0.07341
+],
+"materialien": [
+"Skin-7",
+"Skin-1",
+"Skin-8",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Sacral region.r",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+-0.0407,
+0.93295,
+-0.10756
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Sacral region.l",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+0.0407,
+0.93295,
+-0.10756
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Infrascapular region.r",
+"ecken": 242,
+"dreiecke": 480,
+"mitte": [
+-0.08358,
+1.17906,
+-0.08841
+],
+"materialien": [
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Interscapular region.r",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+-0.05336,
+1.35108,
+-0.1173
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Scapular region.r",
+"ecken": 344,
+"dreiecke": 676,
+"mitte": [
+-0.124,
+1.25313,
+-0.0954
+],
+"materialien": [
+"Skin-3",
+"Skin-4",
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Right upper limb",
+"Trunk"
+]
+},
+{
+"name": "Triangle of auscultation.r",
+"ecken": 12,
+"dreiecke": 20,
+"mitte": [
+-0.06691,
+1.29026,
+-0.13211
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Vertebral region.r",
+"ecken": 292,
+"dreiecke": 580,
+"mitte": [
+-0.01635,
+1.2028,
+-0.10815
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Infrascapular region.l",
+"ecken": 242,
+"dreiecke": 480,
+"mitte": [
+0.08358,
+1.17906,
+-0.08841
+],
+"materialien": [
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Interscapular region.l",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+0.05336,
+1.35108,
+-0.1173
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Scapular region.l",
+"ecken": 344,
+"dreiecke": 676,
+"mitte": [
+0.124,
+1.25313,
+-0.0954
+],
+"materialien": [
+"Skin-3",
+"Skin-4",
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Triangle of auscultation.l",
+"ecken": 12,
+"dreiecke": 20,
+"mitte": [
+0.06691,
+1.29026,
+-0.13211
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Vertebral region.l",
+"ecken": 292,
+"dreiecke": 580,
+"mitte": [
+0.01635,
+1.2028,
+-0.10815
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Anal region.r",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+-0.00786,
+0.76144,
+-0.04276
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anal region"
+]
+},
+{
+"name": "Anal region.l",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+0.00786,
+0.76144,
+-0.04276
+],
+"materialien": [
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anal region"
+]
+},
+{
+"name": "Urogenital region.r",
+"ecken": 646,
+"dreiecke": 1284,
+"mitte": [
+-0.01642,
+0.78095,
+0.04732
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of perineum"
+]
+},
+{
+"name": "Urogenital region.l",
+"ecken": 646,
+"dreiecke": 1284,
+"mitte": [
+0.01642,
+0.78095,
+0.04732
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of perineum"
+]
+},
+{
+"name": "Anterior region of arm.r",
+"ecken": 514,
+"dreiecke": 1028,
+"mitte": [
+-0.20894,
+1.22062,
+-0.01026
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of arm",
+"Right upper limb"
+]
+},
+{
+"name": "Lateral bicipital groove.r",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.23038,
+1.21076,
+-0.01061
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of arm",
+"Right upper limb"
+]
+},
+{
+"name": "Medial bicipital groove.r",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.18046,
+1.18744,
+-0.01152
+],
+"materialien": [
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of arm",
+"Right upper limb"
+]
+},
+{
+"name": "Anterior region of arm.l",
+"ecken": 514,
+"dreiecke": 1028,
+"mitte": [
+0.20894,
+1.22062,
+-0.01026
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of arm",
+"Left upper limb"
+]
+},
+{
+"name": "Lateral bicipital groove.l",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.23038,
+1.21076,
+-0.01061
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of arm",
+"Left upper limb"
+]
+},
+{
+"name": "Medial bicipital groove.l",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.18046,
+1.18744,
+-0.01152
+],
+"materialien": [
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of arm",
+"Left upper limb"
+]
+},
+{
+"name": "Posterior region of arm.r",
+"ecken": 458,
+"dreiecke": 912,
+"mitte": [
+-0.20977,
+1.24296,
+-0.073
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Brachial region",
+"Right upper limb"
+]
+},
+{
+"name": "Posterior region of arm.l",
+"ecken": 458,
+"dreiecke": 912,
+"mitte": [
+0.20977,
+1.24296,
+-0.073
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Brachial region",
+"Left upper limb"
+]
+},
+{
+"name": "Anterior region of elbow.r",
+"ecken": 216,
+"dreiecke": 428,
+"mitte": [
+-0.22674,
+1.10844,
+-0.01807
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of elbow",
+"Right upper limb"
+]
+},
+{
+"name": "Anterior region of elbow.l",
+"ecken": 216,
+"dreiecke": 428,
+"mitte": [
+0.22674,
+1.10844,
+-0.01807
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of elbow",
+"Left upper limb"
+]
+},
+{
+"name": "Cubital fossa.r",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+-0.21879,
+1.12467,
+-0.00607
+],
+"materialien": [
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of elbow",
+"Right upper limb"
+]
+},
+{
+"name": "Cubital fossa.l",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+0.21879,
+1.12467,
+-0.00607
+],
+"materialien": [
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of elbow",
+"Left upper limb"
+]
+},
+{
+"name": "Posterior region of elbow.r",
+"ecken": 242,
+"dreiecke": 480,
+"mitte": [
+-0.22605,
+1.10872,
+-0.05569
+],
+"materialien": [
+"Skin-1",
+"Skin-5",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Cubital region",
+"Right upper limb"
+]
+},
+{
+"name": "Posterior region of elbow.l",
+"ecken": 242,
+"dreiecke": 480,
+"mitte": [
+0.22605,
+1.10872,
+-0.05569
+],
+"materialien": [
+"Skin-1",
+"Skin-5",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Cubital region",
+"Left upper limb"
+]
+},
+{
+"name": "Posterior region of forearm.r",
+"ecken": 668,
+"dreiecke": 1332,
+"mitte": [
+-0.23858,
+0.96979,
+-0.02552
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Right upper limb"
+]
+},
+{
+"name": "Lateral border of forearm.r",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+-0.28232,
+0.97841,
+-0.00474
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Right upper limb"
+]
+},
+{
+"name": "Medial border of forearm.r",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+-0.20796,
+0.96781,
+-0.00803
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Right upper limb"
+]
+},
+{
+"name": "Anterior region of forearm.r",
+"ecken": 586,
+"dreiecke": 1168,
+"mitte": [
+-0.23796,
+0.97061,
+0.00627
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-3",
+"Skin-6",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Right upper limb"
+]
+},
+{
+"name": "Posterior region of forearm.l",
+"ecken": 668,
+"dreiecke": 1332,
+"mitte": [
+0.23858,
+0.96979,
+-0.02552
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Left upper limb"
+]
+},
+{
+"name": "Lateral border of forearm.l",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+0.28232,
+0.97841,
+-0.00474
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Left upper limb"
+]
+},
+{
+"name": "Medial border of forearm.l",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+0.20796,
+0.96781,
+-0.00803
+],
+"materialien": [
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Left upper limb"
+]
+},
+{
+"name": "Anterior region of forearm.l",
+"ecken": 586,
+"dreiecke": 1168,
+"mitte": [
+0.23796,
+0.97061,
+0.00627
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-3",
+"Skin-6",
+"Skin-5''",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Antebrachial region",
+"Left upper limb"
+]
+},
+{
+"name": "Anterior region of wrist.r",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+-0.27025,
+0.84632,
+0.03559
+],
+"materialien": [
+"Skin-6",
+"Skin-2",
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Carpal region",
+"Right upper limb"
+]
+},
+{
+"name": "Posterior region of wrist.r",
+"ecken": 124,
+"dreiecke": 240,
+"mitte": [
+-0.27035,
+0.8438,
+0.01578
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Carpal region",
+"Right upper limb"
+]
+},
+{
+"name": "Radial foveola.r",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.29777,
+0.84545,
+0.01653
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Carpal region",
+"Right upper limb"
+]
+},
+{
+"name": "Anterior region of wrist.l",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+0.27025,
+0.84632,
+0.03559
+],
+"materialien": [
+"Skin-6",
+"Skin-2",
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Carpal region",
+"Left upper limb"
+]
+},
+{
+"name": "Posterior region of wrist.l",
+"ecken": 124,
+"dreiecke": 240,
+"mitte": [
+0.27035,
+0.8438,
+0.01578
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Carpal region",
+"Left upper limb"
+]
+},
+{
+"name": "Radial foveola.l",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.29777,
+0.84545,
+0.01653
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Carpal region",
+"Left upper limb"
+]
+},
+{
+"name": "Palm.r",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+-0.27118,
+0.80531,
+0.04411
+],
+"materialien": [
+"Skin-2",
+"Skin-6",
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Palm",
+"Right upper limb"
+]
+},
+{
+"name": "Palm.l",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+0.27118,
+0.80531,
+0.04411
+],
+"materialien": [
+"Skin-2",
+"Skin-6",
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Palm"
+]
+},
+{
+"name": "Palmar surfaces of digits of hand.r",
+"ecken": 1922,
+"dreiecke": 3836,
+"mitte": [
+-0.28021,
+0.76023,
+0.06957
+],
+"materialien": [
+"Skin-2",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Region of digits of hand",
+"Right upper limb"
+]
+},
+{
+"name": "Dorsal surfaces of digits of hand.r",
+"ecken": 2144,
+"dreiecke": 4260,
+"mitte": [
+-0.2818,
+0.75947,
+0.06202
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Region of digits of hand",
+"Right upper limb"
+]
+},
+{
+"name": "Palmar surfaces of digits of hand.l",
+"ecken": 1922,
+"dreiecke": 3836,
+"mitte": [
+0.28021,
+0.76023,
+0.06957
+],
+"materialien": [
+"Skin-2",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Region of digits of hand"
+]
+},
+{
+"name": "Dorsal surfaces of digits of hand.l",
+"ecken": 2144,
+"dreiecke": 4260,
+"mitte": [
+0.2818,
+0.75947,
+0.06202
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Region of digits of hand"
+]
+},
+{
+"name": "Dorsum of hand.r",
+"ecken": 358,
+"dreiecke": 712,
+"mitte": [
+-0.27447,
+0.80058,
+0.03119
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Region of hand",
+"Right upper limb"
+]
+},
+{
+"name": "Dorsum of hand.l",
+"ecken": 358,
+"dreiecke": 712,
+"mitte": [
+0.27447,
+0.80058,
+0.03119
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Region of hand"
+]
+},
+{
+"name": "Deltoid region.r",
+"ecken": 314,
+"dreiecke": 624,
+"mitte": [
+-0.18808,
+1.35465,
+-0.03512
+],
+"materialien": [
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of upper limb",
+"Right upper limb"
+]
+},
+{
+"name": "Deltoid region.l",
+"ecken": 314,
+"dreiecke": 624,
+"mitte": [
+0.18808,
+1.35465,
+-0.03512
+],
+"materialien": [
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Regions of upper limb"
+]
+},
+{
+"name": "Gluteal fold.r",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.05689,
+0.76972,
+-0.09457
+],
+"materialien": [
+"Skin-2",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Gluteal region",
+"Right lower limb"
+]
+},
+{
+"name": "Gluteal region.r",
+"ecken": 418,
+"dreiecke": 832,
+"mitte": [
+-0.08529,
+0.89251,
+-0.08303
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Gluteal region",
+"Right lower limb"
+]
+},
+{
+"name": "Gluteal fold.l",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.05689,
+0.76972,
+-0.09457
+],
+"materialien": [
+"Skin-2",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Gluteal region",
+"Left lower limb"
+]
+},
+{
+"name": "Gluteal region.l",
+"ecken": 418,
+"dreiecke": 832,
+"mitte": [
+0.08529,
+0.89251,
+-0.08303
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Gluteal region",
+"Left lower limb"
+]
+},
+{
+"name": "Anterior region of thigh.r",
+"ecken": 946,
+"dreiecke": 1888,
+"mitte": [
+-0.09271,
+0.75781,
+0.01677
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thigh",
+"Right lower limb"
+]
+},
+{
+"name": "Femoral triangle.r",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+-0.06504,
+0.83991,
+0.06482
+],
+"materialien": [
+"Skin-1",
+"Skin-8",
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thigh",
+"Right lower limb"
+]
+},
+{
+"name": "Anterior region of thigh.l",
+"ecken": 946,
+"dreiecke": 1888,
+"mitte": [
+0.09271,
+0.75781,
+0.01677
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thigh",
+"Left lower limb"
+]
+},
+{
+"name": "Femoral triangle.l",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+0.06504,
+0.83991,
+0.06482
+],
+"materialien": [
+"Skin-1",
+"Skin-8",
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thigh",
+"Left lower limb"
+]
+},
+{
+"name": "Posterior region of thigh.r",
+"ecken": 502,
+"dreiecke": 1000,
+"mitte": [
+-0.0914,
+0.65499,
+-0.06041
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Femoral region",
+"Right lower limb"
+]
+},
+{
+"name": "Posterior region of thigh.l",
+"ecken": 502,
+"dreiecke": 1000,
+"mitte": [
+0.0914,
+0.65499,
+-0.06041
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-4",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Femoral region",
+"Left lower limb"
+]
+},
+{
+"name": "Popliteal fossa.r",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+-0.08104,
+0.48457,
+-0.06806
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of knee",
+"Right lower limb"
+]
+},
+{
+"name": "Posterior region of knee.r",
+"ecken": 324,
+"dreiecke": 644,
+"mitte": [
+-0.08057,
+0.44775,
+-0.05817
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of knee",
+"Right lower limb"
+]
+},
+{
+"name": "Popliteal fossa.l",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+0.08104,
+0.48457,
+-0.06806
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of knee"
+]
+},
+{
+"name": "Posterior region of knee.l",
+"ecken": 324,
+"dreiecke": 644,
+"mitte": [
+0.08057,
+0.44775,
+-0.05817
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of knee"
+]
+},
+{
+"name": "Anterior region of knee.r",
+"ecken": 376,
+"dreiecke": 748,
+"mitte": [
+-0.08151,
+0.44297,
+0.00636
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Knee region",
+"Right lower limb"
+]
+},
+{
+"name": "Anterior region of knee.l",
+"ecken": 376,
+"dreiecke": 748,
+"mitte": [
+0.08151,
+0.44297,
+0.00636
+],
+"materialien": [
+"Skin-1",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Knee region",
+"Left lower limb"
+]
+},
+{
+"name": "Posterior region of leg.r",
+"ecken": 612,
+"dreiecke": 1220,
+"mitte": [
+-0.08981,
+0.26223,
+-0.0758
+],
+"materialien": [
+"Skin-3",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of leg",
+"Right lower limb"
+]
+},
+{
+"name": "Posterior region of leg.l",
+"ecken": 612,
+"dreiecke": 1220,
+"mitte": [
+0.08981,
+0.26223,
+-0.0758
+],
+"materialien": [
+"Skin-3",
+"Skin-5",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of leg"
+]
+},
+{
+"name": "Anterior region of leg.r",
+"ecken": 628,
+"dreiecke": 1252,
+"mitte": [
+-0.09013,
+0.25529,
+-0.01686
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Leg region",
+"Right lower limb"
+]
+},
+{
+"name": "Anterior region of leg.l",
+"ecken": 628,
+"dreiecke": 1252,
+"mitte": [
+0.09013,
+0.25529,
+-0.01686
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Leg region"
+]
+},
+{
+"name": "Lateral malleolus.r",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.10646,
+0.07369,
+-0.05673
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-8",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of ankle",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral retromalleolar region.r",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+-0.08993,
+0.08107,
+-0.07778
+],
+"materialien": [
+"Skin-3",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of ankle",
+"Right lower limb"
+]
+},
+{
+"name": "Medial malleolus.r",
+"ecken": 78,
+"dreiecke": 152,
+"mitte": [
+-0.0466,
+0.07659,
+-0.04246
+],
+"materialien": [
+"Skin-2",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of ankle",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral malleolus.l",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.10646,
+0.07369,
+-0.05673
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-8",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of ankle"
+]
+},
+{
+"name": "Lateral retromalleolar region.l",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+0.08993,
+0.08107,
+-0.07778
+],
+"materialien": [
+"Skin-3",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of ankle"
+]
+},
+{
+"name": "Medial malleolus.l",
+"ecken": 78,
+"dreiecke": 152,
+"mitte": [
+0.0466,
+0.07659,
+-0.04246
+],
+"materialien": [
+"Skin-2",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of ankle"
+]
+},
+{
+"name": "Medial retromalleolar region.r",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+-0.05831,
+0.08286,
+-0.06806
+],
+"materialien": [
+"Skin-6",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Posterior region of ankle",
+"Right lower limb"
+]
+},
+{
+"name": "Medial retromalleolar region.l",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+0.05831,
+0.08286,
+-0.06806
+],
+"materialien": [
+"Skin-6",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Posterior region of ankle"
+]
+},
+{
+"name": "Anterior region of ankle.r",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+-0.08073,
+0.09137,
+-0.03918
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-6",
+"Skin-5",
+"Skin-in",
+"Skin-8"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Right lower limb",
+"Talocrural region"
+]
+},
+{
+"name": "Anterior region of ankle.l",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+0.08073,
+0.09137,
+-0.03918
+],
+"materialien": [
+"Skin-2",
+"Skin-3",
+"Skin-6",
+"Skin-5",
+"Skin-in",
+"Skin-8"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Talocrural region"
+]
+},
+{
+"name": "Lateral part of longitudinal arch of foot.r",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+-0.12228,
+0.00854,
+-0.0083
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Longitudinal arch of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Medial part of longitudinal arch of foot.r",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.06975,
+0.01532,
+0.00836
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Longitudinal arch of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral part of longitudinal arch of foot.l",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+0.12228,
+0.00854,
+-0.0083
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Longitudinal arch of foot"
+]
+},
+{
+"name": "Medial part of longitudinal arch of foot.l",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.06975,
+0.01532,
+0.00836
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Longitudinal arch of foot"
+]
+},
+{
+"name": "Sole.r",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+-0.09279,
+0.00906,
+0.00937
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Right lower limb",
+"Sole"
+]
+},
+{
+"name": "Sole.l",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+0.09279,
+0.00906,
+0.00937
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Sole"
+]
+},
+{
+"name": "Proximal transverse arch of foot.r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.07794,
+0.01522,
+-0.04639
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Right lower limb",
+"Sole"
+]
+},
+{
+"name": "Distal transverse arch of foot.r",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.11605,
+0.00457,
+0.06175
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Right lower limb",
+"Sole"
+]
+},
+{
+"name": "Proximal transverse arch of foot.l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.07794,
+0.01522,
+-0.04639
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Sole"
+]
+},
+{
+"name": "Distal transverse arch of foot.l",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.11605,
+0.00457,
+0.06175
+],
+"materialien": [
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Sole"
+]
+},
+{
+"name": "Hallucial eminence.r",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+-0.07059,
+0.01566,
+0.07464
+],
+"materialien": [
+"Skin-2",
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Metatarsal region",
+"Right lower limb"
+]
+},
+{
+"name": "Metatarsal region.r",
+"ecken": 248,
+"dreiecke": 492,
+"mitte": [
+-0.09886,
+0.04598,
+0.03501
+],
+"materialien": [
+"Skin-2",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Metatarsal region",
+"Right lower limb"
+]
+},
+{
+"name": "Hallucial eminence.l",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+0.07059,
+0.01566,
+0.07464
+],
+"materialien": [
+"Skin-2",
+"Skin-1",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Metatarsal region"
+]
+},
+{
+"name": "Metatarsal region.l",
+"ecken": 248,
+"dreiecke": 492,
+"mitte": [
+0.09886,
+0.04598,
+0.03501
+],
+"materialien": [
+"Skin-2",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Metatarsal region"
+]
+},
+{
+"name": "Dorsal surfaces of digits of foot.l",
+"ecken": 648,
+"dreiecke": 1157,
+"mitte": [
+0.10599,
+0.0248,
+0.0965
+],
+"materialien": [
+"Skin-2",
+"Skin-4",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Region of digits of foot"
+]
+},
+{
+"name": "Dorsal surfaces of digits of foot.r",
+"ecken": 648,
+"dreiecke": 1157,
+"mitte": [
+-0.10599,
+0.0248,
+0.0965
+],
+"materialien": [
+"Skin-2",
+"Skin-4",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Region of digits of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Plantar surfaces of digits of foot.l",
+"ecken": 1016,
+"dreiecke": 2028,
+"mitte": [
+0.10688,
+0.00907,
+0.09665
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Region of digits of foot"
+]
+},
+{
+"name": "Plantar surfaces of digits of foot.r",
+"ecken": 1016,
+"dreiecke": 2028,
+"mitte": [
+-0.10688,
+0.00907,
+0.09665
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Region of digits of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Heel region.r",
+"ecken": 314,
+"dreiecke": 624,
+"mitte": [
+-0.07754,
+0.03543,
+-0.07726
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Dorsum of foot.r",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+-0.0835,
+0.06232,
+-0.01088
+],
+"materialien": [
+"Skin-2",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Heel region.l",
+"ecken": 314,
+"dreiecke": 624,
+"mitte": [
+0.07754,
+0.03543,
+-0.07726
+],
+"materialien": [
+"Skin-1",
+"Skin-6",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Regions of foot"
+]
+},
+{
+"name": "Dorsum of foot.l",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+0.0835,
+0.06232,
+-0.01088
+],
+"materialien": [
+"Skin-2",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Regions of foot"
+]
+},
+{
+"name": "Lateral border of foot.l",
+"ecken": 154,
+"dreiecke": 304,
+"mitte": [
+0.12545,
+0.02841,
+-0.00472
+],
+"materialien": [
+"Skin-6",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Regions of foot"
+]
+},
+{
+"name": "Lateral border of foot.r",
+"ecken": 154,
+"dreiecke": 304,
+"mitte": [
+-0.12545,
+0.02841,
+-0.00472
+],
+"materialien": [
+"Skin-6",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Medial border of foot.l",
+"ecken": 156,
+"dreiecke": 308,
+"mitte": [
+0.05272,
+0.04224,
+0.0023
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Regions of foot"
+]
+},
+{
+"name": "Medial border of foot.r",
+"ecken": 156,
+"dreiecke": 308,
+"mitte": [
+-0.05272,
+0.04224,
+0.0023
+],
+"materialien": [
+"Skin-1",
+"Skin-2",
+"Skin-5",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of foot",
+"Right lower limb"
+]
+},
+{
+"name": "Hip region.r",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+-0.16547,
+0.849,
+-0.01509
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Hip region.l",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+0.16547,
+0.849,
+-0.01509
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Regions of lower limb"
+]
+},
+{
+"name": "Nail plate.l",
+"ecken": 394,
+"dreiecke": 764,
+"mitte": [
+0.28254,
+0.73914,
+0.07993
+],
+"materialien": [
+"Nail"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left upper limb",
+"Nail plate"
+]
+},
+{
+"name": "Nail plate (foot).r",
+"ecken": 296,
+"dreiecke": 572,
+"mitte": [
+-0.11469,
+0.02051,
+0.11509
+],
+"materialien": [
+"Nail"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Nail plate"
+]
+},
+{
+"name": "Nail plate (foot).l",
+"ecken": 296,
+"dreiecke": 572,
+"mitte": [
+0.11469,
+0.02051,
+0.11509
+],
+"materialien": [
+"Nail"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Nail plate"
+]
+},
+{
+"name": "Nail plate.r",
+"ecken": 394,
+"dreiecke": 764,
+"mitte": [
+-0.28254,
+0.73914,
+0.07993
+],
+"materialien": [
+"Nail"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Nail plate"
+]
+},
+{
+"name": "Perionyx.l",
+"ecken": 128,
+"dreiecke": 236,
+"mitte": [
+0.2813,
+0.74166,
+0.07343
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Nail"
+]
+},
+{
+"name": "Perionyx.r",
+"ecken": 128,
+"dreiecke": 236,
+"mitte": [
+-0.2813,
+0.74166,
+0.07343
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Nail"
+]
+},
+{
+"name": "Perionyx (foot).l",
+"ecken": 108,
+"dreiecke": 196,
+"mitte": [
+0.11464,
+0.0214,
+0.10907
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Left lower limb",
+"Nail"
+]
+},
+{
+"name": "Perionyx (foot).r",
+"ecken": 108,
+"dreiecke": 196,
+"mitte": [
+-0.11464,
+0.0214,
+0.10887
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Nail"
+]
+},
+{
+"name": "Inframammary region.r",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+-0.04488,
+1.21185,
+0.12255
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Pectoral region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Mammary region.r",
+"ecken": 162,
+"dreiecke": 320,
+"mitte": [
+-0.1091,
+1.28424,
+0.09962
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Pectoral region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Pectoral region.r",
+"ecken": 258,
+"dreiecke": 516,
+"mitte": [
+-0.08812,
+1.31393,
+0.07404
+],
+"materialien": [
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Pectoral region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Inframammary region.l",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+0.04488,
+1.21185,
+0.12255
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Pectoral region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Mammary region.l",
+"ecken": 162,
+"dreiecke": 320,
+"mitte": [
+0.1091,
+1.28424,
+0.09962
+],
+"materialien": [
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Pectoral region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Pectoral region.l",
+"ecken": 258,
+"dreiecke": 516,
+"mitte": [
+0.08812,
+1.31393,
+0.07404
+],
+"materialien": [
+"Skin-7",
+"Skin-8",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Pectoral region",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Infraclavicular fossa.r",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+-0.07953,
+1.40916,
+0.02189
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Presternal region.r",
+"ecken": 144,
+"dreiecke": 284,
+"mitte": [
+-0.01406,
+1.31304,
+0.08988
+],
+"materialien": [
+"Skin-4",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Deltopectoral triangle.r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.13771,
+1.38787,
+0.01162
+],
+"materialien": [
+"Skin-4",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Infraclavicular fossa.l",
+"ecken": 108,
+"dreiecke": 212,
+"mitte": [
+0.07953,
+1.40916,
+0.02189
+],
+"materialien": [
+"Skin-4",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Presternal region.l",
+"ecken": 144,
+"dreiecke": 284,
+"mitte": [
+0.01406,
+1.31304,
+0.08988
+],
+"materialien": [
+"Skin-4",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Deltopectoral triangle.l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.13771,
+1.38787,
+0.01162
+],
+"materialien": [
+"Skin-4",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Anterior region of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Lateral region of thorax.r",
+"ecken": 396,
+"dreiecke": 788,
+"mitte": [
+-0.13018,
+1.25071,
+-0.00097
+],
+"materialien": [
+"Skin-8",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of thorax",
+"Regions of trunk",
+"Trunk"
+]
+},
+{
+"name": "Lateral region of thorax.l",
+"ecken": 396,
+"dreiecke": 788,
+"mitte": [
+0.13018,
+1.25071,
+-0.00097
+],
+"materialien": [
+"Skin-8",
+"Skin-7",
+"Skin-in"
+],
+"sammlungen": [
+"9: Regions of human body",
+"Regions of thorax",
+"Regions of trunk",
+"Trunk"
+]
+}
+]
+}

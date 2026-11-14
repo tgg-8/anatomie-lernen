@@ -1,0 +1,304 @@
+baender_gelenke	Stylomandibular ligament
+baender_gelenke	Stylohyoid ligament
+baender_gelenke	Sphenomandibular ligament
+baender_gelenke	Articular capsule of temporomandibular joint
+baender_gelenke	Lateral temporomandibular ligament
+baender_gelenke	Articular disc of temporomandibular joint
+baender_gelenke	Lateral thyrohyoid ligament
+baender_gelenke	Median thyrohyoid ligament
+baender_gelenke	Quadrangular membrane
+baender_gelenke	Median cricothyroid ligament
+baender_gelenke	Cricopharyngeal ligament
+baender_gelenke	Interspinous ligaments
+baender_gelenke	Nuchal ligament
+baender_gelenke	Intertransverse ligaments
+baender_gelenke	Ligamenta flava
+baender_gelenke	Intercornual ligament
+baender_gelenke	Intervertebral disc C2-C3
+baender_gelenke	Intervertebral disc C3-C4
+baender_gelenke	Intervertebral disc C4-C5
+baender_gelenke	Intervertebral disc C5-C6
+baender_gelenke	Intervertebral disc C6-C7
+baender_gelenke	Intervertebral disc C7-T1
+baender_gelenke	Intervertebral disc L1-L2
+baender_gelenke	Intervertebral disc L2-L3
+baender_gelenke	Intervertebral disc L3-L4
+baender_gelenke	Intervertebral disc L4-L5
+baender_gelenke	Intervertebral disc L5-S1
+baender_gelenke	Intervertebral disc T1-T2
+baender_gelenke	Intervertebral disc T10-T11
+baender_gelenke	Intervertebral disc T11-T12
+baender_gelenke	Intervertebral disc T12-L1
+baender_gelenke	Intervertebral disc T2-T3
+baender_gelenke	Intervertebral disc T3-T4
+baender_gelenke	Intervertebral disc T4-T5
+baender_gelenke	Intervertebral disc T5-T6
+baender_gelenke	Intervertebral disc T6-T7
+baender_gelenke	Intervertebral disc T7-T8
+baender_gelenke	Intervertebral disc T8-T9
+baender_gelenke	Intervertebral disc T9-T10
+baender_gelenke	Nucleus pulposus L5-S1
+baender_gelenke	Nucleus pulposus L4-L5
+baender_gelenke	Nucleus pulposus L3-L4
+baender_gelenke	Nucleus pulposus L2-L3
+baender_gelenke	Nucleus pulposus L1-L2
+baender_gelenke	Nucleus pulposus T12-L1
+baender_gelenke	Nucleus pulposus T11-T12
+baender_gelenke	Nucleus pulposus T10-T11
+baender_gelenke	Nucleus pulposus T9-T10
+baender_gelenke	Nucleus pulposus T8-T9
+baender_gelenke	Nucleus pulposus T7-T8
+baender_gelenke	Nucleus pulposus T6-T7
+baender_gelenke	Nucleus pulposus T5-T6
+baender_gelenke	Nucleus pulposus T4-T5
+baender_gelenke	Nucleus pulposus T3-T4
+baender_gelenke	Nucleus pulposus T2-T3
+baender_gelenke	Nucleus pulposus T1-T2
+baender_gelenke	Nucleus pulposus C7-T1
+baender_gelenke	Nucleus pulposus C6-C7
+baender_gelenke	Nucleus pulposus C5-C6
+baender_gelenke	Nucleus pulposus C4-C5
+baender_gelenke	Nucleus pulposus C3-C4
+baender_gelenke	Nucleus pulposus C2-C3
+baender_gelenke	Sacrococcygeal symphysis
+baender_gelenke	External intercostal membrane
+baender_gelenke	Internal intercostal membrane
+baender_gelenke	Intra-articular ligament of head of rib
+baender_gelenke	Radiate ligament of head of rib
+baender_gelenke	Costotransverse ligament
+baender_gelenke	Trapezoid ligament
+baender_gelenke	Conoid ligament
+baender_gelenke	Articular capsule of acromioclavicular joint
+baender_gelenke	Acromioclavicular ligament
+baender_gelenke	Articular disc of acromioclavicular joint
+baender_gelenke	Articular capsule of sternoclavicular joint
+baender_gelenke	Articular disc of sternoclavicular joint
+baender_gelenke	Anterior sternoclavicular ligament
+baender_gelenke	Interclavicular ligament
+baender_gelenke	Posterior sternoclavicular ligament
+baender_gelenke	Superior glenohumeral ligament
+baender_gelenke	Middle glenohumeral ligament
+baender_gelenke	Inferior glenohumeral ligament
+baender_gelenke	Coracohumeral ligament
+baender_gelenke	Transverse humeral ligament
+baender_gelenke	Radial collateral ligament
+baender_gelenke	Ulnar collateral ligament
+baender_gelenke	Articular disc of distal radio-ulnar joint
+baender_gelenke	Palmar radio-ulnar ligament
+baender_gelenke	Dorsal scaphotriquetral ligament
+baender_gelenke	Dorsal intercarpal ligaments
+baender_gelenke	Scaphotrapeziotrapezoidal ligament
+baender_gelenke	Palmar scaphotriquetral ligament
+baender_gelenke	Triquetrocapitate ligament
+baender_gelenke	Pisotriquetral ligament
+baender_gelenke	Dorsal carpometacarpal ligaments
+baender_gelenke	Palmar carpometacarpal ligaments
+baender_gelenke	Dorsal metacarpal ligaments
+baender_gelenke	Palmar metacarpal ligaments
+baender_gelenke	Interosseous metacarpal ligaments
+baender_gelenke	Articular capsules of metacarpophalangeal joints
+baender_gelenke	Collateral metacarpophalangeal ligaments
+baender_gelenke	Deep transverse metacarpal ligament
+baender_gelenke	Articular capsules of proximal interphalangeal joints
+baender_gelenke	Articular capsules of distal interphalangeal joints
+baender_gelenke	Collateral interphalangeal ligaments of hand
+baender_gelenke	Palmar interphalangeal ligaments
+baender_gelenke	Articular capsule of radiocarpal joint
+baender_gelenke	Radioscaphocapitate ligament
+baender_gelenke	Ulnocapitate ligament
+baender_gelenke	Ulnotriquetral ligament
+baender_gelenke	Ulnolunate ligament
+baender_gelenke	Dorsal radiocarpal ligament
+baender_gelenke	Ulnar collateral ligament of wrist joint
+baender_gelenke	Radial collateral ligament of wrist joint
+baender_gelenke	Dorsal ulnocarpal ligament
+baender_gelenke	Radiate carpal ligament
+baender_gelenke	Obturator membrane
+baender_gelenke	Iliolumbar ligament
+baender_gelenke	Pubic symphysis
+baender_gelenke	Interpubic disc
+baender_gelenke	Inferior pubic ligament
+baender_gelenke	Superior pubic ligament
+baender_gelenke	Triradiate cartilage
+baender_gelenke	Anterior sacro-iliac ligament
+baender_gelenke	Posterior sacro-iliac ligament
+baender_gelenke	Interosseous sacro-iliac ligament
+baender_gelenke	Anterior tibiofibular ligament
+baender_gelenke	Posterior tibiofibular ligament
+baender_gelenke	Transverse tibiofibular ligament
+baender_gelenke	Interosseous membrane of leg
+baender_gelenke	Transverse part of iliofemoral ligament
+baender_gelenke	Descending part of iliofemoral ligament
+baender_gelenke	Transverse acetabular ligament
+baender_gelenke	Pubofemoral ligament
+baender_gelenke	Zona orbicularis
+baender_gelenke	Ischiofemoral ligament
+baender_gelenke	Ligament of head of femur
+baender_gelenke	Frenula capsulae
+baender_gelenke	Anterior meniscotibial ligament (Medial meniscus)
+baender_gelenke	Posterior meniscotibial ligament (Medial meniscus)
+baender_gelenke	Anterior meniscotibial ligament (Lateral meniscus)
+baender_gelenke	Posterior meniscotibial ligament (Lateral meniscus)
+baender_gelenke	Superficial part of tibial collateral ligament
+baender_gelenke	Deep part of tibial collateral ligament
+baender_gelenke	Meniscopatellar ligament
+baender_gelenke	Transverse ligament of knee
+baender_gelenke	Oblique popliteal ligament
+baender_gelenke	Infrapatellar fat pad
+baender_gelenke	Arcuate popliteal ligament
+baender_gelenke	Popliteofibular ligament
+baender_gelenke	Anterior ligament of fibular head
+baender_gelenke	Posterior ligament of fibular head
+baender_gelenke	Articular capsule of superior tibiofibular joint
+baender_gelenke	Posterior tibiotalar ligament
+baender_gelenke	Tibiocalcaneal ligament
+baender_gelenke	Tibionavicular ligament
+baender_gelenke	Lateral talocalcaneal ligament
+baender_gelenke	Medial talocalcaneal ligament
+baender_gelenke	Posterior talocalcaneal ligament
+baender_gelenke	Talocalcaneal interosseous ligament
+baender_gelenke	Anterior talocalcaneal ligament
+baender_gelenke	Calcaneonavicular ligament
+baender_gelenke	Calcaneocuboid ligament
+baender_gelenke	Talonavicular ligament
+baender_gelenke	Plantar calcaneocuboid ligament
+baender_gelenke	Long plantar ligament
+baender_gelenke	Dorsal cuneonavicular ligaments
+baender_gelenke	Plantar cuneonavicular ligaments
+baender_gelenke	Cuneocuboid interosseous ligament
+baender_gelenke	Plantar cuneocuboid ligament
+baender_gelenke	Intercuneiform interosseous ligaments
+baender_gelenke	Dorsal intercuneiform ligaments
+baender_gelenke	Plantar intercuneiform ligaments
+baender_gelenke	Dorsal tarsometatarsal ligaments
+baender_gelenke	Plantar tarsometatarsal ligaments
+baender_gelenke	Cuneometatarsal interosseous ligaments
+baender_gelenke	Dorsal metatarsal ligaments
+baender_gelenke	Plantar metatarsal ligaments
+baender_gelenke	Metatarsal interosseous ligaments
+baender_gelenke	Intersesamoid ligament
+baender_gelenke	Collateral metatarsophalangeal ligaments
+baender_gelenke	Plantar metatarsophalangeal ligaments
+baender_gelenke	Deep transverse metatarsal ligament
+baender_gelenke	Articular capsules of metatarsophalangeal joints
+baender_gelenke	Articular capsules of distal interphalangeal joints of foot
+baender_gelenke	Articular capsule of interphalangeal joint of great toe
+baender_gelenke	Articular capsules of proximal interphalangeal joints of foot
+baender_gelenke	Collateral interphalangeal ligaments of foot
+baender_gelenke	Plantar interphalangeal ligaments
+baender_gelenke	Interosseous membrane of forearm
+haut	Frontal region
+haut	Mastoid region
+haut	Occipital region
+haut	Parietal region
+haut	Temporal region
+haut	Cavity of concha
+haut	Concha of auricle
+haut	Cymba conchae
+haut	Anterior notch of auricle
+haut	Antihelix
+haut	Antitragus
+haut	Apex of auricle
+haut	Auricular region
+haut	Auricular tubercle
+haut	Crura of antihelix
+haut	Eminentia conchae
+haut	Eminentia fossae triangularis
+haut	Eminentia scaphae
+haut	Fossa antihelica
+haut	Helix
+haut	Intertragic incisure
+haut	Lobule of auricle
+haut	Scapha
+haut	Tragus
+haut	Triangular fossa
+haut	Posterior auricular groove
+haut	Orbital region
+haut	Nasal region
+haut	Angle of mouth
+haut	Labial commissure
+haut	Oral region
+haut	Philtrum
+haut	Tubercle of upper lip
+haut	Buccal region
+haut	Infra-orbital region
+haut	Mental region
+haut	Mentolabial sulcus
+haut	Parotideomasseteric region
+haut	Zygomatic region
+haut	Nasolabial sulcus
+haut	Submandibular triangle
+haut	Submental triangle
+haut	Carotid triangle
+haut	Muscular triangle
+haut	Sternocleidomastoid region
+haut	Lesser supraclavicular fossa
+haut	Lateral region of neck
+haut	Greater supraclavicular fossa
+haut	Posterior region of neck
+haut	Epigastric region
+haut	Umbilical region
+haut	Umbilicus
+haut	Hypochondriac region
+haut	Hypogastric region
+haut	Inguinal region
+haut	Lateral region of abdomen
+haut	Lumbar region
+haut	Sacral region
+haut	Infrascapular region
+haut	Interscapular region
+haut	Scapular region
+haut	Triangle of auscultation
+haut	Vertebral region
+haut	Anal region
+haut	Urogenital region
+haut	Anterior region of arm
+haut	Lateral bicipital groove
+haut	Medial bicipital groove
+haut	Posterior region of arm
+haut	Anterior region of elbow
+haut	Posterior region of elbow
+haut	Posterior region of forearm
+haut	Lateral border of forearm
+haut	Medial border of forearm
+haut	Anterior region of forearm
+haut	Anterior region of wrist
+haut	Posterior region of wrist
+haut	Radial foveola
+haut	Palm
+haut	Palmar surfaces of digits of hand
+haut	Dorsal surfaces of digits of hand
+haut	Gluteal fold
+haut	Anterior region of thigh
+haut	Posterior region of thigh
+haut	Popliteal fossa
+haut	Anterior region of knee
+haut	Posterior region of leg
+haut	Anterior region of leg
+haut	Lateral malleolus
+haut	Lateral retromalleolar region
+haut	Medial malleolus
+haut	Medial retromalleolar region
+haut	Anterior region of ankle
+haut	Lateral part of longitudinal arch of foot
+haut	Medial part of longitudinal arch of foot
+haut	Proximal transverse arch of foot
+haut	Distal transverse arch of foot
+haut	Hallucial eminence
+haut	Metatarsal region
+haut	Dorsal surfaces of digits of foot
+haut	Plantar surfaces of digits of foot
+haut	Lateral border of foot
+haut	Medial border of foot
+haut	Hip region
+haut	Nail plate
+haut	Nail plate (foot)
+haut	Perionyx
+haut	Perionyx (foot)
+haut	Inframammary region
+haut	Mammary region
+haut	Pectoral region
+haut	Infraclavicular fossa
+haut	Presternal region
+haut	Deltopectoral triangle
+haut	Lateral region of thorax

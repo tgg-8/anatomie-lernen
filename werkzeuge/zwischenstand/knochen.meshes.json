@@ -1,0 +1,6278 @@
+{
+"ebene": "knochen",
+"meshes": [
+{
+"name": "Parietal bone.r",
+"ecken": 3386,
+"dreiecke": 6780,
+"mitte": [
+-0.03439,
+1.64764,
+-0.03062
+],
+"materialien": [
+"Bone-2",
+"Suture-1",
+"Suture-2",
+"Suture-3",
+"Suture-4",
+"Suture-6"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Parietal bone.l",
+"ecken": 3443,
+"dreiecke": 6886,
+"mitte": [
+0.03343,
+1.64753,
+-0.02891
+],
+"materialien": [
+"Bone-2",
+"Suture-1",
+"Suture-2",
+"Suture-3",
+"Suture-6"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Sinus of frontal bone",
+"ecken": 770,
+"dreiecke": 1504,
+"mitte": [
+-0.0,
+1.617,
+0.08025
+],
+"materialien": [
+"Bone-1",
+"Suture-1"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Frontal bone",
+"ecken": 3902,
+"dreiecke": 7776,
+"mitte": [
+-0.0,
+1.6459,
+0.05256
+],
+"materialien": [
+"Bone-3",
+"Suture-1",
+"Suture-2",
+"Suture-4",
+"Suture-6",
+"Suture-7",
+"Suture-5"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Occipital bone",
+"ecken": 3757,
+"dreiecke": 7531,
+"mitte": [
+-0.0,
+1.60296,
+-0.04545
+],
+"materialien": [
+"Bone-6",
+"Suture-1",
+"Suture-2",
+"Suture-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Sinus of sphenoid bone",
+"ecken": 210,
+"dreiecke": 384,
+"mitte": [
+-0.0,
+1.59415,
+0.03091
+],
+"materialien": [
+"Bone-1",
+"Suture-1"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Sphenoid bone",
+"ecken": 3650,
+"dreiecke": 7308,
+"mitte": [
+-0.0,
+1.58528,
+0.02885
+],
+"materialien": [
+"Bone-4",
+"Suture-1",
+"Suture-2",
+"Suture-3",
+"Suture-6",
+"Suture-7",
+"Suture-8"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Temporal bone.r",
+"ecken": 7051,
+"dreiecke": 14094,
+"mitte": [
+-0.04103,
+1.58594,
+-0.00339
+],
+"materialien": [
+"Bone-1",
+"Suture-1",
+"Suture-2",
+"Suture-4",
+"Suture-7",
+"Cartilage",
+"Suture-6"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Ethmoid bone",
+"ecken": 5082,
+"dreiecke": 10130,
+"mitte": [
+-0.0,
+1.58559,
+0.05368
+],
+"materialien": [
+"Bone-7",
+"Suture-3",
+"Suture-5"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Inferior nasal concha bone.r",
+"ecken": 238,
+"dreiecke": 476,
+"mitte": [
+-0.00965,
+1.56336,
+0.05811
+],
+"materialien": [
+"Bone"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Lacrimal bone.r",
+"ecken": 296,
+"dreiecke": 588,
+"mitte": [
+-0.01179,
+1.58567,
+0.06887
+],
+"materialien": [
+"Bone-6",
+"Suture-1",
+"Suture-3",
+"Suture-4",
+"Suture-5",
+"Suture-7"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Nasal bone.r",
+"ecken": 148,
+"dreiecke": 292,
+"mitte": [
+-0.0042,
+1.58939,
+0.0898
+],
+"materialien": [
+"Bone-4",
+"Suture-4",
+"Suture-3",
+"Suture-5"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Maxilla.r",
+"ecken": 2399,
+"dreiecke": 4798,
+"mitte": [
+-0.02291,
+1.57133,
+0.06697
+],
+"materialien": [
+"Bone-5",
+"Suture",
+"Suture-5",
+"Suture-3",
+"Suture-4",
+"Suture-6",
+"Suture-7",
+"Suture-2"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head",
+"Right maxilla"
+]
+},
+{
+"name": "Palatine bone.r",
+"ecken": 732,
+"dreiecke": 1460,
+"mitte": [
+-0.01391,
+1.56405,
+0.04239
+],
+"materialien": [
+"Bone-2",
+"Suture-2",
+"Suture-4",
+"Suture-5",
+"Suture-7"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Zygomatic bone.r",
+"ecken": 666,
+"dreiecke": 1328,
+"mitte": [
+-0.04697,
+1.58109,
+0.05219
+],
+"materialien": [
+"Bone-8",
+"Suture-1",
+"Suture-3",
+"Suture-4",
+"Suture-5"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Mandible",
+"ecken": 9388,
+"dreiecke": 18838,
+"mitte": [
+0.0,
+1.53747,
+0.04275
+],
+"materialien": [
+"Bone",
+"Cartilage",
+"Suture-1"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Extracranial bones of head",
+"Head",
+"Mandible"
+]
+},
+{
+"name": "Hyoid bone",
+"ecken": 664,
+"dreiecke": 1324,
+"mitte": [
+0.0,
+1.50127,
+0.02101
+],
+"materialien": [
+"Bone"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Extracranial bones of head",
+"Head",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Malleus.r",
+"ecken": 1993,
+"dreiecke": 3982,
+"mitte": [
+-0.04819,
+1.58214,
+-0.00393
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Auditory ossicles",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Incus.r",
+"ecken": 1268,
+"dreiecke": 2532,
+"mitte": [
+-0.04708,
+1.58268,
+-0.0072
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Auditory ossicles",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Stapes.r",
+"ecken": 2171,
+"dreiecke": 4342,
+"mitte": [
+-0.04298,
+1.58105,
+-0.00444
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Auditory ossicles",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Upper medial incisor.r",
+"ecken": 686,
+"dreiecke": 1368,
+"mitte": [
+-0.00445,
+1.53917,
+0.08691
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper lateral incisor.r",
+"ecken": 729,
+"dreiecke": 1454,
+"mitte": [
+-0.01119,
+1.53969,
+0.08463
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper canine.r",
+"ecken": 737,
+"dreiecke": 1470,
+"mitte": [
+-0.01708,
+1.54241,
+0.08141
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower medial incisor.r",
+"ecken": 494,
+"dreiecke": 984,
+"mitte": [
+-0.00322,
+1.51505,
+0.07961
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Teeth"
+]
+},
+{
+"name": "Lower lateral incisor.r",
+"ecken": 522,
+"dreiecke": 1040,
+"mitte": [
+-0.00806,
+1.51516,
+0.07957
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Teeth"
+]
+},
+{
+"name": "Lower canine.r",
+"ecken": 640,
+"dreiecke": 1276,
+"mitte": [
+-0.01285,
+1.51474,
+0.07631
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Teeth"
+]
+},
+{
+"name": "Upper first premolar.r",
+"ecken": 844,
+"dreiecke": 1684,
+"mitte": [
+-0.02006,
+1.54258,
+0.07384
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper second premolar.r",
+"ecken": 779,
+"dreiecke": 1554,
+"mitte": [
+-0.02308,
+1.54234,
+0.06785
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper first molar tooth.r",
+"ecken": 1090,
+"dreiecke": 2176,
+"mitte": [
+-0.02416,
+1.54369,
+0.05914
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper second molar tooth.r",
+"ecken": 924,
+"dreiecke": 1844,
+"mitte": [
+-0.02368,
+1.54625,
+0.05068
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower first premolar.r",
+"ecken": 613,
+"dreiecke": 1222,
+"mitte": [
+-0.01687,
+1.51747,
+0.07086
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower second premolar.r",
+"ecken": 592,
+"dreiecke": 1180,
+"mitte": [
+-0.01993,
+1.5184,
+0.06456
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower first molar tooth.r",
+"ecken": 2260,
+"dreiecke": 4508,
+"mitte": [
+-0.0228,
+1.52305,
+0.05729
+],
+"materialien": [
+"Teeth",
+"Dentine",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower second molar tooth.r",
+"ecken": 840,
+"dreiecke": 1676,
+"mitte": [
+-0.02623,
+1.52772,
+0.0457
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Major alar cartilage.r",
+"ecken": 174,
+"dreiecke": 344,
+"mitte": [
+-0.00746,
+1.55522,
+0.10072
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Lateral process of nasal septal cartilage.r",
+"ecken": 174,
+"dreiecke": 347,
+"mitte": [
+-0.00657,
+1.57025,
+0.09887
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Nasal septal cartilage",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+-4e-05,
+1.56826,
+0.09463
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Thyroid cartilage",
+"ecken": 2247,
+"dreiecke": 4488,
+"mitte": [
+0.0,
+1.47995,
+0.01622
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cartilages",
+"Digestive system",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Cricoid cartilage",
+"ecken": 941,
+"dreiecke": 1882,
+"mitte": [
+0.0,
+1.46563,
+0.01085
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Cartilages",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Arytenoid cartilage.r",
+"ecken": 1892,
+"dreiecke": 3780,
+"mitte": [
+-0.00526,
+1.47713,
+0.00727
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Corniculate cartilage.r",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+-0.00363,
+1.4814,
+0.0041
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Atlas (C1)",
+"ecken": 1106,
+"dreiecke": 2194,
+"mitte": [
+0.0,
+1.54293,
+-0.02142
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra C6",
+"ecken": 1148,
+"dreiecke": 2304,
+"mitte": [
+0.0,
+1.46603,
+-0.03496
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra C3",
+"ecken": 1216,
+"dreiecke": 2440,
+"mitte": [
+-0.0,
+1.50638,
+-0.02689
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra C5",
+"ecken": 1164,
+"dreiecke": 2336,
+"mitte": [
+-0.0,
+1.48014,
+-0.02978
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra C7",
+"ecken": 1078,
+"dreiecke": 2164,
+"mitte": [
+-0.0,
+1.45202,
+-0.04207
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra C4",
+"ecken": 972,
+"dreiecke": 1940,
+"mitte": [
+8e-05,
+1.49307,
+-0.02647
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T2",
+"ecken": 1071,
+"dreiecke": 2142,
+"mitte": [
+0.0,
+1.42006,
+-0.05277
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T3",
+"ecken": 1172,
+"dreiecke": 2344,
+"mitte": [
+-0.0,
+1.3988,
+-0.06148
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T4",
+"ecken": 1108,
+"dreiecke": 2216,
+"mitte": [
+-0.0,
+1.37522,
+-0.06526
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T5",
+"ecken": 1076,
+"dreiecke": 2152,
+"mitte": [
+0.0,
+1.34725,
+-0.06607
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T6",
+"ecken": 890,
+"dreiecke": 1780,
+"mitte": [
+-0.0,
+1.31424,
+-0.06675
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T7",
+"ecken": 1397,
+"dreiecke": 2794,
+"mitte": [
+-0.0,
+1.28604,
+-0.06495
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T9",
+"ecken": 1489,
+"dreiecke": 2978,
+"mitte": [
+0.0,
+1.22848,
+-0.0586
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T10",
+"ecken": 1529,
+"dreiecke": 3058,
+"mitte": [
+6e-05,
+1.19751,
+-0.05317
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T11",
+"ecken": 899,
+"dreiecke": 1798,
+"mitte": [
+-0.0,
+1.16932,
+-0.04508
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T12",
+"ecken": 1293,
+"dreiecke": 2586,
+"mitte": [
+-0.0,
+1.13908,
+-0.03673
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T8",
+"ecken": 868,
+"dreiecke": 1733,
+"mitte": [
+-0.0,
+1.25583,
+-0.06342
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra T1",
+"ecken": 973,
+"dreiecke": 1946,
+"mitte": [
+0.0,
+1.43799,
+-0.04735
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Thoracic skeleton",
+"Thoracic vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra L1",
+"ecken": 1581,
+"dreiecke": 3162,
+"mitte": [
+0.0,
+1.10391,
+-0.02924
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Lumbar vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra L2",
+"ecken": 1344,
+"dreiecke": 2688,
+"mitte": [
+0.0,
+1.07492,
+-0.0241
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Lumbar vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra L4",
+"ecken": 1902,
+"dreiecke": 3804,
+"mitte": [
+0.0,
+1.01505,
+-0.02405
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Lumbar vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra L5",
+"ecken": 2016,
+"dreiecke": 4032,
+"mitte": [
+-0.0,
+0.98281,
+-0.02913
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Lumbar vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Vertebra L3",
+"ecken": 1600,
+"dreiecke": 3160,
+"mitte": [
+1e-05,
+1.04337,
+-0.02317
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Lumbar vertebrae",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Coccyx",
+"ecken": 589,
+"dreiecke": 1166,
+"mitte": [
+1e-05,
+0.84571,
+-0.07651
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Bony pelvis",
+"Pelvis",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Fifth rib.r",
+"ecken": 4690,
+"dreiecke": 9376,
+"mitte": [
+-0.0734,
+1.3043,
+0.00744
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "First rib.r",
+"ecken": 1607,
+"dreiecke": 3210,
+"mitte": [
+-0.04372,
+1.41684,
+0.0018
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Fourth rib.r",
+"ecken": 4325,
+"dreiecke": 8646,
+"mitte": [
+-0.07059,
+1.33606,
+0.00789
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Second rib.r",
+"ecken": 2684,
+"dreiecke": 5364,
+"mitte": [
+-0.05834,
+1.39075,
+0.0107
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Seventh rib.r",
+"ecken": 4890,
+"dreiecke": 9776,
+"mitte": [
+-0.07905,
+1.24362,
+-0.00565
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Sixth rib.r",
+"ecken": 5078,
+"dreiecke": 10132,
+"mitte": [
+-0.07727,
+1.27511,
+0.00076
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Third rib.r",
+"ecken": 3492,
+"dreiecke": 6980,
+"mitte": [
+-0.06479,
+1.36362,
+0.00682
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Eleventh rib.r",
+"ecken": 2519,
+"dreiecke": 5034,
+"mitte": [
+-0.0698,
+1.12507,
+-0.03766
+],
+"materialien": [
+"Bone-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Floating ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Twelfth rib.r",
+"ecken": 1503,
+"dreiecke": 3002,
+"mitte": [
+-0.05243,
+1.10539,
+-0.04592
+],
+"materialien": [
+"Bone-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Floating ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Eighth rib.r",
+"ecken": 4137,
+"dreiecke": 8270,
+"mitte": [
+-0.07635,
+1.21106,
+-0.01467
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Ninth rib.r",
+"ecken": 3891,
+"dreiecke": 7778,
+"mitte": [
+-0.07578,
+1.18141,
+-0.02711
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Tenth rib.r",
+"ecken": 3515,
+"dreiecke": 7026,
+"mitte": [
+-0.07499,
+1.15085,
+-0.03051
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Manubrium of sternum",
+"ecken": 1336,
+"dreiecke": 2662,
+"mitte": [
+-0.00013,
+1.37693,
+0.05772
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bones of pectoral girdle",
+"Sternum",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Xiphoid process",
+"ecken": 459,
+"dreiecke": 913,
+"mitte": [
+-0.0,
+1.23225,
+0.10357
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Sternum",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Body of sternum",
+"ecken": 2240,
+"dreiecke": 4466,
+"mitte": [
+0.0,
+1.29927,
+0.09997
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Sternum",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of first rib.r",
+"ecken": 1388,
+"dreiecke": 2772,
+"mitte": [
+-0.03882,
+1.38809,
+0.03965
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of second rib.r",
+"ecken": 1706,
+"dreiecke": 3408,
+"mitte": [
+-0.02929,
+1.35146,
+0.06958
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of third rib.r",
+"ecken": 1802,
+"dreiecke": 3600,
+"mitte": [
+-0.03401,
+1.32019,
+0.07996
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of fourth rib.r",
+"ecken": 2238,
+"dreiecke": 4472,
+"mitte": [
+-0.04342,
+1.29149,
+0.09106
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of fifth rib.r",
+"ecken": 3248,
+"dreiecke": 6492,
+"mitte": [
+-0.05185,
+1.26035,
+0.1015
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of sixth rib.r",
+"ecken": 4062,
+"dreiecke": 8120,
+"mitte": [
+-0.055,
+1.23359,
+0.10149
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of seventh rib.r",
+"ecken": 6884,
+"dreiecke": 13764,
+"mitte": [
+-0.06029,
+1.20658,
+0.09359
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of eighth rib.r",
+"ecken": 1314,
+"dreiecke": 2624,
+"mitte": [
+-0.07789,
+1.16123,
+0.08337
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of tenth rib.r",
+"ecken": 764,
+"dreiecke": 1524,
+"mitte": [
+-0.10403,
+1.08091,
+0.04991
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of ninth rib.r",
+"ecken": 984,
+"dreiecke": 1964,
+"mitte": [
+-0.09592,
+1.11503,
+0.06352
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Clavicle.r",
+"ecken": 789,
+"dreiecke": 1550,
+"mitte": [
+-0.08277,
+1.40716,
+-0.00088
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of pectoral girdle",
+"Bones of upper limb",
+"Bonus collection",
+"Right upper limb",
+"Trunk"
+]
+},
+{
+"name": "Humerus.r",
+"ecken": 2143,
+"dreiecke": 4280,
+"mitte": [
+-0.19672,
+1.24581,
+-0.02744
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of upper limb",
+"Bonus collection",
+"Right upper limb"
+]
+},
+{
+"name": "Patella.r",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+-0.08444,
+0.44427,
+0.00729
+],
+"materialien": [
+"Bone-1",
+"Cartilage",
+"Bone-2",
+"Bone-3",
+"Bone-4",
+"Bone-5",
+"Bone-6",
+"Bone-7",
+"Bone-8"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right lower limb"
+]
+},
+{
+"name": "Talus.r",
+"ecken": 677,
+"dreiecke": 1350,
+"mitte": [
+-0.0747,
+0.06767,
+-0.03657
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Calcaneus.r",
+"ecken": 726,
+"dreiecke": 1448,
+"mitte": [
+-0.07846,
+0.037,
+-0.05371
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Navicular bone.r",
+"ecken": 368,
+"dreiecke": 732,
+"mitte": [
+-0.07303,
+0.06222,
+-0.00309
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Cuboid bone.r",
+"ecken": 501,
+"dreiecke": 998,
+"mitte": [
+-0.09564,
+0.04433,
+-0.00638
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Intermediate cuneiform bone.r",
+"ecken": 224,
+"dreiecke": 444,
+"mitte": [
+-0.08361,
+0.05869,
+0.01126
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral cuneiform bone.r",
+"ecken": 321,
+"dreiecke": 638,
+"mitte": [
+-0.09343,
+0.05365,
+0.00703
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Medial cuneiform bone.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.07061,
+0.05159,
+0.01548
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "First metatarsal bone.r",
+"ecken": 546,
+"dreiecke": 1088,
+"mitte": [
+-0.07124,
+0.03709,
+0.05262
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Fifth metatarsal bone.r",
+"ecken": 449,
+"dreiecke": 894,
+"mitte": [
+-0.11945,
+0.02547,
+0.02283
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Second metatarsal bone.r",
+"ecken": 347,
+"dreiecke": 690,
+"mitte": [
+-0.08944,
+0.03848,
+0.04993
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Third metatarsal bone.r",
+"ecken": 409,
+"dreiecke": 814,
+"mitte": [
+-0.10068,
+0.03564,
+0.04743
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Fourth metatarsal bone.r",
+"ecken": 419,
+"dreiecke": 834,
+"mitte": [
+-0.10929,
+0.0309,
+0.03793
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Distal phalanx of fifth finger of foot.r",
+"ecken": 120,
+"dreiecke": 236,
+"mitte": [
+-0.14247,
+0.01202,
+0.09105
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Distal phalanx of first finger of foot.r",
+"ecken": 235,
+"dreiecke": 466,
+"mitte": [
+-0.08009,
+0.01568,
+0.12117
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Distal phalanx of fourth finger of foot.r",
+"ecken": 141,
+"dreiecke": 278,
+"mitte": [
+-0.13218,
+0.01291,
+0.10957
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Distal phalanx of second finger of foot.r",
+"ecken": 120,
+"dreiecke": 236,
+"mitte": [
+-0.1038,
+0.01325,
+0.13047
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Distal phalanx of third finger of foot.r",
+"ecken": 161,
+"dreiecke": 318,
+"mitte": [
+-0.1188,
+0.01256,
+0.12428
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Middle phalanx of second finger of foot.r",
+"ecken": 193,
+"dreiecke": 382,
+"mitte": [
+-0.101,
+0.01638,
+0.11776
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Middle phalanx of third finger of foot.r",
+"ecken": 202,
+"dreiecke": 400,
+"mitte": [
+-0.1161,
+0.01512,
+0.11212
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Middle phalanx of fourth finger of foot.r",
+"ecken": 226,
+"dreiecke": 448,
+"mitte": [
+-0.12989,
+0.01399,
+0.09931
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Middle phalanx of fifth finger of foot.r",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+-0.14113,
+0.01288,
+0.08367
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Proximal phalanx of first finger of foot.r",
+"ecken": 268,
+"dreiecke": 532,
+"mitte": [
+-0.07396,
+0.02019,
+0.09718
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Proximal phalanx of second finger of foot.r",
+"ecken": 215,
+"dreiecke": 426,
+"mitte": [
+-0.09554,
+0.01951,
+0.09714
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Proximal phalanx of third finger of foot.r",
+"ecken": 232,
+"dreiecke": 460,
+"mitte": [
+-0.11061,
+0.01815,
+0.09119
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Proximal phalanx of fourth finger of foot.r",
+"ecken": 232,
+"dreiecke": 460,
+"mitte": [
+-0.12316,
+0.01684,
+0.08146
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Proximal phalanx of fifth finger of foot.r",
+"ecken": 260,
+"dreiecke": 516,
+"mitte": [
+-0.13547,
+0.01492,
+0.06841
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Sesamoid bones of foot.r",
+"ecken": 149,
+"dreiecke": 290,
+"mitte": [
+-0.0717,
+0.01465,
+0.07045
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right foot",
+"Right lower limb"
+]
+},
+{
+"name": "Distal phalanx of first finger of hand.r",
+"ecken": 113,
+"dreiecke": 222,
+"mitte": [
+-0.32762,
+0.77892,
+0.06576
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Distal phalanx of second finger of hand.r",
+"ecken": 127,
+"dreiecke": 250,
+"mitte": [
+-0.31636,
+0.71494,
+0.07911
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Distal phalanx of third finger of hand.r",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.28518,
+0.70564,
+0.08808
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Distal phalanx of fourth finger of hand.r",
+"ecken": 69,
+"dreiecke": 134,
+"mitte": [
+-0.25764,
+0.71556,
+0.08776
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Distal phalanx of fifth finger of hand.r",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.23038,
+0.72952,
+0.07616
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Middle phalanx of second finger of hand.r",
+"ecken": 159,
+"dreiecke": 314,
+"mitte": [
+-0.31161,
+0.72772,
+0.06204
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Middle phalanx of third finger of hand.r",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+-0.28237,
+0.72138,
+0.06993
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Middle phalanx of fourth finger of hand.r",
+"ecken": 225,
+"dreiecke": 446,
+"mitte": [
+-0.25679,
+0.72828,
+0.06916
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Middle phalanx of fifth finger of hand.r",
+"ecken": 148,
+"dreiecke": 292,
+"mitte": [
+-0.2321,
+0.74442,
+0.06357
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Proximal phalanx of first finger of hand.r",
+"ecken": 166,
+"dreiecke": 328,
+"mitte": [
+-0.31882,
+0.80021,
+0.05385
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Proximal phalanx of second finger of hand.r",
+"ecken": 209,
+"dreiecke": 414,
+"mitte": [
+-0.30135,
+0.75184,
+0.04532
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Proximal phalanx of third finger of hand.r",
+"ecken": 222,
+"dreiecke": 440,
+"mitte": [
+-0.27713,
+0.75192,
+0.04967
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Proximal phalanx of fourth finger of hand.r",
+"ecken": 186,
+"dreiecke": 368,
+"mitte": [
+-0.2552,
+0.75691,
+0.04874
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Proximal phalanx of fifth finger of hand.r",
+"ecken": 282,
+"dreiecke": 560,
+"mitte": [
+-0.2368,
+0.76744,
+0.04903
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "First metacarpal bone.r",
+"ecken": 343,
+"dreiecke": 682,
+"mitte": [
+-0.30051,
+0.82856,
+0.0383
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Second metacarpal bone.r",
+"ecken": 384,
+"dreiecke": 764,
+"mitte": [
+-0.28631,
+0.80181,
+0.02928
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Third metacarpal bone.r",
+"ecken": 356,
+"dreiecke": 708,
+"mitte": [
+-0.27102,
+0.80193,
+0.02686
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Fourth metacarpal bone.r",
+"ecken": 323,
+"dreiecke": 642,
+"mitte": [
+-0.25573,
+0.80416,
+0.02831
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Fifth metacarpal bone.r",
+"ecken": 258,
+"dreiecke": 512,
+"mitte": [
+-0.24298,
+0.80861,
+0.03169
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Capitate bone.r",
+"ecken": 238,
+"dreiecke": 472,
+"mitte": [
+-0.26485,
+0.84358,
+0.01796
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Hamate bone.r",
+"ecken": 270,
+"dreiecke": 536,
+"mitte": [
+-0.25228,
+0.84104,
+0.02176
+],
+"materialien": [
+"Bone-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Lunate bone.r",
+"ecken": 1046,
+"dreiecke": 2088,
+"mitte": [
+-0.25251,
+0.85415,
+0.01781
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Pisiform bone.r",
+"ecken": 836,
+"dreiecke": 1668,
+"mitte": [
+-0.24385,
+0.84582,
+0.03209
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Scaphoid bone.r",
+"ecken": 197,
+"dreiecke": 390,
+"mitte": [
+-0.26981,
+0.8546,
+0.01807
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Trapezium bone.r",
+"ecken": 252,
+"dreiecke": 500,
+"mitte": [
+-0.28222,
+0.84608,
+0.02544
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Trapezoid bone.r",
+"ecken": 184,
+"dreiecke": 364,
+"mitte": [
+-0.27651,
+0.83912,
+0.02005
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Triquetrum bone.r",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+-0.24524,
+0.84601,
+0.0214
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Right hand",
+"Right upper limb"
+]
+},
+{
+"name": "Axis (C2)",
+"ecken": 1168,
+"dreiecke": 2334,
+"mitte": [
+2e-05,
+1.52998,
+-0.02601
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Back",
+"Cervical vertebrae",
+"Neck",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Scapula.r",
+"ecken": 12690,
+"dreiecke": 25326,
+"mitte": [
+-0.11709,
+1.33606,
+-0.05577
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of pectoral girdle",
+"Bones of upper limb",
+"Bonus collection",
+"Right upper limb",
+"Trunk"
+]
+},
+{
+"name": "Radius.r",
+"ecken": 394,
+"dreiecke": 784,
+"mitte": [
+-0.25777,
+0.97483,
+-0.00761
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of upper limb",
+"Bonus collection",
+"Right upper limb"
+]
+},
+{
+"name": "Ulna.r",
+"ecken": 454,
+"dreiecke": 904,
+"mitte": [
+-0.22943,
+0.9833,
+-0.01877
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of upper limb",
+"Bonus collection",
+"Right upper limb"
+]
+},
+{
+"name": "Femur.r",
+"ecken": 1899,
+"dreiecke": 3794,
+"mitte": [
+-0.09023,
+0.65709,
+-0.0203
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right lower limb"
+]
+},
+{
+"name": "Hip bone.r",
+"ecken": 1894,
+"dreiecke": 3788,
+"mitte": [
+-0.06892,
+0.90464,
+-0.01536
+],
+"materialien": [
+"Bone-1",
+"Bone-6",
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of lower limb",
+"Bonus collection",
+"Bony pelvis",
+"Pelvis",
+"Right lower limb"
+]
+},
+{
+"name": "Tibia.r",
+"ecken": 837,
+"dreiecke": 1670,
+"mitte": [
+-0.07657,
+0.2542,
+-0.02895
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right lower limb"
+]
+},
+{
+"name": "Fibula.r",
+"ecken": 653,
+"dreiecke": 1264,
+"mitte": [
+-0.10674,
+0.23646,
+-0.04322
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Right lower limb"
+]
+},
+{
+"name": "Sacrum",
+"ecken": 5832,
+"dreiecke": 11676,
+"mitte": [
+-4e-05,
+0.92329,
+-0.0493
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Abdomen",
+"Axial skeleton",
+"Back",
+"Bony pelvis",
+"Pelvis",
+"Trunk",
+"Vertebral column"
+]
+},
+{
+"name": "Temporal bone.l",
+"ecken": 7051,
+"dreiecke": 14094,
+"mitte": [
+0.04103,
+1.58594,
+-0.00339
+],
+"materialien": [
+"Bone-1",
+"Suture-1",
+"Suture-2",
+"Suture-4",
+"Suture-7",
+"Cartilage",
+"Suture-6"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Inferior nasal concha bone.l",
+"ecken": 238,
+"dreiecke": 476,
+"mitte": [
+0.00965,
+1.56336,
+0.05811
+],
+"materialien": [
+"Bone"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Lacrimal bone.l",
+"ecken": 296,
+"dreiecke": 588,
+"mitte": [
+0.01179,
+1.58567,
+0.06887
+],
+"materialien": [
+"Bone-6",
+"Suture-1",
+"Suture-3",
+"Suture-4",
+"Suture-5",
+"Suture-7"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Nasal bone.l",
+"ecken": 148,
+"dreiecke": 292,
+"mitte": [
+0.0042,
+1.58939,
+0.0898
+],
+"materialien": [
+"Bone-4",
+"Suture-4",
+"Suture-3",
+"Suture-5"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Vomer",
+"ecken": 514,
+"dreiecke": 1022,
+"mitte": [
+0.0,
+1.56888,
+0.05153
+],
+"materialien": [
+"Bone-1"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Maxilla.l",
+"ecken": 2399,
+"dreiecke": 4798,
+"mitte": [
+0.02291,
+1.57133,
+0.06697
+],
+"materialien": [
+"Bone-5",
+"Suture",
+"Suture-5",
+"Suture-3",
+"Suture-4",
+"Suture-6",
+"Suture-7",
+"Suture-2"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head",
+"Right maxilla"
+]
+},
+{
+"name": "Palatine bone.l",
+"ecken": 732,
+"dreiecke": 1460,
+"mitte": [
+0.01391,
+1.56405,
+0.04239
+],
+"materialien": [
+"Bone-2",
+"Suture-2",
+"Suture-4",
+"Suture-5",
+"Suture-7"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Zygomatic bone.l",
+"ecken": 666,
+"dreiecke": 1328,
+"mitte": [
+0.04697,
+1.58109,
+0.05219
+],
+"materialien": [
+"Bone-8",
+"Suture-1",
+"Suture-3",
+"Suture-4",
+"Suture-5"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Malleus.l",
+"ecken": 1993,
+"dreiecke": 3982,
+"mitte": [
+0.04819,
+1.58214,
+-0.00393
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Auditory ossicles",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Incus.l",
+"ecken": 1268,
+"dreiecke": 2532,
+"mitte": [
+0.04708,
+1.58268,
+-0.0072
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Auditory ossicles",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Stapes.l",
+"ecken": 2171,
+"dreiecke": 4342,
+"mitte": [
+0.04298,
+1.58105,
+-0.00444
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Auditory ossicles",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Upper medial incisor.l",
+"ecken": 686,
+"dreiecke": 1368,
+"mitte": [
+0.00445,
+1.53917,
+0.08691
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper lateral incisor.l",
+"ecken": 729,
+"dreiecke": 1454,
+"mitte": [
+0.01119,
+1.53969,
+0.08463
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper canine.l",
+"ecken": 737,
+"dreiecke": 1470,
+"mitte": [
+0.01708,
+1.54241,
+0.08141
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower medial incisor.l",
+"ecken": 494,
+"dreiecke": 984,
+"mitte": [
+0.00322,
+1.51505,
+0.07961
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Teeth"
+]
+},
+{
+"name": "Lower lateral incisor.l",
+"ecken": 522,
+"dreiecke": 1040,
+"mitte": [
+0.00806,
+1.51516,
+0.07957
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Teeth"
+]
+},
+{
+"name": "Lower canine.l",
+"ecken": 640,
+"dreiecke": 1276,
+"mitte": [
+0.01285,
+1.51474,
+0.07631
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Anterior teeth",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Teeth"
+]
+},
+{
+"name": "Upper first premolar.l",
+"ecken": 844,
+"dreiecke": 1684,
+"mitte": [
+0.02006,
+1.54258,
+0.07384
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper second premolar.l",
+"ecken": 779,
+"dreiecke": 1554,
+"mitte": [
+0.02308,
+1.54234,
+0.06785
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper first molar tooth.l",
+"ecken": 1090,
+"dreiecke": 2176,
+"mitte": [
+0.02416,
+1.54369,
+0.05914
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Upper second molar tooth.l",
+"ecken": 924,
+"dreiecke": 1844,
+"mitte": [
+0.02368,
+1.54625,
+0.05068
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cranium",
+"Digestive system",
+"Head",
+"Posterior teeth",
+"Right maxilla",
+"Superior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower first premolar.l",
+"ecken": 613,
+"dreiecke": 1222,
+"mitte": [
+0.01687,
+1.51747,
+0.07086
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower second premolar.l",
+"ecken": 592,
+"dreiecke": 1180,
+"mitte": [
+0.01993,
+1.5184,
+0.06456
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower first molar tooth.l",
+"ecken": 2260,
+"dreiecke": 4508,
+"mitte": [
+0.0228,
+1.52305,
+0.05729
+],
+"materialien": [
+"Teeth",
+"Dentine",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Lower second molar tooth.l",
+"ecken": 840,
+"dreiecke": 1676,
+"mitte": [
+0.02623,
+1.52772,
+0.0457
+],
+"materialien": [
+"Teeth",
+"Teeth-roots"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Digestive system",
+"Head",
+"Inferior teeth",
+"Mandible",
+"Posterior teeth",
+"Teeth"
+]
+},
+{
+"name": "Major alar cartilage.l",
+"ecken": 174,
+"dreiecke": 344,
+"mitte": [
+0.00746,
+1.55522,
+0.10072
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Lateral process of nasal septal cartilage.l",
+"ecken": 174,
+"dreiecke": 347,
+"mitte": [
+0.00657,
+1.57025,
+0.09887
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Cranium",
+"Head"
+]
+},
+{
+"name": "Arytenoid cartilage.l",
+"ecken": 1892,
+"dreiecke": 3780,
+"mitte": [
+0.00526,
+1.47713,
+0.00727
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Corniculate cartilage.l",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+0.00363,
+1.4814,
+0.0041
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Fifth rib.l",
+"ecken": 4690,
+"dreiecke": 9376,
+"mitte": [
+0.0734,
+1.3043,
+0.00744
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "First rib.l",
+"ecken": 1607,
+"dreiecke": 3210,
+"mitte": [
+0.04372,
+1.41684,
+0.0018
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Fourth rib.l",
+"ecken": 4325,
+"dreiecke": 8646,
+"mitte": [
+0.07059,
+1.33606,
+0.00789
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Second rib.l",
+"ecken": 2684,
+"dreiecke": 5364,
+"mitte": [
+0.05834,
+1.39075,
+0.0107
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Seventh rib.l",
+"ecken": 4890,
+"dreiecke": 9776,
+"mitte": [
+0.07905,
+1.24362,
+-0.00565
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Sixth rib.l",
+"ecken": 5078,
+"dreiecke": 10132,
+"mitte": [
+0.07727,
+1.27511,
+0.00076
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Third rib.l",
+"ecken": 3492,
+"dreiecke": 6980,
+"mitte": [
+0.06479,
+1.36362,
+0.00682
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Eleventh rib.l",
+"ecken": 2519,
+"dreiecke": 5034,
+"mitte": [
+0.0698,
+1.12507,
+-0.03766
+],
+"materialien": [
+"Bone-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Floating ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Twelfth rib.l",
+"ecken": 1503,
+"dreiecke": 3002,
+"mitte": [
+0.05243,
+1.10539,
+-0.04592
+],
+"materialien": [
+"Bone-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Floating ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Ninth rib.l",
+"ecken": 3891,
+"dreiecke": 7778,
+"mitte": [
+0.07578,
+1.18141,
+-0.02711
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Tenth rib.l",
+"ecken": 3515,
+"dreiecke": 7026,
+"mitte": [
+0.07499,
+1.15085,
+-0.03051
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of first rib.l",
+"ecken": 1388,
+"dreiecke": 2772,
+"mitte": [
+0.03882,
+1.38809,
+0.03965
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of second rib.l",
+"ecken": 1706,
+"dreiecke": 3408,
+"mitte": [
+0.02929,
+1.35146,
+0.06958
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of third rib.l",
+"ecken": 1802,
+"dreiecke": 3600,
+"mitte": [
+0.03401,
+1.32019,
+0.07996
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of fourth rib.l",
+"ecken": 2238,
+"dreiecke": 4472,
+"mitte": [
+0.04342,
+1.29149,
+0.09106
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of fifth rib.l",
+"ecken": 3248,
+"dreiecke": 6492,
+"mitte": [
+0.05185,
+1.26035,
+0.1015
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of sixth rib.l",
+"ecken": 4062,
+"dreiecke": 8120,
+"mitte": [
+0.055,
+1.23359,
+0.10149
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of seventh rib.l",
+"ecken": 6884,
+"dreiecke": 13764,
+"mitte": [
+0.06029,
+1.20658,
+0.09359
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of eighth rib.l",
+"ecken": 1314,
+"dreiecke": 2624,
+"mitte": [
+0.07789,
+1.16123,
+0.08337
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of tenth rib.l",
+"ecken": 764,
+"dreiecke": 1524,
+"mitte": [
+0.10403,
+1.08091,
+0.04991
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Costal cartilage of ninth rib.l",
+"ecken": 984,
+"dreiecke": 1964,
+"mitte": [
+0.09592,
+1.11503,
+0.06352
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"Cartilages",
+"Costal cartilages",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Clavicle.l",
+"ecken": 789,
+"dreiecke": 1550,
+"mitte": [
+0.08277,
+1.40716,
+-0.00088
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of pectoral girdle",
+"Bones of upper limb",
+"Bonus collection",
+"Left upper limb",
+"Trunk"
+]
+},
+{
+"name": "Humerus.l",
+"ecken": 2143,
+"dreiecke": 4280,
+"mitte": [
+0.19672,
+1.24581,
+-0.02744
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of upper limb",
+"Bonus collection",
+"Left upper limb"
+]
+},
+{
+"name": "Patella.l",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+0.08444,
+0.44427,
+0.00729
+],
+"materialien": [
+"Bone-1",
+"Cartilage",
+"Bone-2",
+"Bone-3",
+"Bone-4",
+"Bone-5",
+"Bone-6",
+"Bone-7",
+"Bone-8"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb"
+]
+},
+{
+"name": "Talus.l",
+"ecken": 677,
+"dreiecke": 1350,
+"mitte": [
+0.0747,
+0.06767,
+-0.03657
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Calcaneus.l",
+"ecken": 726,
+"dreiecke": 1448,
+"mitte": [
+0.07846,
+0.037,
+-0.05371
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Navicular bone.l",
+"ecken": 368,
+"dreiecke": 732,
+"mitte": [
+0.07303,
+0.06222,
+-0.00309
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Cuboid bone.l",
+"ecken": 501,
+"dreiecke": 998,
+"mitte": [
+0.09564,
+0.04433,
+-0.00638
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Intermediate cuneiform bone.l",
+"ecken": 224,
+"dreiecke": 444,
+"mitte": [
+0.08361,
+0.05869,
+0.01126
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Lateral cuneiform bone.l",
+"ecken": 321,
+"dreiecke": 638,
+"mitte": [
+0.09343,
+0.05365,
+0.00703
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Medial cuneiform bone.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.07061,
+0.05159,
+0.01548
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "First metatarsal bone.l",
+"ecken": 546,
+"dreiecke": 1088,
+"mitte": [
+0.07124,
+0.03709,
+0.05262
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Fifth metatarsal bone.l",
+"ecken": 449,
+"dreiecke": 894,
+"mitte": [
+0.11945,
+0.02547,
+0.02283
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Second metatarsal bone.l",
+"ecken": 347,
+"dreiecke": 690,
+"mitte": [
+0.08944,
+0.03848,
+0.04993
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Third metatarsal bone.l",
+"ecken": 409,
+"dreiecke": 814,
+"mitte": [
+0.10068,
+0.03564,
+0.04743
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Fourth metatarsal bone.l",
+"ecken": 419,
+"dreiecke": 834,
+"mitte": [
+0.10929,
+0.0309,
+0.03793
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Distal phalanx of fifth finger of foot.l",
+"ecken": 120,
+"dreiecke": 236,
+"mitte": [
+0.14247,
+0.01202,
+0.09105
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Distal phalanx of first finger of foot.l",
+"ecken": 235,
+"dreiecke": 466,
+"mitte": [
+0.08009,
+0.01568,
+0.12117
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Distal phalanx of fourth finger of foot.l",
+"ecken": 141,
+"dreiecke": 278,
+"mitte": [
+0.13218,
+0.01291,
+0.10957
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Distal phalanx of second finger of foot.l",
+"ecken": 120,
+"dreiecke": 236,
+"mitte": [
+0.1038,
+0.01325,
+0.13047
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Distal phalanx of third finger of foot.l",
+"ecken": 161,
+"dreiecke": 318,
+"mitte": [
+0.1188,
+0.01256,
+0.12428
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Middle phalanx of second finger of foot.l",
+"ecken": 193,
+"dreiecke": 382,
+"mitte": [
+0.101,
+0.01638,
+0.11776
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Middle phalanx of third finger of foot.l",
+"ecken": 202,
+"dreiecke": 400,
+"mitte": [
+0.1161,
+0.01512,
+0.11212
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Middle phalanx of fourth finger of foot.l",
+"ecken": 226,
+"dreiecke": 448,
+"mitte": [
+0.12989,
+0.01399,
+0.09931
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Middle phalanx of fifth finger of foot.l",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+0.14113,
+0.01288,
+0.08367
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Proximal phalanx of first finger of foot.l",
+"ecken": 268,
+"dreiecke": 532,
+"mitte": [
+0.07396,
+0.02019,
+0.09718
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Proximal phalanx of second finger of foot.l",
+"ecken": 215,
+"dreiecke": 426,
+"mitte": [
+0.09554,
+0.01951,
+0.09714
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Proximal phalanx of third finger of foot.l",
+"ecken": 232,
+"dreiecke": 460,
+"mitte": [
+0.11061,
+0.01815,
+0.09119
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Proximal phalanx of fourth finger of foot.l",
+"ecken": 232,
+"dreiecke": 460,
+"mitte": [
+0.12316,
+0.01684,
+0.08146
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Proximal phalanx of fifth finger of foot.l",
+"ecken": 260,
+"dreiecke": 516,
+"mitte": [
+0.13547,
+0.01492,
+0.06841
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Sesamoid bones of foot.l",
+"ecken": 149,
+"dreiecke": 290,
+"mitte": [
+0.0717,
+0.01465,
+0.07045
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb",
+"Right foot"
+]
+},
+{
+"name": "Distal phalanx of first finger of hand.l",
+"ecken": 113,
+"dreiecke": 222,
+"mitte": [
+0.32762,
+0.77892,
+0.06576
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Distal phalanx of second finger of hand.l",
+"ecken": 127,
+"dreiecke": 250,
+"mitte": [
+0.31636,
+0.71494,
+0.07911
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Distal phalanx of third finger of hand.l",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.28518,
+0.70564,
+0.08808
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Distal phalanx of fourth finger of hand.l",
+"ecken": 69,
+"dreiecke": 134,
+"mitte": [
+0.25764,
+0.71556,
+0.08776
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Distal phalanx of fifth finger of hand.l",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.23038,
+0.72952,
+0.07616
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Middle phalanx of second finger of hand.l",
+"ecken": 159,
+"dreiecke": 314,
+"mitte": [
+0.31161,
+0.72772,
+0.06204
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Middle phalanx of third finger of hand.l",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+0.28237,
+0.72138,
+0.06993
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Middle phalanx of fourth finger of hand.l",
+"ecken": 225,
+"dreiecke": 446,
+"mitte": [
+0.25679,
+0.72828,
+0.06916
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Middle phalanx of fifth finger of hand.l",
+"ecken": 148,
+"dreiecke": 292,
+"mitte": [
+0.2321,
+0.74442,
+0.06357
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Proximal phalanx of first finger of hand.l",
+"ecken": 166,
+"dreiecke": 328,
+"mitte": [
+0.31882,
+0.80021,
+0.05385
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Proximal phalanx of second finger of hand.l",
+"ecken": 209,
+"dreiecke": 414,
+"mitte": [
+0.30135,
+0.75184,
+0.04532
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Proximal phalanx of third finger of hand.l",
+"ecken": 222,
+"dreiecke": 440,
+"mitte": [
+0.27713,
+0.75192,
+0.04967
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Proximal phalanx of fourth finger of hand.l",
+"ecken": 186,
+"dreiecke": 368,
+"mitte": [
+0.2552,
+0.75691,
+0.04874
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Proximal phalanx of fifth finger of hand.l",
+"ecken": 282,
+"dreiecke": 560,
+"mitte": [
+0.2368,
+0.76744,
+0.04903
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "First metacarpal bone.l",
+"ecken": 343,
+"dreiecke": 682,
+"mitte": [
+0.30051,
+0.82856,
+0.0383
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Second metacarpal bone.l",
+"ecken": 384,
+"dreiecke": 764,
+"mitte": [
+0.28631,
+0.80181,
+0.02928
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Third metacarpal bone.l",
+"ecken": 356,
+"dreiecke": 708,
+"mitte": [
+0.27102,
+0.80193,
+0.02686
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Fourth metacarpal bone.l",
+"ecken": 323,
+"dreiecke": 642,
+"mitte": [
+0.25573,
+0.80416,
+0.02831
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Fifth metacarpal bone.l",
+"ecken": 258,
+"dreiecke": 512,
+"mitte": [
+0.24298,
+0.80861,
+0.03169
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Capitate bone.l",
+"ecken": 238,
+"dreiecke": 472,
+"mitte": [
+0.26485,
+0.84358,
+0.01796
+],
+"materialien": [
+"Bone-5",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Hamate bone.l",
+"ecken": 270,
+"dreiecke": 536,
+"mitte": [
+0.25228,
+0.84104,
+0.02176
+],
+"materialien": [
+"Bone-4",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Lunate bone.l",
+"ecken": 1046,
+"dreiecke": 2088,
+"mitte": [
+0.25251,
+0.85415,
+0.01781
+],
+"materialien": [
+"Bone-2",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Pisiform bone.l",
+"ecken": 836,
+"dreiecke": 1668,
+"mitte": [
+0.24385,
+0.84582,
+0.03209
+],
+"materialien": [
+"Bone-8",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Scaphoid bone.l",
+"ecken": 197,
+"dreiecke": 390,
+"mitte": [
+0.26981,
+0.8546,
+0.01807
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Trapezium bone.l",
+"ecken": 252,
+"dreiecke": 500,
+"mitte": [
+0.28222,
+0.84608,
+0.02544
+],
+"materialien": [
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Trapezoid bone.l",
+"ecken": 184,
+"dreiecke": 364,
+"mitte": [
+0.27651,
+0.83912,
+0.02005
+],
+"materialien": [
+"Bone-6",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Triquetrum bone.l",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+0.24524,
+0.84601,
+0.0214
+],
+"materialien": [
+"Bone-1",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bonus collection",
+"Left upper limb",
+"Right hand"
+]
+},
+{
+"name": "Scapula.l",
+"ecken": 12690,
+"dreiecke": 25326,
+"mitte": [
+0.11709,
+1.33606,
+-0.05577
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of pectoral girdle",
+"Bones of upper limb",
+"Bonus collection",
+"Left upper limb",
+"Trunk"
+]
+},
+{
+"name": "Radius.l",
+"ecken": 394,
+"dreiecke": 784,
+"mitte": [
+0.25777,
+0.97483,
+-0.00761
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of upper limb",
+"Bonus collection",
+"Left upper limb"
+]
+},
+{
+"name": "Ulna.l",
+"ecken": 454,
+"dreiecke": 904,
+"mitte": [
+0.22943,
+0.9833,
+-0.01877
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of upper limb",
+"Bonus collection",
+"Left upper limb"
+]
+},
+{
+"name": "Femur.l",
+"ecken": 1899,
+"dreiecke": 3794,
+"mitte": [
+0.09023,
+0.65709,
+-0.0203
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb"
+]
+},
+{
+"name": "Hip bone.l",
+"ecken": 1894,
+"dreiecke": 3788,
+"mitte": [
+0.06892,
+0.90464,
+-0.01536
+],
+"materialien": [
+"Bone-1",
+"Bone-6",
+"Bone-7",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of lower limb",
+"Bonus collection",
+"Bony pelvis",
+"Left lower limb",
+"Pelvis"
+]
+},
+{
+"name": "Tibia.l",
+"ecken": 837,
+"dreiecke": 1670,
+"mitte": [
+0.07657,
+0.2542,
+-0.02895
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb"
+]
+},
+{
+"name": "Fibula.l",
+"ecken": 653,
+"dreiecke": 1264,
+"mitte": [
+0.10674,
+0.23646,
+-0.04322
+],
+"materialien": [
+"Bone",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Appendicular skeleton",
+"Bones of free lower limb",
+"Bones of lower limb",
+"Bonus collection",
+"Left lower limb"
+]
+},
+{
+"name": "Posterior cells of ethmoid bone.l",
+"ecken": 614,
+"dreiecke": 1216,
+"mitte": [
+0.00916,
+1.58798,
+0.04376
+],
+"materialien": [],
+"sammlungen": [
+"1: Skeletal system"
+]
+},
+{
+"name": "Middle cells of ethmoid bone.l",
+"ecken": 484,
+"dreiecke": 960,
+"mitte": [
+0.00978,
+1.58774,
+0.05152
+],
+"materialien": [],
+"sammlungen": [
+"1: Skeletal system"
+]
+},
+{
+"name": "Anterior cells of ethmoid bone.l",
+"ecken": 372,
+"dreiecke": 736,
+"mitte": [
+0.00897,
+1.58817,
+0.05886
+],
+"materialien": [],
+"sammlungen": [
+"1: Skeletal system"
+]
+},
+{
+"name": "Posterior cells of ethmoid bone.r",
+"ecken": 614,
+"dreiecke": 1216,
+"mitte": [
+-0.00916,
+1.58798,
+0.04376
+],
+"materialien": [],
+"sammlungen": [
+"1: Skeletal system"
+]
+},
+{
+"name": "Middle cells of ethmoid bone.r",
+"ecken": 484,
+"dreiecke": 960,
+"mitte": [
+-0.00978,
+1.58774,
+0.05152
+],
+"materialien": [],
+"sammlungen": [
+"1: Skeletal system"
+]
+},
+{
+"name": "Anterior cells of ethmoid bone.r",
+"ecken": 372,
+"dreiecke": 736,
+"mitte": [
+-0.00897,
+1.58817,
+0.05886
+],
+"materialien": [],
+"sammlungen": [
+"1: Skeletal system"
+]
+},
+{
+"name": "Eighth rib.l",
+"ecken": 4137,
+"dreiecke": 8270,
+"mitte": [
+0.07635,
+1.21106,
+-0.01467
+],
+"materialien": [
+"Bone-3",
+"Cartilage"
+],
+"sammlungen": [
+"1: Skeletal system",
+"Axial skeleton",
+"Bonus collection",
+"False ribs",
+"Ribs",
+"Thoracic skeleton",
+"Thorax",
+"Trunk"
+]
+}
+]
+}
