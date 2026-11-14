@@ -90,7 +90,7 @@ try {
 
   // --- Ebenen-Panel ---
   await seite.locator('#knopf-panel-links').click();
-  pruefe('Ebenen-Panel listet alle 9 Ebenen', await seite.locator('.ebene').count() === 9);
+  pruefe('Ebenen-Panel listet alle 9 Ebenen, alle verfügbar', await seite.locator('.ebene').count() === 9 && await seite.locator('.ebene.nicht-verfuegbar').count() === 0);
   await seite.getByRole('button', { name: 'Alle wieder einblenden' }).click();
   await seite.locator('[data-ebene="haut"] .schalter input').check({ force: true });
   await seite.waitForFunction(() => window.__anatomie.modell.ebenen.get('haut').geladen, null, { timeout: 60000 });
@@ -149,6 +149,134 @@ try {
   await seite.getByRole('button', { name: 'Ansicht zurücksetzen' }).click();
   await seite.waitForTimeout(900);
 
+  // --- Alle Ebenen laden ---
+  await seite.evaluate(async () => {
+    const m = window.__anatomie.modell;
+    for (const id of m.ebenen.keys()) await m.setzeEbeneSichtbar(id, true);
+  });
+  await seite.waitForTimeout(1500);
+  const alle = await seite.evaluate(() => {
+    const { modell, szene } = window.__anatomie;
+    const r = szene.renderer.info.render;
+    return { geladen: [...modell.ebenen.values()].filter((e) => e.geladen).length, teile: modell.teile.size, dreiecke: r.triangles, calls: r.calls };
+  });
+  pruefe('Alle 9 Ebenen laden', alle.geladen === 9, `${alle.teile} Teile, ${alle.dreiecke} Dreiecke, ${alle.calls} Draw Calls (alles gleichzeitig sichtbar)`);
+  await seite.screenshot({ path: 'tests/bilder/11-alle-ebenen.png' });
+  await seite.evaluate(async () => {
+    const m = window.__anatomie.modell;
+    for (const id of m.ebenen.keys()) await m.setzeEbeneSichtbar(id, ['knochen', 'muskeln_oberflaechlich'].includes(id));
+  });
+
+  // --- Muskel mit Ursprung/Ansatz ---
+  await seite.locator('#suchfeld').fill('gluteus medius');
+  await seite.waitForTimeout(300);
+  await seite.locator('#suchergebnisse li button').first().click();
+  await seite.waitForTimeout(1000);
+  titel = await seite.locator('#panel-info h2').textContent().catch(() => null);
+  pruefe('Muskel über Suche: M. gluteus medius', titel?.startsWith('M. gluteus medius'), `Titel: ${titel}`);
+  pruefe('Muskel-Panel zeigt Ursprung und Ansatz', (await seite.locator('#panel-info .feld h3').allTextContents()).filter((t) => /Ursprung|Ansatz/i.test(t)).length >= 2);
+  await seite.getByRole('button', { name: 'Details' }).click();
+  pruefe('Muskel-Details: Innervation mit Segment', await seite.locator('#panel-info').getByText('N. gluteus superior (L4–S1)').count() > 0);
+  await seite.getByRole('button', { name: 'Ursprung/Ansatz zeigen' }).click();
+  await seite.waitForTimeout(1500);
+  const flaechen = await seite.evaluate(() => {
+    const g = window.__anatomie.szene.szene.children.find((c) => c.children?.some((k) => /\.[oe]\d*[lr]?$/.test(k.name)));
+    return g ? g.children.filter((k) => k.visible).length : 0;
+  });
+  pruefe('Ursprungs-/Ansatzflächen werden am Knochen gezeigt', flaechen >= 2, `${flaechen} Flächen`);
+  await seite.screenshot({ path: 'tests/bilder/12-muskel-ursprung-ansatz.png' });
+
+  // --- Gelenk ---
+  await seite.locator('#suchfeld').fill('Kniegelenk');
+  await seite.waitForTimeout(300);
+  await seite.locator('#suchergebnisse li button').first().click();
+  await seite.waitForTimeout(1500);
+  pruefe('Gelenk über Suche: Kniegelenk mit Neutral-Null-Tabelle', await seite.locator('#panel-info details.gelenk[open] .tabelle').count() > 0);
+  await seite.screenshot({ path: 'tests/bilder/13-kniegelenk.png' });
+
+  // --- Faszie ---
+  await seite.locator('#suchfeld').fill('Tractus iliotibialis');
+  await seite.waitForTimeout(300);
+  await seite.locator('#suchergebnisse li button').first().click();
+  await seite.waitForTimeout(1200);
+  titel = await seite.locator('#panel-info h2').textContent().catch(() => null);
+  pruefe('Faszie über Suche: Tractus iliotibialis', /Tractus iliotibialis/.test(titel ?? ''), `Titel: ${titel}`);
+  await seite.getByRole('button', { name: 'Feinbau' }).click();
+  pruefe('Faszien-Feinbau mit Hinweis zur Evidenz von Faszienketten', await seite.locator('#panel-info').getByText('unterschiedlicher Evidenz').count() > 0);
+  await seite.screenshot({ path: 'tests/bilder/14-faszie.png' });
+
+  // --- Merkliste ---
+  await seite.locator('#panel-info .merken').click();
+  pruefe('Struktur auf die Merkliste setzen', await seite.evaluate(() => window.__anatomie.speicher.daten.merkliste.length) === 1);
+
+  // --- Lernmodus: Quiz ---
+  await seite.locator('#panel-info .schliessen').click();
+  await seite.locator('#knopf-lernen').click();
+  pruefe('Lernmodus öffnet sich', await seite.getByRole('button', { name: /Quiz starten/ }).isVisible());
+  await seite.locator('#reiter-lernen select').nth(1).selectOption('zeigen');
+  await seite.getByRole('button', { name: /Quiz starten/ }).click();
+  await seite.waitForTimeout(1500);
+  const frage = await seite.locator('.quiz-frage').textContent();
+  pruefe('Quiz stellt Frage „Tippe im Modell auf …“', frage?.startsWith('Tippe im Modell auf'), frage ?? '');
+  // richtige Antwort über die Programmlogik (Antippen der gesuchten Struktur)
+  const ok = await seite.evaluate(() => {
+    const { lernmodus, modell } = window.__anatomie;
+    const f = lernmodus.quiz.fragen[lernmodus.quiz.index];
+    return lernmodus.beiTipp(modell.teile.get(f.meshName));
+  });
+  await seite.waitForTimeout(500);
+  pruefe('Antippen der gesuchten Struktur wird als richtig gewertet', ok && await seite.locator('.rueckmeldung.gut').count() === 1);
+  await seite.screenshot({ path: 'tests/bilder/15-quiz-zeigen.png' });
+  await seite.getByRole('button', { name: 'Weiter' }).click();
+  await seite.waitForTimeout(1200);
+  // echter Fingertipp auf eine falsche Stelle (ins Leere wird ignoriert, deshalb auf eine andere Struktur)
+  const andere = await seite.evaluate(() => {
+    const { lernmodus, modell } = window.__anatomie;
+    const f = lernmodus.quiz.fragen[lernmodus.quiz.index];
+    window.__anatomie.szene.ansicht('zuruecksetzen');
+    return f.struktur.id === 'femur' ? 'Tibia.l' : 'Femur.l';
+  });
+  await seite.waitForTimeout(900);
+  p = await seite.evaluate((n) => window.__anatomie.bildschirmPunkt(n), andere);
+  await tippe(p.x, p.y);
+  pruefe('Falscher Tipp im Quiz wird erkannt', await seite.locator('.rueckmeldung').count() === 1);
+  await seite.getByRole('button', { name: 'Quiz beenden' }).click();
+
+  // Benennen / Wissen
+  await seite.locator('#reiter-lernen select').nth(1).selectOption('wissen');
+  await seite.getByRole('button', { name: /Quiz starten/ }).click();
+  await seite.waitForTimeout(800);
+  const wfrage = await seite.locator('.quiz-frage').textContent();
+  await seite.locator('.antwort').first().click();
+  pruefe('Wissensfrage mit 4 Antworten und Rückmeldung', await seite.locator('.antwort').count() === 4 && await seite.locator('.rueckmeldung').count() === 1, wfrage ?? '');
+  await seite.screenshot({ path: 'tests/bilder/16-quiz-wissen.png' });
+  await seite.getByRole('button', { name: 'Quiz beenden' }).click();
+  await seite.locator('#reiter-lernen select').nth(1).selectOption('benennen');
+  await seite.getByRole('button', { name: /Quiz starten/ }).click();
+  await seite.waitForTimeout(1200);
+  pruefe('Benennen-Frage hebt Struktur hervor ohne Namen zu zeigen', await seite.locator('.antwort').count() === 4 && await seite.locator('#panel-info').isHidden());
+  await seite.getByRole('button', { name: 'Quiz beenden' }).click();
+
+  // --- Lernkarten ---
+  await seite.getByRole('button', { name: '+10 neue aus dem Lernpfad' }).click();
+  await seite.getByRole('button', { name: 'Karten üben', exact: true }).click();
+  await seite.getByRole('button', { name: 'Aufdecken' }).click();
+  pruefe('Lernkarte aufdecken zeigt Inhalt', await seite.locator('.karte-rueckseite').count() === 1);
+  await seite.screenshot({ path: 'tests/bilder/17-lernkarte.png' });
+  await seite.getByRole('button', { name: 'Gut' }).click();
+  const karte = await seite.evaluate(() => Object.values(window.__anatomie.speicher.daten.karten).filter((k) => k.stufe >= 1).length);
+  pruefe('Bewertung „Gut“ verschiebt die Karte (Wiederholungsabstand)', karte >= 1);
+  await seite.getByRole('button', { name: 'Beenden' }).click();
+
+  // --- Lernpfad ---
+  await seite.getByRole('button', { name: '1. Jahr' }).click();
+  await seite.getByRole('tab', { name: 'Strukturen' }).click();
+  const imBaum = await seite.locator('#reiter-baum > details > summary').allTextContents();
+  pruefe('Lernpfad 1. Jahr blendet Organe im Baum aus', !imBaum.some((t) => t.startsWith('Organe')), imBaum.join(' | '));
+  await seite.getByRole('tab', { name: 'Lernen' }).click();
+  await seite.getByRole('button', { name: 'Alles' }).click();
+  await seite.locator('#knopf-panel-links').click();
+
   // --- Dunkelmodus ---
   await seite.locator('#knopf-thema').click();
   await seite.waitForTimeout(300);
@@ -162,6 +290,7 @@ try {
   await seite.reload();
   await warteBereit();
   pruefe('App startet offline (Service Worker)', true);
+  pruefe('Merkliste und Lernkarten bleiben nach Neustart erhalten', await seite.evaluate(() => window.__anatomie.speicher.daten.merkliste.length === 1 && Object.keys(window.__anatomie.speicher.daten.karten).length >= 10));
   await kontext.setOffline(false);
 
   // --- Hochformat ---

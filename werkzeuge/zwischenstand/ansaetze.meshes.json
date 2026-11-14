@@ -1,0 +1,11291 @@
+{
+"ebene": "ansaetze",
+"meshes": [
+{
+"name": "Rectus abdominis muscle.er",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+-0.00524,
+1.0396,
+0.07725
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "(Abdominal part of pectoralis major muscle).or",
+"ecken": 124,
+"dreiecke": 244,
+"mitte": [
+-0.07079,
+1.18572,
+0.10517
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.e1r",
+"ecken": 452,
+"dreiecke": 896,
+"mitte": [
+-0.01379,
+1.30256,
+0.09647
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus abdominis muscle.or",
+"ecken": 450,
+"dreiecke": 888,
+"mitte": [
+-0.0445,
+1.23525,
+0.10761
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o5r",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+-0.11238,
+1.06926,
+-0.00346
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocleidomastoid muscle.or",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+-0.01113,
+1.39157,
+0.05607
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o5r",
+"ecken": 288,
+"dreiecke": 572,
+"mitte": [
+-0.088,
+0.91337,
+0.05466
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Masseter.er",
+"ecken": 72,
+"dreiecke": 140,
+"mitte": [
+-0.04167,
+1.53761,
+0.02957
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Anterior belly of digastric muscle.er",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.00872,
+1.50115,
+0.06465
+],
+"materialien": [
+"End-Mastication"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Masseter.or",
+"ecken": 134,
+"dreiecke": 268,
+"mitte": [
+-0.05404,
+1.56298,
+0.04396
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocleidomastoid muscle.er",
+"ecken": 302,
+"dreiecke": 600,
+"mitte": [
+-0.05576,
+1.56817,
+-0.03057
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Spinalis capitis muscle.er",
+"ecken": 54,
+"dreiecke": 104,
+"mitte": [
+-0.02358,
+1.56938,
+-0.06774
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Procerus muscle.ol",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.01091,
+1.62385,
+0.08576
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.er",
+"ecken": 180,
+"dreiecke": 356,
+"mitte": [
+-0.04164,
+1.55684,
+0.03822
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Thyrohyoid muscle.or",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.01291,
+1.49433,
+0.02579
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Thyrohyoid muscle.er",
+"ecken": 126,
+"dreiecke": 248,
+"mitte": [
+-0.01379,
+1.47609,
+0.01377
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Mylohyoid muscle.or",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.0136,
+1.51423,
+0.05254
+],
+"materialien": [
+"Origin mastication"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Zygomaticus major muscle.or",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.05285,
+1.57202,
+0.05566
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Zygomaticus minor muscle.or",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.047,
+1.57305,
+0.06341
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Depressor anguli oris.or",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+-0.02224,
+1.5034,
+0.06215
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Depressor labii inferioris.or",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+-0.0215,
+1.50985,
+0.06655
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Mentalis muscle.or",
+"ecken": 12,
+"dreiecke": 20,
+"mitte": [
+-0.00561,
+1.50157,
+0.07964
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Orbicularis oris muscle.or",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.00314,
+1.51107,
+0.08019
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator anguli oris.or",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.02095,
+1.56002,
+0.07516
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Depressor septi nasi.or",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.00865,
+1.54438,
+0.08591
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator nasolabialis.or",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.01342,
+1.58065,
+0.0792
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Orbital part of orbicularis oculi.or",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.0119,
+1.59074,
+0.07749
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator labii superioris.or",
+"ecken": 114,
+"dreiecke": 224,
+"mitte": [
+-0.02723,
+1.57144,
+0.07527
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial pterygoid muscle.or",
+"ecken": 76,
+"dreiecke": 148,
+"mitte": [
+-0.0216,
+1.56546,
+0.02806
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral pterygoid muscle.or",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+-0.02432,
+1.55171,
+0.03948
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial pterygoid muscle.er",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.03477,
+1.53608,
+0.01921
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Frontalis muscle.or",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+-0.02514,
+1.61196,
+0.07533
+],
+"materialien": [
+"Origin-Superficial"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Geniohyoid muscle.er",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+-0.00544,
+1.5013,
+0.03205
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Occipitalis muscle.or",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.03677,
+1.5905,
+-0.07801
+],
+"materialien": [
+"Origin-Superficial"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior minor capitis muscle.ol",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.01316,
+1.56037,
+-0.06242
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior major capitis muscle.ol",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+-0.03117,
+1.55867,
+-0.0488
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obliquus superior capitis muscle.or",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+-0.035,
+1.56086,
+-0.04917
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus lateralis capitis muscle.ol",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.03671,
+1.55954,
+-0.01977
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior inferior muscle.e1l",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+-0.09563,
+1.15182,
+-0.06826
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior superior muscle.el",
+"ecken": 212,
+"dreiecke": 420,
+"mitte": [
+-0.07093,
+1.42223,
+-0.03362
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.or",
+"ecken": 104,
+"dreiecke": 204,
+"mitte": [
+-0.0519,
+1.41508,
+0.00415
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus medius muscle.or",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+-0.05082,
+1.42458,
+-0.00737
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e6r",
+"ecken": 104,
+"dreiecke": 204,
+"mitte": [
+-0.06511,
+1.25562,
+-0.09395
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior minor capitis muscle.el",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+-0.00202,
+1.54016,
+-0.04482
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternohyoid muscle.er",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.00863,
+1.49358,
+0.03343
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Geniohyoid muscle.or",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.00145,
+1.50425,
+0.06945
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternohyoid muscle.or",
+"ecken": 152,
+"dreiecke": 300,
+"mitte": [
+-0.01627,
+1.40091,
+0.02982
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transversus thoracis muscle.or",
+"ecken": 362,
+"dreiecke": 720,
+"mitte": [
+-0.01404,
+1.28404,
+0.08884
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior major capitis muscle.el",
+"ecken": 40,
+"dreiecke": 72,
+"mitte": [
+-0.00205,
+1.5175,
+-0.04843
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obliquus inferior capitis muscle.er",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.00349,
+1.51265,
+-0.04916
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.e1l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.02345,
+1.47569,
+-0.00848
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Nasalis muscle.or",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.00362,
+1.59186,
+0.09195
+],
+"materialien": [
+"Origin-Superficial"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus anterior capitis muscle.ol",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.00611,
+1.56263,
+-0.0023
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus anterior capitis muscle.el",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.02036,
+1.54828,
+-0.00439
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obliquus inferior capitis muscle.or",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.039,
+1.54045,
+-0.01782
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.or",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.04024,
+1.5374,
+-0.01403
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Splenius colli muscle.e1r",
+"ecken": 72,
+"dreiecke": 140,
+"mitte": [
+-0.03817,
+1.53768,
+-0.01456
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus medius muscle.el",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.02866,
+1.46225,
+-0.01787
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e25r",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.03836,
+1.44765,
+-0.03738
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longus capitis muscle.or",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.00589,
+1.56746,
+0.00263
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o2r",
+"ecken": 320,
+"dreiecke": 636,
+"mitte": [
+-0.06428,
+1.63118,
+-0.00606
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.e2r",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+-0.11179,
+1.27113,
+0.06503
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.er",
+"ecken": 152,
+"dreiecke": 300,
+"mitte": [
+-0.09125,
+1.33751,
+0.0393
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.e1r",
+"ecken": 234,
+"dreiecke": 464,
+"mitte": [
+-0.10629,
+1.30402,
+0.05274
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o1r",
+"ecken": 210,
+"dreiecke": 416,
+"mitte": [
+-0.13285,
+1.23689,
+0.03418
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.or",
+"ecken": 196,
+"dreiecke": 388,
+"mitte": [
+-0.12003,
+1.26799,
+0.04687
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o2r",
+"ecken": 166,
+"dreiecke": 328,
+"mitte": [
+-0.1397,
+1.2092,
+0.01642
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o3r",
+"ecken": 294,
+"dreiecke": 584,
+"mitte": [
+-0.13049,
+1.17701,
+0.0002
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Bucinator.o1r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.03031,
+1.5261,
+0.05437
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Bucinator.or",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.03071,
+1.54701,
+0.0554
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Masseter.o1r",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+-0.05903,
+1.57446,
+0.02135
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o1r",
+"ecken": 142,
+"dreiecke": 280,
+"mitte": [
+-0.05457,
+1.63431,
+0.04661
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o3r",
+"ecken": 124,
+"dreiecke": 248,
+"mitte": [
+-0.04772,
+1.6044,
+0.04372
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o4r",
+"ecken": 478,
+"dreiecke": 952,
+"mitte": [
+-0.05969,
+1.60057,
+0.00569
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Splenius colli muscle.er",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.02673,
+1.51943,
+-0.01366
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.e2l",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.02526,
+1.45998,
+-0.00957
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.el",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.02259,
+1.49144,
+-0.00816
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus medius muscle.e1l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.03355,
+1.45308,
+-0.0253
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral pterygoid muscle.o1r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.02511,
+1.55264,
+0.04083
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.e2r",
+"ecken": 218,
+"dreiecke": 432,
+"mitte": [
+-0.01857,
+1.37359,
+0.06387
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o4r",
+"ecken": 612,
+"dreiecke": 1220,
+"mitte": [
+-0.05475,
+1.10983,
+-0.04352
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.or",
+"ecken": 400,
+"dreiecke": 792,
+"mitte": [
+-0.06443,
+1.14792,
+0.05951
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o1r",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+-0.01561,
+1.11706,
+-0.00358
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o2r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.01515,
+1.08406,
+0.00483
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o3r",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.01337,
+1.05147,
+0.01416
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o2r",
+"ecken": 128,
+"dreiecke": 252,
+"mitte": [
+-0.12246,
+1.07715,
+0.01181
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o4r",
+"ecken": 586,
+"dreiecke": 1168,
+"mitte": [
+-0.11114,
+1.0729,
+-0.01751
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.or",
+"ecken": 446,
+"dreiecke": 888,
+"mitte": [
+-0.07989,
+1.06532,
+-0.04454
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o1r",
+"ecken": 192,
+"dreiecke": 376,
+"mitte": [
+-0.09788,
+1.1029,
+0.05477
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior inferior muscle.el",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+-0.1026,
+1.19038,
+-0.07388
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior inferior muscle.e2l",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+-0.08741,
+1.12063,
+-0.0635
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior inferior muscle.e3l",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+-0.07167,
+1.09091,
+-0.06145
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e8r",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+-0.06285,
+1.18834,
+-0.08373
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.er",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+-0.05088,
+1.43024,
+-0.0415
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e1r",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+-0.05446,
+1.41065,
+-0.05909
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e2r",
+"ecken": 138,
+"dreiecke": 272,
+"mitte": [
+-0.055,
+1.38885,
+-0.07215
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e3r",
+"ecken": 114,
+"dreiecke": 224,
+"mitte": [
+-0.06022,
+1.35505,
+-0.08085
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e5r",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+-0.06686,
+1.28902,
+-0.09294
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e7r",
+"ecken": 222,
+"dreiecke": 440,
+"mitte": [
+-0.05946,
+1.22794,
+-0.09039
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e9r",
+"ecken": 202,
+"dreiecke": 400,
+"mitte": [
+-0.05601,
+1.1584,
+-0.07761
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e10r",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.04243,
+1.12814,
+-0.0628
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e4r",
+"ecken": 112,
+"dreiecke": 220,
+"mitte": [
+-0.0593,
+1.32655,
+-0.09161
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e23r",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+-0.03681,
+1.43078,
+-0.05012
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e21r",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.0336,
+1.40774,
+-0.06431
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e19r",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.03469,
+1.38341,
+-0.07359
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e17r",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.03676,
+1.35481,
+-0.08015
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e15r",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.03515,
+1.32764,
+-0.08937
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e13r",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.03525,
+1.29565,
+-0.08587
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e9r",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.0322,
+1.23177,
+-0.08295
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e7r",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+-0.03249,
+1.20254,
+-0.07503
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e5r",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.02552,
+1.17819,
+-0.06503
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e3r",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.02077,
+1.1478,
+-0.05895
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e11r",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.03301,
+1.26239,
+-0.08404
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e2r",
+"ecken": 84,
+"dreiecke": 160,
+"mitte": [
+-0.01217,
+1.09758,
+-0.05858
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e1r",
+"ecken": 108,
+"dreiecke": 208,
+"mitte": [
+-0.01266,
+1.06977,
+-0.0532
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.er",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.00166,
+1.03136,
+-0.0625
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e10r",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+-0.06123,
+1.25365,
+-0.09263
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e6r",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+-0.05454,
+1.18933,
+-0.081
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e22r",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+-0.05176,
+1.42875,
+-0.04362
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e20r",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+-0.05317,
+1.40798,
+-0.06062
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e18r",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+-0.05777,
+1.38382,
+-0.0745
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e16r",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.06317,
+1.35108,
+-0.08251
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e12r",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.06628,
+1.28443,
+-0.09405
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e8r",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+-0.05855,
+1.22217,
+-0.09013
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e4r",
+"ecken": 78,
+"dreiecke": 152,
+"mitte": [
+-0.04377,
+1.16158,
+-0.0752
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e24r",
+"ecken": 54,
+"dreiecke": 104,
+"mitte": [
+-0.04438,
+1.44015,
+-0.03004
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e26r",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+-0.03754,
+1.13258,
+-0.05792
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e14r",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.06695,
+1.31917,
+-0.09556
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior superior muscle.e1l",
+"ecken": 190,
+"dreiecke": 376,
+"mitte": [
+-0.0841,
+1.40124,
+-0.05235
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior superior muscle.e2l",
+"ecken": 462,
+"dreiecke": 920,
+"mitte": [
+-0.0923,
+1.36785,
+-0.06419
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus posterior superior muscle.e3l",
+"ecken": 360,
+"dreiecke": 716,
+"mitte": [
+-0.09162,
+1.34561,
+-0.07765
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Procerus muscle.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.00177,
+1.59967,
+0.08664
+],
+"materialien": [
+"End-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transversus thoracis muscle.o1r",
+"ecken": 100,
+"dreiecke": 192,
+"mitte": [
+-0.00668,
+1.23403,
+0.09949
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.er",
+"ecken": 572,
+"dreiecke": 1140,
+"mitte": [
+-0.05656,
+1.23658,
+0.10309
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Iliocostalis colli muscle.er",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.02715,
+1.49029,
+-0.01139
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus posterior muscle.el",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.02919,
+1.47482,
+-0.0147
+],
+"materialien": [
+"End-Abduction",
+"Cartilage"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Ascending part of trapezius muscle.er",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.02002,
+1.57185,
+-0.07437
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.o1r",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.02577,
+1.52053,
+-0.01427
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.o2r",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+-0.02751,
+1.50543,
+-0.01158
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.o3r",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.02762,
+1.49204,
+-0.0108
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e4r",
+"ecken": 168,
+"dreiecke": 332,
+"mitte": [
+-0.12502,
+1.28306,
+0.03481
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e7r",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+-0.13327,
+1.18442,
+0.00239
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e1l",
+"ecken": 196,
+"dreiecke": 388,
+"mitte": [
+-0.09769,
+1.39174,
+-0.00449
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e2l",
+"ecken": 250,
+"dreiecke": 496,
+"mitte": [
+-0.10951,
+1.35849,
+-0.00069
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e3r",
+"ecken": 374,
+"dreiecke": 744,
+"mitte": [
+-0.12126,
+1.32623,
+0.00856
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e6r",
+"ecken": 268,
+"dreiecke": 532,
+"mitte": [
+-0.13912,
+1.22134,
+0.01514
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e8l",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+-0.12738,
+1.16603,
+-0.02828
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.er",
+"ecken": 172,
+"dreiecke": 340,
+"mitte": [
+-0.06808,
+1.41278,
+0.0029
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e5r",
+"ecken": 188,
+"dreiecke": 372,
+"mitte": [
+-0.13398,
+1.25075,
+0.02762
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Omohyoid muscle.er",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.01491,
+1.49583,
+0.02964
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Omohyoid muscle.or",
+"ecken": 104,
+"dreiecke": 204,
+"mitte": [
+-0.09984,
+1.39436,
+-0.05666
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Subscapularis muscle.or",
+"ecken": 1470,
+"dreiecke": 2936,
+"mitte": [
+-0.09951,
+1.32979,
+-0.0772
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long head of biceps brachii.or",
+"ecken": 114,
+"dreiecke": 224,
+"mitte": [
+-0.1442,
+1.39575,
+-0.03685
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long head of triceps brachii.or",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+-0.15223,
+1.35935,
+-0.04248
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Coracobrachialis muscle.or",
+"ecken": 260,
+"dreiecke": 516,
+"mitte": [
+-0.13846,
+1.38966,
+-0.00426
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Short head of biceps brachii.ol",
+"ecken": 250,
+"dreiecke": 496,
+"mitte": [
+-0.1402,
+1.3945,
+-0.00546
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Acromial part of deltoid muscle.or",
+"ecken": 610,
+"dreiecke": 1216,
+"mitte": [
+-0.16669,
+1.41098,
+-0.04185
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Infraspinatus muscle.or",
+"ecken": 1170,
+"dreiecke": 2336,
+"mitte": [
+-0.10333,
+1.33914,
+-0.08725
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supraspinatus muscle.or",
+"ecken": 702,
+"dreiecke": 1400,
+"mitte": [
+-0.10177,
+1.38818,
+-0.07845
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scapular spinal part of deltoid muscle.or",
+"ecken": 1032,
+"dreiecke": 2060,
+"mitte": [
+-0.1344,
+1.38952,
+-0.0791
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Clavicular part of deltoid muscle.or",
+"ecken": 180,
+"dreiecke": 356,
+"mitte": [
+-0.12021,
+1.41431,
+-0.01118
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Teres minor muscle.or",
+"ecken": 504,
+"dreiecke": 1004,
+"mitte": [
+-0.11931,
+1.3221,
+-0.07686
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Teres major muscle.or",
+"ecken": 450,
+"dreiecke": 896,
+"mitte": [
+-0.10734,
+1.2732,
+-0.0931
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.or",
+"ecken": 420,
+"dreiecke": 836,
+"mitte": [
+-0.12874,
+1.39403,
+-0.00642
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Subclavius muscle.or",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+-0.08357,
+1.40566,
+0.00786
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse part of trapezius muscle.or",
+"ecken": 276,
+"dreiecke": 548,
+"mitte": [
+-0.16025,
+1.41026,
+-0.05094
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Descending part of trapezius muscle.or",
+"ecken": 336,
+"dreiecke": 668,
+"mitte": [
+-0.10226,
+1.38887,
+-0.08487
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Ascending part of trapezius muscle.or",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+-0.10657,
+1.41935,
+-0.02355
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocleidomastoid muscle.o1r",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.04117,
+1.41469,
+0.03749
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis major muscle.or",
+"ecken": 150,
+"dreiecke": 296,
+"mitte": [
+-0.05947,
+1.40218,
+0.02998
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor carpi ulnaris.er",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.24384,
+0.84895,
+0.03265
+],
+"materialien": [
+"End-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Deep head of flexor pollicis brevis.or",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+-0.28125,
+0.85184,
+0.03196
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor digiti minimi of hand.or",
+"ecken": 76,
+"dreiecke": 148,
+"mitte": [
+-0.24286,
+0.84213,
+0.0337
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Opponens digiti minimi muscle of hand.or",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.25253,
+0.83921,
+0.03206
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digiti minimi of hand.or",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+-0.25148,
+0.84113,
+0.03174
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor pollicis.er",
+"ecken": 56,
+"dreiecke": 104,
+"mitte": [
+-0.26592,
+0.8451,
+0.02447
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor pollicis longus.er",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.29689,
+0.84174,
+0.02841
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi radialis longus.er",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+-0.28442,
+0.83148,
+0.01813
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi radialis brevis.er",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.27187,
+0.82917,
+0.01274
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rhomboid major muscle.er",
+"ecken": 1370,
+"dreiecke": 2736,
+"mitte": [
+-0.07448,
+1.30883,
+-0.1064
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rhomboid minor muscle.er",
+"ecken": 412,
+"dreiecke": 820,
+"mitte": [
+-0.06317,
+1.37344,
+-0.09783
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.er",
+"ecken": 970,
+"dreiecke": 1936,
+"mitte": [
+-0.07538,
+1.39869,
+-0.08405
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.or",
+"ecken": 478,
+"dreiecke": 952,
+"mitte": [
+-0.07965,
+1.32677,
+-0.09597
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi ulnaris.er",
+"ecken": 14,
+"dreiecke": 24,
+"mitte": [
+-0.24254,
+0.8461,
+0.01601
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e4r",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.23199,
+0.74604,
+0.05758
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e5r",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+-0.25612,
+0.73136,
+0.06025
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e6r",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+-0.28127,
+0.72648,
+0.06018
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e7r",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.31286,
+0.72959,
+0.05539
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.e3r",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.31519,
+0.7214,
+0.07476
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.e2r",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.28532,
+0.7122,
+0.08351
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.e1r",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+-0.2578,
+0.71933,
+0.08478
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.er",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.23022,
+0.73503,
+0.07403
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor pollicis longus.er",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+-0.32267,
+0.78569,
+0.06429
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.e3r",
+"ecken": 56,
+"dreiecke": 104,
+"mitte": [
+-0.31076,
+0.73229,
+0.06039
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.e2r",
+"ecken": 58,
+"dreiecke": 108,
+"mitte": [
+-0.28215,
+0.72877,
+0.06736
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.e1r",
+"ecken": 54,
+"dreiecke": 100,
+"mitte": [
+-0.25747,
+0.73624,
+0.06519
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor indicis.er",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+-0.31647,
+0.71573,
+0.07264
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digiti minimi of hand.er",
+"ecken": 112,
+"dreiecke": 220,
+"mitte": [
+-0.23358,
+0.78165,
+0.04605
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor digiti minimi of hand.er",
+"ecken": 116,
+"dreiecke": 228,
+"mitte": [
+-0.23071,
+0.78013,
+0.04277
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.er",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+-0.23652,
+0.77361,
+0.04004
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e1r",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.25398,
+0.76664,
+0.03696
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e2r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.27523,
+0.76184,
+0.03646
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e3r",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+-0.29736,
+0.76034,
+0.03538
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis longus.er",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.32845,
+0.78352,
+0.06125
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o4r",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.29185,
+0.83241,
+0.02665
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.or",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.24547,
+0.80306,
+0.02822
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor pollicis.e1r",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.30913,
+0.80734,
+0.04569
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Deep head of flexor pollicis brevis.o1r",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.30606,
+0.83339,
+0.04039
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o3r",
+"ecken": 96,
+"dreiecke": 184,
+"mitte": [
+-0.28887,
+0.80214,
+0.02569
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o2r",
+"ecken": 96,
+"dreiecke": 184,
+"mitte": [
+-0.27329,
+0.79672,
+0.02363
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o1r",
+"ecken": 112,
+"dreiecke": 216,
+"mitte": [
+-0.2559,
+0.79719,
+0.02607
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Latissimus dorsi muscle.er",
+"ecken": 300,
+"dreiecke": 596,
+"mitte": [
+-0.09206,
+1.26794,
+-0.10564
+],
+"materialien": [
+"End-Adduction",
+"Cartilage"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.er",
+"ecken": 52,
+"dreiecke": 96,
+"mitte": [
+-0.23262,
+0.74841,
+0.06287
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Piriformis muscle.ol",
+"ecken": 212,
+"dreiecke": 420,
+"mitte": [
+-0.0348,
+0.90307,
+-0.05548
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantar interossei muscles.ol",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+-0.09702,
+0.03607,
+0.04297
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.e3r",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.10241,
+0.01966,
+0.06849
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantar interossei muscles.o1l",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.10619,
+0.03401,
+0.03478
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Oblique head of adductor hallucis.o1r",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+-0.09931,
+0.03536,
+0.01665
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.e2r",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+-0.11362,
+0.01801,
+0.05948
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantar interossei muscles.o2l",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+-0.11361,
+0.02609,
+0.02824
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.e1r",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+-0.12308,
+0.01753,
+0.05306
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.or",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+-0.07557,
+0.01505,
+-0.06232
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor hallucis.or",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.08048,
+0.01862,
+-0.06004
+],
+"materialien": [
+"Muscular origin"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.or",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+-0.07938,
+0.02644,
+-0.04432
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Oblique head of adductor hallucis.or",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.09479,
+0.03685,
+0.00618
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Vastus intermedius muscle.or",
+"ecken": 164,
+"dreiecke": 324,
+"mitte": [
+-0.10648,
+0.65758,
+0.00119
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Vastus lateralis muscle.or",
+"ecken": 196,
+"dreiecke": 388,
+"mitte": [
+-0.1155,
+0.67827,
+-0.00958
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Vastus medialis muscle.or",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+-0.07504,
+0.62774,
+-0.00482
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Articularis genus muscle.or",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.08716,
+0.5024,
+0.0022
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantaris muscle.or",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+-0.09333,
+0.49122,
+-0.03212
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Popliteus muscle.or",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+-0.1111,
+0.45976,
+-0.04694
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis brevis muscle.or",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+-0.10428,
+0.17773,
+-0.0534
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Soleus muscle.or",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+-0.10513,
+0.38292,
+-0.04751
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis tertius muscle.or",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.09884,
+0.13775,
+-0.04234
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sartorius muscle.or",
+"ecken": 124,
+"dreiecke": 244,
+"mitte": [
+-0.11963,
+0.93698,
+0.0481
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tensor fasciae latae.or",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.1239,
+0.94613,
+0.03545
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semitendinosus muscle.or",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+-0.05014,
+0.80499,
+-0.04638
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus minimus muscle.or",
+"ecken": 142,
+"dreiecke": 280,
+"mitte": [
+-0.09434,
+0.92851,
+-0.00845
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus femoris muscle.or",
+"ecken": 60,
+"dreiecke": 112,
+"mitte": [
+-0.10369,
+0.90257,
+0.00799
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus maximus muscle.or",
+"ecken": 128,
+"dreiecke": 244,
+"mitte": [
+-0.05291,
+0.9583,
+-0.07078
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus medius muscle.or",
+"ecken": 106,
+"dreiecke": 208,
+"mitte": [
+-0.09788,
+0.96809,
+-0.02185
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long head of biceps femoris.or",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.05895,
+0.8139,
+-0.05215
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectineus muscle.or",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+-0.0349,
+0.8525,
+0.04275
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor longus.or",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.01828,
+0.8364,
+0.0462
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gracilis muscle.or",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.01646,
+0.82107,
+0.01947
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor magnus.or",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.0309,
+0.80923,
+-0.00683
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Superior gemellus muscle.or",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+-0.04947,
+0.86828,
+-0.04922
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obturator internus.or",
+"ecken": 182,
+"dreiecke": 364,
+"mitte": [
+-0.038,
+0.84895,
+-0.01031
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semimembranosus muscle.or",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+-0.04427,
+0.79902,
+-0.03507
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Quadratus femoris muscle.or",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.06331,
+0.81719,
+-0.03315
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator ani.or",
+"ecken": 80,
+"dreiecke": 152,
+"mitte": [
+-0.02611,
+0.84374,
+-0.01582
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Erector spinae.or",
+"ecken": 104,
+"dreiecke": 200,
+"mitte": [
+-0.05394,
+0.97306,
+-0.06338
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Latissimus dorsi muscle.or",
+"ecken": 116,
+"dreiecke": 228,
+"mitte": [
+-0.06023,
+0.97835,
+-0.06175
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis anterior muscle.or",
+"ecken": 490,
+"dreiecke": 976,
+"mitte": [
+-0.09511,
+0.292,
+-0.01645
+],
+"materialien": [
+"Origin-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis posterior muscle.or",
+"ecken": 746,
+"dreiecke": 1492,
+"mitte": [
+-0.09394,
+0.30019,
+-0.03542
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor hallucis longus.or",
+"ecken": 358,
+"dreiecke": 710,
+"mitte": [
+-0.09861,
+0.23952,
+-0.04614
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor hallucis longus.or",
+"ecken": 444,
+"dreiecke": 884,
+"mitte": [
+-0.09961,
+0.23301,
+-0.0356
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis longus muscle.or",
+"ecken": 156,
+"dreiecke": 308,
+"mitte": [
+-0.11532,
+0.33473,
+-0.04455
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.o1r",
+"ecken": 330,
+"dreiecke": 656,
+"mitte": [
+-0.10596,
+0.28364,
+-0.03495
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Patellar ligament.or",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+-0.08587,
+0.42857,
+0.00572
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Soleus muscle.o1r",
+"ecken": 92,
+"dreiecke": 180,
+"mitte": [
+-0.08093,
+0.31498,
+-0.03173
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.or",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.07614,
+0.25711,
+-0.03558
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis anterior muscle.e1r",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+-0.06191,
+0.0499,
+0.03121
+],
+"materialien": [
+"End-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of flexor hallucis brevis.o1r",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.08027,
+0.0408,
+0.02324
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o1r",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+-0.072,
+0.03698,
+0.02741
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o2r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+-0.08664,
+0.04377,
+0.02187
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o3r",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.09672,
+0.03846,
+0.02374
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o4r",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.1023,
+0.03184,
+0.01681
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis brevis muscle.er",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+-0.11327,
+0.02862,
+-0.01256
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis tertius muscle.er",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.11525,
+0.03678,
+0.00869
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "(Opponens digiti minimi muscle of foot).or",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+-0.1231,
+0.01976,
+0.02254
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Triceps surae muscle.er",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+-0.069,
+0.03991,
+-0.08547
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor hallucis brevis.or",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.0991,
+0.05109,
+-0.0299
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor hallucis longus.er",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.07879,
+0.01076,
+0.11323
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.er",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.10302,
+0.01669,
+0.12678
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.er",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.1028,
+0.01103,
+0.12459
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e1r",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.1182,
+0.01519,
+0.12194
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.e1r",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.11857,
+0.01059,
+0.11918
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e2r",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.13202,
+0.01626,
+0.10722
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.e2r",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.13047,
+0.01041,
+0.10565
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e3r",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+-0.14255,
+0.01455,
+0.08917
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.e3r",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.14181,
+0.0102,
+0.08702
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Iliopsoas muscle.er",
+"ecken": 142,
+"dreiecke": 280,
+"mitte": [
+-0.09449,
+0.7901,
+-0.02311
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus medius muscle.er",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.13523,
+0.84233,
+-0.02817
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectineus muscle.el",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+-0.09566,
+0.75256,
+-0.00141
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor magnus.er",
+"ecken": 224,
+"dreiecke": 440,
+"mitte": [
+-0.07115,
+0.62798,
+-0.02083
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Short head of biceps femoris.el",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+-0.09614,
+0.58822,
+-0.02349
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor longus.er",
+"ecken": 64,
+"dreiecke": 116,
+"mitte": [
+-0.09044,
+0.7107,
+-0.0042
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus maximus muscle.er",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+-0.11484,
+0.7495,
+-0.02268
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Quadratus femoris muscle.er",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+-0.11229,
+0.81652,
+-0.03501
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Piriformis muscle.el",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.12574,
+0.85778,
+-0.0211
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Biceps femoris muscle.er",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+-0.11788,
+0.40956,
+-0.04365
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o4r",
+"ecken": 138,
+"dreiecke": 264,
+"mitte": [
+-0.08995,
+0.94098,
+0.0064
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transversus abdominis muscle.or",
+"ecken": 138,
+"dreiecke": 272,
+"mitte": [
+-0.08974,
+0.9748,
+-0.00213
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o3r",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+-0.09991,
+0.97734,
+0.00372
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sartorius muscle.er",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+-0.06597,
+0.3722,
+-0.00869
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semimembranosus muscle.er",
+"ecken": 72,
+"dreiecke": 136,
+"mitte": [
+-0.04938,
+0.40876,
+-0.04643
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis anterior muscle.er",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+-0.0613,
+0.04925,
+0.01974
+],
+"materialien": [
+"End-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum brevis.er",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.10102,
+0.02002,
+0.11409
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.er",
+"ecken": 76,
+"dreiecke": 144,
+"mitte": [
+-0.10061,
+0.01411,
+0.11603
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum brevis.e1r",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.11488,
+0.01847,
+0.10819
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.e1r",
+"ecken": 100,
+"dreiecke": 192,
+"mitte": [
+-0.1169,
+0.01293,
+0.11091
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum brevis.e2r",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.12979,
+0.01741,
+0.09556
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.e2r",
+"ecken": 54,
+"dreiecke": 100,
+"mitte": [
+-0.14044,
+0.0102,
+0.08239
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Quadriceps femoris muscle.er",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+-0.08474,
+0.45879,
+0.012
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor hallucis longus.er",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+-0.07444,
+0.0267,
+0.09343
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of flexor hallucis brevis.er",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.07726,
+0.01259,
+0.0838
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor hallucis.er",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+-0.06222,
+0.01678,
+0.08299
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial head of flexor hallucis brevis.er",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+-0.06698,
+0.01416,
+0.08382
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantar interossei muscles.e2l",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.12854,
+0.01689,
+0.06251
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor digiti minimi of foot.er",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+-0.13725,
+0.01259,
+0.05679
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digiti minimi of foot.er",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+-0.13618,
+0.01234,
+0.06223
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Oblique head of adductor hallucis.er",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.07592,
+0.01683,
+0.0645
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.or",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+-0.07943,
+0.01688,
+0.06836
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Patellar ligament.er",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+-0.082,
+0.38995,
+0.00271
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gracilis muscle.er",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.06074,
+0.367,
+-0.02094
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semitendinosus muscle.er",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.05358,
+0.37648,
+-0.03424
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Popliteus muscle.er",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+-0.07414,
+0.37839,
+-0.04202
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.or",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.11002,
+0.41119,
+-0.02165
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Inferior gemellus muscle.or",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+-0.06068,
+0.83799,
+-0.05461
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e4r",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.14074,
+0.01608,
+0.08287
+],
+"materialien": [
+"End-Extension fingers",
+"Cartilage"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obturator externus.or",
+"ecken": 240,
+"dreiecke": 476,
+"mitte": [
+-0.0389,
+0.83406,
+0.00099
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of gastrocnemius.or",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+-0.10631,
+0.47992,
+-0.03461
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of flexor hallucis brevis.or",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+-0.0682,
+0.03989,
+0.01521
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantar interossei muscles.e1l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.11549,
+0.01986,
+0.07411
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial head of gastrocnemius.or",
+"ecken": 102,
+"dreiecke": 200,
+"mitte": [
+-0.05751,
+0.49172,
+-0.02701
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Teres minor muscle.er",
+"ecken": 166,
+"dreiecke": 328,
+"mitte": [
+-0.18982,
+1.37543,
+-0.03198
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supraspinatus muscle.er",
+"ecken": 126,
+"dreiecke": 248,
+"mitte": [
+-0.18824,
+1.39553,
+-0.01931
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Subscapularis muscle.er",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.16501,
+1.38305,
+-0.00435
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pronator teres.or",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+-0.19768,
+1.1194,
+-0.03272
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis major muscle.er",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+-0.18841,
+1.32603,
+-0.01614
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial head of triceps brachii.or",
+"ecken": 146,
+"dreiecke": 288,
+"mitte": [
+-0.20699,
+1.22526,
+-0.04223
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of triceps brachii.or",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+-0.19556,
+1.29809,
+-0.03951
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Infraspinatus muscle.er",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+-0.18964,
+1.39109,
+-0.03388
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi radialis longus.or",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.23783,
+1.13914,
+-0.04703
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Deltoid muscle.er",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+-0.20673,
+1.28955,
+-0.02711
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Common flexor tendon.or",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+-0.19121,
+1.10628,
+-0.03186
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Common extensor tendon.or",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+-0.2471,
+1.11157,
+-0.04367
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachioradialis muscle.or",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.22134,
+1.18609,
+-0.04563
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachialis muscle.or",
+"ecken": 268,
+"dreiecke": 532,
+"mitte": [
+-0.21181,
+1.2071,
+-0.03036
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Anconeus muscle.or",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+-0.23745,
+1.11019,
+-0.0491
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supinator.er",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+-0.25102,
+1.03258,
+-0.02178
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pronator teres.er",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.26188,
+0.99271,
+-0.01615
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pronator quadratus.el",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+-0.26962,
+0.89545,
+0.01266
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor pollicis longus.o1r",
+"ecken": 170,
+"dreiecke": 336,
+"mitte": [
+-0.2585,
+0.97118,
+-0.00602
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.or",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+-0.24569,
+1.02934,
+-0.01639
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis brevis.or",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+-0.25571,
+0.92279,
+-0.00208
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachioradialis muscle.er",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.2857,
+0.86665,
+0.01766
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Biceps brachii muscle.er",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+-0.23423,
+1.06234,
+-0.01985
+],
+"materialien": [
+"End-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor pollicis longus.or",
+"ecken": 148,
+"dreiecke": 292,
+"mitte": [
+-0.24731,
+0.99205,
+-0.02179
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Ulnar head of flexor carpi ulnaris.or",
+"ecken": 316,
+"dreiecke": 628,
+"mitte": [
+-0.23125,
+1.00196,
+-0.01696
+],
+"materialien": [
+"Origin-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supinator.or",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+-0.23373,
+1.05093,
+-0.03636
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pronator quadratus.ol",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.23881,
+0.9016,
+0.00878
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor pollicis longus.or",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+-0.22639,
+1.05254,
+-0.03092
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis longus.or",
+"ecken": 100,
+"dreiecke": 196,
+"mitte": [
+-0.2399,
+0.95068,
+-0.01267
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor indicis.or",
+"ecken": 76,
+"dreiecke": 148,
+"mitte": [
+-0.24452,
+0.89891,
+0.00196
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi ulnaris.or",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.22965,
+0.96898,
+-0.02192
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachialis muscle.er",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+-0.22224,
+1.06213,
+-0.03104
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Anconeus muscle.er",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+-0.22162,
+1.05265,
+-0.04871
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantar interossei muscles.el",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+-0.10306,
+0.01946,
+0.08225
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis brevis.er",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+-0.32055,
+0.808,
+0.04654
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus abdominis muscle.el",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+0.00524,
+1.0396,
+0.07725
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Masseter.el",
+"ecken": 72,
+"dreiecke": 140,
+"mitte": [
+0.04167,
+1.53761,
+0.02957
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Anterior belly of digastric muscle.el",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.00872,
+1.50115,
+0.06465
+],
+"materialien": [
+"End-Mastication"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Spinalis capitis muscle.el",
+"ecken": 54,
+"dreiecke": 104,
+"mitte": [
+0.02358,
+1.56938,
+-0.06774
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Procerus muscle.or",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.01091,
+1.62385,
+0.08576
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Thyrohyoid muscle.ol",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.01291,
+1.49433,
+0.02579
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Thyrohyoid muscle.el",
+"ecken": 126,
+"dreiecke": 248,
+"mitte": [
+0.01379,
+1.47609,
+0.01377
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Depressor anguli oris.ol",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+0.02224,
+1.5034,
+0.06215
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Depressor labii inferioris.ol",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+0.0215,
+1.50985,
+0.06655
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Mentalis muscle.ol",
+"ecken": 12,
+"dreiecke": 20,
+"mitte": [
+0.00561,
+1.50157,
+0.07964
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Orbicularis oris muscle.ol",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.00314,
+1.51107,
+0.08019
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial pterygoid muscle.el",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.03477,
+1.53608,
+0.01921
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Geniohyoid muscle.el",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+0.00544,
+1.5013,
+0.03205
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Occipitalis muscle.ol",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.03677,
+1.5905,
+-0.07801
+],
+"materialien": [
+"Origin-Superficial"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior minor capitis muscle.or",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.01316,
+1.56037,
+-0.06242
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior major capitis muscle.or",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+0.03117,
+1.55867,
+-0.0488
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obliquus superior capitis muscle.ol",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+0.035,
+1.56086,
+-0.04917
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus lateralis capitis muscle.or",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.03671,
+1.55954,
+-0.01977
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior minor capitis muscle.er",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+0.00202,
+1.54016,
+-0.04482
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternohyoid muscle.el",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.00863,
+1.49358,
+0.03343
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus posterior major capitis muscle.er",
+"ecken": 40,
+"dreiecke": 72,
+"mitte": [
+0.00205,
+1.5175,
+-0.04843
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obliquus inferior capitis muscle.el",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.00349,
+1.51265,
+-0.04916
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.e1r",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.02345,
+1.47569,
+-0.00848
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus anterior capitis muscle.or",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.00611,
+1.56263,
+-0.0023
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus anterior capitis muscle.er",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.02036,
+1.54828,
+-0.00439
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obliquus inferior capitis muscle.ol",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.039,
+1.54045,
+-0.01782
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.ol",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.04024,
+1.5374,
+-0.01403
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Splenius colli muscle.e1l",
+"ecken": 72,
+"dreiecke": 140,
+"mitte": [
+0.03817,
+1.53768,
+-0.01456
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus medius muscle.er",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.02866,
+1.46225,
+-0.01787
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e25l",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.03836,
+1.44765,
+-0.03738
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o2l",
+"ecken": 320,
+"dreiecke": 636,
+"mitte": [
+0.06428,
+1.63118,
+-0.00606
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Splenius colli muscle.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.02673,
+1.51943,
+-0.01366
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.e2r",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.02526,
+1.45998,
+-0.00957
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.er",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.02259,
+1.49144,
+-0.00816
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus medius muscle.e1r",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.03355,
+1.45308,
+-0.0253
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o1l",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+0.01561,
+1.11706,
+-0.00358
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o2l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.01515,
+1.08406,
+0.00483
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o3l",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.01337,
+1.05147,
+0.01416
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e23l",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+0.03681,
+1.43078,
+-0.05012
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e21l",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.0336,
+1.40774,
+-0.06431
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e19l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.03469,
+1.38341,
+-0.07359
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e17l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.03676,
+1.35481,
+-0.08015
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e15l",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.03515,
+1.32764,
+-0.08937
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e13l",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.03525,
+1.29565,
+-0.08587
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e9l",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.0322,
+1.23177,
+-0.08295
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e7l",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+0.03249,
+1.20254,
+-0.07503
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e5l",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.02552,
+1.17819,
+-0.06503
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e11l",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.03301,
+1.26239,
+-0.08404
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e2l",
+"ecken": 84,
+"dreiecke": 160,
+"mitte": [
+0.01217,
+1.09758,
+-0.05858
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e1l",
+"ecken": 108,
+"dreiecke": 208,
+"mitte": [
+0.01266,
+1.06977,
+-0.0532
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.el",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.00166,
+1.03136,
+-0.0625
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Iliocostalis colli muscle.el",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.02715,
+1.49029,
+-0.01139
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus posterior muscle.er",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.02919,
+1.47482,
+-0.0147
+],
+"materialien": [
+"End-Abduction",
+"Cartilage"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Ascending part of trapezius muscle.el",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.02002,
+1.57185,
+-0.07437
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.o1l",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.02577,
+1.52053,
+-0.01427
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.o2l",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+0.02751,
+1.50543,
+-0.01158
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.o3l",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.02762,
+1.49204,
+-0.0108
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Omohyoid muscle.el",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.01491,
+1.49583,
+0.02964
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Piriformis muscle.or",
+"ecken": 212,
+"dreiecke": 420,
+"mitte": [
+0.0348,
+0.90307,
+-0.05548
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "(Abdominal part of pectoralis major muscle).ol",
+"ecken": 124,
+"dreiecke": 244,
+"mitte": [
+0.07079,
+1.18572,
+0.10517
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.e1l",
+"ecken": 452,
+"dreiecke": 896,
+"mitte": [
+0.01379,
+1.30256,
+0.09647
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o5l",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+0.11238,
+1.06926,
+-0.00346
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocleidomastoid muscle.ol",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+0.01113,
+1.39157,
+0.05607
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o5l",
+"ecken": 288,
+"dreiecke": 572,
+"mitte": [
+0.088,
+0.91337,
+0.05466
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Masseter.ol",
+"ecken": 134,
+"dreiecke": 268,
+"mitte": [
+0.05404,
+1.56298,
+0.04396
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocleidomastoid muscle.el",
+"ecken": 302,
+"dreiecke": 600,
+"mitte": [
+0.05576,
+1.56817,
+-0.03057
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.el",
+"ecken": 180,
+"dreiecke": 356,
+"mitte": [
+0.04164,
+1.55684,
+0.03822
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Mylohyoid muscle.ol",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.0136,
+1.51423,
+0.05254
+],
+"materialien": [
+"Origin mastication"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Zygomaticus major muscle.ol",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.05285,
+1.57202,
+0.05566
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Zygomaticus minor muscle.ol",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.047,
+1.57305,
+0.06341
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator anguli oris.ol",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.02095,
+1.56002,
+0.07516
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Depressor septi nasi.ol",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.00865,
+1.54438,
+0.08591
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator nasolabialis.ol",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.01342,
+1.58065,
+0.0792
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Orbital part of orbicularis oculi.ol",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.0119,
+1.59074,
+0.07749
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator labii superioris.ol",
+"ecken": 114,
+"dreiecke": 224,
+"mitte": [
+0.02723,
+1.57144,
+0.07527
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial pterygoid muscle.ol",
+"ecken": 76,
+"dreiecke": 148,
+"mitte": [
+0.0216,
+1.56546,
+0.02806
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral pterygoid muscle.ol",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+0.02432,
+1.55171,
+0.03948
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Frontalis muscle.ol",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+0.02514,
+1.61196,
+0.07533
+],
+"materialien": [
+"Origin-Superficial"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e6l",
+"ecken": 104,
+"dreiecke": 204,
+"mitte": [
+0.06511,
+1.25562,
+-0.09395
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Geniohyoid muscle.ol",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.00145,
+1.50425,
+0.06945
+],
+"materialien": [
+"Origin-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternohyoid muscle.ol",
+"ecken": 152,
+"dreiecke": 300,
+"mitte": [
+0.01627,
+1.40091,
+0.02982
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transversus thoracis muscle.ol",
+"ecken": 362,
+"dreiecke": 720,
+"mitte": [
+0.01404,
+1.28404,
+0.08884
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Nasalis muscle.ol",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.00362,
+1.59186,
+0.09195
+],
+"materialien": [
+"Origin-Superficial"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longus capitis muscle.ol",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.00589,
+1.56746,
+0.00263
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o1l",
+"ecken": 210,
+"dreiecke": 416,
+"mitte": [
+0.13285,
+1.23689,
+0.03418
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.ol",
+"ecken": 196,
+"dreiecke": 388,
+"mitte": [
+0.12003,
+1.26799,
+0.04687
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o2l",
+"ecken": 166,
+"dreiecke": 328,
+"mitte": [
+0.1397,
+1.2092,
+0.01642
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o3l",
+"ecken": 294,
+"dreiecke": 584,
+"mitte": [
+0.13049,
+1.17701,
+0.0002
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Bucinator.o1l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.03031,
+1.5261,
+0.05437
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Bucinator.ol",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.03071,
+1.54701,
+0.0554
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Masseter.o1l",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+0.05903,
+1.57446,
+0.02135
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o1l",
+"ecken": 142,
+"dreiecke": 280,
+"mitte": [
+0.05457,
+1.63431,
+0.04661
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o3l",
+"ecken": 124,
+"dreiecke": 248,
+"mitte": [
+0.04772,
+1.6044,
+0.04372
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Temporalis muscle.o4l",
+"ecken": 478,
+"dreiecke": 952,
+"mitte": [
+0.05969,
+1.60057,
+0.00569
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral pterygoid muscle.o1l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.02511,
+1.55264,
+0.04083
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.e2l",
+"ecken": 218,
+"dreiecke": 432,
+"mitte": [
+0.01857,
+1.37359,
+0.06387
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.o4l",
+"ecken": 612,
+"dreiecke": 1220,
+"mitte": [
+0.05475,
+1.10983,
+-0.04352
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Diaphragm.ol",
+"ecken": 400,
+"dreiecke": 792,
+"mitte": [
+0.06443,
+1.14792,
+0.05951
+],
+"materialien": [
+"Origin-Diaphragm"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o2l",
+"ecken": 128,
+"dreiecke": 252,
+"mitte": [
+0.12246,
+1.07715,
+0.01181
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o4l",
+"ecken": 586,
+"dreiecke": 1168,
+"mitte": [
+0.11114,
+1.0729,
+-0.01751
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.ol",
+"ecken": 446,
+"dreiecke": 888,
+"mitte": [
+0.07989,
+1.06532,
+-0.04454
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o1l",
+"ecken": 192,
+"dreiecke": 376,
+"mitte": [
+0.09788,
+1.1029,
+0.05477
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e8l",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+0.06285,
+1.18834,
+-0.08373
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.el",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+0.05088,
+1.43024,
+-0.0415
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e1l",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+0.05446,
+1.41065,
+-0.05909
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e2l",
+"ecken": 138,
+"dreiecke": 272,
+"mitte": [
+0.055,
+1.38885,
+-0.07215
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e3l",
+"ecken": 114,
+"dreiecke": 224,
+"mitte": [
+0.06022,
+1.35505,
+-0.08085
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e5l",
+"ecken": 80,
+"dreiecke": 156,
+"mitte": [
+0.06686,
+1.28902,
+-0.09294
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e7l",
+"ecken": 222,
+"dreiecke": 440,
+"mitte": [
+0.05946,
+1.22794,
+-0.09039
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e9l",
+"ecken": 202,
+"dreiecke": 400,
+"mitte": [
+0.05601,
+1.1584,
+-0.07761
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e10l",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.04243,
+1.12814,
+-0.0628
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levatores longi costarum.e4l",
+"ecken": 112,
+"dreiecke": 220,
+"mitte": [
+0.0593,
+1.32655,
+-0.09161
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e3l",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.02077,
+1.1478,
+-0.05895
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e10l",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+0.06123,
+1.25365,
+-0.09263
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e6l",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+0.05454,
+1.18933,
+-0.081
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e22l",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+0.05176,
+1.42875,
+-0.04362
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e20l",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+0.05317,
+1.40798,
+-0.06062
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e18l",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+0.05777,
+1.38382,
+-0.0745
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e16l",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.06317,
+1.35108,
+-0.08251
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e12l",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.06628,
+1.28443,
+-0.09405
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e8l",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+0.05855,
+1.22217,
+-0.09013
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e4l",
+"ecken": 78,
+"dreiecke": 152,
+"mitte": [
+0.04377,
+1.16158,
+-0.0752
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e24l",
+"ecken": 54,
+"dreiecke": 104,
+"mitte": [
+0.04438,
+1.44015,
+-0.03004
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e26l",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+0.03754,
+1.13258,
+-0.05792
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Longissimus thoracis muscle.e14l",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.06695,
+1.31917,
+-0.09556
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transversus thoracis muscle.o1l",
+"ecken": 100,
+"dreiecke": 192,
+"mitte": [
+0.00668,
+1.23403,
+0.09949
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.el",
+"ecken": 572,
+"dreiecke": 1140,
+"mitte": [
+0.05656,
+1.23658,
+0.10309
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.el",
+"ecken": 172,
+"dreiecke": 340,
+"mitte": [
+0.06808,
+1.41278,
+0.0029
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Omohyoid muscle.ol",
+"ecken": 104,
+"dreiecke": 204,
+"mitte": [
+0.09984,
+1.39436,
+-0.05666
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Subscapularis muscle.ol",
+"ecken": 1470,
+"dreiecke": 2936,
+"mitte": [
+0.09951,
+1.32979,
+-0.0772
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long head of biceps brachii.ol",
+"ecken": 114,
+"dreiecke": 224,
+"mitte": [
+0.1442,
+1.39575,
+-0.03685
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long head of triceps brachii.ol",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+0.15223,
+1.35935,
+-0.04248
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Coracobrachialis muscle.ol",
+"ecken": 260,
+"dreiecke": 516,
+"mitte": [
+0.13846,
+1.38966,
+-0.00426
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Acromial part of deltoid muscle.ol",
+"ecken": 610,
+"dreiecke": 1216,
+"mitte": [
+0.16669,
+1.41098,
+-0.04185
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Infraspinatus muscle.ol",
+"ecken": 1170,
+"dreiecke": 2336,
+"mitte": [
+0.10333,
+1.33914,
+-0.08725
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supraspinatus muscle.ol",
+"ecken": 702,
+"dreiecke": 1400,
+"mitte": [
+0.10177,
+1.38818,
+-0.07845
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Clavicular part of deltoid muscle.ol",
+"ecken": 180,
+"dreiecke": 356,
+"mitte": [
+0.12021,
+1.41431,
+-0.01118
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Teres minor muscle.ol",
+"ecken": 504,
+"dreiecke": 1004,
+"mitte": [
+0.11931,
+1.3221,
+-0.07686
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Teres major muscle.ol",
+"ecken": 450,
+"dreiecke": 896,
+"mitte": [
+0.10734,
+1.2732,
+-0.0931
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Subclavius muscle.ol",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+0.08357,
+1.40566,
+0.00786
+],
+"materialien": [
+"Origin-Depressor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse part of trapezius muscle.ol",
+"ecken": 276,
+"dreiecke": 548,
+"mitte": [
+0.16025,
+1.41026,
+-0.05094
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Descending part of trapezius muscle.ol",
+"ecken": 336,
+"dreiecke": 668,
+"mitte": [
+0.10226,
+1.38887,
+-0.08487
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Ascending part of trapezius muscle.ol",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+0.10657,
+1.41935,
+-0.02355
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sternocleidomastoid muscle.o1l",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.04117,
+1.41469,
+0.03749
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor carpi ulnaris.el",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.24384,
+0.84895,
+0.03265
+],
+"materialien": [
+"End-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Deep head of flexor pollicis brevis.ol",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+0.28125,
+0.85184,
+0.03196
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor digiti minimi of hand.ol",
+"ecken": 76,
+"dreiecke": 148,
+"mitte": [
+0.24286,
+0.84213,
+0.0337
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Opponens digiti minimi muscle of hand.ol",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.25253,
+0.83921,
+0.03206
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digiti minimi of hand.ol",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+0.25148,
+0.84113,
+0.03174
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor pollicis.el",
+"ecken": 56,
+"dreiecke": 104,
+"mitte": [
+0.26592,
+0.8451,
+0.02447
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor pollicis longus.el",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.29689,
+0.84174,
+0.02841
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi radialis longus.el",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+0.28442,
+0.83148,
+0.01813
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi radialis brevis.el",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.27187,
+0.82917,
+0.01274
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator scapulae.el",
+"ecken": 970,
+"dreiecke": 1936,
+"mitte": [
+0.07538,
+1.39869,
+-0.08405
+],
+"materialien": [
+"End-Levator"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi ulnaris.el",
+"ecken": 14,
+"dreiecke": 24,
+"mitte": [
+0.24254,
+0.8461,
+0.01601
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e4l",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.23199,
+0.74604,
+0.05758
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e5l",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+0.25612,
+0.73136,
+0.06025
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e6l",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+0.28127,
+0.72648,
+0.06018
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e7l",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.31286,
+0.72959,
+0.05539
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.e3l",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.31519,
+0.7214,
+0.07476
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.e2l",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.28532,
+0.7122,
+0.08351
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.e1l",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+0.2578,
+0.71933,
+0.08478
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum profundus.el",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.23022,
+0.73503,
+0.07403
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor pollicis longus.el",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+0.32267,
+0.78569,
+0.06429
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.e3l",
+"ecken": 56,
+"dreiecke": 104,
+"mitte": [
+0.31076,
+0.73229,
+0.06039
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.e2l",
+"ecken": 58,
+"dreiecke": 108,
+"mitte": [
+0.28215,
+0.72877,
+0.06736
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.e1l",
+"ecken": 54,
+"dreiecke": 100,
+"mitte": [
+0.25747,
+0.73624,
+0.06519
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor indicis.el",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+0.31647,
+0.71573,
+0.07264
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digiti minimi of hand.el",
+"ecken": 112,
+"dreiecke": 220,
+"mitte": [
+0.23358,
+0.78165,
+0.04605
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor digiti minimi of hand.el",
+"ecken": 116,
+"dreiecke": 228,
+"mitte": [
+0.23071,
+0.78013,
+0.04277
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.el",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+0.23652,
+0.77361,
+0.04004
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e1l",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.25398,
+0.76664,
+0.03696
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e2l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.27523,
+0.76184,
+0.03646
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum.e3l",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+0.29736,
+0.76034,
+0.03538
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis longus.el",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.32845,
+0.78352,
+0.06125
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o4l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.29185,
+0.83241,
+0.02665
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.ol",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.24547,
+0.80306,
+0.02822
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor pollicis.e1l",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.30913,
+0.80734,
+0.04569
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Deep head of flexor pollicis brevis.o1l",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.30606,
+0.83339,
+0.04039
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o3l",
+"ecken": 96,
+"dreiecke": 184,
+"mitte": [
+0.28887,
+0.80214,
+0.02569
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o2l",
+"ecken": 96,
+"dreiecke": 184,
+"mitte": [
+0.27329,
+0.79672,
+0.02363
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Dorsal interossei muscles of hand.o1l",
+"ecken": 112,
+"dreiecke": 216,
+"mitte": [
+0.2559,
+0.79719,
+0.02607
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Latissimus dorsi muscle.el",
+"ecken": 300,
+"dreiecke": 596,
+"mitte": [
+0.09206,
+1.26794,
+-0.10564
+],
+"materialien": [
+"End-Adduction",
+"Cartilage"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.el",
+"ecken": 52,
+"dreiecke": 96,
+"mitte": [
+0.23262,
+0.74841,
+0.06287
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.e3l",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.10241,
+0.01966,
+0.06849
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Oblique head of adductor hallucis.o1l",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+0.09931,
+0.03536,
+0.01665
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.e2l",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+0.11362,
+0.01801,
+0.05948
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.e1l",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+0.12308,
+0.01753,
+0.05306
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.ol",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+0.07557,
+0.01505,
+-0.06232
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor hallucis.ol",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.08048,
+0.01862,
+-0.06004
+],
+"materialien": [
+"Muscular origin"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.ol",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+0.07938,
+0.02644,
+-0.04432
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Oblique head of adductor hallucis.ol",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.09479,
+0.03685,
+0.00618
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Vastus intermedius muscle.ol",
+"ecken": 164,
+"dreiecke": 324,
+"mitte": [
+0.10648,
+0.65758,
+0.00119
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Vastus lateralis muscle.ol",
+"ecken": 196,
+"dreiecke": 388,
+"mitte": [
+0.1155,
+0.67827,
+-0.00958
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Vastus medialis muscle.ol",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+0.07504,
+0.62774,
+-0.00482
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Articularis genus muscle.ol",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.08716,
+0.5024,
+0.0022
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis brevis muscle.ol",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+0.10428,
+0.17773,
+-0.0534
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Soleus muscle.ol",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+0.10513,
+0.38292,
+-0.04751
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis tertius muscle.ol",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.09884,
+0.13775,
+-0.04234
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tensor fasciae latae.ol",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.1239,
+0.94613,
+0.03545
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus minimus muscle.ol",
+"ecken": 142,
+"dreiecke": 280,
+"mitte": [
+0.09434,
+0.92851,
+-0.00845
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus maximus muscle.ol",
+"ecken": 128,
+"dreiecke": 244,
+"mitte": [
+0.05291,
+0.9583,
+-0.07078
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus medius muscle.ol",
+"ecken": 106,
+"dreiecke": 208,
+"mitte": [
+0.09788,
+0.96809,
+-0.02185
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long head of biceps femoris.ol",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.05895,
+0.8139,
+-0.05215
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor longus.ol",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.01828,
+0.8364,
+0.0462
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gracilis muscle.ol",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.01646,
+0.82107,
+0.01947
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor magnus.ol",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.0309,
+0.80923,
+-0.00683
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Superior gemellus muscle.ol",
+"ecken": 60,
+"dreiecke": 116,
+"mitte": [
+0.04947,
+0.86828,
+-0.04922
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obturator internus.ol",
+"ecken": 182,
+"dreiecke": 364,
+"mitte": [
+0.038,
+0.84895,
+-0.01031
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Levator ani.ol",
+"ecken": 80,
+"dreiecke": 152,
+"mitte": [
+0.02611,
+0.84374,
+-0.01582
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Erector spinae.ol",
+"ecken": 104,
+"dreiecke": 200,
+"mitte": [
+0.05394,
+0.97306,
+-0.06338
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Latissimus dorsi muscle.ol",
+"ecken": 116,
+"dreiecke": 228,
+"mitte": [
+0.06023,
+0.97835,
+-0.06175
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis anterior muscle.ol",
+"ecken": 490,
+"dreiecke": 976,
+"mitte": [
+0.09511,
+0.292,
+-0.01645
+],
+"materialien": [
+"Origin-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis posterior muscle.ol",
+"ecken": 746,
+"dreiecke": 1492,
+"mitte": [
+0.09394,
+0.30019,
+-0.03542
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor hallucis longus.ol",
+"ecken": 358,
+"dreiecke": 710,
+"mitte": [
+0.09861,
+0.23952,
+-0.04614
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor hallucis longus.ol",
+"ecken": 444,
+"dreiecke": 884,
+"mitte": [
+0.09961,
+0.23301,
+-0.0356
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis longus muscle.ol",
+"ecken": 156,
+"dreiecke": 308,
+"mitte": [
+0.11532,
+0.33473,
+-0.04455
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.o1l",
+"ecken": 330,
+"dreiecke": 656,
+"mitte": [
+0.10596,
+0.28364,
+-0.03495
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Soleus muscle.o1l",
+"ecken": 92,
+"dreiecke": 180,
+"mitte": [
+0.08093,
+0.31498,
+-0.03173
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.ol",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.07614,
+0.25711,
+-0.03558
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis anterior muscle.e1l",
+"ecken": 56,
+"dreiecke": 108,
+"mitte": [
+0.06191,
+0.0499,
+0.03121
+],
+"materialien": [
+"End-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of flexor hallucis brevis.o1l",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.08027,
+0.0408,
+0.02324
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o1l",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+0.072,
+0.03698,
+0.02741
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o2l",
+"ecken": 46,
+"dreiecke": 88,
+"mitte": [
+0.08664,
+0.04377,
+0.02187
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o3l",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.09672,
+0.03846,
+0.02374
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Long plantar ligament.o4l",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.1023,
+0.03184,
+0.01681
+],
+"materialien": [
+"Origin-Ligament"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis brevis muscle.el",
+"ecken": 74,
+"dreiecke": 144,
+"mitte": [
+0.11327,
+0.02862,
+-0.01256
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Fibularis tertius muscle.el",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.11525,
+0.03678,
+0.00869
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "(Opponens digiti minimi muscle of foot).ol",
+"ecken": 62,
+"dreiecke": 120,
+"mitte": [
+0.1231,
+0.01976,
+0.02254
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Triceps surae muscle.el",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+0.069,
+0.03991,
+-0.08547
+],
+"materialien": [
+"End-Extension hand-foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor hallucis brevis.ol",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.0991,
+0.05109,
+-0.0299
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor hallucis longus.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.07879,
+0.01076,
+0.11323
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.el",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.10302,
+0.01669,
+0.12678
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.1028,
+0.01103,
+0.12459
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e1l",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.1182,
+0.01519,
+0.12194
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.e1l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.11857,
+0.01059,
+0.11918
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e2l",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.13202,
+0.01626,
+0.10722
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.e2l",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.13047,
+0.01041,
+0.10565
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e3l",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+0.14255,
+0.01455,
+0.08917
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum longus.e3l",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.14181,
+0.0102,
+0.08702
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Iliopsoas muscle.el",
+"ecken": 142,
+"dreiecke": 280,
+"mitte": [
+0.09449,
+0.7901,
+-0.02311
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus medius muscle.el",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.13523,
+0.84233,
+-0.02817
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor magnus.el",
+"ecken": 224,
+"dreiecke": 440,
+"mitte": [
+0.07115,
+0.62798,
+-0.02083
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Adductor longus.el",
+"ecken": 64,
+"dreiecke": 116,
+"mitte": [
+0.09044,
+0.7107,
+-0.0042
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gluteus maximus muscle.el",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+0.11484,
+0.7495,
+-0.02268
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Biceps femoris muscle.el",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+0.11788,
+0.40956,
+-0.04365
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "External abdominal oblique muscle.o4l",
+"ecken": 138,
+"dreiecke": 264,
+"mitte": [
+0.08995,
+0.94098,
+0.0064
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transversus abdominis muscle.ol",
+"ecken": 138,
+"dreiecke": 272,
+"mitte": [
+0.08974,
+0.9748,
+-0.00213
+],
+"materialien": [
+"Origin-Orbicular/Constrictor"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Internal abdominal oblique muscle.o3l",
+"ecken": 136,
+"dreiecke": 268,
+"mitte": [
+0.09991,
+0.97734,
+0.00372
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Tibialis anterior muscle.el",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+0.0613,
+0.04925,
+0.01974
+],
+"materialien": [
+"End-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum brevis.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.10102,
+0.02002,
+0.11409
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.el",
+"ecken": 76,
+"dreiecke": 144,
+"mitte": [
+0.10061,
+0.01411,
+0.11603
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum brevis.e1l",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.11488,
+0.01847,
+0.10819
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.e1l",
+"ecken": 100,
+"dreiecke": 192,
+"mitte": [
+0.1169,
+0.01293,
+0.11091
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum brevis.e2l",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.12979,
+0.01741,
+0.09556
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum brevis.e2l",
+"ecken": 54,
+"dreiecke": 100,
+"mitte": [
+0.14044,
+0.0102,
+0.08239
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor hallucis longus.el",
+"ecken": 36,
+"dreiecke": 68,
+"mitte": [
+0.07444,
+0.0267,
+0.09343
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of flexor hallucis brevis.el",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.07726,
+0.01259,
+0.0838
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor hallucis.el",
+"ecken": 26,
+"dreiecke": 48,
+"mitte": [
+0.06222,
+0.01678,
+0.08299
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial head of flexor hallucis brevis.el",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+0.06698,
+0.01416,
+0.08382
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor digiti minimi of foot.el",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+0.13725,
+0.01259,
+0.05679
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digiti minimi of foot.el",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+0.13618,
+0.01234,
+0.06223
+],
+"materialien": [
+"End-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Oblique head of adductor hallucis.el",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.07592,
+0.01683,
+0.0645
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Transverse head of adductor hallucis.ol",
+"ecken": 16,
+"dreiecke": 28,
+"mitte": [
+0.07943,
+0.01688,
+0.06836
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Gracilis muscle.el",
+"ecken": 30,
+"dreiecke": 56,
+"mitte": [
+0.06074,
+0.367,
+-0.02094
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.ol",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.11002,
+0.41119,
+-0.02165
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Inferior gemellus muscle.ol",
+"ecken": 40,
+"dreiecke": 76,
+"mitte": [
+0.06068,
+0.83799,
+-0.05461
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor digitorum longus.e4l",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.14074,
+0.01608,
+0.08287
+],
+"materialien": [
+"End-Extension fingers",
+"Cartilage"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Obturator externus.ol",
+"ecken": 240,
+"dreiecke": 476,
+"mitte": [
+0.0389,
+0.83406,
+0.00099
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of gastrocnemius.ol",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+0.10631,
+0.47992,
+-0.03461
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of flexor hallucis brevis.ol",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+0.0682,
+0.03989,
+0.01521
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial head of gastrocnemius.ol",
+"ecken": 102,
+"dreiecke": 200,
+"mitte": [
+0.05751,
+0.49172,
+-0.02701
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Teres minor muscle.el",
+"ecken": 166,
+"dreiecke": 328,
+"mitte": [
+0.18982,
+1.37543,
+-0.03198
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supraspinatus muscle.el",
+"ecken": 126,
+"dreiecke": 248,
+"mitte": [
+0.18824,
+1.39553,
+-0.01931
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Subscapularis muscle.el",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.16501,
+1.38305,
+-0.00435
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Medial head of triceps brachii.ol",
+"ecken": 146,
+"dreiecke": 288,
+"mitte": [
+0.20699,
+1.22526,
+-0.04223
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Lateral head of triceps brachii.ol",
+"ecken": 110,
+"dreiecke": 216,
+"mitte": [
+0.19556,
+1.29809,
+-0.03951
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Infraspinatus muscle.el",
+"ecken": 118,
+"dreiecke": 232,
+"mitte": [
+0.18964,
+1.39109,
+-0.03388
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi radialis longus.ol",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.23783,
+1.13914,
+-0.04703
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Deltoid muscle.el",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+0.20673,
+1.28955,
+-0.02711
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Common flexor tendon.ol",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+0.19121,
+1.10628,
+-0.03186
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Common extensor tendon.ol",
+"ecken": 64,
+"dreiecke": 124,
+"mitte": [
+0.2471,
+1.11157,
+-0.04367
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachioradialis muscle.ol",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.22134,
+1.18609,
+-0.04563
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachialis muscle.ol",
+"ecken": 268,
+"dreiecke": 532,
+"mitte": [
+0.21181,
+1.2071,
+-0.03036
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Anconeus muscle.ol",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.23745,
+1.11019,
+-0.0491
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supinator.el",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+0.25102,
+1.03258,
+-0.02178
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor pollicis longus.o1l",
+"ecken": 170,
+"dreiecke": 336,
+"mitte": [
+0.2585,
+0.97118,
+-0.00602
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor digitorum superficialis.ol",
+"ecken": 82,
+"dreiecke": 160,
+"mitte": [
+0.24569,
+1.02934,
+-0.01639
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis brevis.ol",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+0.25571,
+0.92279,
+-0.00208
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachioradialis muscle.el",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.2857,
+0.86665,
+0.01766
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Biceps brachii muscle.el",
+"ecken": 42,
+"dreiecke": 80,
+"mitte": [
+0.23423,
+1.06234,
+-0.01985
+],
+"materialien": [
+"End-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Abductor pollicis longus.ol",
+"ecken": 148,
+"dreiecke": 292,
+"mitte": [
+0.24731,
+0.99205,
+-0.02179
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Ulnar head of flexor carpi ulnaris.ol",
+"ecken": 316,
+"dreiecke": 628,
+"mitte": [
+0.23125,
+1.00196,
+-0.01696
+],
+"materialien": [
+"Origin-Flexion hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Supinator.ol",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+0.23373,
+1.05093,
+-0.03636
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Flexor pollicis longus.ol",
+"ecken": 24,
+"dreiecke": 44,
+"mitte": [
+0.22639,
+1.05254,
+-0.03092
+],
+"materialien": [
+"Origin-Flexion fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis longus.ol",
+"ecken": 100,
+"dreiecke": 196,
+"mitte": [
+0.2399,
+0.95068,
+-0.01267
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor indicis.ol",
+"ecken": 76,
+"dreiecke": 148,
+"mitte": [
+0.24452,
+0.89891,
+0.00196
+],
+"materialien": [
+"Origin-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor carpi ulnaris.ol",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.22965,
+0.96898,
+-0.02192
+],
+"materialien": [
+"Origin-Extension hand/foot"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Brachialis muscle.el",
+"ecken": 96,
+"dreiecke": 188,
+"mitte": [
+0.22224,
+1.06213,
+-0.03104
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Anconeus muscle.el",
+"ecken": 44,
+"dreiecke": 84,
+"mitte": [
+0.22162,
+1.05265,
+-0.04871
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Extensor pollicis brevis.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.32055,
+0.808,
+0.04654
+],
+"materialien": [
+"End-Extension fingers"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus abdominis muscle.ol",
+"ecken": 450,
+"dreiecke": 888,
+"mitte": [
+0.0445,
+1.23525,
+0.10761
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus anterior muscle.ol",
+"ecken": 104,
+"dreiecke": 204,
+"mitte": [
+0.0519,
+1.41508,
+0.00415
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scalenus medius muscle.ol",
+"ecken": 140,
+"dreiecke": 276,
+"mitte": [
+0.05082,
+1.42458,
+-0.00737
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.e2l",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+0.11179,
+1.27113,
+0.06503
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.el",
+"ecken": 152,
+"dreiecke": 300,
+"mitte": [
+0.09125,
+1.33751,
+0.0393
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.e1l",
+"ecken": 234,
+"dreiecke": 464,
+"mitte": [
+0.10629,
+1.30402,
+0.05274
+],
+"materialien": [
+"End-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e4l",
+"ecken": 168,
+"dreiecke": 332,
+"mitte": [
+0.12502,
+1.28306,
+0.03481
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e7l",
+"ecken": 176,
+"dreiecke": 348,
+"mitte": [
+0.13327,
+1.18442,
+0.00239
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e2r",
+"ecken": 250,
+"dreiecke": 496,
+"mitte": [
+0.10951,
+1.35849,
+-0.00069
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e3l",
+"ecken": 374,
+"dreiecke": 744,
+"mitte": [
+0.12126,
+1.32623,
+0.00856
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e6l",
+"ecken": 268,
+"dreiecke": 532,
+"mitte": [
+0.13912,
+1.22134,
+0.01514
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.e5l",
+"ecken": 188,
+"dreiecke": 372,
+"mitte": [
+0.13398,
+1.25075,
+0.02762
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Scapular spinal part of deltoid muscle.ol",
+"ecken": 1032,
+"dreiecke": 2060,
+"mitte": [
+0.1344,
+1.38952,
+-0.0791
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis minor muscle.ol",
+"ecken": 420,
+"dreiecke": 836,
+"mitte": [
+0.12874,
+1.39403,
+-0.00642
+],
+"materialien": [
+"Origin-Abduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis major muscle.ol",
+"ecken": 150,
+"dreiecke": 296,
+"mitte": [
+0.05947,
+1.40218,
+0.02998
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rhomboid major muscle.el",
+"ecken": 1370,
+"dreiecke": 2736,
+"mitte": [
+0.07448,
+1.30883,
+-0.1064
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rhomboid minor muscle.el",
+"ecken": 412,
+"dreiecke": 820,
+"mitte": [
+0.06317,
+1.37344,
+-0.09783
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Serratus anterior muscle.ol",
+"ecken": 478,
+"dreiecke": 952,
+"mitte": [
+0.07965,
+1.32677,
+-0.09597
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Plantaris muscle.ol",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+0.09333,
+0.49122,
+-0.03212
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Popliteus muscle.ol",
+"ecken": 48,
+"dreiecke": 92,
+"mitte": [
+0.1111,
+0.45976,
+-0.04694
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sartorius muscle.ol",
+"ecken": 124,
+"dreiecke": 244,
+"mitte": [
+0.11963,
+0.93698,
+0.0481
+],
+"materialien": [
+"Origin-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semitendinosus muscle.ol",
+"ecken": 84,
+"dreiecke": 164,
+"mitte": [
+0.05014,
+0.80499,
+-0.04638
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Rectus femoris muscle.ol",
+"ecken": 60,
+"dreiecke": 112,
+"mitte": [
+0.10369,
+0.90257,
+0.00799
+],
+"materialien": [
+"Origin-Biarticular"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectineus muscle.ol",
+"ecken": 94,
+"dreiecke": 184,
+"mitte": [
+0.0349,
+0.8525,
+0.04275
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semimembranosus muscle.ol",
+"ecken": 58,
+"dreiecke": 112,
+"mitte": [
+0.04427,
+0.79902,
+-0.03507
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Quadratus femoris muscle.ol",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.06331,
+0.81719,
+-0.03315
+],
+"materialien": [
+"Origin-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Patellar ligament.ol",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+0.08587,
+0.42857,
+0.00572
+],
+"materialien": [
+"Origin-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Quadratus femoris muscle.el",
+"ecken": 68,
+"dreiecke": 132,
+"mitte": [
+0.11229,
+0.81652,
+-0.03501
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Sartorius muscle.el",
+"ecken": 20,
+"dreiecke": 36,
+"mitte": [
+0.06597,
+0.3722,
+-0.00869
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semimembranosus muscle.el",
+"ecken": 72,
+"dreiecke": 136,
+"mitte": [
+0.04938,
+0.40876,
+-0.04643
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Quadriceps femoris muscle.el",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+0.08474,
+0.45879,
+0.012
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Patellar ligament.el",
+"ecken": 66,
+"dreiecke": 128,
+"mitte": [
+0.082,
+0.38995,
+0.00271
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Semitendinosus muscle.el",
+"ecken": 52,
+"dreiecke": 100,
+"mitte": [
+0.05358,
+0.37648,
+-0.03424
+],
+"materialien": [
+"End-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Popliteus muscle.el",
+"ecken": 90,
+"dreiecke": 176,
+"mitte": [
+0.07414,
+0.37839,
+-0.04202
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pronator teres.ol",
+"ecken": 34,
+"dreiecke": 64,
+"mitte": [
+0.19768,
+1.1194,
+-0.03272
+],
+"materialien": [
+"Origin-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pectoralis major muscle.el",
+"ecken": 70,
+"dreiecke": 136,
+"mitte": [
+0.18841,
+1.32603,
+-0.01614
+],
+"materialien": [
+"End-Adduction"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Iliacus muscle.or",
+"ecken": 126,
+"dreiecke": 248,
+"mitte": [
+-0.09322,
+0.95331,
+0.00562
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Iliacus muscle.ol",
+"ecken": 126,
+"dreiecke": 248,
+"mitte": [
+0.09322,
+0.95331,
+0.00562
+],
+"materialien": [
+"Origin-Flexion"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Triceps brachii muscle.er",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+-0.21419,
+1.10093,
+-0.05376
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Triceps brachii muscle.el",
+"ecken": 88,
+"dreiecke": 172,
+"mitte": [
+0.21419,
+1.10093,
+-0.05376
+],
+"materialien": [
+"End-Extension"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Trochanteric insertion.el",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+0.12063,
+0.84862,
+-0.01256
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Trochanteric insertion.er",
+"ecken": 50,
+"dreiecke": 96,
+"mitte": [
+-0.12063,
+0.84862,
+-0.01256
+],
+"materialien": [
+"End-External rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+},
+{
+"name": "Pronator teres.el",
+"ecken": 32,
+"dreiecke": 60,
+"mitte": [
+0.26188,
+0.99271,
+-0.01615
+],
+"materialien": [
+"End-Internal rotation"
+],
+"sammlungen": [
+"2: Muscular insertions"
+]
+}
+]
+}

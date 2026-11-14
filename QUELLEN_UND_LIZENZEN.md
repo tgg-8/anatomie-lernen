@@ -17,7 +17,9 @@ Z-Anatomy enthält zwei Modelle mit **nicht-kommerzieller** Lizenz. Sie werden v
 - „Anatomy of the Inner Ear“ – University of Dundee School of Medicine – CC BY-NC-SA 4.0
 - „Kidney“ – Lissie Cowley – CC BY-NC 4.0
 
-Ebenfalls in Z-Anatomy als Referenz genannt und vor Etappe 5 (Nervensystem) noch zu prüfen: „Brainder“, „White matter“ (University of Washington), „Cranial Nerves and Foramina“ (University of Dundee, CAHID, CC BY 4.0).
+Der Ausschluss ist bewusst vorsichtig gefasst: Er trifft auch den N. vestibulocochlearis (VIII), die Cochleariskerne sowie die Gefäße innerhalb der Niere, weil nicht sicher ist, aus welchem Teilmodell sie stammen.
+
+Ebenfalls in Z-Anatomy als Referenz genannt: „Brainder“, „White matter“ (University of Washington) und „Cranial Nerves and Foramina“ (University of Dundee, CAHID, CC BY 4.0, mit Namensnennung nutzbar). Für Brainder/White matter nennt Z-Anatomy keine Lizenz; laut Z-Anatomy wurden sie „als Referenz verwendet/angepasst“. Das ist **noch zu prüfen**, falls die App einmal öffentlich verbreitet werden soll.
 
 ### BodyParts3D (Grundlage von Z-Anatomy, Ausweichquelle)
 - **Woher:** https://dbarchive.biosciencedbc.jp/en/bodyparts3d/
@@ -32,6 +34,21 @@ Ebenfalls in Z-Anatomy als Referenz genannt und vor Etappe 5 (Nervensystem) noch
 
 ### Deutsche Namen
 - Von Claude ergänzt (`public/inhalte/texte/namen_de.json` und Regeln in `werkzeuge/daten_bauen.mjs`). Bitte mit dem Schulbuch abgleichen.
+
+## Bewegungsumfänge (Neutral-Null-Methode)
+
+- Hüfte, Knie, oberes Sprunggelenk, Schulter-Abduktion: DocCheck Flexikon, „Neutral-Null-Methode“ (Stand 14.06.2024), https://flexikon.doccheck.com/de/Neutral-Null-Methode
+- Ellenbogen (Flexion/Extension, Pronation/Supination): Uniklinik RWTH Aachen, Klinik für Orthopädie, Begleitskript Untersuchungskurs, https://www.ukaachen.de/fileadmin/files/klinik-orthopaedie/Skript_Untersuchungstechniken_18072017_mod_mt.pdf
+- Nur Zahlenwerte übernommen. Werte ohne gesicherte Quelle (Schulter-Rotation/Ante-/Retroversion, Handgelenk, unteres Sprunggelenk) stehen als „noch zu prüfen“ in der App.
+- Ruhe- und Verriegelungsstellungen: Konzept der Manuellen Therapie nach Kaltenborn, aus Lehrbuchwissen, nicht online gegengeprüft.
+
+## Innervation ohne eigenen Text
+
+Für Muskeln ohne eigenen Text zeigt die App den versorgenden Nerv aus der Gruppierung im Z-Anatomy-Atlas (Muskeln sind dort nach Nerven sortiert). Diese Angabe ist als „laut Z-Anatomy-Modell“ gekennzeichnet und noch zu prüfen.
+
+## Einteilung oberflächliche / tiefe Muskeln
+
+Automatisch berechnet: Anteil der Muskeloberfläche, der von außen direkt sichtbar ist (Teststrahlen aus 8 Richtungen, Knochen verdecken). Einige Ausnahmen wurden nach Lehrbuch-Einteilung festgelegt (`werkzeuge/export_konfig.json`). Das ist eine Lernhilfe, keine offizielle Klassifikation.
 
 ## Lerntexte
 

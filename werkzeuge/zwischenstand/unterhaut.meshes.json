@@ -1,0 +1,19 @@
+{
+"ebene": "unterhaut",
+"meshes": [
+{
+"name": "Subcutaneous tissue (schematic)",
+"ecken": 28624,
+"dreiecke": 46186,
+"mitte": [
+0.0,
+0.85427,
+0.00128
+],
+"materialien": [
+"Fat-schematic"
+],
+"sammlungen": []
+}
+]
+}

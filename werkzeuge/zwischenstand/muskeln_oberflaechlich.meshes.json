@@ -1,0 +1,4835 @@
+{
+"ebene": "muskeln_oberflaechlich",
+"meshes": [
+{
+"name": "Frontalis muscle.r",
+"ecken": 2933,
+"dreiecke": 5874,
+"mitte": [
+-0.02926,
+1.63928,
+0.06607
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 154,
+"gesamt": 326,
+"anteil": 0.472
+}
+},
+{
+"name": "Occipitalis muscle.r",
+"ecken": 1297,
+"dreiecke": 2602,
+"mitte": [
+-0.03814,
+1.60168,
+-0.08142
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 79,
+"gesamt": 150,
+"anteil": 0.527
+}
+},
+{
+"name": "Frontalis muscle.l",
+"ecken": 2933,
+"dreiecke": 5874,
+"mitte": [
+0.02926,
+1.63928,
+0.06607
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 162,
+"gesamt": 326,
+"anteil": 0.497
+}
+},
+{
+"name": "Occipitalis muscle.l",
+"ecken": 1297,
+"dreiecke": 2602,
+"mitte": [
+0.03814,
+1.60168,
+-0.08142
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 77,
+"gesamt": 150,
+"anteil": 0.513
+}
+},
+{
+"name": "Temporoparietalis muscle.r",
+"ecken": 5974,
+"dreiecke": 11972,
+"mitte": [
+-0.06131,
+1.62627,
+-0.01349
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 345,
+"gesamt": 670,
+"anteil": 0.515
+}
+},
+{
+"name": "Temporoparietalis muscle.l",
+"ecken": 5974,
+"dreiecke": 11972,
+"mitte": [
+0.06131,
+1.62627,
+-0.01349
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 354,
+"gesamt": 670,
+"anteil": 0.528
+}
+},
+{
+"name": "Nasalis muscle.r",
+"ecken": 352,
+"dreiecke": 704,
+"mitte": [
+-0.00823,
+1.58334,
+0.08919
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 17,
+"gesamt": 44,
+"anteil": 0.386
+}
+},
+{
+"name": "Nasalis muscle.l",
+"ecken": 352,
+"dreiecke": 704,
+"mitte": [
+0.00823,
+1.58334,
+0.08919
+],
+"materialien": [
+"Superficial",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 19,
+"gesamt": 44,
+"anteil": 0.432
+}
+},
+{
+"name": "Orbital part of orbicularis oculi.r",
+"ecken": 1195,
+"dreiecke": 2390,
+"mitte": [
+-0.03123,
+1.59227,
+0.07118
+],
+"materialien": [
+"Orbicularis/Constrictor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 54,
+"gesamt": 126,
+"anteil": 0.429
+}
+},
+{
+"name": "Palpebral part of orbicularis oculi.r",
+"ecken": 415,
+"dreiecke": 830,
+"mitte": [
+-0.02956,
+1.59129,
+0.07228
+],
+"materialien": [
+"Orbicularis/Constrictor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head"
+],
+"sichtbarkeit": {
+"sichtbar": 19,
+"gesamt": 45,
+"anteil": 0.422
+}
+},
+{
+"name": "Orbital part of orbicularis oculi.l",
+"ecken": 1195,
+"dreiecke": 2390,
+"mitte": [
+0.03123,
+1.59227,
+0.07118
+],
+"materialien": [
+"Orbicularis/Constrictor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 58,
+"gesamt": 126,
+"anteil": 0.46
+}
+},
+{
+"name": "Palpebral part of orbicularis oculi.l",
+"ecken": 415,
+"dreiecke": 830,
+"mitte": [
+0.02956,
+1.59129,
+0.07228
+],
+"materialien": [
+"Orbicularis/Constrictor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head"
+],
+"sichtbarkeit": {
+"sichtbar": 15,
+"gesamt": 45,
+"anteil": 0.333
+}
+},
+{
+"name": "Orbicularis oris muscle.r",
+"ecken": 940,
+"dreiecke": 1880,
+"mitte": [
+-0.01609,
+1.53138,
+0.08132
+],
+"materialien": [
+"Orbicularis/Constrictor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 43,
+"gesamt": 94,
+"anteil": 0.457
+}
+},
+{
+"name": "Orbicularis oris muscle.l",
+"ecken": 940,
+"dreiecke": 1880,
+"mitte": [
+0.01609,
+1.53138,
+0.08132
+],
+"materialien": [
+"Orbicularis/Constrictor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 43,
+"gesamt": 93,
+"anteil": 0.462
+}
+},
+{
+"name": "Zygomaticus major muscle.r",
+"ecken": 397,
+"dreiecke": 798,
+"mitte": [
+-0.04079,
+1.55159,
+0.06317
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 24,
+"gesamt": 57,
+"anteil": 0.421
+}
+},
+{
+"name": "Depressor anguli oris.r",
+"ecken": 299,
+"dreiecke": 594,
+"mitte": [
+-0.02388,
+1.51882,
+0.0627
+],
+"materialien": [
+"Depressor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 13,
+"gesamt": 58,
+"anteil": 0.224
+}
+},
+{
+"name": "Depressor labii inferioris.r",
+"ecken": 418,
+"dreiecke": 832,
+"mitte": [
+-0.01586,
+1.51509,
+0.072
+],
+"materialien": [
+"Depressor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head"
+],
+"sichtbarkeit": {
+"sichtbar": 9,
+"gesamt": 54,
+"anteil": 0.167
+}
+},
+{
+"name": "Levator anguli oris.r",
+"ecken": 165,
+"dreiecke": 330,
+"mitte": [
+-0.02053,
+1.55247,
+0.07565
+],
+"materialien": [
+"Levator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head"
+],
+"sichtbarkeit": {
+"sichtbar": 6,
+"gesamt": 25,
+"anteil": 0.24
+}
+},
+{
+"name": "Procerus muscle.r",
+"ecken": 273,
+"dreiecke": 546,
+"mitte": [
+-0.01165,
+1.61205,
+0.08641
+],
+"materialien": [
+"Depressor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 6,
+"gesamt": 32,
+"anteil": 0.188
+}
+},
+{
+"name": "Risorius muscle.r",
+"ecken": 296,
+"dreiecke": 592,
+"mitte": [
+-0.03856,
+1.52863,
+0.05761
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 15,
+"gesamt": 34,
+"anteil": 0.441
+}
+},
+{
+"name": "Zygomaticus minor muscle.r",
+"ecken": 218,
+"dreiecke": 432,
+"mitte": [
+-0.03154,
+1.562,
+0.07236
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 10,
+"gesamt": 33,
+"anteil": 0.303
+}
+},
+{
+"name": "Levator labii superioris.r",
+"ecken": 272,
+"dreiecke": 540,
+"mitte": [
+-0.02533,
+1.56178,
+0.07644
+],
+"materialien": [
+"Levator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 6,
+"gesamt": 27,
+"anteil": 0.222
+}
+},
+{
+"name": "Zygomaticus major muscle.l",
+"ecken": 397,
+"dreiecke": 798,
+"mitte": [
+0.04079,
+1.55159,
+0.06317
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 25,
+"gesamt": 57,
+"anteil": 0.439
+}
+},
+{
+"name": "Depressor anguli oris.l",
+"ecken": 299,
+"dreiecke": 594,
+"mitte": [
+0.02388,
+1.51882,
+0.0627
+],
+"materialien": [
+"Depressor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 14,
+"gesamt": 56,
+"anteil": 0.25
+}
+},
+{
+"name": "Levator anguli oris.l",
+"ecken": 165,
+"dreiecke": 330,
+"mitte": [
+0.02053,
+1.55247,
+0.07565
+],
+"materialien": [
+"Levator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head"
+],
+"sichtbarkeit": {
+"sichtbar": 7,
+"gesamt": 25,
+"anteil": 0.28
+}
+},
+{
+"name": "Procerus muscle.l",
+"ecken": 273,
+"dreiecke": 546,
+"mitte": [
+0.01165,
+1.61205,
+0.08641
+],
+"materialien": [
+"Depressor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 7,
+"gesamt": 32,
+"anteil": 0.219
+}
+},
+{
+"name": "Risorius muscle.l",
+"ecken": 296,
+"dreiecke": 592,
+"mitte": [
+0.03856,
+1.52863,
+0.05761
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 12,
+"gesamt": 35,
+"anteil": 0.343
+}
+},
+{
+"name": "Zygomaticus minor muscle.l",
+"ecken": 218,
+"dreiecke": 432,
+"mitte": [
+0.03154,
+1.562,
+0.07236
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial muscles",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 13,
+"gesamt": 33,
+"anteil": 0.394
+}
+},
+{
+"name": "Superficial part of masseter.r",
+"ecken": 702,
+"dreiecke": 1404,
+"mitte": [
+-0.04941,
+1.54326,
+0.03693
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Head",
+"Muscles",
+"Muscles of head",
+"Trigeminal nerve (V)"
+],
+"sichtbarkeit": {
+"sichtbar": 47,
+"gesamt": 139,
+"anteil": 0.338
+}
+},
+{
+"name": "Superficial part of masseter.l",
+"ecken": 702,
+"dreiecke": 1404,
+"mitte": [
+0.04941,
+1.54326,
+0.03693
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Head",
+"Muscles",
+"Muscles of head",
+"Trigeminal nerve (V)"
+],
+"sichtbarkeit": {
+"sichtbar": 54,
+"gesamt": 139,
+"anteil": 0.388
+}
+},
+{
+"name": "Temporalis muscle.r",
+"ecken": 5126,
+"dreiecke": 10260,
+"mitte": [
+-0.0573,
+1.60401,
+0.00642
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles",
+"Trigeminal nerve (V)"
+],
+"sichtbarkeit": {
+"sichtbar": 98,
+"gesamt": 649,
+"anteil": 0.151
+}
+},
+{
+"name": "Sternocleidomastoid muscle.r",
+"ecken": 2472,
+"dreiecke": 4952,
+"mitte": [
+-0.03256,
+1.47857,
+0.00754
+],
+"materialien": [
+"Internal rotator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Muscles",
+"Muscles of neck",
+"Neck",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 108,
+"gesamt": 497,
+"anteil": 0.217
+}
+},
+{
+"name": "Sternocleidomastoid muscle.l",
+"ecken": 2472,
+"dreiecke": 4952,
+"mitte": [
+0.03256,
+1.47857,
+0.00754
+],
+"materialien": [
+"Internal rotator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Muscles",
+"Muscles of neck",
+"Neck",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 107,
+"gesamt": 497,
+"anteil": 0.215
+}
+},
+{
+"name": "Platysma.r",
+"ecken": 3276,
+"dreiecke": 6548,
+"mitte": [
+-0.06926,
+1.47033,
+0.02141
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of neck",
+"Neck",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 417,
+"gesamt": 850,
+"anteil": 0.491
+}
+},
+{
+"name": "Platysma.l",
+"ecken": 3276,
+"dreiecke": 6548,
+"mitte": [
+0.06926,
+1.47033,
+0.02141
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of neck",
+"Neck",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 426,
+"gesamt": 851,
+"anteil": 0.501
+}
+},
+{
+"name": "Ascending part of trapezius muscle.r",
+"ecken": 2298,
+"dreiecke": 4596,
+"mitte": [
+-0.06358,
+1.49512,
+-0.04567
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Neck",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 339,
+"gesamt": 807,
+"anteil": 0.42
+}
+},
+{
+"name": "Descending part of trapezius muscle.r",
+"ecken": 3376,
+"dreiecke": 6760,
+"mitte": [
+-0.0679,
+1.26719,
+-0.09962
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 697,
+"gesamt": 1622,
+"anteil": 0.43
+}
+},
+{
+"name": "Transverse part of trapezius muscle.r",
+"ecken": 1494,
+"dreiecke": 2992,
+"mitte": [
+-0.08141,
+1.41024,
+-0.07218
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 251,
+"gesamt": 554,
+"anteil": 0.453
+}
+},
+{
+"name": "Ascending part of trapezius muscle.l",
+"ecken": 2298,
+"dreiecke": 4596,
+"mitte": [
+0.06358,
+1.49512,
+-0.04567
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Neck",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 323,
+"gesamt": 806,
+"anteil": 0.401
+}
+},
+{
+"name": "Descending part of trapezius muscle.l",
+"ecken": 3376,
+"dreiecke": 6760,
+"mitte": [
+0.0679,
+1.26719,
+-0.09962
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 695,
+"gesamt": 1623,
+"anteil": 0.428
+}
+},
+{
+"name": "Transverse part of trapezius muscle.l",
+"ecken": 1494,
+"dreiecke": 2992,
+"mitte": [
+0.08141,
+1.41024,
+-0.07218
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Accessory nerve (XI)",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trapezius muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 248,
+"gesamt": 553,
+"anteil": 0.448
+}
+},
+{
+"name": "Latissimus dorsi muscle.r",
+"ecken": 10796,
+"dreiecke": 21580,
+"mitte": [
+-0.0912,
+1.13672,
+-0.06912
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 1525,
+"gesamt": 3910,
+"anteil": 0.39
+}
+},
+{
+"name": "Latissimus dorsi muscle.l",
+"ecken": 10796,
+"dreiecke": 21580,
+"mitte": [
+0.0912,
+1.13672,
+-0.06912
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Hypaxial muscles of back",
+"Muscles",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 1498,
+"gesamt": 3906,
+"anteil": 0.384
+}
+},
+{
+"name": "Clavicular head of pectoralis major muscle.r",
+"ecken": 425,
+"dreiecke": 850,
+"mitte": [
+-0.11343,
+1.35659,
+0.01634
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 157,
+"gesamt": 459,
+"anteil": 0.342
+}
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.r",
+"ecken": 1611,
+"dreiecke": 3222,
+"mitte": [
+-0.09831,
+1.30368,
+0.05518
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 892,
+"gesamt": 1950,
+"anteil": 0.457
+}
+},
+{
+"name": "(Abdominal part of pectoralis major muscle).r",
+"ecken": 756,
+"dreiecke": 1508,
+"mitte": [
+-0.12014,
+1.26027,
+0.0497
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 112,
+"gesamt": 474,
+"anteil": 0.236
+}
+},
+{
+"name": "Clavicular head of pectoralis major muscle.l",
+"ecken": 425,
+"dreiecke": 850,
+"mitte": [
+0.11343,
+1.35659,
+0.01634
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 167,
+"gesamt": 459,
+"anteil": 0.364
+}
+},
+{
+"name": "Sternocostal head of pectoralis major muscle.l",
+"ecken": 1611,
+"dreiecke": 3222,
+"mitte": [
+0.09831,
+1.30368,
+0.05517
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 879,
+"gesamt": 1952,
+"anteil": 0.45
+}
+},
+{
+"name": "(Abdominal part of pectoralis major muscle).l",
+"ecken": 756,
+"dreiecke": 1508,
+"mitte": [
+0.12014,
+1.26027,
+0.04969
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral pectoral nerve",
+"Muscles",
+"Pectoralis major muscle",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 118,
+"gesamt": 474,
+"anteil": 0.249
+}
+},
+{
+"name": "Rectus abdominis muscle.r",
+"ecken": 10304,
+"dreiecke": 20604,
+"mitte": [
+-0.04235,
+1.05402,
+0.08236
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 4,
+"gesamt": 2096,
+"anteil": 0.002
+}
+},
+{
+"name": "Rectus abdominis muscle.l",
+"ecken": 10304,
+"dreiecke": 20604,
+"mitte": [
+0.04235,
+1.05402,
+0.08236
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 0,
+"gesamt": 2096,
+"anteil": 0.0
+}
+},
+{
+"name": "Inguinal ligament.l",
+"ecken": 530,
+"dreiecke": 1056,
+"mitte": [
+0.07153,
+0.89611,
+0.05221
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 36,
+"gesamt": 110,
+"anteil": 0.327
+}
+},
+{
+"name": "Inguinal ligament.r",
+"ecken": 530,
+"dreiecke": 1056,
+"mitte": [
+-0.07153,
+0.89611,
+0.05221
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 28,
+"gesamt": 110,
+"anteil": 0.255
+}
+},
+{
+"name": "External abdominal oblique muscle.r",
+"ecken": 14811,
+"dreiecke": 29622,
+"mitte": [
+-0.0729,
+1.07087,
+0.03531
+],
+"materialien": [
+"Internal rotator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 2308,
+"gesamt": 5118,
+"anteil": 0.451
+}
+},
+{
+"name": "External abdominal oblique muscle.l",
+"ecken": 14811,
+"dreiecke": 29622,
+"mitte": [
+0.0729,
+1.07087,
+0.03531
+],
+"materialien": [
+"Internal rotator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Superficial muscles",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 2320,
+"gesamt": 5120,
+"anteil": 0.453
+}
+},
+{
+"name": "Linea alba",
+"ecken": 171,
+"dreiecke": 338,
+"mitte": [
+0.00103,
+1.03907,
+0.07726
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Muscles",
+"Muscles of abdomen",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 172,
+"gesamt": 735,
+"anteil": 0.234
+}
+},
+{
+"name": "Acromial part of deltoid muscle.r",
+"ecken": 1482,
+"dreiecke": 2964,
+"mitte": [
+-0.19718,
+1.34241,
+-0.03117
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 323,
+"gesamt": 630,
+"anteil": 0.513
+}
+},
+{
+"name": "Clavicular part of deltoid muscle.r",
+"ecken": 1453,
+"dreiecke": 2902,
+"mitte": [
+-0.14746,
+1.34597,
+-0.00703
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 236,
+"gesamt": 557,
+"anteil": 0.424
+}
+},
+{
+"name": "Scapular spinal part of deltoid muscle.r",
+"ecken": 2189,
+"dreiecke": 4378,
+"mitte": [
+-0.15869,
+1.32898,
+-0.06305
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 446,
+"gesamt": 967,
+"anteil": 0.461
+}
+},
+{
+"name": "Acromial part of deltoid muscle.l",
+"ecken": 1482,
+"dreiecke": 2964,
+"mitte": [
+0.19718,
+1.34241,
+-0.03117
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 328,
+"gesamt": 631,
+"anteil": 0.52
+}
+},
+{
+"name": "Clavicular part of deltoid muscle.l",
+"ecken": 1453,
+"dreiecke": 2902,
+"mitte": [
+0.14746,
+1.34597,
+-0.00703
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 230,
+"gesamt": 560,
+"anteil": 0.411
+}
+},
+{
+"name": "Scapular spinal part of deltoid muscle.l",
+"ecken": 2189,
+"dreiecke": 4378,
+"mitte": [
+0.15869,
+1.32898,
+-0.06305
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Axillary nerve",
+"Deltoid muscle",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 441,
+"gesamt": 969,
+"anteil": 0.455
+}
+},
+{
+"name": "Infraspinatus muscle.r",
+"ecken": 1585,
+"dreiecke": 3166,
+"mitte": [
+-0.12927,
+1.34271,
+-0.07115
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Rotator cuff muscles",
+"Suprascapular nerve",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 93,
+"gesamt": 682,
+"anteil": 0.136
+}
+},
+{
+"name": "Infraspinatus muscle.l",
+"ecken": 1585,
+"dreiecke": 3166,
+"mitte": [
+0.12927,
+1.34271,
+-0.07115
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Rotator cuff muscles",
+"Suprascapular nerve",
+"Trunk"
+],
+"sichtbarkeit": {
+"sichtbar": 94,
+"gesamt": 682,
+"anteil": 0.138
+}
+},
+{
+"name": "Long head of biceps brachii.r",
+"ecken": 1611,
+"dreiecke": 3218,
+"mitte": [
+-0.18988,
+1.22937,
+-0.01644
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 264,
+"gesamt": 785,
+"anteil": 0.336
+}
+},
+{
+"name": "Short head of biceps brachii.r",
+"ecken": 1344,
+"dreiecke": 2696,
+"mitte": [
+-0.17894,
+1.26067,
+-0.00928
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 112,
+"gesamt": 666,
+"anteil": 0.168
+}
+},
+{
+"name": "Long head of biceps brachii.l",
+"ecken": 1611,
+"dreiecke": 3218,
+"mitte": [
+0.18988,
+1.22937,
+-0.01644
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 245,
+"gesamt": 783,
+"anteil": 0.313
+}
+},
+{
+"name": "Short head of biceps brachii.l",
+"ecken": 1344,
+"dreiecke": 2696,
+"mitte": [
+0.17894,
+1.26067,
+-0.00928
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 119,
+"gesamt": 666,
+"anteil": 0.179
+}
+},
+{
+"name": "Brachialis muscle.r",
+"ecken": 1741,
+"dreiecke": 3478,
+"mitte": [
+-0.21244,
+1.16834,
+-0.02868
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 126,
+"gesamt": 800,
+"anteil": 0.158
+}
+},
+{
+"name": "Brachialis muscle.l",
+"ecken": 1741,
+"dreiecke": 3478,
+"mitte": [
+0.21244,
+1.16834,
+-0.02868
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of arm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Musculocutaneous nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 144,
+"gesamt": 795,
+"anteil": 0.181
+}
+},
+{
+"name": "Lateral head of triceps brachii.r",
+"ecken": 1816,
+"dreiecke": 3628,
+"mitte": [
+-0.20819,
+1.22642,
+-0.05883
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 326,
+"gesamt": 861,
+"anteil": 0.379
+}
+},
+{
+"name": "Long head of triceps brachii.r",
+"ecken": 1977,
+"dreiecke": 3950,
+"mitte": [
+-0.17771,
+1.22932,
+-0.06205
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 273,
+"gesamt": 935,
+"anteil": 0.292
+}
+},
+{
+"name": "Lateral head of triceps brachii.l",
+"ecken": 1816,
+"dreiecke": 3628,
+"mitte": [
+0.20819,
+1.22642,
+-0.05883
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 319,
+"gesamt": 860,
+"anteil": 0.371
+}
+},
+{
+"name": "Long head of triceps brachii.l",
+"ecken": 1977,
+"dreiecke": 3950,
+"mitte": [
+0.17771,
+1.22932,
+-0.06205
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of arm",
+"Radial nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 274,
+"gesamt": 932,
+"anteil": 0.294
+}
+},
+{
+"name": "Superficial head of pronator teres.r",
+"ecken": 1273,
+"dreiecke": 2546,
+"mitte": [
+-0.22972,
+1.04924,
+-0.01698
+],
+"materialien": [
+"Internal rotator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 48,
+"gesamt": 241,
+"anteil": 0.199
+}
+},
+{
+"name": "Superficial head of pronator teres.l",
+"ecken": 1273,
+"dreiecke": 2546,
+"mitte": [
+0.22972,
+1.04924,
+-0.01698
+],
+"materialien": [
+"Internal rotator",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 46,
+"gesamt": 245,
+"anteil": 0.188
+}
+},
+{
+"name": "Humeral head of flexor carpi ulnaris.r",
+"ecken": 1954,
+"dreiecke": 3912,
+"mitte": [
+-0.21908,
+0.96911,
+-0.00281
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 141,
+"gesamt": 426,
+"anteil": 0.331
+}
+},
+{
+"name": "Ulnar head of flexor carpi ulnaris.r",
+"ecken": 725,
+"dreiecke": 1466,
+"mitte": [
+-0.21627,
+0.99184,
+-0.02054
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 125,
+"gesamt": 363,
+"anteil": 0.344
+}
+},
+{
+"name": "Humeral head of flexor carpi ulnaris.l",
+"ecken": 1954,
+"dreiecke": 3912,
+"mitte": [
+0.21908,
+0.96911,
+-0.00281
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 140,
+"gesamt": 426,
+"anteil": 0.329
+}
+},
+{
+"name": "Ulnar head of flexor carpi ulnaris.l",
+"ecken": 725,
+"dreiecke": 1466,
+"mitte": [
+0.21627,
+0.99184,
+-0.02054
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Superficial muscles",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 123,
+"gesamt": 364,
+"anteil": 0.338
+}
+},
+{
+"name": "Flexor carpi radialis.r",
+"ecken": 835,
+"dreiecke": 1666,
+"mitte": [
+-0.23573,
+0.97339,
+0.00226
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 157,
+"gesamt": 402,
+"anteil": 0.391
+}
+},
+{
+"name": "Palmaris longus muscle.r",
+"ecken": 2177,
+"dreiecke": 4374,
+"mitte": [
+-0.24258,
+0.94694,
+0.00934
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 184,
+"gesamt": 455,
+"anteil": 0.404
+}
+},
+{
+"name": "Flexor carpi radialis.l",
+"ecken": 835,
+"dreiecke": 1666,
+"mitte": [
+0.23573,
+0.97339,
+0.00226
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 157,
+"gesamt": 402,
+"anteil": 0.391
+}
+},
+{
+"name": "Palmaris longus muscle.l",
+"ecken": 2177,
+"dreiecke": 4374,
+"mitte": [
+0.24258,
+0.94694,
+0.00934
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 195,
+"gesamt": 455,
+"anteil": 0.429
+}
+},
+{
+"name": "Radial head of flexor digitorum superficialis.r",
+"ecken": 640,
+"dreiecke": 1276,
+"mitte": [
+-0.24775,
+0.95665,
+0.00591
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Muscles",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 68,
+"gesamt": 308,
+"anteil": 0.221
+}
+},
+{
+"name": "Radial head of flexor digitorum superficialis.l",
+"ecken": 640,
+"dreiecke": 1276,
+"mitte": [
+0.24775,
+0.95665,
+0.00591
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of forearm",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 65,
+"gesamt": 307,
+"anteil": 0.212
+}
+},
+{
+"name": "Extensor digitorum.r",
+"ecken": 3201,
+"dreiecke": 6410,
+"mitte": [
+-0.27243,
+0.92169,
+0.00223
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 299,
+"gesamt": 642,
+"anteil": 0.466
+}
+},
+{
+"name": "Extensor digitorum.l",
+"ecken": 3201,
+"dreiecke": 6410,
+"mitte": [
+0.27243,
+0.92169,
+0.00223
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 315,
+"gesamt": 642,
+"anteil": 0.491
+}
+},
+{
+"name": "Humeral head of extensor carpi ulnaris.r",
+"ecken": 411,
+"dreiecke": 830,
+"mitte": [
+-0.23539,
+0.98598,
+-0.02091
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 97,
+"gesamt": 302,
+"anteil": 0.321
+}
+},
+{
+"name": "Humeral head of extensor carpi ulnaris.l",
+"ecken": 411,
+"dreiecke": 830,
+"mitte": [
+0.23539,
+0.98598,
+-0.02091
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm"
+],
+"sichtbarkeit": {
+"sichtbar": 98,
+"gesamt": 300,
+"anteil": 0.327
+}
+},
+{
+"name": "Brachioradialis muscle.r",
+"ecken": 3658,
+"dreiecke": 7312,
+"mitte": [
+-0.25239,
+1.03494,
+-0.0126
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 415,
+"gesamt": 757,
+"anteil": 0.548
+}
+},
+{
+"name": "Extensor carpi radialis longus.r",
+"ecken": 1857,
+"dreiecke": 3706,
+"mitte": [
+-0.25714,
+0.9954,
+-0.01508
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 185,
+"gesamt": 402,
+"anteil": 0.46
+}
+},
+{
+"name": "Anconeus muscle.r",
+"ecken": 723,
+"dreiecke": 1442,
+"mitte": [
+-0.22503,
+1.06751,
+-0.04872
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 52,
+"gesamt": 148,
+"anteil": 0.351
+}
+},
+{
+"name": "Extensor digiti minimi.r",
+"ecken": 1078,
+"dreiecke": 2152,
+"mitte": [
+-0.24281,
+0.94041,
+-0.00317
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 36,
+"gesamt": 233,
+"anteil": 0.155
+}
+},
+{
+"name": "Brachioradialis muscle.l",
+"ecken": 3658,
+"dreiecke": 7312,
+"mitte": [
+0.25239,
+1.03494,
+-0.0126
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 414,
+"gesamt": 765,
+"anteil": 0.541
+}
+},
+{
+"name": "Extensor carpi radialis longus.l",
+"ecken": 1857,
+"dreiecke": 3706,
+"mitte": [
+0.25714,
+0.9954,
+-0.01508
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 172,
+"gesamt": 404,
+"anteil": 0.426
+}
+},
+{
+"name": "Extensor carpi radialis brevis.l",
+"ecken": 1573,
+"dreiecke": 3142,
+"mitte": [
+0.2588,
+0.98201,
+-0.01918
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 57,
+"gesamt": 348,
+"anteil": 0.164
+}
+},
+{
+"name": "Anconeus muscle.l",
+"ecken": 723,
+"dreiecke": 1442,
+"mitte": [
+0.22503,
+1.06751,
+-0.04872
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Radial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 54,
+"gesamt": 147,
+"anteil": 0.367
+}
+},
+{
+"name": "Extensor digiti minimi.l",
+"ecken": 1078,
+"dreiecke": 2152,
+"mitte": [
+0.24281,
+0.94041,
+-0.00317
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm"
+],
+"sichtbarkeit": {
+"sichtbar": 37,
+"gesamt": 232,
+"anteil": 0.159
+}
+},
+{
+"name": "Extensor indicis.r",
+"ecken": 573,
+"dreiecke": 1142,
+"mitte": [
+-0.2774,
+0.8179,
+0.03383
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 23,
+"gesamt": 119,
+"anteil": 0.193
+}
+},
+{
+"name": "Extensor pollicis brevis.r",
+"ecken": 590,
+"dreiecke": 1176,
+"mitte": [
+-0.28215,
+0.87759,
+0.01829
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 26,
+"gesamt": 113,
+"anteil": 0.23
+}
+},
+{
+"name": "Extensor pollicis longus.r",
+"ecken": 803,
+"dreiecke": 1602,
+"mitte": [
+-0.2809,
+0.88576,
+0.01852
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 25,
+"gesamt": 156,
+"anteil": 0.16
+}
+},
+{
+"name": "Extensor pollicis brevis.l",
+"ecken": 590,
+"dreiecke": 1176,
+"mitte": [
+0.28215,
+0.87759,
+0.01829
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of upper limb",
+"Posterior compartment of forearm"
+],
+"sichtbarkeit": {
+"sichtbar": 26,
+"gesamt": 113,
+"anteil": 0.23
+}
+},
+{
+"name": "Superficial head of flexor pollicis brevis.r",
+"ecken": 136,
+"dreiecke": 276,
+"mitte": [
+-0.29014,
+0.83164,
+0.04612
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 10,
+"gesamt": 35,
+"anteil": 0.286
+}
+},
+{
+"name": "Superficial head of flexor pollicis brevis.l",
+"ecken": 136,
+"dreiecke": 276,
+"mitte": [
+0.29014,
+0.83164,
+0.04612
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 13,
+"gesamt": 35,
+"anteil": 0.371
+}
+},
+{
+"name": "Oblique head of adductor pollicis.r",
+"ecken": 227,
+"dreiecke": 450,
+"mitte": [
+-0.28695,
+0.8244,
+0.03462
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 8,
+"gesamt": 38,
+"anteil": 0.211
+}
+},
+{
+"name": "Transverse head of adductor pollicis.r",
+"ecken": 509,
+"dreiecke": 1014,
+"mitte": [
+-0.28851,
+0.80685,
+0.03503
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 15,
+"gesamt": 98,
+"anteil": 0.153
+}
+},
+{
+"name": "Transverse head of adductor pollicis.l",
+"ecken": 509,
+"dreiecke": 1014,
+"mitte": [
+0.28851,
+0.80685,
+0.03503
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 21,
+"gesamt": 97,
+"anteil": 0.216
+}
+},
+{
+"name": "Abductor pollicis brevis.r",
+"ecken": 312,
+"dreiecke": 624,
+"mitte": [
+-0.29232,
+0.8391,
+0.03753
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 28,
+"gesamt": 52,
+"anteil": 0.538
+}
+},
+{
+"name": "Abductor digiti minimi of hand.r",
+"ecken": 336,
+"dreiecke": 672,
+"mitte": [
+-0.2369,
+0.81148,
+0.03952
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 37,
+"gesamt": 70,
+"anteil": 0.529
+}
+},
+{
+"name": "Flexor digiti minimi of hand.r",
+"ecken": 156,
+"dreiecke": 308,
+"mitte": [
+-0.24274,
+0.81114,
+0.03917
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 6,
+"gesamt": 33,
+"anteil": 0.182
+}
+},
+{
+"name": "Lumbrical muscles of hand.r",
+"ecken": 692,
+"dreiecke": 1368,
+"mitte": [
+-0.2694,
+0.77802,
+0.04214
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 24,
+"gesamt": 137,
+"anteil": 0.175
+}
+},
+{
+"name": "Dorsal interossei muscles of hand.r",
+"ecken": 690,
+"dreiecke": 1364,
+"mitte": [
+-0.27487,
+0.79997,
+0.03143
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Right upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 60,
+"gesamt": 155,
+"anteil": 0.387
+}
+},
+{
+"name": "Abductor pollicis brevis.l",
+"ecken": 312,
+"dreiecke": 624,
+"mitte": [
+0.29232,
+0.8391,
+0.03753
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Median nerve",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 27,
+"gesamt": 52,
+"anteil": 0.519
+}
+},
+{
+"name": "Abductor digiti minimi of hand.l",
+"ecken": 336,
+"dreiecke": 672,
+"mitte": [
+0.2369,
+0.81148,
+0.03952
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 37,
+"gesamt": 70,
+"anteil": 0.529
+}
+},
+{
+"name": "Flexor digiti minimi of hand.l",
+"ecken": 156,
+"dreiecke": 308,
+"mitte": [
+0.24274,
+0.81114,
+0.03917
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 6,
+"gesamt": 33,
+"anteil": 0.182
+}
+},
+{
+"name": "Opponens digiti minimi muscle of hand.l",
+"ecken": 210,
+"dreiecke": 420,
+"mitte": [
+0.24426,
+0.81674,
+0.03464
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 8,
+"gesamt": 48,
+"anteil": 0.167
+}
+},
+{
+"name": "Dorsal interossei muscles of hand.l",
+"ecken": 690,
+"dreiecke": 1364,
+"mitte": [
+0.27487,
+0.79997,
+0.03143
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Muscles",
+"Muscles of hand",
+"Muscles of upper limb",
+"Ulnar nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 63,
+"gesamt": 157,
+"anteil": 0.401
+}
+},
+{
+"name": "Superficial transverse metacarpal ligament.r",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+-0.26953,
+0.78144,
+0.04488
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia of upper limb",
+"Muscles",
+"Right upper limb"
+],
+"sichtbarkeit": {
+"sichtbar": 34,
+"gesamt": 65,
+"anteil": 0.523
+}
+},
+{
+"name": "Superficial transverse metacarpal ligament.l",
+"ecken": 98,
+"dreiecke": 192,
+"mitte": [
+0.26953,
+0.78144,
+0.04488
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia of upper limb",
+"Left upper limb",
+"Muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 33,
+"gesamt": 65,
+"anteil": 0.508
+}
+},
+{
+"name": "Gluteus medius muscle.r",
+"ecken": 2590,
+"dreiecke": 5176,
+"mitte": [
+-0.10528,
+0.91315,
+-0.0239
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial gluteal muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 314,
+"gesamt": 1125,
+"anteil": 0.279
+}
+},
+{
+"name": "Gluteus maximus muscle.r",
+"ecken": 1663,
+"dreiecke": 3326,
+"mitte": [
+-0.07406,
+0.84446,
+-0.06341
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial gluteal muscles",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 1041,
+"gesamt": 2107,
+"anteil": 0.494
+}
+},
+{
+"name": "Tensor fasciae latae.r",
+"ecken": 933,
+"dreiecke": 1862,
+"mitte": [
+-0.13253,
+0.88384,
+0.03042
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial gluteal muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 223,
+"gesamt": 474,
+"anteil": 0.47
+}
+},
+{
+"name": "Gluteus medius muscle.l",
+"ecken": 2590,
+"dreiecke": 5176,
+"mitte": [
+0.10528,
+0.91315,
+-0.0239
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial gluteal muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 299,
+"gesamt": 1124,
+"anteil": 0.266
+}
+},
+{
+"name": "Gluteus maximus muscle.l",
+"ecken": 1663,
+"dreiecke": 3326,
+"mitte": [
+0.07406,
+0.84446,
+-0.06341
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial gluteal muscles",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 1043,
+"gesamt": 2107,
+"anteil": 0.495
+}
+},
+{
+"name": "Tensor fasciae latae.l",
+"ecken": 933,
+"dreiecke": 1862,
+"mitte": [
+0.13253,
+0.88384,
+0.03042
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial gluteal muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 230,
+"gesamt": 474,
+"anteil": 0.485
+}
+},
+{
+"name": "Rectus femoris muscle.r",
+"ecken": 4136,
+"dreiecke": 8276,
+"mitte": [
+-0.10751,
+0.64314,
+0.0256
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 781,
+"gesamt": 2060,
+"anteil": 0.379
+}
+},
+{
+"name": "Vastus lateralis muscle.r",
+"ecken": 4678,
+"dreiecke": 9356,
+"mitte": [
+-0.12196,
+0.61231,
+0.00387
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 1114,
+"gesamt": 2280,
+"anteil": 0.489
+}
+},
+{
+"name": "Vastus medialis muscle.r",
+"ecken": 3232,
+"dreiecke": 6460,
+"mitte": [
+-0.06941,
+0.58886,
+0.01475
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 320,
+"gesamt": 1597,
+"anteil": 0.2
+}
+},
+{
+"name": "Rectus femoris muscle.l",
+"ecken": 4136,
+"dreiecke": 8276,
+"mitte": [
+0.10751,
+0.64314,
+0.0256
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 774,
+"gesamt": 2060,
+"anteil": 0.376
+}
+},
+{
+"name": "Vastus lateralis muscle.l",
+"ecken": 4678,
+"dreiecke": 9356,
+"mitte": [
+0.12196,
+0.61231,
+0.00387
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 1121,
+"gesamt": 2279,
+"anteil": 0.492
+}
+},
+{
+"name": "Vastus medialis muscle.l",
+"ecken": 3232,
+"dreiecke": 6460,
+"mitte": [
+0.06941,
+0.58886,
+0.01475
+],
+"materialien": [
+"Extension",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 327,
+"gesamt": 1597,
+"anteil": 0.205
+}
+},
+{
+"name": "Sartorius muscle.r",
+"ecken": 2481,
+"dreiecke": 4966,
+"mitte": [
+-0.07289,
+0.64838,
+0.01247
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 511,
+"gesamt": 1319,
+"anteil": 0.387
+}
+},
+{
+"name": "Sartorius muscle.l",
+"ecken": 2481,
+"dreiecke": 4966,
+"mitte": [
+0.07289,
+0.64838,
+0.01247
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Femoral nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 507,
+"gesamt": 1318,
+"anteil": 0.385
+}
+},
+{
+"name": "Adductor longus.r",
+"ecken": 1855,
+"dreiecke": 3714,
+"mitte": [
+-0.05333,
+0.70921,
+0.02303
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Right lower limb"
+],
+"sichtbarkeit": {
+"sichtbar": 135,
+"gesamt": 944,
+"anteil": 0.143
+}
+},
+{
+"name": "Pectineus muscle.r",
+"ecken": 974,
+"dreiecke": 1952,
+"mitte": [
+-0.05718,
+0.79893,
+0.02568
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Femoral nerve",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+],
+"sichtbarkeit": {
+"sichtbar": 123,
+"gesamt": 482,
+"anteil": 0.255
+}
+},
+{
+"name": "Gracilis muscle.r",
+"ecken": 2404,
+"dreiecke": 4812,
+"mitte": [
+-0.03615,
+0.59027,
+-0.00278
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Right lower limb"
+],
+"sichtbarkeit": {
+"sichtbar": 337,
+"gesamt": 1214,
+"anteil": 0.278
+}
+},
+{
+"name": "Adductor longus.l",
+"ecken": 1855,
+"dreiecke": 3714,
+"mitte": [
+0.05333,
+0.70921,
+0.02303
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 143,
+"gesamt": 944,
+"anteil": 0.151
+}
+},
+{
+"name": "Pectineus muscle.l",
+"ecken": 974,
+"dreiecke": 1952,
+"mitte": [
+0.05718,
+0.79893,
+0.02568
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Femoral nerve",
+"Left lower limb",
+"Medial compartment of thigh",
+"Muscles",
+"Muscles of lower limb"
+],
+"sichtbarkeit": {
+"sichtbar": 121,
+"gesamt": 482,
+"anteil": 0.251
+}
+},
+{
+"name": "Gracilis muscle.l",
+"ecken": 2404,
+"dreiecke": 4812,
+"mitte": [
+0.03615,
+0.59027,
+-0.00278
+],
+"materialien": [
+"Adductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Obturator nerve",
+"Posterior compartment of thigh"
+],
+"sichtbarkeit": {
+"sichtbar": 334,
+"gesamt": 1214,
+"anteil": 0.275
+}
+},
+{
+"name": "Long head of biceps femoris.r",
+"ecken": 3623,
+"dreiecke": 7258,
+"mitte": [
+-0.08917,
+0.60747,
+-0.04871
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Common fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 747,
+"gesamt": 1785,
+"anteil": 0.418
+}
+},
+{
+"name": "Long head of biceps femoris.l",
+"ecken": 3623,
+"dreiecke": 7258,
+"mitte": [
+0.08917,
+0.60747,
+-0.04871
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Common fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 751,
+"gesamt": 1784,
+"anteil": 0.421
+}
+},
+{
+"name": "Semimembranosus muscle.r",
+"ecken": 3725,
+"dreiecke": 7442,
+"mitte": [
+-0.04688,
+0.59422,
+-0.04163
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 300,
+"gesamt": 1806,
+"anteil": 0.166
+}
+},
+{
+"name": "Semitendinosus muscle.r",
+"ecken": 2158,
+"dreiecke": 4316,
+"mitte": [
+-0.05074,
+0.58143,
+-0.04641
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 383,
+"gesamt": 1097,
+"anteil": 0.349
+}
+},
+{
+"name": "Semimembranosus muscle.l",
+"ecken": 3725,
+"dreiecke": 7442,
+"mitte": [
+0.04688,
+0.59422,
+-0.04163
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 313,
+"gesamt": 1805,
+"anteil": 0.173
+}
+},
+{
+"name": "Semitendinosus muscle.l",
+"ecken": 2158,
+"dreiecke": 4316,
+"mitte": [
+0.05074,
+0.58143,
+-0.04641
+],
+"materialien": [
+"Flexion",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of thigh",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 384,
+"gesamt": 1096,
+"anteil": 0.35
+}
+},
+{
+"name": "Extensor digitorum longus.r",
+"ecken": 1597,
+"dreiecke": 3176,
+"mitte": [
+-0.10339,
+0.25471,
+-0.02881
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 148,
+"gesamt": 500,
+"anteil": 0.296
+}
+},
+{
+"name": "Tendon of extensor digitorum longus.r",
+"ecken": 2640,
+"dreiecke": 5184,
+"mitte": [
+-0.11564,
+0.05384,
+0.05405
+],
+"materialien": [
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 83,
+"gesamt": 177,
+"anteil": 0.469
+}
+},
+{
+"name": "Extensor digitorum longus.l",
+"ecken": 1597,
+"dreiecke": 3176,
+"mitte": [
+0.10339,
+0.25471,
+-0.02881
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 136,
+"gesamt": 499,
+"anteil": 0.273
+}
+},
+{
+"name": "Tendon of extensor digitorum longus.l",
+"ecken": 2640,
+"dreiecke": 5184,
+"mitte": [
+0.11564,
+0.05384,
+0.05405
+],
+"materialien": [
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 85,
+"gesamt": 177,
+"anteil": 0.48
+}
+},
+{
+"name": "Tibialis anterior muscle.r",
+"ecken": 1761,
+"dreiecke": 3526,
+"mitte": [
+-0.08708,
+0.22669,
+0.00196
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 406,
+"gesamt": 886,
+"anteil": 0.458
+}
+},
+{
+"name": "Fibularis tertius muscle.r",
+"ecken": 294,
+"dreiecke": 586,
+"mitte": [
+-0.10538,
+0.09388,
+-0.01393
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 28,
+"gesamt": 66,
+"anteil": 0.424
+}
+},
+{
+"name": "Extensor hallucis longus.r",
+"ecken": 1183,
+"dreiecke": 2362,
+"mitte": [
+-0.09024,
+0.16413,
+0.02934
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 43,
+"gesamt": 252,
+"anteil": 0.171
+}
+},
+{
+"name": "Tibialis anterior muscle.l",
+"ecken": 1761,
+"dreiecke": 3526,
+"mitte": [
+0.08708,
+0.22669,
+0.00196
+],
+"materialien": [
+"Flexion hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 407,
+"gesamt": 886,
+"anteil": 0.459
+}
+},
+{
+"name": "Fibularis tertius muscle.l",
+"ecken": 294,
+"dreiecke": 586,
+"mitte": [
+0.10538,
+0.09388,
+-0.01393
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of leg",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 26,
+"gesamt": 66,
+"anteil": 0.394
+}
+},
+{
+"name": "Fibularis longus muscle.r",
+"ecken": 2739,
+"dreiecke": 5522,
+"mitte": [
+-0.10567,
+0.21843,
+-0.01892
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 294,
+"gesamt": 683,
+"anteil": 0.43
+}
+},
+{
+"name": "Fibularis brevis muscle.r",
+"ecken": 1723,
+"dreiecke": 3446,
+"mitte": [
+-0.10522,
+0.16024,
+-0.03814
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 100,
+"gesamt": 367,
+"anteil": 0.272
+}
+},
+{
+"name": "Fibularis longus muscle.l",
+"ecken": 2739,
+"dreiecke": 5522,
+"mitte": [
+0.10567,
+0.21843,
+-0.01892
+],
+"materialien": [
+"External rotation",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve",
+"Superficial muscles"
+],
+"sichtbarkeit": {
+"sichtbar": 312,
+"gesamt": 684,
+"anteil": 0.456
+}
+},
+{
+"name": "Fibularis brevis muscle.l",
+"ecken": 1723,
+"dreiecke": 3446,
+"mitte": [
+0.10522,
+0.16024,
+-0.03814
+],
+"materialien": [
+"Extension hand/foot",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral compartment of leg",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Sciatic nerve",
+"Superficial fibular nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 77,
+"gesamt": 369,
+"anteil": 0.209
+}
+},
+{
+"name": "Lateral head of gastrocnemius.r",
+"ecken": 2454,
+"dreiecke": 4908,
+"mitte": [
+-0.10756,
+0.35476,
+-0.06747
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 598,
+"gesamt": 1231,
+"anteil": 0.486
+}
+},
+{
+"name": "Medial head of gastrocnemius.r",
+"ecken": 3233,
+"dreiecke": 6462,
+"mitte": [
+-0.06033,
+0.3563,
+-0.06108
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 599,
+"gesamt": 1504,
+"anteil": 0.398
+}
+},
+{
+"name": "Calcaneal tendon.r",
+"ecken": 2191,
+"dreiecke": 4377,
+"mitte": [
+-0.08382,
+0.13522,
+-0.07857
+],
+"materialien": [
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Right lower limb",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 239,
+"gesamt": 491,
+"anteil": 0.487
+}
+},
+{
+"name": "Lateral head of gastrocnemius.l",
+"ecken": 2454,
+"dreiecke": 4908,
+"mitte": [
+0.10756,
+0.35476,
+-0.06747
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 607,
+"gesamt": 1231,
+"anteil": 0.493
+}
+},
+{
+"name": "Medial head of gastrocnemius.l",
+"ecken": 3233,
+"dreiecke": 6462,
+"mitte": [
+0.06033,
+0.3563,
+-0.06108
+],
+"materialien": [
+"Biarticular",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 610,
+"gesamt": 1504,
+"anteil": 0.406
+}
+},
+{
+"name": "Calcaneal tendon.l",
+"ecken": 2191,
+"dreiecke": 4377,
+"mitte": [
+0.08382,
+0.13522,
+-0.07857
+],
+"materialien": [
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Posterior compartment of leg",
+"Sciatic nerve",
+"Superficial muscles",
+"Tibial nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 240,
+"gesamt": 491,
+"anteil": 0.489
+}
+},
+{
+"name": "Medial head of flexor hallucis brevis.r",
+"ecken": 259,
+"dreiecke": 514,
+"mitte": [
+-0.06564,
+0.03071,
+0.04564
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Medial plantar nerve",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 10,
+"gesamt": 59,
+"anteil": 0.169
+}
+},
+{
+"name": "Abductor digiti minimi of foot.r",
+"ecken": 640,
+"dreiecke": 1280,
+"mitte": [
+-0.10389,
+0.01845,
+-0.00484
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral plantar nerve",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 34,
+"gesamt": 82,
+"anteil": 0.415
+}
+},
+{
+"name": "Abductor digiti minimi of foot.l",
+"ecken": 640,
+"dreiecke": 1280,
+"mitte": [
+0.10389,
+0.01845,
+-0.00484
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral plantar nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 34,
+"gesamt": 82,
+"anteil": 0.415
+}
+},
+{
+"name": "Abductor hallucis.r",
+"ecken": 844,
+"dreiecke": 1688,
+"mitte": [
+-0.06534,
+0.0279,
+0.01211
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Medial plantar nerve",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 30,
+"gesamt": 129,
+"anteil": 0.233
+}
+},
+{
+"name": "Extensor digitorum brevis.r",
+"ecken": 1596,
+"dreiecke": 3184,
+"mitte": [
+-0.11204,
+0.04461,
+0.04019
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Deep fibular nerve",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 59,
+"gesamt": 184,
+"anteil": 0.321
+}
+},
+{
+"name": "Dorsal interossei muscles of foot.r",
+"ecken": 975,
+"dreiecke": 1946,
+"mitte": [
+-0.10176,
+0.03599,
+0.05298
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral plantar nerve",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 22,
+"gesamt": 99,
+"anteil": 0.222
+}
+},
+{
+"name": "Flexor digitorum brevis.r",
+"ecken": 1610,
+"dreiecke": 3224,
+"mitte": [
+-0.10437,
+0.01694,
+0.02556
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Right lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 38,
+"gesamt": 120,
+"anteil": 0.317
+}
+},
+{
+"name": "Abductor hallucis.l",
+"ecken": 844,
+"dreiecke": 1688,
+"mitte": [
+0.06534,
+0.0279,
+0.01211
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Medial plantar nerve",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 31,
+"gesamt": 129,
+"anteil": 0.24
+}
+},
+{
+"name": "Extensor digitorum brevis.l",
+"ecken": 1596,
+"dreiecke": 3184,
+"mitte": [
+0.11204,
+0.04461,
+0.04019
+],
+"materialien": [
+"Extensor extremities",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Deep fibular nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 61,
+"gesamt": 184,
+"anteil": 0.332
+}
+},
+{
+"name": "Dorsal interossei muscles of foot.l",
+"ecken": 975,
+"dreiecke": 1946,
+"mitte": [
+0.10176,
+0.03599,
+0.05298
+],
+"materialien": [
+"Abductor",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Lateral plantar nerve",
+"Left lower limb",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 23,
+"gesamt": 99,
+"anteil": 0.232
+}
+},
+{
+"name": "Flexor digitorum brevis.l",
+"ecken": 1610,
+"dreiecke": 3224,
+"mitte": [
+0.10437,
+0.01694,
+0.02556
+],
+"materialien": [
+"Flexion fingers",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of foot",
+"Muscles of lower limb",
+"Sciatic nerve"
+],
+"sichtbarkeit": {
+"sichtbar": 37,
+"gesamt": 120,
+"anteil": 0.308
+}
+}
+]
+}

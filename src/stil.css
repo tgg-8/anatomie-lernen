@@ -182,3 +182,42 @@ details details summary { font-weight: 500; }
   .panel { width: auto; left: calc(8px + var(--sicher-links)); right: calc(8px + var(--sicher-rechts)); top: auto; height: 52vh; }
   #app.panel-offen .ansichten { bottom: calc(52vh + 20px + var(--sicher-unten)); }
 }
+
+/* ---------- Ergänzungen Etappe 2–7 ---------- */
+.merken { min-width: 44px; min-height: 44px; border: 0; background: none; font-size: 26px; cursor: pointer; color: var(--akzent); }
+.legende { display: flex; align-items: center; gap: 6px; padding: 6px 14px; font-size: 14px; border-bottom: 1px solid var(--rand); flex-wrap: wrap; }
+.legende .punkt { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+.legende .punkt.rot { background: #e0393e; } .legende .punkt.blau { background: #2f6fe0; margin-left: 8px; }
+.tabelle { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tabelle td { padding: 6px 4px; border-bottom: 1px solid var(--rand); }
+.tabelle td.wert { text-align: right; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+details.gelenk { margin: 14px 0; padding: 4px 10px 10px; border: 1px solid #2fa66b; border-radius: 12px; }
+details.gelenk > summary { color: #1f7a4c; }
+:root[data-theme='dark'] details.gelenk > summary { color: #6fd4a0; }
+details.gelenk .knopf { margin: 4px 0 6px; box-shadow: none; }
+.lern-titel { margin: 18px 0 6px; font-size: 17px; }
+.lern-titel:first-child { margin-top: 2px; }
+.auswahl-zeile { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 6px 0; }
+.auswahl { min-height: 44px; flex: 1; max-width: 230px; border-radius: 10px; border: 1px solid var(--rand); background: var(--knopf); padding: 0 8px; font-size: 16px; }
+.knopf.breit { width: 100%; margin-top: 6px; box-shadow: none; }
+.knopfreihe { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+.knopfreihe .knopf, .bewertung .knopf { box-shadow: none; font-size: 15px; }
+.knopf:disabled { opacity: 0.45; }
+.quiz-kopf { display: flex; justify-content: space-between; font-size: 14px; color: var(--text-leise); margin-bottom: 6px; }
+.quiz-frage { font-size: 19px; font-weight: 700; margin: 6px 0 10px; }
+.antworten { display: flex; flex-direction: column; gap: 8px; }
+.antwort { text-align: left; min-height: 48px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--rand); background: var(--knopf); cursor: pointer; font-size: 15px; line-height: 1.35; }
+.antwort.richtig { background: #d9f3e3; border-color: #2fa66b; color: #14532d; }
+.antwort.falsch { background: #fde0de; border-color: #d9443b; color: #7a1d17; }
+.antwort.aus { opacity: 0.6; }
+.rueckmeldung { margin: 12px 0; padding: 10px 12px; border-radius: 12px; font-weight: 600; }
+.rueckmeldung.gut { background: #d9f3e3; color: #14532d; }
+.rueckmeldung.schlecht { background: #fde0de; color: #7a1d17; }
+.rueckmeldung div { font-weight: 400; margin-top: 4px; }
+.abbrechen { margin-top: 14px; box-shadow: none; }
+.lernkarte { border: 1px solid var(--rand); border-radius: 16px; padding: 16px; margin: 6px 0 10px; background: var(--flaeche-fest); }
+.karte-name { font-size: 22px; font-weight: 700; }
+.karte-rueckseite { margin-top: 10px; border-top: 1px dashed var(--rand); padding-top: 8px; }
+.karte-rueckseite p { margin: 6px 0; }
+.bewertung { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+#knopf-lernen { font-size: 15px; }

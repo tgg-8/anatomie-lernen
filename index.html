@@ -25,6 +25,7 @@
         <input id="suchfeld" type="search" placeholder="Struktur suchen (deutsch oder lateinisch) …" autocomplete="off" autocapitalize="off" spellcheck="false" />
         <ul id="suchergebnisse" class="suchergebnisse" hidden></ul>
       </div>
+      <button class="knopf" id="knopf-lernen" aria-label="Lernmodus" title="Lernmodus: Quiz, Lernkarten, Merkliste">Lernen</button>
       <button class="knopf" id="knopf-thema" aria-label="Hell oder dunkel" title="Hell / dunkel">☾</button>
       <button class="knopf" id="knopf-info" aria-label="Hinweise und Quellen" title="Hinweise und Quellen">i</button>
     </header>
@@ -33,9 +34,11 @@
       <div class="reiter" role="tablist">
         <button role="tab" class="reiter-knopf aktiv" data-reiter="ebenen">Ebenen</button>
         <button role="tab" class="reiter-knopf" data-reiter="baum">Strukturen</button>
+        <button role="tab" class="reiter-knopf" data-reiter="lernen">Lernen</button>
       </div>
       <div class="panel-inhalt" id="reiter-ebenen"></div>
       <div class="panel-inhalt" id="reiter-baum" hidden></div>
+      <div class="panel-inhalt" id="reiter-lernen" hidden></div>
     </aside>
 
     <aside id="panel-info" class="panel panel-rechts" hidden></aside>

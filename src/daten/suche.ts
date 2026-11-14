@@ -4,7 +4,7 @@ import MiniSearch from 'minisearch';
 import { anzeigename, type Daten } from '../typen';
 
 export interface Suchtreffer {
-  art: 'struktur' | 'markierung';
+  art: 'struktur' | 'markierung' | 'gelenk';
   strukturId: string;
   markierungId?: string;
   titel: string;
@@ -50,6 +50,9 @@ export class Suche {
           de: m.de ?? '', la: m.la ?? '', en: m.en,
         });
       }
+    }
+    for (const g of daten.gelenke.values()) {
+      dokumente.push({ id: `g:${g.id}`, art: 'gelenk', strukturId: g.id, titel: g.name, untertitel: `Gelenk · ${g.la}`, de: g.name, la: g.la, en: '' });
     }
     this.index.addAll(dokumente);
   }

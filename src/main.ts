@@ -11,7 +11,9 @@ import { zeichneBaum, zeichneEbenen } from './ui/panels';
 import { zeigeInfo, zeigeStarthinweis } from './ui/dialoge';
 import { h } from './ui/dom';
 import * as einstellungen from './einstellungen';
-import { anzeigename, type Markierung, type Struktur } from './typen';
+import { anzeigename, type Gelenk, type Markierung, type Struktur } from './typen';
+import { Speicher } from './lernen/speicher';
+import { Lernmodus } from './lernen/lernmodus';
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector(sel) as T;
 
@@ -45,9 +47,25 @@ async function start() {
   const beschriftungen = new Beschriftungen(szene, $('#beschriftungen'));
   const punkte = new Markierungspunkte(szene);
   const suche = new Suche(daten);
+  const speicher = new Speicher();
+  await speicher.laden();
 
   let stufe: 1 | 2 | 3 = einstellungen.lies().detailstufe ?? 1;
   let aktiveMarkierung: string | null = null;
+  let ansaetzeSichtbar = false;
+  let offenesGelenk: string | null = null;
+
+  /** Zeigt bzw. versteckt Ursprungs-/Ansatzflächen des gewählten Muskels (und blendet dafür die Knochen ein). */
+  async function setzeAnsaetze(an: boolean) {
+    ansaetzeSichtbar = an;
+    const t = modell.auswahl;
+    const flaechen = an && t ? (daten.ansaetze[t.strukturId] ?? []).filter((f) => {
+      const seite = daten.strukturen.get(t.strukturId)?.meshes.find((m) => m.name === t.meshName)?.seite;
+      return !f.seite || !seite || f.seite === seite;
+    }) : null;
+    if (an) await modell.setzeEbeneSichtbar('knochen', true);
+    await modell.zeigeAnsaetze(flaechen);
+  }
 
   // ---------- Auswahl ----------
   function infoZeichnen() {
@@ -58,7 +76,11 @@ async function start() {
     zeichneInfo(panelInfo, daten, {
       struktur: s, seite, stufe, istTransparent: t.zustand === 'transparent',
       istIsoliert: modell.isoliertesTeil(t.meshName), aktiveMarkierung,
+      istGemerkt: speicher.istGemerkt(s.id), ansaetzeSichtbar, offenesGelenk,
     }, {
+      merken: () => { speicher.merkenUmschalten(s.id); infoZeichnen(); lernmodus.zeichnen(); },
+      ansaetzeUmschalten: async () => { await setzeAnsaetze(!ansaetzeSichtbar); infoZeichnen(); },
+      gelenkZeigen: (g) => zeigeGelenk(g),
       schliessen: () => waehleTeil(null),
       ausblenden: () => { modell.setzeZustand(t.meshName, 'versteckt'); waehleTeil(null); },
       transparent: () => { modell.setzeZustand(t.meshName, t.zustand === 'transparent' ? 'normal' : 'transparent'); infoZeichnen(); },
@@ -94,6 +116,9 @@ async function start() {
   /** Wählt ein 3D-Teil aus (oder hebt die Auswahl auf). */
   function waehleTeil(meshName: string | null, punkt?: THREE.Vector3) {
     aktiveMarkierung = null;
+    offenesGelenk = null;
+    if (ansaetzeSichtbar) setzeAnsaetze(false);
+    modell.markiere([]);
     modell.waehle(meshName);
     beschriftungen.entferne('auswahl');
     const t = modell.auswahl;
@@ -132,6 +157,36 @@ async function start() {
     }
   }
 
+  /** Hebt alle Teile eines Gelenks grün hervor (auf der Seite der aktuellen Auswahl). */
+  async function zeigeGelenk(g: Gelenk) {
+    const t = modell.auswahl;
+    const seite = t ? daten.strukturen.get(t.strukturId)?.meshes.find((m) => m.name === t.meshName)?.seite ?? 'r' : 'r';
+    // Nur Kapsel/Bänder/Menisken markieren; Knochen nur, wenn das Gelenk im Modell keine Bänder hat (z. B. OSG).
+    const mitglieder = g.mitglieder.map((id) => daten.strukturen.get(id)!).filter(Boolean);
+    const weich = mitglieder.filter((s) => s.ebene === 'baender_gelenke');
+    const meshes = (weich.length ? weich : mitglieder).flatMap((s) => s.meshes)
+      .filter((m) => !m.seite || m.seite === seite).map((m) => m.name);
+    // Schichten, die das Gelenk verdecken, ausblenden
+    for (const id of ['haut', 'unterhaut', 'faszien', 'muskeln_oberflaechlich', 'muskeln_tief']) await modell.setzeEbeneSichtbar(id, false);
+    await modell.setzeEbeneSichtbar('baender_gelenke', true);
+    await modell.setzeEbeneSichtbar('knochen', true);
+    offenesGelenk = g.id;
+    modell.markiere(meshes);
+    const box = new THREE.Box3();
+    for (const m of meshes) { const b = modell.box(m); if (b) box.union(b); }
+    if (!box.isEmpty()) szene.fokussiere(box);
+    infoZeichnen();
+  }
+
+  /** Öffnet ein Gelenk aus der Suche: wählt die Kapsel (oder das erste Teil) und klappt den Gelenkabschnitt auf. */
+  async function waehleGelenk(g: Gelenk) {
+    const mitglieder = g.mitglieder.map((id) => daten.strukturen.get(id)!).filter(Boolean);
+    const start = mitglieder.find((s) => s.typ === 'kapsel') ?? mitglieder.find((s) => s.ebene === 'baender_gelenke') ?? mitglieder[0];
+    if (!start) return;
+    await waehleStruktur(start);
+    await zeigeGelenk(g);
+  }
+
   function alleEinblenden() {
     modell.alleEinblenden();
     infoZeichnen();
@@ -156,9 +211,11 @@ async function start() {
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
     // Zuerst Markierungspunkte prüfen (klein, haben Vorrang), dann 3D-Teile.
+    const treffer = modell.treffer(x, y);
+    // Im Quiz „Tippe auf …“ wertet der Lernmodus den Tipp aus.
+    if (lernmodus.beiTipp(treffer?.teil ?? null)) return;
     const m = punkte.treffer(x, y);
     if (m) { zeigeMarkierung(m); return; }
-    const treffer = modell.treffer(x, y);
     waehleTeil(treffer ? treffer.teil.meshName : null, treffer?.punkt);
   };
   leinwand.addEventListener('pointerup', fingerWeg);
@@ -190,8 +247,16 @@ async function start() {
       for (const k of document.querySelectorAll('.reiter-knopf')) k.classList.toggle('aktiv', k === knopf);
       $('#reiter-ebenen').hidden = knopf.dataset.reiter !== 'ebenen';
       $('#reiter-baum').hidden = knopf.dataset.reiter !== 'baum';
+      $('#reiter-lernen').hidden = knopf.dataset.reiter !== 'lernen';
+      if (knopf.dataset.reiter === 'lernen') lernmodus.zeichnen();
     });
   }
+  $('#knopf-lernen').addEventListener('click', () => {
+    const offen = !panelLinks.hidden && !$('#reiter-lernen').hidden;
+    panelLinks.hidden = offen;
+    if (!offen) document.querySelector<HTMLButtonElement>('.reiter-knopf[data-reiter="lernen"]')!.click();
+    aktualisierePanelKlasse();
+  });
   for (const knopf of document.querySelectorAll<HTMLButtonElement>('[data-ansicht]')) {
     knopf.addEventListener('click', () => szene.ansicht(knopf.dataset.ansicht as Ansicht));
   }
@@ -203,8 +268,27 @@ async function start() {
       zeichneEbenen($('#reiter-ebenen'), modell, alleEinblenden);
     }
   });
+  // ---------- Lernmodus ----------
+  const lernmodus = new Lernmodus($('#reiter-lernen'), {
+    daten, modell, speicher,
+    zeigeStruktur: async (s, meshName) => { await waehleStruktur(s, meshName); },
+    zeigeVerdeckt: async (meshName) => {
+      const id = daten.meshIndex[meshName];
+      const s = id ? daten.strukturen.get(id) : undefined;
+      if (s) await modell.setzeEbeneSichtbar(s.ebene, true);
+      waehleTeil(null);
+      modell.waehle(meshName); // nur einfärben, kein Name, kein Info-Panel
+      const box = modell.box(meshName);
+      if (box) szene.fokussiere(box);
+    },
+    auswahlAufheben: () => waehleTeil(null),
+    lernpfadGeaendert: () => baumZeichnen(),
+  });
+  const baumZeichnen = () => zeichneBaum($('#reiter-baum'), daten, (s, meshName) => waehleStruktur(s, meshName),
+    (s) => lernmodus.imLernpfad(s), (g) => waehleGelenk(g));
+
   zeichneEbenen($('#reiter-ebenen'), modell, alleEinblenden);
-  zeichneBaum($('#reiter-baum'), daten, (s, meshName) => waehleStruktur(s, meshName));
+  baumZeichnen();
 
   // ---------- Suche ----------
   const suchfeld = $<HTMLInputElement>('#suchfeld');
@@ -216,6 +300,7 @@ async function start() {
         onclick: () => {
           ergebnisse.hidden = true;
           suchfeld.blur();
+          if (t.art === 'gelenk') { const g = daten.gelenke.get(t.strukturId); if (g) waehleGelenk(g); return; }
           const s = daten.strukturen.get(t.strukturId);
           if (s) waehleStruktur(s, undefined, t.markierungId);
         },
@@ -243,7 +328,7 @@ async function start() {
   // Schnittstelle für automatische Tests (tests/e2e.mjs)
   (window as unknown as Record<string, unknown>).__anatomie = {
     bereit: true,
-    modell, szene, daten,
+    modell, szene, daten, speicher, lernmodus,
     bildschirmPunkt(meshName: string) {
       const b = modell.box(meshName);
       if (!b) return null;

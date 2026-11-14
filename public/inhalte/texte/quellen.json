@@ -22,5 +22,29 @@
     "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
     "lizenz": "CC BY 4.0 (früher CC BY-SA 2.1 JP)",
     "art": "3D-Modell"
+  },
+  "doccheck-nnm": {
+    "titel": "DocCheck Flexikon: Neutral-Null-Methode (Referenzwerte Hüfte, Knie, OSG, Schulter-Abduktion), Stand 14.06.2024",
+    "url": "https://flexikon.doccheck.com/de/Neutral-Null-Methode",
+    "lizenz": "zitiert (Zahlenwerte), Text nicht übernommen",
+    "art": "Medizinisches Online-Lexikon"
+  },
+  "ukaachen-skript": {
+    "titel": "Uniklinik RWTH Aachen, Klinik für Orthopädie: Begleitskript Untersuchungskurs (Ellenbogen: Flexion/Extension, Pronation/Supination)",
+    "url": "https://www.ukaachen.de/fileadmin/files/klinik-orthopaedie/Skript_Untersuchungstechniken_18072017_mod_mt.pdf",
+    "lizenz": "zitiert (Zahlenwerte), Text nicht übernommen",
+    "art": "Lehrskript Orthopädie"
+  },
+  "kaltenborn": {
+    "titel": "Konzept der Manuellen Therapie nach Kaltenborn (Ruhestellung/Verriegelungsstellung) – aus Lehrbuchwissen, nicht online gegengeprüft",
+    "url": "",
+    "lizenz": "–",
+    "art": "Physiotherapeutisches Behandlungskonzept"
+  },
+  "z-anatomy-nerven": {
+    "titel": "Z-Anatomy: Zuordnung der Muskeln zu ihren versorgenden Nerven (Sammlungen im 3D-Atlas)",
+    "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+    "lizenz": "CC BY-SA 4.0",
+    "art": "3D-Modell (Strukturdaten)"
   }
 }

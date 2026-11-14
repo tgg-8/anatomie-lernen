@@ -1,0 +1,4904 @@
+{
+"ebene": "organe",
+"meshes": [
+{
+"name": "Uvula of palate",
+"ecken": 753,
+"dreiecke": 1502,
+"mitte": [
+-3e-05,
+1.5455,
+0.01563
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system"
+]
+},
+{
+"name": "Gingiva",
+"ecken": 2090,
+"dreiecke": 4168,
+"mitte": [
+0.0,
+1.53077,
+0.06203
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Parotid gland.r",
+"ecken": 206,
+"dreiecke": 408,
+"mitte": [
+-0.04882,
+1.55235,
+0.01937
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "(Accessory parotid gland).r",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+-0.05709,
+1.55599,
+0.04448
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Parotid gland.l",
+"ecken": 206,
+"dreiecke": 408,
+"mitte": [
+0.04882,
+1.55235,
+0.01937
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "(Accessory parotid gland).l",
+"ecken": 28,
+"dreiecke": 52,
+"mitte": [
+0.05709,
+1.55599,
+0.04448
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Parotid duct.l",
+"ecken": 150,
+"dreiecke": 288,
+"mitte": [
+0.0475,
+1.5484,
+0.04381
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Parotid duct.r",
+"ecken": 150,
+"dreiecke": 288,
+"mitte": [
+-0.0475,
+1.5484,
+0.04381
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Sublingual gland.l",
+"ecken": 164,
+"dreiecke": 324,
+"mitte": [
+0.01164,
+1.51224,
+0.05961
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Sublingual gland.r",
+"ecken": 164,
+"dreiecke": 324,
+"mitte": [
+-0.01165,
+1.51224,
+0.05961
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Submandibular gland.l",
+"ecken": 198,
+"dreiecke": 392,
+"mitte": [
+0.02383,
+1.51537,
+0.04147
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Submandibular gland.r",
+"ecken": 198,
+"dreiecke": 392,
+"mitte": [
+-0.02383,
+1.51537,
+0.04147
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Submandibular duct.l",
+"ecken": 150,
+"dreiecke": 288,
+"mitte": [
+0.01482,
+1.51223,
+0.05115
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Submandibular duct.r",
+"ecken": 150,
+"dreiecke": 288,
+"mitte": [
+-0.01482,
+1.51223,
+0.05115
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Tongue",
+"ecken": 343,
+"dreiecke": 682,
+"mitte": [
+0.0,
+1.51825,
+0.05005
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system",
+"Mouth"
+]
+},
+{
+"name": "Oesophagus",
+"ecken": 4128,
+"dreiecke": 8256,
+"mitte": [
+0.00466,
+1.3348,
+-0.00769
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive canal",
+"Digestive system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Stomach",
+"ecken": 827,
+"dreiecke": 1586,
+"mitte": [
+0.03832,
+1.16632,
+0.0362
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Duodenum",
+"ecken": 887,
+"dreiecke": 1750,
+"mitte": [
+-0.01665,
+1.09407,
+0.03156
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Jejunum",
+"ecken": 3462,
+"dreiecke": 6912,
+"mitte": [
+0.00879,
+0.98498,
+0.04943
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Vermiform appendix",
+"ecken": 223,
+"dreiecke": 442,
+"mitte": [
+-0.05364,
+0.9494,
+0.00314
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Free taenia",
+"ecken": 338,
+"dreiecke": 672,
+"mitte": [
+0.00199,
+1.01949,
+0.00578
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Mesocolic taenia",
+"ecken": 342,
+"dreiecke": 680,
+"mitte": [
+-0.00227,
+1.00917,
+0.01403
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Omental taenia",
+"ecken": 314,
+"dreiecke": 624,
+"mitte": [
+0.00839,
+0.98322,
+0.01988
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Sigmoid colon",
+"ecken": 1716,
+"dreiecke": 3432,
+"mitte": [
+0.00457,
+0.86506,
+-0.04706
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Ascending colon",
+"ecken": 552,
+"dreiecke": 1100,
+"mitte": [
+-0.08846,
+1.01823,
+0.01484
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Descending colon",
+"ecken": 788,
+"dreiecke": 1576,
+"mitte": [
+0.0494,
+1.00241,
+-0.01168
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Transverse colon",
+"ecken": 534,
+"dreiecke": 1068,
+"mitte": [
+0.00615,
+1.10209,
+0.04435
+],
+"materialien": [
+"Intestine"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive canal",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Left posterior lateral segment of liver (II)",
+"ecken": 412,
+"dreiecke": 820,
+"mitte": [
+0.04639,
+1.21822,
+0.04672
+],
+"materialien": [
+"Organ-2"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Left anterior lateral segment of liver (III)",
+"ecken": 430,
+"dreiecke": 856,
+"mitte": [
+0.03557,
+1.18986,
+0.06101
+],
+"materialien": [
+"Organ-3"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Left medial segment of liver (IV)",
+"ecken": 600,
+"dreiecke": 1178,
+"mitte": [
+-0.01776,
+1.18974,
+0.061
+],
+"materialien": [
+"Organ-4"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Anterior medial segment of liver (V)",
+"ecken": 443,
+"dreiecke": 881,
+"mitte": [
+-0.0657,
+1.14809,
+0.05256
+],
+"materialien": [
+"Organ-5"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Anterior lateral segment of liver (VI)",
+"ecken": 419,
+"dreiecke": 834,
+"mitte": [
+-0.06793,
+1.13504,
+0.00659
+],
+"materialien": [
+"Organ-6"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Posterior lateral segment of liver (VII)",
+"ecken": 299,
+"dreiecke": 594,
+"mitte": [
+-0.06766,
+1.20311,
+-0.00034
+],
+"materialien": [
+"Organ-7"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Posterior segment of liver (I)",
+"ecken": 326,
+"dreiecke": 648,
+"mitte": [
+-0.01144,
+1.20207,
+0.02374
+],
+"materialien": [
+"Organ-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Posterior medial segment of liver (VIII)",
+"ecken": 445,
+"dreiecke": 886,
+"mitte": [
+-0.0632,
+1.21732,
+0.03518
+],
+"materialien": [
+"Organ-8"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Liver",
+"Trunk"
+]
+},
+{
+"name": "Liver",
+"ecken": 1550,
+"dreiecke": 2989,
+"mitte": [
+-0.01091,
+1.1741,
+0.02265
+],
+"materialien": [
+"Organ",
+"Ligament"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Gallbladder",
+"ecken": 363,
+"dreiecke": 722,
+"mitte": [
+-0.04517,
+1.13714,
+0.05625
+],
+"materialien": [
+"Gallbladder"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Bile duct",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.03576,
+1.126,
+0.03452
+],
+"materialien": [
+"Gallbladder"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Pancreatic duct",
+"ecken": 7188,
+"dreiecke": 14376,
+"mitte": [
+0.00616,
+1.11785,
+0.02133
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Accessory pancreatic duct",
+"ecken": 1476,
+"dreiecke": 2952,
+"mitte": [
+-0.0351,
+1.10831,
+0.03578
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Pancreas",
+"ecken": 2613,
+"dreiecke": 5222,
+"mitte": [
+0.0136,
+1.116,
+0.02155
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Digestive system",
+"Trunk"
+]
+},
+{
+"name": "Epiglottis",
+"ecken": 1650,
+"dreiecke": 3376,
+"mitte": [
+-0.0,
+1.49573,
+0.02326
+],
+"materialien": [
+"Cartilage"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Digestive system"
+]
+},
+{
+"name": "Trachea",
+"ecken": 2400,
+"dreiecke": 4756,
+"mitte": [
+-0.00025,
+1.40788,
+-0.00182
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Superior segmental bronchus of right lung (BVI)",
+"ecken": 1170,
+"dreiecke": 2232,
+"mitte": [
+-0.06381,
+1.30633,
+-0.04701
+],
+"materialien": [
+"Bronchi-6"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Lateral segmental bronchus of right lung (BIV)",
+"ecken": 420,
+"dreiecke": 792,
+"mitte": [
+-0.07983,
+1.28383,
+0.02066
+],
+"materialien": [
+"Bronchi-4"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Right inferior lobar bronchus",
+"ecken": 150,
+"dreiecke": 288,
+"mitte": [
+-0.04139,
+1.28824,
+-0.03247
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Posterior basal segmental bronchus of right lung (BX)",
+"ecken": 564,
+"dreiecke": 1080,
+"mitte": [
+-0.0527,
+1.22061,
+-0.05727
+],
+"materialien": [
+"Bronchi-2"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Medial basal segmental bronchus of right lung (BVII)",
+"ecken": 228,
+"dreiecke": 432,
+"mitte": [
+-0.03302,
+1.27948,
+-0.0218
+],
+"materialien": [
+"Bronchi-7"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Lateral basal segmental bronchus of right lung (BIX)",
+"ecken": 600,
+"dreiecke": 1152,
+"mitte": [
+-0.08402,
+1.23826,
+-0.03013
+],
+"materialien": [
+"Bronchi-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Anterior basal segmental bronchus of right lung (BVIII)",
+"ecken": 378,
+"dreiecke": 720,
+"mitte": [
+-0.07999,
+1.26888,
+-0.01249
+],
+"materialien": [
+"Bronchi-8"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Left superior lobar bronchus",
+"ecken": 156,
+"dreiecke": 288,
+"mitte": [
+0.06322,
+1.32824,
+-0.01155
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Apicoposterior segmental bronchus of left lung (BI+BII)",
+"ecken": 990,
+"dreiecke": 1872,
+"mitte": [
+0.06147,
+1.38437,
+-0.03115
+],
+"materialien": [
+"Bronchi-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Anterior segmental bronchus of left lung (BIII)",
+"ecken": 462,
+"dreiecke": 864,
+"mitte": [
+0.06416,
+1.34727,
+0.02439
+],
+"materialien": [
+"Bronchi-3"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Superior lingular segmental bronchus of left lung (BIV)",
+"ecken": 270,
+"dreiecke": 504,
+"mitte": [
+0.08866,
+1.29982,
+0.03083
+],
+"materialien": [
+"Bronchi-4"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Inferior lingular segmental bronchus of left lung (BV)",
+"ecken": 270,
+"dreiecke": 504,
+"mitte": [
+0.09388,
+1.281,
+0.04289
+],
+"materialien": [
+"Bronchi-8"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Superior segmental bronchus of left lung (BVI)",
+"ecken": 576,
+"dreiecke": 1080,
+"mitte": [
+0.06702,
+1.30808,
+-0.04739
+],
+"materialien": [
+"Bronchi-6"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Medial basal segmental bronchus of left lung (BVII)",
+"ecken": 750,
+"dreiecke": 1440,
+"mitte": [
+0.04848,
+1.24157,
+-0.04533
+],
+"materialien": [
+"Bronchi-7"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Anterior basal segmental bronchus of left lung (BVIII)",
+"ecken": 192,
+"dreiecke": 360,
+"mitte": [
+0.1019,
+1.25577,
+0.02138
+],
+"materialien": [
+"Bronchi-8"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Left inferior lobar bronchus",
+"ecken": 114,
+"dreiecke": 216,
+"mitte": [
+0.05944,
+1.30454,
+-0.02023
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Lateral basal segmental bronchus of left lung (BIX)",
+"ecken": 300,
+"dreiecke": 576,
+"mitte": [
+0.09765,
+1.23237,
+-0.02796
+],
+"materialien": [
+"Bronchi-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Left main bronchus",
+"ecken": 78,
+"dreiecke": 144,
+"mitte": [
+0.02014,
+1.34539,
+-0.01558
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Anterior segmental bronchus of right lung (BIII)",
+"ecken": 654,
+"dreiecke": 1224,
+"mitte": [
+-0.04898,
+1.34544,
+0.0207
+],
+"materialien": [
+"Bronchi-3"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Apical segmental bronchus of right lung (BI)",
+"ecken": 876,
+"dreiecke": 1656,
+"mitte": [
+-0.0385,
+1.38976,
+-0.0074
+],
+"materialien": [
+"Bronchi-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Posterior segmental bronchus of right lung (BII)",
+"ecken": 648,
+"dreiecke": 1224,
+"mitte": [
+-0.06474,
+1.36359,
+-0.03938
+],
+"materialien": [
+"Bronchi-2"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Right superior lobar bronchus",
+"ecken": 42,
+"dreiecke": 72,
+"mitte": [
+-0.02196,
+1.35028,
+-0.01657
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Right main bronchus",
+"ecken": 42,
+"dreiecke": 72,
+"mitte": [
+-0.00695,
+1.35966,
+-0.01374
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Superior lobe of right lung",
+"ecken": 968,
+"dreiecke": 1910,
+"mitte": [
+-0.06296,
+1.36106,
+0.0065
+],
+"materialien": [
+"Lung-base",
+"Lung-1",
+"Lung-2",
+"Lung-3"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Lungs",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Middle lobe of right lung",
+"ecken": 914,
+"dreiecke": 1818,
+"mitte": [
+-0.06488,
+1.2663,
+0.02731
+],
+"materialien": [
+"Lung-base",
+"Lung-4",
+"Lung-5"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Lungs",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Inferior lobe of right lung",
+"ecken": 1040,
+"dreiecke": 2074,
+"mitte": [
+-0.06659,
+1.26143,
+0.00545
+],
+"materialien": [
+"Lung-base",
+"Lung-6",
+"Lung-7",
+"Lung-8",
+"Lung-9",
+"Lung-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Lungs",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Superior lobe of left lung",
+"ecken": 1141,
+"dreiecke": 2265,
+"mitte": [
+0.06542,
+1.32546,
+0.01553
+],
+"materialien": [
+"Lung-base",
+"Lung-1",
+"Lung-2",
+"Lung-3",
+"Lung-4",
+"Lung-5"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Lungs",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Inferior lobe of left lung",
+"ecken": 1142,
+"dreiecke": 2275,
+"mitte": [
+0.07363,
+1.26478,
+0.00929
+],
+"materialien": [
+"Lung-base",
+"Lung-6",
+"Lung-7",
+"Lung-8",
+"Lung-9",
+"Lung-1"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Lungs",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Urinary bladder",
+"ecken": 255,
+"dreiecke": 506,
+"mitte": [
+0.00039,
+0.85547,
+-6e-05
+],
+"materialien": [
+"Organ"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Pelvis",
+"Trunk",
+"Urinary system"
+]
+},
+{
+"name": "Urethra",
+"ecken": 366,
+"dreiecke": 720,
+"mitte": [
+-0.0,
+0.78785,
+0.03493
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Pelvis",
+"Trunk",
+"Urinary system"
+]
+},
+{
+"name": "Ureter.l",
+"ecken": 366,
+"dreiecke": 720,
+"mitte": [
+0.03445,
+0.99157,
+-0.0071
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Trunk",
+"Urinary system"
+]
+},
+{
+"name": "Ureter.r",
+"ecken": 402,
+"dreiecke": 792,
+"mitte": [
+-0.02533,
+0.98125,
+-0.0047
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Trunk",
+"Urinary system"
+]
+},
+{
+"name": "Testis.r",
+"ecken": 115,
+"dreiecke": 226,
+"mitte": [
+-0.02068,
+0.74135,
+0.05613
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Testis.l",
+"ecken": 115,
+"dreiecke": 226,
+"mitte": [
+0.02068,
+0.74135,
+0.05613
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Epididymis.r",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+-0.02147,
+0.74988,
+0.0536
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Epididymis.l",
+"ecken": 38,
+"dreiecke": 72,
+"mitte": [
+0.02147,
+0.74988,
+0.0536
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Ductus deferens.l",
+"ecken": 618,
+"dreiecke": 1224,
+"mitte": [
+0.03673,
+0.81256,
+0.01163
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Ductus deferens.r",
+"ecken": 618,
+"dreiecke": 1224,
+"mitte": [
+-0.03673,
+0.81256,
+0.01163
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Seminal gland.r",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+-0.01951,
+0.84355,
+-0.03404
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Seminal gland.l",
+"ecken": 182,
+"dreiecke": 360,
+"mitte": [
+0.01951,
+0.84355,
+-0.03404
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Prostate",
+"ecken": 236,
+"dreiecke": 468,
+"mitte": [
+-6e-05,
+0.82072,
+-0.01532
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Ejaculatory duct.l",
+"ecken": 114,
+"dreiecke": 216,
+"mitte": [
+0.00383,
+0.8312,
+-0.02686
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Ejaculatory duct.r",
+"ecken": 114,
+"dreiecke": 216,
+"mitte": [
+-0.00383,
+0.8312,
+-0.02686
+],
+"materialien": [
+"Ductus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Glans penis",
+"ecken": 694,
+"dreiecke": 1391,
+"mitte": [
+-6e-05,
+0.76017,
+0.0936
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Corpus cavernosum of penis",
+"ecken": 646,
+"dreiecke": 1288,
+"mitte": [
+0.00011,
+0.78676,
+0.03327
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Corpus spongiosum of penis",
+"ecken": 282,
+"dreiecke": 560,
+"mitte": [
+-0.00065,
+0.78308,
+0.03293
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Genital systems'",
+"Pelvis",
+"Trunk"
+]
+},
+{
+"name": "Mesocolon",
+"ecken": 542,
+"dreiecke": 1080,
+"mitte": [
+0.03469,
+1.12465,
+0.04249
+],
+"materialien": [
+"Peritoneum"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Peritoneal structures",
+"Trunk"
+]
+},
+{
+"name": "Meso-appendix",
+"ecken": 236,
+"dreiecke": 468,
+"mitte": [
+-0.04727,
+0.96868,
+0.00358
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Trunk"
+]
+},
+{
+"name": "Greater omentum",
+"ecken": 2518,
+"dreiecke": 5032,
+"mitte": [
+0.00322,
+1.02148,
+0.05374
+],
+"materialien": [
+"Peritoneum"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Peritoneal structures",
+"Trunk"
+]
+},
+{
+"name": "Lesser omentum",
+"ecken": 178,
+"dreiecke": 352,
+"mitte": [
+-0.00523,
+1.17123,
+0.04791
+],
+"materialien": [
+"Peritoneum"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Peritoneal structures",
+"Trunk"
+]
+},
+{
+"name": "Adenohypophysis",
+"ecken": 369,
+"dreiecke": 680,
+"mitte": [
+0.0,
+1.60171,
+0.0174
+],
+"materialien": [
+"Nucleus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Endocrine glands"
+]
+},
+{
+"name": "Neurohypophysis",
+"ecken": 325,
+"dreiecke": 592,
+"mitte": [
+0.0,
+1.60124,
+0.01521
+],
+"materialien": [
+"Nucleus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Endocrine glands"
+]
+},
+{
+"name": "Thyroid gland",
+"ecken": 316,
+"dreiecke": 628,
+"mitte": [
+0.0,
+1.47144,
+0.0164
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Endocrine glands"
+]
+},
+{
+"name": "Inferior parathyroid gland.r",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.01088,
+1.46036,
+-0.00129
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Superior parathyroid gland.r",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.01629,
+1.48012,
+-0.00324
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Inferior parathyroid gland.l",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.01088,
+1.46036,
+-0.00129
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Superior parathyroid gland.l",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.01629,
+1.48012,
+-0.00324
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Suprarenal gland.l",
+"ecken": 2000,
+"dreiecke": 3996,
+"mitte": [
+0.0514,
+1.16056,
+-0.02494
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Endocrine glands",
+"Trunk"
+]
+},
+{
+"name": "Suprarenal gland.r",
+"ecken": 1149,
+"dreiecke": 2294,
+"mitte": [
+-0.04658,
+1.14144,
+-0.00942
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Abdomen",
+"Endocrine glands",
+"Trunk"
+]
+},
+{
+"name": "Pineal gland",
+"ecken": 319,
+"dreiecke": 634,
+"mitte": [
+0.0,
+1.61599,
+-0.02289
+],
+"materialien": [
+"Nucleus"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Endocrine glands"
+]
+},
+{
+"name": "Middle lobar bronchus.r",
+"ecken": 42,
+"dreiecke": 72,
+"mitte": [
+-0.03723,
+1.31023,
+-0.00975
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Intermediate bronchus.r",
+"ecken": 42,
+"dreiecke": 72,
+"mitte": [
+-0.02235,
+1.33317,
+-0.01896
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Medial segmental bronchus of right lung (BV)",
+"ecken": 420,
+"dreiecke": 792,
+"mitte": [
+-0.05814,
+1.28456,
+0.03769
+],
+"materialien": [
+"Bronchi-5"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Posterior basal segmental bronchus of left lung (BX)",
+"ecken": 150,
+"dreiecke": 288,
+"mitte": [
+0.08593,
+1.22822,
+-0.04265
+],
+"materialien": [
+"Bronchi-2"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "(Anteromedial basal segmental bronchus of left lung)",
+"ecken": 378,
+"dreiecke": 720,
+"mitte": [
+0.10057,
+1.23891,
+0.01194
+],
+"materialien": [
+"Bronchi"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Bronchi",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Pleura",
+"ecken": 13768,
+"dreiecke": 27504,
+"mitte": [
+-0.00075,
+1.29935,
+0.00942
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"8: Visceral systems",
+"Respiratory system",
+"Thorax",
+"Trunk"
+]
+},
+{
+"name": "Oropharynx",
+"ecken": 350,
+"dreiecke": 696,
+"mitte": [
+0.0,
+1.53044,
+0.04276
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Nasopharynx",
+"ecken": 266,
+"dreiecke": 528,
+"mitte": [
+0.0,
+1.57056,
+0.02746
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Mucosa of nasal cavity",
+"ecken": 1214,
+"dreiecke": 2472,
+"mitte": [
+0.0,
+1.57409,
+0.07359
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Laryngopharynx",
+"ecken": 330,
+"dreiecke": 660,
+"mitte": [
+0.0,
+1.48335,
+0.0169
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Soft palate",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.0,
+1.54992,
+0.03519
+],
+"materialien": [
+"Mucosa"
+],
+"sammlungen": [
+"8: Visceral systems"
+]
+},
+{
+"name": "Pretracheal nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.00939,
+1.44837,
+0.02541
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Thyroid nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.01185,
+1.47598,
+0.01919
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Anterior inferior jugular nodes.r",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.02966,
+1.44858,
+0.01849
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Supraclavicular nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.03177,
+1.41555,
+0.02057
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Paratracheal cervical nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.0,
+1.43929,
+0.00671
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Retropharyngeal nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.01182,
+1.54397,
+0.01478
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Superficial lateral cervical nodes.r",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.05405,
+1.46622,
+-0.01151
+],
+"materialien": [
+"Lymph-8"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Jugulodigastric node.r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.03278,
+1.53063,
+-0.00136
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck"
+]
+},
+{
+"name": "Lateral superior jugular node.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.02959,
+1.50396,
+0.00866
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck"
+]
+},
+{
+"name": "Inferior deep lateral cervical nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.03151,
+1.41834,
+0.01254
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Posterior axillary nodes.r",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.16271,
+1.35349,
+-0.01151
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Brachial nodes.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.1537,
+1.36419,
+0.0111
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "Inferior diaphragmatic nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.00589,
+1.23844,
+0.01872
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Anterior axillary nodes.r",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.1185,
+1.3253,
+0.02812
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Precaval nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.0067,
+1.11068,
+0.03039
+],
+"materialien": [
+"Lymph-8"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Lateral caval nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.00685,
+1.11488,
+0.03011
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Retrocaval nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.0067,
+1.1051,
+0.01135
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Occipital nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.03267,
+1.58946,
+-0.08859
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Nasolabial node.l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.02079,
+1.56496,
+0.07997
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Bucinator node.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.02804,
+1.5449,
+0.07278
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Mandibular node.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.0184,
+1.51268,
+0.07563
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Submental nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.0164,
+1.49726,
+0.06807
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Mastoid nodes.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.05635,
+1.55886,
+-0.01476
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Palatine tonsil.l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.02777,
+1.55533,
+0.02955
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Pretracheal nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.00939,
+1.44837,
+0.02541
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Thyroid nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.01185,
+1.47598,
+0.01919
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck"
+]
+},
+{
+"name": "Anterior inferior jugular nodes.l",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.02966,
+1.44858,
+0.01849
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Supraclavicular nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.03178,
+1.41555,
+0.02057
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Retropharyngeal nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.01183,
+1.54397,
+0.01478
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Superficial lateral cervical nodes.l",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.05406,
+1.46622,
+-0.01151
+],
+"materialien": [
+"Lymph-8"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Superficial anterior cervical nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.0,
+1.4301,
+0.04295
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Jugulodigastric node.l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.03278,
+1.53063,
+-0.00136
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck"
+]
+},
+{
+"name": "Lateral superior jugular node.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.02959,
+1.50396,
+0.00866
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck"
+]
+},
+{
+"name": "Inferior deep lateral cervical nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.03151,
+1.41834,
+0.01254
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Neck",
+"Trunk"
+]
+},
+{
+"name": "Posterior axillary nodes.l",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.16271,
+1.35349,
+-0.01151
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Brachial nodes.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.1537,
+1.36419,
+0.0111
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "Interpectoral nodes.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.115,
+1.33159,
+0.04753
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Infraclavicular nodes.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.09748,
+1.40007,
+0.00282
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "Cubital nodes.l",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.21718,
+1.0745,
+-0.00516
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left upper limb"
+]
+},
+{
+"name": "Supratrochlear nodes.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.19297,
+1.12064,
+-0.0306
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left upper limb",
+"Lymphoid system"
+]
+},
+{
+"name": "Anterior axillary nodes.l",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.1185,
+1.3253,
+0.02812
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Intermediate lumbar nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-9e-05,
+1.11422,
+0.0228
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Pre-aortic nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.00665,
+1.11493,
+0.02608
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Lateral aortic nodes",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.01162,
+1.1123,
+0.02944
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Retro-aortic nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.00907,
+1.1051,
+0.00738
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Inferior epigastric nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.04551,
+0.87497,
+0.05721
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Coeliac nodes",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.01026,
+1.14539,
+0.02433
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Right gastric nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.0138,
+1.16304,
+0.06374
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Right gastro-omental nodes",
+"ecken": 602,
+"dreiecke": 1176,
+"mitte": [
+-0.03014,
+1.18491,
+0.07054
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "(Suprapyloric node)",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.01247,
+1.14266,
+0.06002
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "(Subpyloric nodes)",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.01819,
+1.12062,
+0.05921
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "(Retropyloric nodes)",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.01094,
+1.14123,
+0.05764
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Superior pancreatic nodes",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.01441,
+1.14454,
+0.02414
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Inferior pancreatic nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.02516,
+1.1188,
+0.02149
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Splenic nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.08542,
+1.16355,
+0.00311
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Superior pancreaticoduodenal nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.03916,
+1.11694,
+0.03352
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Cystic node",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.02297,
+1.15899,
+0.03855
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Paracolic superior mesenteric nodes",
+"ecken": 1462,
+"dreiecke": 2856,
+"mitte": [
+0.00908,
+1.00052,
+0.0374
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Central superior mesenteric nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.00772,
+1.07322,
+0.05099
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Ileocolic nodes",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.00517,
+1.11298,
+0.02534
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Left lobe of thymus",
+"ecken": 4596,
+"dreiecke": 9188,
+"mitte": [
+0.0239,
+1.34446,
+0.04871
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Right lobe of thymus",
+"ecken": 3228,
+"dreiecke": 6452,
+"mitte": [
+0.0048,
+1.33626,
+0.05559
+],
+"materialien": [
+"Gland"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Spleen",
+"ecken": 667,
+"dreiecke": 1330,
+"mitte": [
+0.08475,
+1.1615,
+-0.00442
+],
+"materialien": [
+"Organ"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Precaecal nodes",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.07955,
+0.96313,
+0.04073
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Retrocaecal nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.05834,
+0.95205,
+0.00319
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Appendicular nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.04838,
+0.96698,
+0.01417
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Juxta-intestinal mesenteric nodes",
+"ecken": 1290,
+"dreiecke": 2520,
+"mitte": [
+0.00401,
+0.98783,
+0.05776
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Middle colic nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.04045,
+1.10606,
+0.03507
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Right colic nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.03787,
+1.10667,
+0.04094
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Left colic nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.04432,
+1.07474,
+0.02359
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Sigmoid nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.0386,
+0.98922,
+0.00176
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Subaortic nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.00461,
+1.00919,
+0.03209
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Medial common iliac nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.00153,
+0.99339,
+0.01824
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Lateral common iliac nodes",
+"ecken": 688,
+"dreiecke": 1344,
+"mitte": [
+0.00145,
+1.00867,
+0.02246
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Intermediate common iliac nodes",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.001,
+1.00887,
+0.02205
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Intermediate external iliac nodes.r",
+"ecken": 602,
+"dreiecke": 1176,
+"mitte": [
+-0.04269,
+0.92932,
+0.02084
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Intermediate external iliac nodes.l",
+"ecken": 602,
+"dreiecke": 1176,
+"mitte": [
+0.04269,
+0.92932,
+0.02084
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Medial external iliac nodes.r",
+"ecken": 688,
+"dreiecke": 1344,
+"mitte": [
+-0.0256,
+0.93418,
+0.01641
+],
+"materialien": [
+"Lymph-8"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Medial external iliac nodes.l",
+"ecken": 688,
+"dreiecke": 1344,
+"mitte": [
+0.02561,
+0.93418,
+0.01641
+],
+"materialien": [
+"Lymph-8"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "(Lateral lacunar node).r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.04919,
+0.85841,
+0.04003
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Obturator nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.04839,
+0.87664,
+-0.01862
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Obturator nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.04839,
+0.87664,
+-0.01862
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Inferior gluteal nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.03061,
+0.91493,
+-0.02618
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Superior gluteal nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.0386,
+0.92498,
+-0.02983
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Inferior gluteal nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.03061,
+0.91493,
+-0.02618
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Superior gluteal nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.0386,
+0.92498,
+-0.02983
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Lateral sacral nodes.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.02252,
+0.90738,
+-0.05578
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Lateral sacral nodes.l",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+0.02252,
+0.90738,
+-0.05578
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Prevesical nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.00072,
+0.84727,
+0.02804
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Postvesical nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.00219,
+0.85311,
+-0.03976
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Lateral vesical nodes.r",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.02931,
+0.84743,
+0.00183
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Lateral vesical nodes.l",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.02931,
+0.84743,
+0.00183
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Pararectal nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+0.00128,
+0.81526,
+-0.05376
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Inferior superficial inguinal nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.06119,
+0.81489,
+0.04732
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Superolateral superficial inguinal nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.05949,
+0.86567,
+0.05518
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Inferior superficial inguinal nodes.l",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+0.06119,
+0.81489,
+0.04732
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Superomedial superficial inguinal nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.02199,
+0.84334,
+0.05775
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Superolateral superficial inguinal nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.05949,
+0.86567,
+0.05518
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Superomedial superficial inguinal nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.02199,
+0.84334,
+0.05775
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "(Proximal deep inguinal node).l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.04281,
+0.85071,
+0.04902
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "(Intermediate deep inguinal node).l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.04307,
+0.84033,
+0.05359
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "(Proximal deep inguinal node).r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.04281,
+0.85071,
+0.04902
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "(Intermediate deep inguinal node).r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.04307,
+0.84033,
+0.05359
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "Superficial popliteal nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.07617,
+0.48994,
+-0.05049
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left lower limb",
+"Lymphoid system"
+]
+},
+{
+"name": "Deep popliteal nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.07532,
+0.49427,
+-0.0378
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left lower limb",
+"Lymphoid system"
+]
+},
+{
+"name": "Deep popliteal nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.07532,
+0.49427,
+-0.0378
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Right lower limb"
+]
+},
+{
+"name": "Superficial popliteal nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.07617,
+0.48994,
+-0.05049
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Right lower limb"
+]
+},
+{
+"name": "(Anterior tibial node).l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.10956,
+0.34513,
+-0.0142
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left lower limb",
+"Lymphoid system"
+]
+},
+{
+"name": "(Anterior tibial node).r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.10956,
+0.34513,
+-0.0142
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Right lower limb"
+]
+},
+{
+"name": "(Fibular node).l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.1132,
+0.33421,
+-0.05385
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left lower limb"
+]
+},
+{
+"name": "(Posterior tibial node).l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.0786,
+0.31864,
+-0.04624
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Left lower limb",
+"Lymphoid system"
+]
+},
+{
+"name": "(Fibular node).r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.1132,
+0.33421,
+-0.05385
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Right lower limb"
+]
+},
+{
+"name": "(Posterior tibial node).r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.0786,
+0.31864,
+-0.04624
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Right lower limb"
+]
+},
+{
+"name": "(Lateral lacunar node).l",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.04919,
+0.85841,
+0.04003
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Pre-auricular nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.06341,
+1.58753,
+0.01623
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Intraglandular parotid nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.0553,
+1.54853,
+0.02817
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Infra-auricular nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.05809,
+1.56361,
+0.00659
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Pre-auricular nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.06341,
+1.58753,
+0.01623
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Intraglandular parotid nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.0553,
+1.54853,
+0.02817
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Apical axillary nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.14357,
+1.32912,
+-0.03576
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Apical axillary nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.14357,
+1.32912,
+-0.03576
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Central axillary nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.14357,
+1.31226,
+-0.03576
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Central axillary nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.14357,
+1.31226,
+-0.03576
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Lateral axillary nodes.l",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+0.15406,
+1.31226,
+-0.03576
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Lateral axillary nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.15406,
+1.31226,
+-0.03576
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Superficial parotid nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.05161,
+1.54978,
+0.0118
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Superficial parotid nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.05161,
+1.54978,
+0.0118
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Interpectoral nodes.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.115,
+1.33159,
+0.04753
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Trunk"
+]
+},
+{
+"name": "Occipital nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.03267,
+1.58946,
+-0.08859
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Nasolabial node.r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.02079,
+1.56496,
+0.07997
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Bucinator node.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.02804,
+1.5449,
+0.07278
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Mandibular node.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.0184,
+1.51268,
+0.07563
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head"
+]
+},
+{
+"name": "Submental nodes.r",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.0164,
+1.49726,
+0.06807
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Mastoid nodes.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.05635,
+1.55886,
+-0.01476
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Palatine tonsil.r",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.02777,
+1.55533,
+0.02955
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Submandibular nodes.r",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.00633,
+1.4997,
+0.0537
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Infra-auricular nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.05809,
+1.56361,
+0.00659
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+},
+{
+"name": "Infraclavicular nodes.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.09748,
+1.40007,
+0.00282
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system"
+]
+},
+{
+"name": "Cubital nodes.r",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.21718,
+1.0745,
+-0.00516
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Right upper limb"
+]
+},
+{
+"name": "Supratrochlear nodes.r",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+-0.19297,
+1.12064,
+-0.0306
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Right upper limb"
+]
+},
+{
+"name": "Inferior epigastric nodes.r",
+"ecken": 172,
+"dreiecke": 336,
+"mitte": [
+-0.04551,
+0.87497,
+0.05721
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Lymphoid system",
+"Trunk"
+]
+},
+{
+"name": "Superior tracheobronchial nodes",
+"ecken": 430,
+"dreiecke": 840,
+"mitte": [
+6e-05,
+1.37672,
+-0.00916
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Superior diaphragmatic nodes",
+"ecken": 516,
+"dreiecke": 1008,
+"mitte": [
+-0.00641,
+1.23808,
+0.01285
+],
+"materialien": [
+"Lymph-3"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Prevertebral nodes",
+"ecken": 860,
+"dreiecke": 1680,
+"mitte": [
+7e-05,
+1.32259,
+-0.02271
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Prepericardial nodes",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.02497,
+1.38869,
+0.02943
+],
+"materialien": [
+"Lymph-6"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Paratracheal thoracic nodes",
+"ecken": 860,
+"dreiecke": 1680,
+"mitte": [
+0.0,
+1.39549,
+-0.00429
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Parasternal nodes.r",
+"ecken": 688,
+"dreiecke": 1344,
+"mitte": [
+-0.02098,
+1.30307,
+0.08102
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Parasternal nodes.l",
+"ecken": 688,
+"dreiecke": 1344,
+"mitte": [
+0.02098,
+1.30307,
+0.08102
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Node of ligamentum arteriosum",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+0.02877,
+1.3676,
+0.00422
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Node of arch of azygos vein",
+"ecken": 86,
+"dreiecke": 168,
+"mitte": [
+-0.01068,
+1.3561,
+-0.00723
+],
+"materialien": [
+"Lymph-2"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Lateral pericardial nodes",
+"ecken": 344,
+"dreiecke": 672,
+"mitte": [
+-0.02856,
+1.27722,
+0.03091
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Juxta-oesophageal nodes",
+"ecken": 860,
+"dreiecke": 1680,
+"mitte": [
+0.00029,
+1.32259,
+-0.02048
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Intrapulmonary nodes",
+"ecken": 1978,
+"dreiecke": 3864,
+"mitte": [
+0.00963,
+1.31166,
+-0.00183
+],
+"materialien": [
+"Lymph-4"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Intercostal nodes.r",
+"ecken": 1032,
+"dreiecke": 2016,
+"mitte": [
+-0.02048,
+1.28389,
+-0.04348
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Intercostal nodes.l",
+"ecken": 1032,
+"dreiecke": 2016,
+"mitte": [
+0.02048,
+1.28389,
+-0.04348
+],
+"materialien": [
+"Lymph-7"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Inferior tracheobronchial nodes",
+"ecken": 860,
+"dreiecke": 1680,
+"mitte": [
+-0.00079,
+1.36139,
+-0.01224
+],
+"materialien": [
+"Lymph-8"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Brachiocephalic nodes",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+-0.02166,
+1.39434,
+0.02088
+],
+"materialien": [
+"Lymph-1"
+],
+"sammlungen": [
+"6: Lymphoid organs"
+]
+},
+{
+"name": "Submandibular nodes.l",
+"ecken": 258,
+"dreiecke": 504,
+"mitte": [
+0.00633,
+1.4997,
+0.0537
+],
+"materialien": [
+"Lymph-5"
+],
+"sammlungen": [
+"6: Lymphoid organs",
+"Head",
+"Lymphoid system"
+]
+}
+]
+}

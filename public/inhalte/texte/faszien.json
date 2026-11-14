@@ -1,0 +1,93 @@
+{
+  "_hinweis": "Texte zu Faszien, Aponeurosen und Retinacula. Felder: kurz (Funktion), lage, aufbau, muskeln (zugehörige Muskeln), praxis (klinische Bedeutung).",
+  "standard_quellen": ["openstax-ap2e", "ta2"],
+  "eintraege": {
+    "Fascia lata": {
+      "jahr": 1, "kurz": "Kräftige Hüllfaszie des ganzen Oberschenkels. Hält die Muskeln in ihren Logen und überträgt Kraft.",
+      "lage": "Umhüllt den Oberschenkel wie ein Strumpf; seitlich zum Tractus iliotibialis verstärkt.",
+      "aufbau": "Straffes kollagenes Bindegewebe; über Septa intermuscularia mit der Linea aspera des Femurs verbunden – dadurch entstehen Muskellogen (Extensoren, Adduktoren, Flexoren).",
+      "muskeln": ["M. tensor fasciae latae und M. gluteus maximus strahlen ein (über den Tractus iliotibialis)", "Umhüllt M. quadriceps femoris, Adduktoren, ischiocrurale Muskeln"],
+      "praxis": "Die Logenbildung erklärt, warum sich Schwellungen oder Blutungen innerhalb einer Muskelloge ausbreiten."
+    },
+    "Iliotibial tract": {
+      "jahr": 1, "kurz": "Sehnenartige Verstärkung der Fascia lata an der Außenseite des Oberschenkels. Wirkt wie eine Zuggurtung und entlastet den Femur von Biegekräften.",
+      "lage": "Seitlicher Oberschenkel, vom Darmbeinkamm bis zum Tuberculum tractus iliotibialis (Gerdy-Höcker) der Tibia.",
+      "aufbau": "Längs verlaufende, dicht gepackte Kollagenfasern (Verstärkungszug der Fascia lata).",
+      "muskeln": ["M. tensor fasciae latae", "M. gluteus maximus (obere Anteile)"],
+      "praxis": "Reibung über dem Epicondylus lateralis femoris kann bei Läufern Schmerzen an der Knieaußenseite verursachen („Läuferknie“, Tractus-iliotibialis-Syndrom).",
+      "tastbar": ["Als straffer Strang an der Außenseite des Oberschenkels, besonders kurz oberhalb des Knies"]
+    },
+    "Plantar aponeurosis": {
+      "jahr": 1, "kurz": "Kräftige Sehnenplatte der Fußsohle. Verspannt das Längsgewölbe wie eine Bogensehne.",
+      "lage": "Fußsohle, vom Tuber calcanei fächerförmig zu den Zehengrundgelenken.",
+      "aufbau": "Längs verlaufende Kollagenfaserzüge, an den Zehen in fünf Zipfel geteilt.",
+      "muskeln": ["Ursprung für den M. flexor digitorum brevis"],
+      "praxis": "Beim Anheben der Zehen (Dorsalextension der Grundgelenke) spannt sie sich und hebt das Längsgewölbe an (Windlass-Mechanismus). Reizung am Ursprung: Plantarfasziitis (Fersenschmerz).",
+      "tastbar": ["Als Strang in der Fußsohle bei angehobener Großzehe"]
+    },
+    "Palmar aponeurosis": {
+      "jahr": 1, "kurz": "Dreieckige Sehnenplatte der Hohlhand; schützt Gefäße, Nerven und Sehnen darunter.",
+      "lage": "Hohlhand, vom Retinaculum musculorum flexorum zu den Fingergrundgelenken.",
+      "aufbau": "Straffes kollagenes Bindegewebe mit längs und quer verlaufenden Faserzügen.",
+      "muskeln": ["M. palmaris longus strahlt ein (wenn vorhanden)"],
+      "praxis": "Knotige Verdickung und Schrumpfung führt zur Dupuytren-Kontraktur (Beugestellung der Finger)."
+    },
+    "Flexor retinaculum of wrist": {
+      "jahr": 1, "kurz": "Querband über der Hohlhandseite der Handwurzel; bildet das Dach des Karpaltunnels.",
+      "lage": "Zwischen Os scaphoideum/Os trapezium (radial) und Os pisiforme/Hamulus ossis hamati (ulnar).",
+      "aufbau": "Straffes Band aus querverlaufenden Kollagenfasern.",
+      "muskeln": ["Unter ihm ziehen die Sehnen der langen Fingerbeuger und des M. flexor pollicis longus sowie der N. medianus"],
+      "praxis": "Einengung des N. medianus im Karpaltunnel führt zum Karpaltunnelsyndrom."
+    },
+    "Extensor retinaculum of wrist": {
+      "jahr": 1, "kurz": "Querband auf dem Handrücken; hält die Strecksehnen in sechs Sehnenfächern an Ort und Stelle.",
+      "lage": "Handrücken über dem distalen Radius und der Ulna.",
+      "aufbau": "Verstärkung der Unterarmfaszie; Septen bilden sechs Sehnenfächer.",
+      "muskeln": ["Hand- und Fingerstrecker, lange Daumenmuskeln"]
+    },
+    "Flexor retinaculum of ankle": {
+      "jahr": 1, "kurz": "Band hinter und unter dem Innenknöchel; überdacht den Tarsaltunnel.",
+      "lage": "Zwischen Malleolus medialis und Calcaneus.",
+      "aufbau": "Verstärkung der Unterschenkelfaszie.",
+      "muskeln": ["Darunter: Sehnen von M. tibialis posterior, M. flexor digitorum longus, M. flexor hallucis longus sowie N. tibialis und A. tibialis posterior"],
+      "praxis": "Einengung des N. tibialis: Tarsaltunnelsyndrom."
+    },
+    "Superior extensor retinaculum of ankle": {
+      "jahr": 1, "kurz": "Querband vorn oberhalb des Sprunggelenks; hält die Sehnen der Fußheber am Unterschenkel.",
+      "lage": "Vorderseite des distalen Unterschenkels zwischen Tibia und Fibula.",
+      "aufbau": "Verstärkung der Fascia cruris.",
+      "muskeln": ["M. tibialis anterior, M. extensor hallucis longus, M. extensor digitorum longus"]
+    },
+    "Inferior extensor retinaculum of ankle": {
+      "jahr": 1, "kurz": "Y-förmiges Band auf dem Fußrücken; hält die Strecksehnen am Fuß.",
+      "lage": "Fußrücken vor dem oberen Sprunggelenk.",
+      "aufbau": "Verstärkung der Fußrückenfaszie.",
+      "muskeln": ["M. tibialis anterior, M. extensor hallucis longus, M. extensor digitorum longus"]
+    },
+    "Crural fascia": {
+      "jahr": 1, "kurz": "Hüllfaszie des Unterschenkels; bildet mit Septen und Membrana interossea die Muskellogen.",
+      "lage": "Umhüllt den Unterschenkel; vorn mit der Tibiakante verwachsen.",
+      "aufbau": "Straffes kollagenes Bindegewebe; Septa intermuscularia trennen Extensoren-, Fibularis- und Flexorenloge.",
+      "muskeln": ["Alle Unterschenkelmuskeln; Ursprung für Teile des M. tibialis anterior"],
+      "praxis": "Steigt der Druck in einer Loge stark an (z. B. nach Verletzung), kann ein Kompartmentsyndrom entstehen – ein Notfall."
+    },
+    "Brachial fascia": {"jahr": 1, "kurz": "Hüllfaszie des Oberarms; trennt mit Septen Beuger- und Streckerloge.", "lage": "Umhüllt den Oberarm.", "aufbau": "Straffes kollagenes Bindegewebe mit Septum intermusculare mediale und laterale.", "muskeln": ["M. biceps brachii, M. brachialis, M. coracobrachialis (Beugerloge)", "M. triceps brachii (Streckerloge)"]},
+    "Antebrachial fascia": {"jahr": 1, "kurz": "Hüllfaszie des Unterarms; Ursprung für oberflächliche Unterarmmuskeln, distal zu den Retinacula verstärkt.", "lage": "Umhüllt den Unterarm.", "aufbau": "Straffes kollagenes Bindegewebe.", "muskeln": ["Oberflächliche Beuger und Strecker des Unterarms"]},
+    "Pectoral fascia": {"jahr": 1, "kurz": "Dünne Faszie auf dem M. pectoralis major.", "lage": "Vordere Brustwand.", "aufbau": "Dünnes kollagenes Bindegewebe; setzt sich in die Achselfaszie fort.", "muskeln": ["M. pectoralis major"]},
+    "Clavipectoral fascia": {"jahr": 1, "kurz": "Tiefe Faszie zwischen Schlüsselbein und M. pectoralis minor.", "lage": "Unter dem M. pectoralis major.", "aufbau": "Kollagenes Bindegewebe.", "muskeln": ["M. subclavius", "M. pectoralis minor"]},
+    "Epicranial aponeurosis": {"jahr": 2, "kurz": "Sehnenhaube des Schädeldachs (Galea aponeurotica); verbindet Stirn- und Hinterhauptsmuskel.", "lage": "Schädeldach unter der Kopfhaut.", "aufbau": "Flache Sehnenplatte.", "muskeln": ["M. frontalis (Venter frontalis)", "M. occipitalis (Venter occipitalis)"]}
+  },
+  "vorlagen": [
+    {"muster": "layer of thoracolumbar fascia$", "eintrag": {
+      "jahr": 1, "kurz": "Blatt der Fascia thoracolumbalis. Sie umhüllt die tiefen Rückenstrecker (M. erector spinae) und ist Ursprung für M. latissimus dorsi und Bauchmuskeln – so verbindet sie Rücken, Becken und Arme mechanisch.",
+      "lage": "Lenden- und Brustbereich des Rückens. Hinteres Blatt: auf den Rückenstreckern bis zu den Dornfortsätzen; mittleres Blatt: zwischen Rückenstreckern und M. quadratus lumborum, an den Processus costales; vorderes Blatt: vor dem M. quadratus lumborum.",
+      "aufbau": "Mehrschichtiges straffes kollagenes Bindegewebe mit sich kreuzenden Faserrichtungen.",
+      "muskeln": ["M. erector spinae (wird umhüllt)", "M. latissimus dorsi (Ursprung)", "M. transversus abdominis und M. obliquus internus abdominis (Ursprung)", "M. gluteus maximus (Verbindung)", "M. quadratus lumborum"],
+      "praxis": "Wird in der Physiotherapie bei Rückenschmerzen viel diskutiert (z. B. Gleitfähigkeit, Spannung). Die Studienlage zu Ursache und Behandlung ist uneinheitlich."
+    }},
+    {"muster": "([Ff]ascia|[Aa]poneurosis|[Rr]etinaculum|intermuscular septum)", "eintrag": {
+      "kurz": "Faszie bzw. Faszienverstärkung: Hülle aus straffem Bindegewebe, die Muskeln umgibt, voneinander trennt und Kräfte überträgt.",
+      "aufbau": "Straffes kollagenes Bindegewebe; Retinacula und Aponeurosen sind besonders kräftige Verstärkungen."
+    }}
+  ]
+}

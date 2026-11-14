@@ -1,6 +1,6 @@
 // Linkes Panel: Ebenen-Steuerung und Baumansicht aller Strukturen.
 import { h } from './dom';
-import { anzeigename, SEITE_TEXT, type Daten, type Struktur } from '../typen';
+import { anzeigename, SEITE_TEXT, type Daten, type Gelenk, type Struktur } from '../typen';
 import type { Modell } from '../viewer/modell';
 
 /** Ebenen von außen nach innen: an/aus und Deckkraft. */
@@ -44,12 +44,24 @@ export function zeichneEbenen(ziel: HTMLElement, modell: Modell, beiAlleEinblend
   }
 }
 
-/** Baumansicht: Ebene → Region → (Gruppe) → Struktur. */
-export function zeichneBaum(ziel: HTMLElement, daten: Daten, waehle: (s: Struktur, meshName: string) => void) {
+/** Baumansicht: Gelenke + Ebene → Region → (Gruppe) → Struktur. `filter` blendet Strukturen außerhalb des Lernpfads aus. */
+export function zeichneBaum(
+  ziel: HTMLElement, daten: Daten, waehle: (s: Struktur, meshName: string) => void,
+  filter: (s: Struktur) => boolean = () => true, waehleGelenk?: (g: Gelenk) => void,
+) {
   ziel.replaceChildren();
-  // Im Baum zuerst die Knochen (Lernbeginn), dann von innen nach außen.
-  for (const ebene of [...daten.ebenen].reverse().filter((e) => e.verfuegbar)) {
-    const liste = [...daten.strukturen.values()].filter((s) => s.ebene === ebene.id);
+  // Gelenke als eigener Ordner
+  const gelenke = [...daten.gelenke.values()].filter((g) => g.mitglieder.some((id) => { const s = daten.strukturen.get(id); return s && filter(s); }));
+  if (gelenke.length && waehleGelenk) {
+    ziel.append(h('details', {}, h('summary', {}, `Gelenke (${gelenke.length})`),
+      gelenke.map((g) => h('div', { class: 'baum-eintrag' },
+        h('span', { class: 'name' }, g.name, h('div', { class: 'klein-leise la' }, g.la)),
+        h('button', { onclick: () => waehleGelenk(g) }, 'zeigen')))));
+  }
+  const reihenfolge = ['knochen', 'baender_gelenke', 'muskeln_oberflaechlich', 'muskeln_tief', 'faszien', 'haut', 'unterhaut', 'nerven_gefaesse', 'organe'];
+  for (const ebene of reihenfolge.map((id) => daten.ebenen.find((e) => e.id === id)!).filter((e) => e?.verfuegbar)) {
+    const liste = [...daten.strukturen.values()].filter((s) => s.ebene === ebene.id && filter(s));
+    if (!liste.length) continue;
     const regionen = new Map<string, Struktur[]>();
     for (const s of liste) {
       const schluessel = s.gruppe ? `${s.region} › ${s.gruppe}` : s.region;
@@ -66,7 +78,7 @@ export function zeichneBaum(ziel: HTMLElement, daten: Daten, waehle: (s: Struktu
         for (const s of strukturen.sort((a, b) => anzeigename(a).localeCompare(anzeigename(b), 'de'))) {
           const meshes = [...s.meshes].sort((a, b) => (a.seite ?? '').localeCompare(b.seite ?? ''));
           regionKnoten.append(h('div', { class: 'baum-eintrag' },
-            h('span', { class: 'name' }, anzeigename(s), s.la && s.de ? h('div', { class: 'klein-leise la' }, s.la) : null),
+            h('span', { class: 'name' }, anzeigename(s), s.la && s.de && s.la !== s.de ? h('div', { class: 'klein-leise la' }, s.la) : null),
             meshes.map((m) => h('button', { onclick: () => waehle(s, m.name), 'aria-label': `${anzeigename(s)} ${m.seite ? SEITE_TEXT[m.seite] : ''} auswählen` },
               m.seite ? SEITE_TEXT[m.seite] : 'zeigen')),
           ));

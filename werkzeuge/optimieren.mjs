@@ -18,6 +18,13 @@ const EINSTELLUNGEN = {
   knochen: { ratio: 0.5, error: 0.0008 },
   baender_gelenke: { ratio: 0.5, error: 0.001 },
   haut: { ratio: 0.8, error: 0.001 },
+  unterhaut: { ratio: 0.6, error: 0.002 },
+  faszien: { ratio: 0.4, error: 0.0015 },
+  muskeln_oberflaechlich: { ratio: 0.35, error: 0.003 },
+  muskeln_tief: { ratio: 0.3, error: 0.003 },
+  nerven_gefaesse: { ratio: 0.2, error: 0.006 },
+  organe: { ratio: 0.5, error: 0.0015 },
+  ansaetze: { ratio: 0.5, error: 0.002 },
   standard: { ratio: 0.5, error: 0.001 },
 };
 

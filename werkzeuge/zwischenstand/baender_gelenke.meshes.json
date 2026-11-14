@@ -6769,6 +6769,2092 @@
 "3: Joints",
 "Right upper limb"
 ]
+},
+{
+"name": "Subtendinous bursa of trapezius muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.10296,
+1.38946,
+-0.09124
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of trapezius muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.10296,
+1.38946,
+-0.09124
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subcutaneous acromial bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.16096,
+1.41526,
+-0.04437
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subcutaneous acromial bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.16096,
+1.41526,
+-0.04437
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subacromial bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.16067,
+1.40553,
+-0.03324
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subacromial bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.16067,
+1.40553,
+-0.03324
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subdeltoid bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.19067,
+1.3923,
+-0.02138
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subdeltoid bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.19067,
+1.3923,
+-0.02138
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Coracobrachial bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.1476,
+1.3766,
+-0.0109
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Coracobrachial bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.1476,
+1.3766,
+-0.0109
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of infraspinatus muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.1811,
+1.38901,
+-0.04303
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of infraspinatus muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.1811,
+1.38901,
+-0.04303
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of teres major muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.18268,
+1.32453,
+-0.02312
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of teres major muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.18268,
+1.32453,
+-0.02312
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of triceps brachii muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.21587,
+1.10874,
+-0.05507
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Subtendinous bursa of triceps brachii muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.21587,
+1.10874,
+-0.05507
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Bicipitoradial bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.23875,
+1.0603,
+-0.01245
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right upper limb"
+]
+},
+{
+"name": "Bicipitoradial bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.23875,
+1.0603,
+-0.01245
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left upper limb"
+]
+},
+{
+"name": "Subcutaneous trochanteric bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.14597,
+0.8303,
+-0.01518
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous trochanteric bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.14597,
+0.8303,
+-0.01518
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Trochanteric bursa of gluteus medius muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.13817,
+0.84612,
+-0.02929
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Trochanteric bursa of gluteus maximus muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.13007,
+0.83304,
+-0.0433
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Trochanteric bursa of gluteus maximus muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.13007,
+0.83304,
+-0.0433
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Trochanteric bursa of gluteus medius muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.13817,
+0.84612,
+-0.02929
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Trochanteric bursa of gluteus minimus muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.14272,
+0.84746,
+-0.01613
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Trochanteric bursa of gluteus minimus muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.14272,
+0.84746,
+-0.01613
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Bursa of piriformis muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.12371,
+0.85719,
+-0.01674
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Bursa of piriformis muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.12371,
+0.85719,
+-0.01674
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Sciatic bursa of obturator internus.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.05435,
+0.84938,
+-0.0491
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Sciatic bursa of obturator internus.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.05435,
+0.84938,
+-0.0491
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of obturator internus.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.10663,
+0.84637,
+-0.02076
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of obturator internus.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.10663,
+0.84637,
+-0.02076
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Sciatic bursa of gluteus maximus muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.05929,
+0.81326,
+-0.04827
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Sciatic bursa of gluteus maximus muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.05929,
+0.81326,
+-0.04827
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Intermuscular gluteal bursae.r",
+"ecken": 624,
+"dreiecke": 1240,
+"mitte": [
+-0.10397,
+0.76489,
+-0.0333
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Intermuscular gluteal bursae.l",
+"ecken": 624,
+"dreiecke": 1240,
+"mitte": [
+0.10397,
+0.76489,
+-0.0333
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "(Iliopectineal bursa).r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.08201,
+0.86215,
+0.02122
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "(Iliopectineal bursa).l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.08201,
+0.86215,
+0.02122
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of iliacus muscle.r",
+"ecken": 178,
+"dreiecke": 352,
+"mitte": [
+-0.09161,
+0.79053,
+-0.01427
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of iliacus muscle.l",
+"ecken": 178,
+"dreiecke": 352,
+"mitte": [
+0.09161,
+0.79053,
+-0.01427
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Superior bursa of biceps femoris muscle.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.06304,
+0.79964,
+-0.04856
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Superior bursa of biceps femoris muscle.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.06304,
+0.79964,
+-0.04856
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subtendinous prepatellar bursa.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.08495,
+0.44121,
+0.01461
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous prepatellar bursa.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.08495,
+0.44121,
+0.01461
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subcutaneous prepatellar bursa.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.08498,
+0.441,
+0.01735
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous prepatellar bursa.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.08498,
+0.441,
+0.01735
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Deep infrapatellar bursa.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.08633,
+0.41577,
+0.00414
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Deep infrapatellar bursa.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.08633,
+0.41577,
+0.00414
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subfacial prepatellar bursa.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.08497,
+0.44128,
+0.01536
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subfacial prepatellar bursa.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.08497,
+0.44128,
+0.01536
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subcutaneous infrapatellar bursa.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.08596,
+0.41029,
+0.00989
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous infrapatellar bursa.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.08596,
+0.41029,
+0.00989
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Suprapatellar bursa.r",
+"ecken": 650,
+"dreiecke": 1296,
+"mitte": [
+-0.08496,
+0.52963,
+0.00639
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Suprapatellar bursa.l",
+"ecken": 650,
+"dreiecke": 1296,
+"mitte": [
+0.08496,
+0.52963,
+0.00639
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subcutaneous bursa of tuberosity of tibia.r",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+-0.08343,
+0.38625,
+0.0087
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous bursa of tuberosity of tibia.l",
+"ecken": 738,
+"dreiecke": 1472,
+"mitte": [
+0.08343,
+0.38625,
+0.0087
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Inferior subtendinous bursa of biceps femoris muscle.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.12036,
+0.40688,
+-0.0464
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of sartorius muscle.r",
+"ecken": 650,
+"dreiecke": 1296,
+"mitte": [
+-0.06461,
+0.37823,
+-0.00935
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of sartorius muscle.l",
+"ecken": 650,
+"dreiecke": 1296,
+"mitte": [
+0.06461,
+0.37823,
+-0.00935
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Anserine bursa.r",
+"ecken": 610,
+"dreiecke": 1216,
+"mitte": [
+-0.05471,
+0.37939,
+-0.02311
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Anserine bursa.l",
+"ecken": 610,
+"dreiecke": 1216,
+"mitte": [
+0.05471,
+0.37939,
+-0.02311
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Inferior subtendinous bursa of biceps femoris muscle.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.12036,
+0.40688,
+-0.0464
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Medial subtendinous bursa of gastrocnemius muscle.r",
+"ecken": 434,
+"dreiecke": 864,
+"mitte": [
+-0.06063,
+0.48847,
+-0.03121
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral subtendinous bursa of gastrocnemius muscle.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.10545,
+0.47471,
+-0.04
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Medial subtendinous bursa of gastrocnemius muscle.l",
+"ecken": 434,
+"dreiecke": 864,
+"mitte": [
+0.06063,
+0.48847,
+-0.03121
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Lateral subtendinous bursa of gastrocnemius muscle.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.10545,
+0.47471,
+-0.04
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Semimembranosus bursa.r",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+-0.04311,
+0.40892,
+-0.02953
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Semimembranosus bursa.l",
+"ecken": 498,
+"dreiecke": 992,
+"mitte": [
+0.04311,
+0.40892,
+-0.02953
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subcutaneous bursa of lateral malleolus.r",
+"ecken": 330,
+"dreiecke": 656,
+"mitte": [
+-0.10799,
+0.06967,
+-0.05007
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous bursa of medial malleolus.r",
+"ecken": 330,
+"dreiecke": 656,
+"mitte": [
+-0.04892,
+0.08957,
+-0.03617
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous bursa of lateral malleolus.l",
+"ecken": 330,
+"dreiecke": 656,
+"mitte": [
+0.10799,
+0.06967,
+-0.05007
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subcutaneous bursa of medial malleolus.l",
+"ecken": 330,
+"dreiecke": 656,
+"mitte": [
+0.04892,
+0.08957,
+-0.03617
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of tibialis anterior.r",
+"ecken": 354,
+"dreiecke": 704,
+"mitte": [
+-0.06182,
+0.05353,
+0.01876
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subcutaneous calcaneal bursa.r",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+-0.06942,
+0.04298,
+-0.08948
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous calcaneal bursa.r",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+-0.07451,
+0.06587,
+-0.07582
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Right lower limb"
+]
+},
+{
+"name": "Subtendinous bursa of tibialis anterior.l",
+"ecken": 354,
+"dreiecke": 704,
+"mitte": [
+0.06182,
+0.05353,
+0.01876
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subcutaneous calcaneal bursa.l",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+0.06942,
+0.04298,
+-0.08948
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Subtendinous calcaneal bursa.l",
+"ecken": 274,
+"dreiecke": 544,
+"mitte": [
+0.07451,
+0.06587,
+-0.07582
+],
+"materialien": [
+"Bursa"
+],
+"sammlungen": [
+"4: Muscular system",
+"Bursae",
+"Left lower limb"
+]
+},
+{
+"name": "Intertubercular tendon sheath.r",
+"ecken": 106,
+"dreiecke": 208,
+"mitte": [
+-0.17736,
+1.38984,
+-0.00995
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Intertubercular tendon sheath.l",
+"ecken": 106,
+"dreiecke": 208,
+"mitte": [
+0.17736,
+1.38984,
+-0.00995
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor pollicis longus.r",
+"ecken": 394,
+"dreiecke": 784,
+"mitte": [
+-0.29115,
+0.8409,
+0.03942
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor pollicis longus.l",
+"ecken": 394,
+"dreiecke": 784,
+"mitte": [
+0.29115,
+0.8409,
+0.03942
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor carpi radialis.r",
+"ecken": 138,
+"dreiecke": 272,
+"mitte": [
+-0.26549,
+0.86427,
+0.03109
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor carpi radialis.l",
+"ecken": 138,
+"dreiecke": 272,
+"mitte": [
+0.26549,
+0.86427,
+0.03109
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Common flexor tendon sheath.r",
+"ecken": 1800,
+"dreiecke": 3492,
+"mitte": [
+-0.26336,
+0.81693,
+0.04348
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Common flexor tendon sheath.l",
+"ecken": 458,
+"dreiecke": 864,
+"mitte": [
+0.26349,
+0.81677,
+0.04364
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Synovial sheaths of digits of hand.r",
+"ecken": 878,
+"dreiecke": 1744,
+"mitte": [
+-0.28467,
+0.74739,
+0.05985
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Cruciform part of fibrous sheath of digit of hand.r",
+"ecken": 2382,
+"dreiecke": 4728,
+"mitte": [
+-0.27308,
+0.7508,
+0.05721
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb"
+]
+},
+{
+"name": "Tendon sheath of extensor digiti minimi manus.r",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+-0.24553,
+0.83754,
+0.01318
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor digiti minimi manus.l",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+0.24553,
+0.83754,
+0.01318
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor pollicis longus.r",
+"ecken": 218,
+"dreiecke": 432,
+"mitte": [
+-0.28212,
+0.85306,
+0.01153
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor pollicis longus.l",
+"ecken": 218,
+"dreiecke": 432,
+"mitte": [
+0.28212,
+0.85306,
+0.01153
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis.r",
+"ecken": 342,
+"dreiecke": 680,
+"mitte": [
+-0.28865,
+0.86033,
+0.01264
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensors carpi radialis.r",
+"ecken": 290,
+"dreiecke": 576,
+"mitte": [
+-0.28072,
+0.86562,
+0.00763
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath - abd. pollicis longus - ext. pollicis brevis.l",
+"ecken": 342,
+"dreiecke": 680,
+"mitte": [
+0.28865,
+0.86033,
+0.01264
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensors carpi radialis.l",
+"ecken": 290,
+"dreiecke": 576,
+"mitte": [
+0.28072,
+0.86562,
+0.00763
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Synovial sheaths of digits of hand.l",
+"ecken": 878,
+"dreiecke": 1744,
+"mitte": [
+0.28467,
+0.74739,
+0.05985
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor digitorum and extensor indicis.r",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+-0.26515,
+0.8561,
+0.00349
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor digitorum and extensor indicis.l",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+0.26515,
+0.8561,
+0.00349
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of tibialis anterior.r",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+-0.07561,
+0.10782,
+-0.01251
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor hallucis longus.r",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+-0.08213,
+0.10074,
+-0.00297
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor digitorum longus.r",
+"ecken": 260,
+"dreiecke": 516,
+"mitte": [
+-0.09369,
+0.10465,
+-0.01426
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of tibialis anterior.l",
+"ecken": 122,
+"dreiecke": 240,
+"mitte": [
+0.07561,
+0.10782,
+-0.01251
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor hallucis longus.l",
+"ecken": 298,
+"dreiecke": 592,
+"mitte": [
+0.08213,
+0.10074,
+-0.00297
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of extensor digitorum longus.l",
+"ecken": 260,
+"dreiecke": 516,
+"mitte": [
+0.09369,
+0.10465,
+-0.01426
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor digitorum longus.r",
+"ecken": 130,
+"dreiecke": 256,
+"mitte": [
+-0.05892,
+0.0658,
+-0.04811
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of tibialis posterior muscle.r",
+"ecken": 145,
+"dreiecke": 286,
+"mitte": [
+-0.05653,
+0.07651,
+-0.04373
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor hallucis longus.r",
+"ecken": 866,
+"dreiecke": 1728,
+"mitte": [
+-0.06813,
+0.06859,
+-0.05121
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor digitorum longus.l",
+"ecken": 130,
+"dreiecke": 256,
+"mitte": [
+0.05892,
+0.0658,
+-0.04811
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of tibialis posterior muscle.l",
+"ecken": 145,
+"dreiecke": 286,
+"mitte": [
+0.05653,
+0.07651,
+-0.04373
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Tendon sheath of flexor hallucis longus.l",
+"ecken": 866,
+"dreiecke": 1728,
+"mitte": [
+0.06813,
+0.06859,
+-0.05121
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Common tendon sheath of fibularis muscles.r",
+"ecken": 770,
+"dreiecke": 1536,
+"mitte": [
+-0.09747,
+0.06199,
+-0.05159
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Common tendon sheath of fibularis muscles.l",
+"ecken": 770,
+"dreiecke": 1536,
+"mitte": [
+0.09747,
+0.06199,
+-0.05159
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Plantar tendon sheath of fibularis longus muscle.r",
+"ecken": 322,
+"dreiecke": 640,
+"mitte": [
+-0.09875,
+0.03224,
+-0.01026
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Right lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Plantar tendon sheath of fibularis longus muscle.l",
+"ecken": 322,
+"dreiecke": 640,
+"mitte": [
+0.09875,
+0.03224,
+-0.01026
+],
+"materialien": [
+"Articular capsule"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Tendon sheaths"
+]
+},
+{
+"name": "Cruciform part of fibrous sheath of digit of hand.l",
+"ecken": 2382,
+"dreiecke": 4728,
+"mitte": [
+0.27308,
+0.7508,
+0.05721
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left upper limb"
+]
 }
 ]
 }

@@ -7,23 +7,35 @@ Die App läuft in Safari, lässt sich auf den Home-Bildschirm legen und funktion
 > **Hinweis:** Reines Lernmodell. Ersetzt keine medizinische Beratung oder Diagnose und auch nicht den Unterricht oder die Lehrbücher der Schule.
 > Die Texte sind Entwürfe („Entwurf – mit Schulbuch abgleichen“). Unsichere Angaben stehen als **„noch zu prüfen“** in der App.
 
-## Stand (Etappe 1: Prototyp)
+## Stand
 
-| Funktion | Stand |
+Alle Etappen sind in einer ersten Fassung eingebaut. Die **3D-Modelle sind vollständig**, die **Texte wachsen weiter**.
+
+| Bereich | Stand |
 |---|---|
-| 3D-Skelett: drehen (1 Finger), zoomen (Pinch), verschieben (2 Finger) | ✅ |
-| Standardansichten vorne / hinten / links / rechts / oben, Ansicht zurücksetzen | ✅ |
-| 277 Knochenteile einzeln antippbar, farbig hervorgehoben, Beschriftung am Modell | ✅ |
-| Info-Panel für **jeden** Knochen (Deutsch, Latein, Englisch, Region, Typ) | ✅ |
-| Ausführliche Texte (Funktion, Lage, Form, Markierungen, Gelenke, Muskeln, Bänder, Palpation) | ✅ für Bewegungsapparat: Becken, Bein, Fuß, Schulter, Arm, Hand, Wirbelsäule, Brustkorb; kurz für Schädel |
-| 567 Knochenmarkierungen als antippbare Punkte am Modell (z. B. Trochanter major) | ✅ |
-| Detailstufen: Überblick / Details / Feinbau (Schema Röhrenknochen) | ✅ |
-| Ebenen-Steuerung (9 Ebenen, an/aus, Transparenz) | ✅ Steuerung steht; Inhalte: Haut, Bänder/Kapseln, Knochen |
-| Einzelne Struktur ausblenden, transparent, isolieren | ✅ |
-| Suche (Deutsch, Latein, Englisch, Wortanfänge, kleine Tippfehler) und Baumansicht | ✅ |
-| Hell/Dunkel, Quer- und Hochformat, Safe Areas | ✅ |
-| Offline (Service Worker) und „Zum Home-Bildschirm“ | ✅ |
-| Lernmodus (Lernpfade, Quiz, Lernkarten) | ⏳ Etappe 7 |
+| 3D-Ansicht: drehen (1 Finger), zoomen (Pinch), verschieben (2 Finger), Standardansichten, Zurücksetzen | ✅ |
+| **9 Ebenen**: Haut, Unterhaut (schematisch), Faszien, oberflächliche Muskeln, tiefe Muskeln, Sehnen/Bänder/Kapseln, Knochen, Nerven und Gefäße, Organe – je an/aus und Transparenz | ✅ 1.774 Strukturen, 3.073 3D-Teile |
+| Jede Struktur antippbar, ausblenden, transparent, isolieren, Beschriftung am Modell | ✅ |
+| **Knochen**: alle mit Namen; ausführliche Texte für den Bewegungsapparat; 567 Markierungspunkte am Modell | ✅ |
+| **Gelenke**: 12 Gelenke mit Gelenktyp, Achsen, Bewegungsumfang (Neutral-Null, mit Quelle), Kapsel-Band-Apparat, Ruhe-/Verriegelungsstellung | ✅ |
+| **Muskeln**: 51 Muskeln bzw. Muskelanteile (u. a. Gesäß, Hüfte, Oberschenkel, Unterschenkel, Rotatorenmanschette, Schultergürtel, Oberarm, Bauch, Hals) mit Ursprung, Ansatz, Aktion, Innervation + Segment, Gefäßversorgung, Palpation, Synergisten/Antagonisten; Ursprungs- und Ansatzflächen am Knochen für 169 Muskeln | ✅ übrige Muskeln: Name + Nerv laut Modell |
+| **Faszien**: Fascia lata, Tractus iliotibialis, Fascia thoracolumbalis, Plantar-/Palmaraponeurose, Retinacula u. a., mit Hinweis zur Evidenz von Faszienketten | ✅ |
+| **Haut, Unterhaut**: Hautschichten als Feinbau-Schema; Unterhaut als klar gekennzeichnete schematische Schicht | ✅ |
+| **Nerven, Gefäße, Organe**: alle als 3D-Teile mit Namen; Texte für die wichtigsten peripheren Nerven und einige Arterien/Organe | ✅ Texte teilweise |
+| Detailstufen: Überblick / Details / Feinbau (Knochen, Muskel, Sehne/Band, Gelenk, Faszie, Haut, Nerv) | ✅ |
+| Suche (auch Gelenke, Markierungen, Latein) und Baumansicht | ✅ |
+| **Lernmodus**: Lernpfade nach Ausbildungsjahr, Quiz (antippen, benennen, Wissensfragen), Lernkarten mit Wiederholungsabstand, Merkliste, Export/Import | ✅ |
+| Offline (Service Worker), Hell/Dunkel, Quer-/Hochformat | ✅ |
+
+## Lernmodus – wo und wie
+
+Oben rechts auf **„Lernen“** tippen (oder ☰ → Reiter „Lernen“).
+
+- **Lernpfad:** *1. Jahr / 2. Jahr / 3. Jahr / Alles*. Mit einem Jahr zeigen Baumansicht und Quiz nur das, was bis dahin dran ist; *Alles* schaltet alles frei. Die Zuordnung ist ein Vorschlag (Feld `jahr` in den Texten) und lässt sich mit dem Stoffverteilungsplan der Schule anpassen.
+- **Quiz:** Thema und Frageart wählen. *Antippen im Modell* („Tippe auf: M. gluteus medius“), *Struktur benennen* (eine Struktur leuchtet, vier Namen), *Wissensfragen* („Wo setzt … an?“, „Welcher Nerv versorgt …?“, „Welcher Gelenktyp …?“). Falsche Antworten werden automatisch Lernkarten.
+- **Lernkarten:** Erst selbst überlegen, dann *Aufdecken* und mit *Nochmal / Schwer / Gut / Leicht* bewerten. Wiederholung nach 1, 2, 4, 8, 16, 32 Tagen.
+- **Merkliste:** Im Info-Panel auf ☆ tippen.
+- **Fortschritt** bleibt nur auf dem iPad gespeichert. Ab und zu über *Exportieren* sichern (z. B. in „Dateien“).
 
 ## Auf dem iPad testen
 
@@ -82,15 +94,15 @@ anatomie-lernen/
 
 ### Inhalte ergänzen oder korrigieren
 
-1. `public/inhalte/texte/knochen.json` öffnen und den Eintrag suchen, z. B. `"Femur"`.
-2. Felder ändern oder ergänzen: `kurz`, `lage`, `form`, `markierungen`, `gelenke`, `muskeln`, `baender`, `tastbar`, `praxis`, `offen`, `jahr`.
+1. Die passende Datei in `public/inhalte/texte/` öffnen: `knochen.json`, `muskeln.json`, `gelenke.json`, `faszien.json` oder `weitere.json` (Bänder, Nerven, Organe, allgemeine Texte je Strukturtyp). Den Eintrag suchen, z. B. `"Femur"` oder `"Gluteus medius muscle"`.
+2. Felder ändern oder ergänzen. Knochen: `kurz`, `lage`, `form`, `markierungen`, `gelenke`, `muskeln`, `baender`, `tastbar`. Muskeln: `ursprung`, `ansatz`, `aktion`, `innervation`, `versorgung`, `tastbar`, `synergisten`, `antagonisten`. Für alle: `praxis`, `offen` (erscheint als „noch zu prüfen“), `jahr`. Der englische Name muss genau dem Modell entsprechen; `npm run daten` meldet Einträge ohne passende Struktur.
 3. Ist ein Eintrag mit dem Schulbuch abgeglichen, `"status": "geprueft"` setzen. Dann verschwindet der Hinweis „Entwurf“.
 4. Für viele gleichartige Knochen (Rippen, Wirbel, Fingerglieder) gibt es `vorlagen` mit einem Suchmuster.
 5. Deutsche Namen stehen in `texte/namen_de.json`. Danach `npm run daten` ausführen.
 
 ### 3D-Modelle neu erzeugen
 
-Das brauchst du nur, wenn neue Ebenen dazukommen. Die fertigen Modelle liegen schon im Projekt.
+Das brauchst du nur, wenn sich die Ebenen-Einteilung ändern soll. Die fertigen Modelle liegen schon im Projekt.
 ```bash
 # 1. Blender als Python-Modul installieren (kein Blender-Programm nötig)
 python3 -m venv .venv && .venv/bin/pip install bpy==5.3.0
@@ -118,29 +130,31 @@ npm test           # automatischer Browsertest (nach npm run build), Bilder in t
 
 - **Three.js** (WebGL2): Darstellung, OrbitControls für die Touch-Gesten
 - **three-mesh-bvh**: schnelles Antippen trotz ca. 450.000 Dreiecken
-- **glTF/GLB mit Meshopt-Kompression**: Knochen 2,9 MB, Bänder 1,8 MB, Haut 1,3 MB. Ebenen werden erst geladen, wenn man sie einschaltet.
+- **glTF/GLB mit Meshopt-Kompression**: alle Ebenen zusammen ca. 20 MB (Knochen 2,9 MB, Muskeln 5 MB, Nerven/Gefäße 4,4 MB …). Ebenen werden erst angezeigt, wenn man sie einschaltet; für den Offline-Betrieb werden beim ersten Besuch alle Dateien gespeichert.
 - **Vite + TypeScript**, **vite-plugin-pwa** (Workbox) für Offline und Home-Bildschirm
 - **MiniSearch** für die Suche
 - Gezeichnet wird nur, wenn sich etwas bewegt. Das spart Akku und hält die Bildrate hoch.
 
 ## Ehrliche Einschränkungen
 
+- **Leistung mit allen Ebenen gleichzeitig:** ca. 2,8 Mio. Dreiecke und ~5.000 Zeichenaufrufe. Auf dem iPad Air M2 sollte das laufen, aber eventuell nicht mit 60 FPS. Im normalen Gebrauch (einige Ebenen an) ist es deutlich weniger. Bitte auf dem Gerät prüfen.
+- **Oberflächlich/tief** ist bei den Muskeln automatisch berechnet (sichtbarer Anteil von außen) und in Grenzfällen nicht identisch mit jeder Lehrbuch-Einteilung.
+- **Texte**: Eigene Texte gibt es für 123 Knochen, 51 Muskeln bzw. Muskelanteile, 12 Gelenke, 18 Faszien/Aponeurosen/Retinacula, 10 periphere Nerven, 8 Bänder/Menisken sowie einige Arterien und Organe. Alle anderen Strukturen haben Namen (Deutsch/Latein) und einen allgemeinen Text zum Strukturtyp, gekennzeichnet als „nur allgemeiner Text“.
+- **Niere und Innenohr fehlen** (Lizenz der Z-Anatomy-Teilmodelle erlaubt keine Weitergabe).
+
 - **Getestet** ist automatisch in Chromium mit iPad-Bildschirmgröße und Software-Grafik. **Safari auf dem echten iPad ist noch nicht getestet** (keine Safari-Engine in der Testumgebung). Bitte Gesten, Bildrate und den Home-Bildschirm-Modus auf dem Gerät prüfen.
 - **Männliches Modell:** Z-Anatomy enthält nur einen männlichen Körper.
-- **Haut:** Im Modell gibt es nur die Hautoberfläche in Regionen. Epidermis, Dermis und Subcutis kommen als Schema in Etappe 4.
-- **Unterhaut/Fettgewebe** fehlt im Modell und wird als schematische Hülle ergänzt (klar gekennzeichnet).
+- **Haut:** Im Modell gibt es nur die Hautoberfläche in Regionen; Epidermis, Dermis und Subcutis gibt es als Schema (Detailstufe „Feinbau“).
+- **Unterhaut/Fettgewebe** fehlt im Modell und ist als schematische Schicht 7 mm unter der Haut angedeutet (klar gekennzeichnet).
 - **Markierungspunkte** stammen aus Z-Anatomy und liegen nur auf einer Körperseite. Für die andere Seite werden sie gespiegelt.
-- Einzelne Bänder (z. B. Lig. patellae, Außenbänder des Sprunggelenks, Leistenband) liegen in Z-Anatomy nicht in der Gelenk-Sammlung. Sie kommen in Etappe 2/3.
+- Einzelne Bänder fehlen im Z-Anatomy-Modell (z. B. Außen- und Innenbänder des oberen Sprunggelenks, Lig. patellae, Leistenband). Sie sind in den Texten beschrieben, aber nicht als 3D-Teil antippbar.
 
-## Fahrplan
+## Wie es weitergeht
 
-1. ✅ Prototyp: Skelett, Info-Panel, Ebenen-Steuerung, Suche, Offline
-2. Gelenke und Bänder: Gelenktyp, Achsen, Bewegungsumfänge (Neutral-Null), Kapsel-Band-Apparat
-3. Muskeln (oberflächlich/tief) mit Ursprung, Ansatz, Innervation; Ursprungs-/Ansatzflächen am Knochen
-4. Faszien (inkl. Fascia lata, Tractus iliotibialis, Fascia thoracolumbalis), Haut-Feinbau, Unterhaut (Schema)
-5. Nerven und Gefäße
-6. Organe
-7. Lernmodus: Lernpfade nach Ausbildungsjahr, Quiz („Tippe auf …“), Lernkarten mit Wiederholungsabstand, Merkliste
+Die Technik ist fertig. Ab jetzt geht es vor allem um **mehr und geprüfte Inhalte**:
+- Texte für weitere Muskeln (Unterarm, Hand, Fuß, Rücken, Hals), Bänder und Nerven
+- Lernpfade an den Stoffverteilungsplan der Schule anpassen
+- Einträge nach dem Abgleich mit dem Schulbuch auf `"status": "geprueft"` setzen
 
 ## Lizenzen
 

@@ -1,0 +1,74 @@
+Frenula capsulae
+Subcutaneous acromial bursa
+Coracobrachial bursa
+Trochanteric bursa of gluteus medius muscle
+(Iliopectineal bursa)
+Subfacial prepatellar bursa
+Cruciform part of fibrous sheath of digit of hand
+Tendon sheath of extensor digiti minimi manus
+Tendon sheath of extensors carpi radialis
+Tendon sheath of tibialis anterior
+(Abdominal part of pectoralis major muscle)
+(Adductor minimus)
+(Opponens digiti minimi muscle of foot)
+Subcutaneous tissue (schematic)
+????????
+Inferior vein of left ventricle (//Posterior '')
+Posterior lateral nasal branches of sphenopalatine artery.
+?x
+Proximal lateral striate branches
+Distal lateral striate branches
+Insular branches of middle cerebral artery (M2-segment)
+Anterior temporal branch
+Posterior temporal branch
+Branch to angular gyrus
+Temporo-occipital branch
+Prefrontal artery
+Lateral frontobasal artery
+Posterior parietal artery
+Artery of central sulcus
+Artery of precentral sulcus
+(Deep branch of transverse cervical artery)
+(Superficial branch of transverse cervical artery)
+(Ulnar recurrent artery)
+Middle genicular artery
+Cingulate sulcus (Marginal part*)
+Anterior occipital sulcus*
+Orbital gyri (Frontomarginal gyrus and sulcus*)
+Paracentral gyrus and sulcus*
+Transverse frontopolar gyrus and sulcus*
+Straight gyrus (Gyrus rectus)
+Lat_Fis-ant-Vertical
+Orbital sulci (H-shaped orbital sulci*)
+Orbital sulci (Lateral Orbital sulcus*)
+Precentral sulcus (inferior part)*
+Precentral sulcus (Superior part)*
+Inferior occipital gyrus and sulcus*
+Lateral occipital gyrus (Middle occipital gyrus*)
+Lunate sulcus
+Superior temporal gyrus (Lateral part)
+Medial occipitotemporal gyrus (Parahippocampal*)
+Occipitotemporal sulcus (Lateral part*)
+Insula (Subcentral gyrus and ant. and post. sulci*)
+Cingulate gyrus and sulcus (Middle anterior part)
+Cingulate gyrus and sulcus (Middle posterior part)
+Cingulate gyrus and sulcus (Posterior dorsal part)
+Cingulate gyrus (Posteroventral part*)
+Lat_Fis-ant-Horizont
+Lat_Fis-post
+ Posterior transverse collateral sulcus
+Sulcus interm_prim-Jensen
+(Communicating branch of median nerve with ulnar nerve)
+(Accessory parotid gland)
+(Anteromedial basal segmental bronchus of left lung)
+(Suprapyloric node)
+(Subpyloric nodes)
+(Retropyloric nodes)
+(Lateral lacunar node)
+(Proximal deep inguinal node)
+(Intermediate deep inguinal node)
+(Anterior tibial node)
+(Fibular node)
+(Posterior tibial node)
+Node of ligamentum arteriosum
+Node of arch of azygos vein

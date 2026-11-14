@@ -12,8 +12,14 @@ THREE.BufferGeometry.prototype.computeBoundsTree = computeBoundsTree;
 THREE.BufferGeometry.prototype.disposeBoundsTree = disposeBoundsTree;
 THREE.Mesh.prototype.raycast = acceleratedRaycast;
 
-/** Farben nach Gewebeart (Materialname aus Z-Anatomy). */
-function gewebefarbe(materialname: string, ebenenfarbe: string): string {
+/** Farben nach Strukturtyp (Muskel, Nerv, ...) bzw. Gewebeart (Materialname aus Z-Anatomy). */
+const TYPFARBE: Record<string, string> = {
+  muskel: '#c25a50', faszie: '#e9e3d8', aponeurose: '#ece6da', retinaculum: '#ece6da', septum: '#e3ddd2',
+  arterie: '#d23b3b', vene: '#4166c9', herz: '#b8403a', nerv: '#f0cf45', zns: '#e9cfc2', sinnesorgan: '#e2c7b5',
+  organ: '#d79a88', lymphatisch: '#93bf6c', unterhaut: '#f1dc95', schleimbeutel: '#a9d4ea', sehnenscheide: '#cfe3ee',
+};
+function gewebefarbe(materialname: string, ebenenfarbe: string, typ?: string): string {
+  if (typ && TYPFARBE[typ]) return TYPFARBE[typ];
   const n = materialname.toLowerCase();
   if (n.startsWith('bone')) return '#eee3cc';
   if (n.startsWith('suture')) return '#d8c7a5';
@@ -48,12 +54,17 @@ interface EbenenZustand {
 }
 
 const AUSWAHL_FARBE = new THREE.Color('#ff7a1a');
+const MARKIER_FARBE = new THREE.Color('#2fa66b');
 
 export class Modell {
   readonly teile = new Map<string, Teil>();
   readonly ebenen = new Map<string, EbenenZustand>();
   private isoliert: Set<string> | null = null;
   private ausgewaehlt: Teil | null = null;
+  /** Zusätzlich hervorgehobene Teile (z. B. alle Teile eines Gelenks) */
+  private markiert = new Set<string>();
+  private ansatzGruppe: THREE.Group | null = null;
+  private ansatzLaedt: Promise<void> | null = null;
   private loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
   /** Benachrichtigt die Oberfläche, wenn sich Zustände ändern. */
   beiAenderung: (() => void)[] = [];
@@ -94,7 +105,7 @@ export class Modell {
           const alt = mesh.material as THREE.Material;
           // Jedes Teil bekommt ein eigenes Material, damit es einzeln eingefärbt oder transparent werden kann.
           const mat = vorlage.clone();
-          mat.color.set(gewebefarbe(alt.name ?? '', e.def.farbe ?? '#dddddd'));
+          mat.color.set(gewebefarbe(alt.name ?? '', e.def.farbe ?? '#dddddd', this.daten.strukturen.get(strukturId)?.typ));
           mat.side = id === 'knochen' ? THREE.FrontSide : THREE.DoubleSide;
           mat.userData.grundfarbe = mat.color.clone();
           mesh.material = mat;
@@ -196,16 +207,60 @@ export class Modell {
         if (mat.transparent !== transparent) { mat.transparent = transparent; mat.needsUpdate = true; }
         mat.depthWrite = !transparent;
         const gewaehlt = this.ausgewaehlt === t;
+        const markiert = !gewaehlt && this.markiert.has(t.meshName);
         mat.color.copy(mat.userData.grundfarbe as THREE.Color);
         if (gewaehlt) mat.color.lerp(AUSWAHL_FARBE, 0.55);
-        mat.emissive.set(gewaehlt ? AUSWAHL_FARBE : 0x000000);
-        mat.emissiveIntensity = gewaehlt ? 0.25 : 0;
+        if (markiert) mat.color.lerp(MARKIER_FARBE, 0.45);
+        mat.emissive.set(gewaehlt ? AUSWAHL_FARBE : markiert ? MARKIER_FARBE : 0x000000);
+        mat.emissiveIntensity = gewaehlt ? 0.25 : markiert ? 0.15 : 0;
       }
       // Transparente Ebenen (z. B. Haut) nach den undurchsichtigen zeichnen.
       t.objekt.renderOrder = d < 0.999 ? 1 : 0;
     }
     this.szene.anfordern();
     for (const f of this.beiAenderung) f();
+  }
+
+  /** Hebt mehrere Teile zusätzlich hervor (grün), z. B. alle Teile eines Gelenks. Leere Liste = aus. */
+  markiere(meshNamen: string[]) {
+    this.markiert = new Set(meshNamen);
+    this.anwenden();
+  }
+
+  /**
+   * Zeigt Ursprungs- (rot) und Ansatzflächen (blau) eines Muskels auf dem Knochen.
+   * Die Flächen werden über allem gezeichnet, damit man sie auch durch Muskeln hindurch sieht.
+   */
+  async zeigeAnsaetze(flaechen: { mesh: string; art: 'ursprung' | 'ansatz' }[] | null) {
+    if (flaechen && !this.ansatzGruppe) {
+      this.ansatzLaedt ??= (async () => {
+        const gltf = await this.loader.loadAsync('./modelle/ansaetze.glb');
+        const gruppe = gltf.scene;
+        gruppe.traverse((o) => {
+          const name = (o.userData.name as string | undefined) ?? o.name;
+          o.name = name;
+          o.renderOrder = 6;
+          if ((o as THREE.Mesh).isMesh) {
+            (o as THREE.Mesh).material = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0.85, depthTest: false, side: THREE.DoubleSide });
+          }
+        });
+        this.ansatzGruppe = gruppe;
+        this.szene.szene.add(gruppe);
+      })();
+      await this.ansatzLaedt;
+    }
+    if (!this.ansatzGruppe) return;
+    const art = new Map((flaechen ?? []).map((f) => [f.mesh, f.art]));
+    for (const kind of this.ansatzGruppe.children) {
+      const a = art.get(kind.name);
+      kind.visible = !!a;
+      if (a) {
+        kind.traverse((m) => {
+          if ((m as THREE.Mesh).isMesh) ((m as THREE.Mesh).material as THREE.MeshBasicMaterial).color.set(a === 'ursprung' ? '#e0393e' : '#2f6fe0');
+        });
+      }
+    }
+    this.szene.anfordern();
   }
 
   // ---------- Auswahl ----------

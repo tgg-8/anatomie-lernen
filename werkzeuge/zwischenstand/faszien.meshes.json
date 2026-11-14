@@ -1,0 +1,1483 @@
+{
+"ebene": "faszien",
+"meshes": [
+{
+"name": "Epicranial aponeurosis.r",
+"ecken": 10055,
+"dreiecke": 20118,
+"mitte": [
+-0.03345,
+1.65305,
+-0.01094
+],
+"materialien": [
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+]
+},
+{
+"name": "Epicranial aponeurosis.l",
+"ecken": 10055,
+"dreiecke": 20118,
+"mitte": [
+0.03345,
+1.65305,
+-0.01094
+],
+"materialien": [
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Facial nerve (VII)",
+"Head",
+"Muscles",
+"Muscles of head",
+"Superficial muscles"
+]
+},
+{
+"name": "Superficial layer of temporal fascia.r",
+"ecken": 378,
+"dreiecke": 685,
+"mitte": [
+-0.06282,
+1.62089,
+0.00538
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Head",
+"Superficial muscles"
+]
+},
+{
+"name": "Masseteric fascia.r",
+"ecken": 226,
+"dreiecke": 398,
+"mitte": [
+-0.04906,
+1.54589,
+0.0326
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Head",
+"Superficial muscles"
+]
+},
+{
+"name": "Superficial layer of temporal fascia.l",
+"ecken": 378,
+"dreiecke": 685,
+"mitte": [
+0.06282,
+1.62089,
+0.00538
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Head",
+"Superficial muscles"
+]
+},
+{
+"name": "Masseteric fascia.l",
+"ecken": 226,
+"dreiecke": 398,
+"mitte": [
+0.04906,
+1.54589,
+0.0326
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Head",
+"Superficial muscles"
+]
+},
+{
+"name": "Superficial investing cervical fascia.r",
+"ecken": 1770,
+"dreiecke": 3336,
+"mitte": [
+-0.08617,
+1.47881,
+-0.02265
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Neck",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"name": "Superficial investing cervical fascia.l",
+"ecken": 1770,
+"dreiecke": 3336,
+"mitte": [
+0.08617,
+1.47881,
+-0.02265
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Neck",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"name": "Posterior layer of thoracolumbar fascia.r",
+"ecken": 184,
+"dreiecke": 313,
+"mitte": [
+-0.0359,
+1.04521,
+-0.06817
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Middle layer of thoracolumbar fascia.r",
+"ecken": 99,
+"dreiecke": 160,
+"mitte": [
+-0.04719,
+1.04577,
+-0.06067
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Anterior layer of thoracolumbar fascia.r",
+"ecken": 115,
+"dreiecke": 176,
+"mitte": [
+-0.04878,
+1.04084,
+-0.04914
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Posterior layer of thoracolumbar fascia.l",
+"ecken": 184,
+"dreiecke": 313,
+"mitte": [
+0.0359,
+1.04521,
+-0.06817
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Middle layer of thoracolumbar fascia.l",
+"ecken": 99,
+"dreiecke": 160,
+"mitte": [
+0.04719,
+1.04577,
+-0.06067
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Anterior layer of thoracolumbar fascia.l",
+"ecken": 115,
+"dreiecke": 176,
+"mitte": [
+0.04878,
+1.04084,
+-0.04914
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Back",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Pectoral fascia.r",
+"ecken": 1424,
+"dreiecke": 2709,
+"mitte": [
+-0.08614,
+1.31612,
+0.06923
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"name": "Pectoral fascia.l",
+"ecken": 1424,
+"dreiecke": 2709,
+"mitte": [
+0.08614,
+1.31612,
+0.06923
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"name": "Investing abdominal fascia.r",
+"ecken": 5750,
+"dreiecke": 11106,
+"mitte": [
+-0.08538,
+1.12068,
+-0.00251
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Fascia",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"name": "Investing abdominal fascia.l",
+"ecken": 5750,
+"dreiecke": 11106,
+"mitte": [
+0.08538,
+1.12068,
+-0.00251
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Fascia",
+"Superficial muscles",
+"Trunk"
+]
+},
+{
+"name": "Piriformis fascia.r",
+"ecken": 465,
+"dreiecke": 926,
+"mitte": [
+-0.07879,
+0.88773,
+-0.04436
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb"
+]
+},
+{
+"name": "Piriformis fascia.l",
+"ecken": 465,
+"dreiecke": 926,
+"mitte": [
+0.07879,
+0.88773,
+-0.04436
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb"
+]
+},
+{
+"name": "Medial intermuscular septum of arm.r",
+"ecken": 190,
+"dreiecke": 312,
+"mitte": [
+-0.18482,
+1.19233,
+-0.02947
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb"
+]
+},
+{
+"name": "Lateral intermuscular septum of arm.r",
+"ecken": 102,
+"dreiecke": 160,
+"mitte": [
+-0.22754,
+1.20784,
+-0.03617
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb"
+]
+},
+{
+"name": "Deltoid fascia.r",
+"ecken": 1848,
+"dreiecke": 3541,
+"mitte": [
+-0.16317,
+1.34556,
+-0.04428
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Brachial fascia.r",
+"ecken": 1575,
+"dreiecke": 3018,
+"mitte": [
+-0.20246,
+1.2251,
+-0.04013
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Antebrachial fascia.r",
+"ecken": 2270,
+"dreiecke": 4460,
+"mitte": [
+-0.23551,
+1.00951,
+-0.0172
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Extensor retinaculum of wrist.r",
+"ecken": 186,
+"dreiecke": 368,
+"mitte": [
+-0.26515,
+0.85684,
+0.00719
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia of upper limb",
+"Muscles",
+"Right upper limb"
+]
+},
+{
+"name": "Flexor retinaculum of wrist.r",
+"ecken": 264,
+"dreiecke": 524,
+"mitte": [
+-0.26376,
+0.85788,
+0.02362
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia of upper limb",
+"Muscles",
+"Right upper limb"
+]
+},
+{
+"name": "Dorsal fascia of hand.r",
+"ecken": 819,
+"dreiecke": 1445,
+"mitte": [
+-0.2803,
+0.77801,
+0.05071
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb"
+]
+},
+{
+"name": "Palmar aponeurosis.r",
+"ecken": 749,
+"dreiecke": 1284,
+"mitte": [
+-0.2807,
+0.77845,
+0.06326
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right upper limb"
+]
+},
+{
+"name": "Medial intermuscular septum of arm.l",
+"ecken": 190,
+"dreiecke": 312,
+"mitte": [
+0.18482,
+1.19233,
+-0.02947
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb"
+]
+},
+{
+"name": "Lateral intermuscular septum of arm.l",
+"ecken": 102,
+"dreiecke": 160,
+"mitte": [
+0.22754,
+1.20784,
+-0.03617
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb"
+]
+},
+{
+"name": "Deltoid fascia.l",
+"ecken": 1848,
+"dreiecke": 3541,
+"mitte": [
+0.16317,
+1.34556,
+-0.04428
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Brachial fascia.l",
+"ecken": 1575,
+"dreiecke": 3018,
+"mitte": [
+0.20246,
+1.2251,
+-0.04013
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Antebrachial fascia.l",
+"ecken": 2270,
+"dreiecke": 4460,
+"mitte": [
+0.23551,
+1.00951,
+-0.0172
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Extensor retinaculum of wrist.l",
+"ecken": 186,
+"dreiecke": 368,
+"mitte": [
+0.26515,
+0.85684,
+0.00719
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia of upper limb",
+"Left upper limb",
+"Muscles"
+]
+},
+{
+"name": "Flexor retinaculum of wrist.l",
+"ecken": 264,
+"dreiecke": 524,
+"mitte": [
+0.26376,
+0.85788,
+0.02362
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia of upper limb",
+"Left upper limb",
+"Muscles"
+]
+},
+{
+"name": "Dorsal fascia of hand.l",
+"ecken": 819,
+"dreiecke": 1445,
+"mitte": [
+0.2803,
+0.77801,
+0.05071
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb"
+]
+},
+{
+"name": "Palmar aponeurosis.l",
+"ecken": 749,
+"dreiecke": 1284,
+"mitte": [
+0.2807,
+0.77845,
+0.06326
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left upper limb"
+]
+},
+{
+"name": "Lateral patellar retinaculum.r",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+-0.10973,
+0.44657,
+-0.01383
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Medial patellar retinaculum.r",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+-0.04885,
+0.44683,
+-0.01126
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral patellar retinaculum.l",
+"ecken": 18,
+"dreiecke": 32,
+"mitte": [
+0.10973,
+0.44657,
+-0.01383
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"name": "Iliotibial tract.r",
+"ecken": 24298,
+"dreiecke": 48612,
+"mitte": [
+-0.12546,
+0.69505,
+-0.01269
+],
+"materialien": [
+"Trapezius",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Fascia lata.r",
+"ecken": 6682,
+"dreiecke": 12907,
+"mitte": [
+-0.07968,
+0.71565,
+-0.02677
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Iliotibial tract.l",
+"ecken": 24298,
+"dreiecke": 48612,
+"mitte": [
+0.12546,
+0.69505,
+-0.01269
+],
+"materialien": [
+"Trapezius",
+"Tendon"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Fascia lata.l",
+"ecken": 6682,
+"dreiecke": 12907,
+"mitte": [
+0.07968,
+0.71565,
+-0.02677
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Medial femoral intermuscular septum.r",
+"ecken": 4038,
+"dreiecke": 7714,
+"mitte": [
+-0.06333,
+0.69403,
+0.01234
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb"
+]
+},
+{
+"name": "Lateral femoral intermuscular septum.r",
+"ecken": 350,
+"dreiecke": 588,
+"mitte": [
+-0.11188,
+0.61705,
+-0.03042
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb"
+]
+},
+{
+"name": "Popliteal fascia.r",
+"ecken": 278,
+"dreiecke": 488,
+"mitte": [
+-0.07561,
+0.49261,
+-0.06995
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Crural fascia.r",
+"ecken": 5607,
+"dreiecke": 10875,
+"mitte": [
+-0.08639,
+0.22777,
+0.01515
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Anterior intermuscular septum of leg.r",
+"ecken": 147,
+"dreiecke": 208,
+"mitte": [
+-0.11154,
+0.25928,
+-0.03647
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb"
+]
+},
+{
+"name": "Posterior intermuscular septum of leg.r",
+"ecken": 179,
+"dreiecke": 265,
+"mitte": [
+-0.11332,
+0.2454,
+-0.05863
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb"
+]
+},
+{
+"name": "Transverse intermuscular septum of leg.r",
+"ecken": 301,
+"dreiecke": 495,
+"mitte": [
+-0.08184,
+0.25559,
+-0.04962
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Right lower limb"
+]
+},
+{
+"name": "Superior extensor retinaculum of ankle.r",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+-0.0875,
+0.12591,
+-0.02951
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Inferior extensor retinaculum of ankle.r",
+"ecken": 160,
+"dreiecke": 316,
+"mitte": [
+-0.07964,
+0.09232,
+-0.02494
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Superior fibular retinaculum.r",
+"ecken": 328,
+"dreiecke": 652,
+"mitte": [
+-0.07974,
+0.06617,
+-0.02177
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Inferior fibular retinaculum.r",
+"ecken": 32,
+"dreiecke": 35,
+"mitte": [
+-0.10645,
+0.04931,
+0.00441
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Plantar aponeurosis.r",
+"ecken": 240,
+"dreiecke": 406,
+"mitte": [
+-0.09495,
+0.01631,
+0.00205
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Flexor retinaculum of ankle.r",
+"ecken": 350,
+"dreiecke": 696,
+"mitte": [
+-0.05425,
+0.05337,
+-0.0572
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Muscles",
+"Muscles of lower limb",
+"Right lower limb"
+]
+},
+{
+"name": "Medial femoral intermuscular septum.l",
+"ecken": 4038,
+"dreiecke": 7714,
+"mitte": [
+0.06333,
+0.69403,
+0.01234
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb"
+]
+},
+{
+"name": "Lateral femoral intermuscular septum.l",
+"ecken": 350,
+"dreiecke": 588,
+"mitte": [
+0.11188,
+0.61705,
+-0.03042
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb"
+]
+},
+{
+"name": "Popliteal fascia.l",
+"ecken": 278,
+"dreiecke": 488,
+"mitte": [
+0.07561,
+0.49261,
+-0.06995
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Crural fascia.l",
+"ecken": 5607,
+"dreiecke": 10875,
+"mitte": [
+0.08639,
+0.22777,
+0.01515
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Anterior intermuscular septum of leg.l",
+"ecken": 147,
+"dreiecke": 208,
+"mitte": [
+0.11154,
+0.25928,
+-0.03647
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb"
+]
+},
+{
+"name": "Posterior intermuscular septum of leg.l",
+"ecken": 179,
+"dreiecke": 265,
+"mitte": [
+0.11332,
+0.2454,
+-0.05863
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb"
+]
+},
+{
+"name": "Transverse intermuscular septum of leg.l",
+"ecken": 301,
+"dreiecke": 495,
+"mitte": [
+0.08184,
+0.25559,
+-0.04962
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Left lower limb"
+]
+},
+{
+"name": "Superior extensor retinaculum of ankle.l",
+"ecken": 132,
+"dreiecke": 260,
+"mitte": [
+0.0875,
+0.12591,
+-0.02951
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"name": "Inferior extensor retinaculum of ankle.l",
+"ecken": 160,
+"dreiecke": 316,
+"mitte": [
+0.07964,
+0.09232,
+-0.02494
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"name": "Superior fibular retinaculum.l",
+"ecken": 328,
+"dreiecke": 652,
+"mitte": [
+0.07974,
+0.06617,
+-0.02177
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"name": "Inferior fibular retinaculum.l",
+"ecken": 32,
+"dreiecke": 35,
+"mitte": [
+0.10645,
+0.04931,
+0.00441
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"name": "Plantar aponeurosis.l",
+"ecken": 240,
+"dreiecke": 406,
+"mitte": [
+0.09495,
+0.01631,
+0.00205
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb",
+"Superficial muscles"
+]
+},
+{
+"name": "Flexor retinaculum of ankle.l",
+"ecken": 350,
+"dreiecke": 696,
+"mitte": [
+0.05425,
+0.05337,
+-0.0572
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+},
+{
+"name": "Clavipectoral fascia.r",
+"ecken": 677,
+"dreiecke": 1280,
+"mitte": [
+-0.1177,
+1.32829,
+0.0195
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Clavipectoral fascia.l",
+"ecken": 677,
+"dreiecke": 1280,
+"mitte": [
+0.1177,
+1.32829,
+0.0195
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Iliopsoas fascia.r",
+"ecken": 874,
+"dreiecke": 1602,
+"mitte": [
+-0.06806,
+0.95047,
+0.006
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Iliopsoas fascia.l",
+"ecken": 874,
+"dreiecke": 1602,
+"mitte": [
+0.05203,
+0.96122,
+0.006
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Transversalis fascia",
+"ecken": 2231,
+"dreiecke": 4207,
+"mitte": [
+-0.0,
+1.04042,
+0.0229
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Diaphragmatic fascia",
+"ecken": 2428,
+"dreiecke": 4708,
+"mitte": [
+-0.00051,
+1.15893,
+0.01837
+],
+"materialien": [
+"Fascia"
+],
+"sammlungen": [
+"4: Muscular system",
+"Abdominal part of muscular system",
+"Fascia",
+"Trunk"
+]
+},
+{
+"name": "Medial patellar retinaculum.l",
+"ecken": 22,
+"dreiecke": 40,
+"mitte": [
+0.04885,
+0.44683,
+-0.01126
+],
+"materialien": [
+"Ligament"
+],
+"sammlungen": [
+"4: Muscular system",
+"Anterior compartment of thigh",
+"Left lower limb",
+"Muscles",
+"Muscles of lower limb"
+]
+}
+]
+}

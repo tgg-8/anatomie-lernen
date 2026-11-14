@@ -1,5 +1,5 @@
 {
-  "_hinweis": "Welche Z-Anatomy-Sammlungen in welche App-Ebene exportiert werden. Wird von blender_export.py gelesen.",
+  "_hinweis": "Welche Z-Anatomy-Sammlungen in welche App-Ebene exportiert werden. Wird von blender_export.py gelesen. 'einschliessen'/'ausschliessen' sind reguläre Ausdrücke auf den Objektnamen. Jedes Objekt landet nur in der ersten passenden Ebene (Reihenfolge zählt).",
   "ebenen": {
     "knochen": {
       "sammlungen": ["1: Skeletal system"],
@@ -7,13 +7,55 @@
       "markierungen": true
     },
     "baender_gelenke": {
-      "sammlungen": ["3: Joints"],
+      "sammlungen": ["3: Joints", "4: Muscular system"],
+      "nur_aus_sammlung": {"4: Muscular system": "(?i)(bursa|tendon sheath|synovial sheath|fibrous sheath)"},
       "subsurf_max": 1
     },
     "haut": {
       "sammlungen": ["9: Regions of human body"],
       "ausschliessen": "^(Hairs|Eyelashes|Pubic hairs|Eyebrow)",
       "subsurf_max": 0
+    },
+    "unterhaut": {
+      "schale_von": "haut",
+      "versatz_mm": 7,
+      "name": "Subcutaneous tissue (schematic)"
+    },
+    "faszien": {
+      "sammlungen": ["4: Muscular system"],
+      "einschliessen": "(?i)(fascia|aponeuros|retinacul|iliotibial tract|intermuscular septum)",
+      "ausschliessen": "(?i)(tensor fasciae latae|tendon sheath)",
+      "subsurf_max": 0
+    },
+    "muskeln": {
+      "sammlungen": ["4: Muscular system"],
+      "ausschliessen": "(?i)(fascia|aponeuros|retinacul|iliotibial tract|intermuscular septum|bursa|tendon sheath|synovial sheath|fibrous sheath)",
+      "erlauben": "(?i)tensor fasciae latae",
+      "subsurf_max": 0,
+      "aufteilen": {
+        "_hinweis": "Oberflächlich = ein nennenswerter Anteil des Muskels ist von außen direkt sichtbar (Teststrahlen aus 8 waagerechten Richtungen; Knochen verdecken, Faszien und Haut nicht). Automatisch berechnet; Ausnahmen per Basisname (ohne .l/.r) eintragen.",
+        "oberflaechlich": "muskeln_oberflaechlich",
+        "tief": "muskeln_tief",
+        "raster_mm": 8,
+        "schwelle_treffer": 6,
+        "schwelle_anteil": 0.15,
+        "_ausnahmen_grund": "Lehrbuch-Einteilung weicht von der reinen Sichtbarkeit ab: M. rectus abdominis liegt unter der Aponeurose des M. obliquus externus, M. sternocleidomastoideus unter dem Platysma; beide gelten als oberflächlich.",
+        "immer_oberflaechlich": ["Rectus abdominis muscle", "Sternocleidomastoid muscle", "Adductor longus", "Infraspinatus muscle"],
+        "immer_tief": ["Deep part of masseter"]
+      }
+    },
+    "nerven_gefaesse": {
+      "sammlungen": ["5: Cardiovascular system", "7: Nervous system & Sense organs"],
+      "subsurf_max": 0
+    },
+    "organe": {
+      "sammlungen": ["8: Visceral systems", "6: Lymphoid organs"],
+      "subsurf_max": 0
+    },
+    "ansaetze": {
+      "sammlungen": ["2: Muscular insertions"],
+      "subsurf_max": 0,
+      "_hinweis": "Ursprungs- (.o) und Ansatzflächen (.e) der Muskeln auf den Knochen; keine eigene Ebene, wird beim ausgewählten Muskel eingeblendet."
     }
   },
   "_lizenz_ausschluss": "Teile mit NC-Lizenz (Innenohr: CC BY-NC-SA, Niere: CC BY-NC) werden nie exportiert.",
