@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <!-- viewport-fit=cover: App nutzt den ganzen Bildschirm, Safe Areas werden per CSS berücksichtigt -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#f4f2ee" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Anatomie" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <title>Anatomie lernen</title>
+  <script type="module" crossorigin src="./assets/index-DSQM1jkG.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DbjZ0eiL.css">
+<link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+<body>
+  <div id="app">
+    <canvas id="leinwand" aria-label="3D-Modell"></canvas>
+    <div id="beschriftungen" aria-live="polite"></div>
+
+    <header class="kopfleiste">
+      <button class="knopf" id="knopf-panel-links" aria-label="Ebenen und Strukturen" title="Ebenen und Strukturen">☰</button>
+      <div class="suche">
+        <input id="suchfeld" type="search" placeholder="Struktur suchen (deutsch oder lateinisch) …" autocomplete="off" autocapitalize="off" spellcheck="false" />
+        <ul id="suchergebnisse" class="suchergebnisse" hidden></ul>
+      </div>
+      <button class="knopf" id="knopf-thema" aria-label="Hell oder dunkel" title="Hell / dunkel">☾</button>
+      <button class="knopf" id="knopf-info" aria-label="Hinweise und Quellen" title="Hinweise und Quellen">i</button>
+    </header>
+
+    <aside id="panel-links" class="panel panel-links" hidden>
+      <div class="reiter" role="tablist">
+        <button role="tab" class="reiter-knopf aktiv" data-reiter="ebenen">Ebenen</button>
+        <button role="tab" class="reiter-knopf" data-reiter="baum">Strukturen</button>
+      </div>
+      <div class="panel-inhalt" id="reiter-ebenen"></div>
+      <div class="panel-inhalt" id="reiter-baum" hidden></div>
+    </aside>
+
+    <aside id="panel-info" class="panel panel-rechts" hidden></aside>
+
+    <nav class="ansichten" aria-label="Ansichten">
+      <button class="knopf klein" data-ansicht="vorne">vorne</button>
+      <button class="knopf klein" data-ansicht="hinten">hinten</button>
+      <button class="knopf klein" data-ansicht="links">links</button>
+      <button class="knopf klein" data-ansicht="rechts">rechts</button>
+      <button class="knopf klein" data-ansicht="oben">oben</button>
+      <button class="knopf klein" data-ansicht="zuruecksetzen" title="Ansicht zurücksetzen" aria-label="Ansicht zurücksetzen">⟲</button>
+    </nav>
+
+    <div id="ladeanzeige" class="ladeanzeige">Modell wird geladen …</div>
+    <dialog id="dialog" class="dialog"></dialog>
+  </div>
+</body>
+</html>
