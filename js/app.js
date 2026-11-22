@@ -198,7 +198,7 @@ function hofTipp(infos, reif, lv) {
   if (kaufbar && S.muenzen >= kaufbar.block.preis) return `🔨 Du kannst jetzt <b>${esc(kaufbar.block.gebaeude.name)}</b> bauen!`;
   if (kaufbar) return `🪙 Für ${esc(kaufbar.block.gebaeude.name)} fehlen noch ${kaufbar.block.preis - S.muenzen} Münzen.`;
   const ruht = infos.find((i) => i.status === 'ruht');
-  if (ruht) { const f = fehlendeVorstufen(ruht.block, S, INHALT.bloecke, CFG).map((v) => v.gebaeude.name).join(' und '); return `🌱 ${esc(ruht.block.gebaeude.name)} ruht noch – ernte erst mehr im ${esc(f)}.`; }
+  if (ruht) { const f = fehlendeVorstufen(ruht.block, S, INHALT.bloecke, CFG).map((v) => v.gebaeude.name).join(' und '); return `🌱 ${esc(ruht.block.gebaeude.name)} ruht noch. Ernte zuerst mehr hier: ${esc(f)}.`; }
   const neu = infos.filter((i) => i.status === 'produziert').reduce((s, i) => s + i.neu, 0);
   if (neu > 0) return `✨ Es warten noch <b>${neu} neue Aufgaben</b> auf dich.`;
   return `Alles geerntet – stark! Level ${lv.level + 1} in ${lv.bisNaechstes} XP. Eine Probeklausur hält dich in Form.`;
@@ -269,7 +269,8 @@ function oeffneGebaeude(id) {
 function starteErnte(blockId) {
   const b = INHALT.bloecke.find((x) => x.id === blockId);
   const ids = waehleErnte(b.aufgaben.map((a) => a.id), S.karten, heute(), Math.min(S.einstellungen.ernteAufgaben, b.aufgaben.length));
-  starteSitzung({ art: 'ernte', titel: `Ernte im ${b.gebaeude.name === 'Kornfeld' ? 'Kornfeld' : b.gebaeude.name}`, blockId, ids, faktor: 1 });
+  const ort = { kornfeld: 'im Kornfeld', brunnen: 'am Brunnen', muehle: 'in der Mühle', stall: 'im Stall', scheune: 'in der Scheune', werkstatt: 'in der Werkstatt', imkerei: 'in der Imkerei', baeckerei: 'in der Bäckerei' }[b.gebaeude.typ] || `bei: ${b.gebaeude.name}`;
+  starteSitzung({ art: 'ernte', titel: `Ernte ${ort}`, blockId, ids, faktor: 1 });
 }
 
 function starteSitzung({ art, titel, ids, faktor, blockId = null, auftragId = null }) {
