@@ -79,6 +79,12 @@ function quelleTitel(q) {
   return String(q).split(',').map((t) => { const k = t.trim().split('/')[0]; return INHALT.quellen[k]?.datei || ''; }).join(', ');
 }
 function quelleHtml(q) { return `<span class="quelle" title="${esc(quelleTitel(q))}">Quelle: ${esc(quelleText(q))}</span>`; }
+/** Kurze Quellenangabe für den Spickzettel, z. B. „Sagittal-Skript 3, 4“. */
+function quelleKurz(q) {
+  const teile = {};
+  for (const t of String(q).split(',')) { const [k, s] = t.trim().split('/'); (teile[k] = teile[k] || []).push(s); }
+  return `<span class="quelle" title="${esc(quelleTitel(q))}">${esc(Object.entries(teile).map(([k, s]) => `${INHALT.quellen[k]?.kurz || k} ${s.join(', ')}`).join(' · '))}</span>`;
+}
 
 function toast(text, ms = 3200) {
   document.querySelectorAll('.toast').forEach((t) => t.remove());
@@ -572,19 +578,20 @@ function spickSeite(b, suche = '') {
   const merk = inv.merksaetze.filter((m) => passt(m.text));
   if (suche && !begriffe.length && !formeln.length && !merk.length) return '';
   return `<div class="spick-seite">
-    ${formeln.length ? `<section><h3>Formeln</h3>${formeln.map((f) => `<div class="formel-karte"><b>${hl(f.name)}</b><br>${formelHtml(f.darstellung)}<br><span class="klein">Einheit: ${esc(f.einheit)} · ${hl(f.beispiel)}</span> ${quelleHtml(f.quelle)}</div>`).join('')}</section>` : ''}
-    ${begriffe.length ? `<section><h3>Definitionen</h3>${begriffe.map((e) => `<div class="spick-eintrag"><b>${hl(e.begriff)}:</b> ${hl(e.definition)} ${quelleHtml(e.quelle)}</div>`).join('')}</section>` : ''}
-    ${merk.length ? `<section><h3>Merksätze</h3>${merk.map((m) => `<div class="spick-eintrag">• ${hl(m.text)} ${quelleHtml(m.quelle)}</div>`).join('')}</section>` : ''}
+    ${formeln.length ? `<section><h3>Formeln</h3>${formeln.map((f) => `<div class="formel-karte"><b>${hl(f.name)}</b><br>${formelHtml(f.darstellung)}<br><span class="klein">Einheit: ${esc(f.einheit)} · ${hl(f.beispiel)}</span> ${quelleKurz(f.quelle)}</div>`).join('')}</section>` : ''}
+    ${begriffe.length ? `<section><h3>Definitionen</h3>${begriffe.map((e) => `<div class="spick-eintrag"><b>${hl(e.begriff)}:</b> ${hl(e.definition)} ${quelleKurz(e.quelle)}</div>`).join('')}</section>` : ''}
+    ${merk.length ? `<section><h3>Merksätze</h3>${merk.map((m) => `<div class="spick-eintrag">• ${hl(m.text)} ${quelleKurz(m.quelle)}</div>`).join('')}</section>` : ''}
   </div>`;
 }
 
 function zeigeSpickzettel(startId = null) {
   let aktiv = startId || INHALT.bloecke[0].id;
   let suche = '';
-  const blatt = oeffneDialog(`<div class="blatt-kopf"><div><h2>Spickzettel</h2><p class="klein" style="margin:0">Alle Formeln, Definitionen und Merksätze – eine Seite pro Thema.</p></div>${kreuz}</div>
-    <input class="spick-suche" type="search" placeholder="Durchsuchen, z. B. „Navicular“ oder „BMI“" aria-label="Spickzettel durchsuchen">
-    <div class="reiter" role="tablist">${INHALT.bloecke.map((b) => `<button type="button" role="tab" data-reiter="${b.id}" aria-selected="${b.id === aktiv}">${esc(b.gebaeude.name)}</button>`).join('')}</div>
+  const blatt = oeffneDialog(`<div class="blatt-kopf"><div style="flex:none"><h2>Spickzettel</h2><p class="klein" style="margin:0">Eine Seite pro Thema</p></div>
+      <input class="spick-suche" type="search" placeholder="Durchsuchen, z. B. „Navicular“ oder „BMI“" aria-label="Spickzettel durchsuchen" style="margin:0 0 0 12px;flex:1">${kreuz}</div>
+    <div class="reiter" role="tablist">${INHALT.bloecke.map((b) => `<button type="button" role="tab" data-reiter="${b.id}" aria-selected="${b.id === aktiv}" title="${esc(b.titel)}">${esc(b.gebaeude.name)}</button>`).join('')}</div>
     <div class="spick-inhalt" role="tabpanel"></div>`, { breit: true });
+  blatt.classList.add('spick');
   const zeichne = () => {
     const ort = $('.spick-inhalt', blatt);
     $('.reiter', blatt).style.display = suche ? 'none' : '';
@@ -593,7 +600,7 @@ function zeigeSpickzettel(startId = null) {
       ort.innerHTML = treffer || '<p class="klein">Nichts gefunden. Versuch ein anderes Stichwort.</p>';
     } else {
       const b = INHALT.bloecke.find((x) => x.id === aktiv);
-      ort.innerHTML = `<h3 style="font-family:var(--schrift-titel);text-transform:none;letter-spacing:0;color:var(--tinte)">${esc(b.titel)}</h3>${spickSeite(b)}`;
+      ort.innerHTML = `<p class="unsichtbar">${esc(b.titel)}</p>${spickSeite(b)}`;
       blatt.querySelectorAll('[data-reiter]').forEach((r) => r.setAttribute('aria-selected', r.dataset.reiter === aktiv));
     }
   };

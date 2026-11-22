@@ -1,4 +1,11 @@
-# Notizen Material (Datei-Kürzel -> Originalname)
+# Lese-Notizen zum Material
+
+Arbeitsnotizen beim Lesen aller 116 gescannten PDF-Seiten (Grundlage für `inhalt.json`).
+Format: Kürzel + PDF-Seite (z. B. „D3“ = Test_Lek_Statik.pdf, Seite 3), * = in der Vorlage angekreuzte Antwort,
+„handschr.“ = handschriftliche Notiz, „OFFEN“ = unklar → siehe OFFENE_PUNKTE.md.
+Die Original-PDFs liegen nur lokal in diesem Ordner und werden nicht ins Repository übernommen.
+
+## Datei-Kürzel
 A=Funktionsanalyse_abschlussu_bung.pdf (4 S.) B=FBL_ABSCHLUSS_U_BG.AfG.pdf (2) C=Statik_irgendwas (5) D=Test_Lek_Statik (11)
 E=Statik_Rest_split_1 (6) F=Statik_Rest_split (6) G=Statik_Rest_split_2 (17) H=FBL_und_statik_aus_sagittal_split_1 (15)
 I=FBL_und_statik_aus_sagittal_split (25) J=Statik_aus_frontal_und_transversal_split_1 (12) K=Statik_aus_frontal_und_transversal_split (13)

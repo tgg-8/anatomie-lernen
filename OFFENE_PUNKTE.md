@@ -36,6 +36,8 @@ Quellenangaben: Kürzel und PDF-Seite (wie in der App), zum Beispiel `D/3` = *Te
 19. **Rippenmechanik (G/1):** Teile der Skizze (Transversalebene, Konvergenz der Facettengelenke beim Gleiten des Caput costae) sind nicht sicher lesbar. → Die App nutzt nur „Einatmen = Heben + Außenrotation, Ausatmen = Senken + Innenrotation“.
 20. **Mitschrift G/2 bzw. J/1 („Rundrücken“):** Die Seite ist mit „Rundrücken“ überschrieben, beschreibt aber eine links konvexe Abweichung mit Beckenhochstand rechts, also eher eine Skoliose. Mehrere Stellen sind durchgestrichen. → Daraus kommen in der App nur das eindeutige Fazit und die „Merke“-Regeln von G/3.
 
+21. **BAI-Tabelle (H/11):** Die erste Zeile heißt nur „20“ (Jahre), die zweite „20–29“, die Altersgrenzen überschneiden sich also. Außerdem überlappen die Bereiche an den Grenzen (z. B. Männer 40–50: gut 15–20 %, mittel 20–25 %). → Der BAI-Rechner in der App beginnt erst bei 21 Jahren und ordnet Grenzwerte dem besseren Bereich zu. Aufgaben fragen nur nach eindeutigen Werten (Herr Hacker, 19 %).
+
 ## Fehlt im Material (laut Lernziel-Checkliste I/22–I/24 aber prüfungsrelevant)
 
 - **Gleichgewichtsarten (labil, stabil, indifferent)** und ihre Relevanz für bestimmte Gelenke: werden in der Checkliste verlangt, stehen aber in keinem der PDFs. → Nicht in der App.
@@ -46,3 +48,9 @@ Quellenangaben: Kürzel und PDF-Seite (wie in der App), zum Beispiel `D/3` = *Te
 - **Fallbeispiel Cellist (I/18):** Die Aufgabe „Nennen Sie mögliche Hypothesen“ hat im Material keine Lösung. → Nicht in der App.
 - **„Beinlängenausgleich durch Ilium“ (I/9):** Die Folie ist leer. → Nicht in der App.
 - **Kräfte, Hebel, Drehmomente:** Das Material spricht nur qualitativ von „Hebelverhältnissen“ (Oberlänge, Fußlänge). Formeln für Drehmomente oder Kraftberechnungen gibt es nicht. → Die interaktiven Skizzen zeigen deshalb nur Lot, Schwerpunkt, Winkel und Messwerte aus dem Material, keine erfundene Physik.
+
+## Grenzen der App (ehrlich gesagt)
+
+- **Spickzettel „eine Seite pro Thema“:** Im **Querformat** passt jedes der 8 Themen auf eine Bildschirmseite des iPad Air 11″. Das habe ich in der Emulation für alle 8 Themen nachgemessen. Im **Hochformat** stehen weniger Spalten nebeneinander, dort muss man bei größeren Themen scrollen. Gekürzt habe ich bewusst nichts, damit kein Stoff fehlt.
+- **Zoom auf dem iPad:** Doppeltipp-Zoom ist abgeschaltet (`touch-action: manipulation`), Pinch-Zoom wird zusätzlich abgefangen. Safari erlaubt Pinch-Zoom aus Gründen der Barrierefreiheit trotzdem teilweise. Das lässt sich nicht vollständig verhindern.
+- **Notenschlüssel:** Das Material enthält keinen Notenschlüssel. Die Probeklausur zeigt deshalb Punkte und Prozent, aber keine Note.

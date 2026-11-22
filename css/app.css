@@ -394,8 +394,9 @@ button { font: inherit; color: inherit; touch-action: manipulation; }
 
 /* Spickzettel */
 .spick-suche { width: 100%; min-height: 52px; font: inherit; padding: .4em 1em; border-radius: 999px; border: 2px solid var(--linie); background: var(--papier); color: var(--tinte); margin-bottom: 12px; }
-.spick-seite { columns: 3 290px; column-gap: 24px; }
-.spick-seite section { break-inside: avoid; margin-bottom: 14px; }
+.spick-seite { columns: 3 280px; column-gap: 22px; column-fill: balance; }
+.spick-seite section { margin-bottom: 12px; }
+.spick-seite h3 { break-after: avoid; }
 .spick-seite h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: .06em; color: var(--akzent-2); font-family: var(--schrift); margin-bottom: .4em; }
 .spick-eintrag { break-inside: avoid; padding: .3em 0; border-bottom: 1px dashed var(--linie); font-size: .86rem; line-height: 1.38; }
 .spick-eintrag b { color: var(--tinte); }
@@ -460,3 +461,14 @@ input[type="range"] { width: 100%; height: 44px; accent-color: var(--akzent); }
   *, *::before, *::after { animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; }
 }
 :root.ruhig *, :root.ruhig *::before, :root.ruhig *::after { animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; }
+
+/* Spickzettel kompakt: möglichst eine Bildschirmseite pro Thema */
+.spick-inhalt .formel-karte { padding: .45em .7em; margin: .3em 0; font-size: .84rem; line-height: 1.35; }
+.spick-inhalt .formel { font-size: .98rem; padding: .1em 0; }
+.spick-inhalt .spick-eintrag { font-size: .84rem; line-height: 1.34; padding: .25em 0; }
+.spick-inhalt h3 { margin-bottom: .25em; }
+.spick-inhalt > h3:first-child { margin: 0 0 .3em; font-size: 1.05rem; }
+.blatt.spick { padding-top: 18px; }
+.blatt.spick .blatt-kopf { margin-bottom: 8px; }
+.blatt.spick .spick-suche { min-height: 46px; margin-bottom: 8px; }
+.blatt.spick .reiter { margin-bottom: 6px; }
